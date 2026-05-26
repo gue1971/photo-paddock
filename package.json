@@ -1,0 +1,29 @@
+{
+  "name": "photo-paddock",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "import:keibalab": "node scripts/import-keibalab.mjs",
+    "import:keibabook": "node scripts/import-keibabook.mjs",
+    "update": "node scripts/update.mjs",
+    "audit:data": "node scripts/audit-data.mjs",
+    "cleanup:keibalab": "node scripts/cleanup-keibalab-comparison-photos.mjs",
+    "repair:keibalab-races": "node scripts/repair-keibalab-single-race-captions.mjs",
+    "prune:orphans": "node scripts/prune-orphan-horses.mjs",
+    "merge:duplicate-horses": "node scripts/merge-duplicate-horses.mjs",
+    "repair:photo-ids": "node scripts/repair-photo-ids.mjs",
+    "repair:image-urls": "node scripts/repair-image-urls.mjs",
+    "annotate:races": "node scripts/annotate-races.mjs",
+    "annotate:body-tags": "node scripts/annotate-body-tags.mjs",
+    "update:race-dates:jra": "node scripts/update-race-dates-from-jra.mjs",
+    "review:race-dates": "node scripts/report-race-date-review.mjs",
+    "apply:race-date-review": "node scripts/apply-race-date-review.mjs && node scripts/annotate-races.mjs",
+    "fix:specific-races": "node scripts/apply-specific-race-corrections.mjs",
+    "build:pages": "node scripts/build-pages.mjs",
+    "serve": "node app/server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
