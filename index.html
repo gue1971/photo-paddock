@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0f6b4f">
+    <meta name="description" content="競馬ラボと競馬ブックのフォトパドック写真を馬・レース・お気に入りで閲覧するPWA">
+    <title>Photo Paddock</title>
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="layout">
+      <aside class="sidebar">
+        <div class="sidebar-controls">
+          <div class="toolbar">
+            <button id="modeHorse" type="button">馬</button>
+            <button id="modeRace" type="button">レース</button>
+            <button id="modeFavorites" class="active" type="button">★ (0)</button>
+          </div>
+          <div class="search-row">
+            <button id="toggleSidebar" type="button" class="icon-button" aria-label="サイドバー表示切替" title="サイドバー表示切替">
+              <span aria-hidden="true">☰</span>
+            </button>
+            <input id="search" type="search" placeholder="お気に入りを検索" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+            <button id="toggleFilter" type="button" class="icon-button" aria-label="文字選択" title="文字選択">
+              <span aria-hidden="true">▦</span>
+            </button>
+            <button id="toggleStorage" type="button" class="icon-button" aria-label="保存データ保守" title="保存データ保守">
+              <span aria-hidden="true">↧</span>
+            </button>
+            <button id="toggleComments" type="button" class="icon-button active" aria-label="POINT表示切替" title="POINT表示切替">
+              <span aria-hidden="true">▥</span>
+            </button>
+          </div>
+          <div id="storageMenu" class="storage-menu" hidden>
+            <div class="storage-actions">
+              <button id="exportStorage" type="button">書き出し</button>
+              <label class="storage-import">
+                読み込み
+                <input id="importStorage" type="file" accept="application/json">
+              </label>
+            </div>
+          </div>
+          <div id="filterControls" class="filter-row"></div>
+          <p id="summary" hidden>Loading...</p>
+        </div>
+        <div id="itemList" class="horse-list"></div>
+      </aside>
+
+      <section id="detail" class="detail">
+        <div class="empty">馬を選択してください。</div>
+      </section>
+    </main>
+
+    <div id="toast" class="toast" hidden></div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
