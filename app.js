@@ -1,8 +1,10 @@
 const FAVORITES_KEY = "photo-paddock:favorites:v3";
 const REPRESENTATIVES_KEY = "photo-paddock:representatives:v1";
 const VIEW_MODE_KEY = "photo-paddock:view-mode";
+const COMMENT_FONT_KEY = "photo-paddock:comment-font-size";
 const STORAGE_EXPORT_VERSION = 1;
 const VIEW_MODES = ["two", "one", "oneComments"];
+const COMMENT_FONT_SIZES = ["normal", "large"];
 
 const state = {
   db: null,
@@ -12,6 +14,7 @@ const state = {
   offspringHorseId: "",
   query: "",
   viewMode: loadViewMode(),
+  commentFontSize: loadCommentFontSize(),
   sidebarOpen: false,
   filterOpen: false,
   openRaceYears: new Set(),
@@ -82,6 +85,7 @@ const toggleComments = document.querySelector("#toggleComments");
 const toggleSidebar = document.querySelector("#toggleSidebar");
 const toggleStorage = document.querySelector("#toggleStorage");
 const storageMenu = document.querySelector("#storageMenu");
+const storageInfo = document.querySelector("#storageInfo");
 const exportStorage = document.querySelector("#exportStorage");
 const importStorage = document.querySelector("#importStorage");
 const toast = document.querySelector("#toast");
@@ -147,9 +151,15 @@ toggleStorage?.addEventListener("click", () => {
   const open = storageMenu?.hidden;
   if (storageMenu) storageMenu.hidden = !open;
   toggleStorage.classList.toggle("active", Boolean(open));
+  if (open) renderSettingsMenu();
 });
 exportStorage?.addEventListener("click", exportStorageData);
 importStorage?.addEventListener("change", importStorageData);
+storageMenu?.addEventListener("click", (event) => {
+  const button = event.target.closest("button[data-comment-font-size]");
+  if (!button) return;
+  setCommentFontSize(button.dataset.commentFontSize);
+});
 
 detail.addEventListener("click", (event) => {
   const button = event.target.closest("button[data-favorite-photo-id]");
@@ -204,7 +214,8 @@ function exportStorageData() {
     origin: location.origin,
     favorites: [...state.favorites],
     representatives: state.representatives,
-    viewMode: state.viewMode
+    viewMode: state.viewMode,
+    commentFontSize: state.commentFontSize
   };
   const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
   const url = URL.createObjectURL(blob);
@@ -243,6 +254,7 @@ async function importStorageData() {
       state.viewMode = data.showComments ? "oneComments" : "two";
       localStorage.setItem(VIEW_MODE_KEY, state.viewMode);
     }
+    if (COMMENT_FONT_SIZES.includes(data.commentFontSize)) setCommentFontSize(data.commentFontSize, false);
     saveFavorites();
     saveRepresentatives();
     clearUndoFavorite();
@@ -290,6 +302,19 @@ function loadViewMode() {
   const saved = localStorage.getItem(VIEW_MODE_KEY);
   if (VIEW_MODES.includes(saved)) return saved;
   return "two";
+}
+
+function loadCommentFontSize() {
+  const saved = localStorage.getItem(COMMENT_FONT_KEY);
+  if (COMMENT_FONT_SIZES.includes(saved)) return saved;
+  return "normal";
+}
+
+function setCommentFontSize(size, shouldRender = true) {
+  if (!COMMENT_FONT_SIZES.includes(size)) return;
+  state.commentFontSize = size;
+  localStorage.setItem(COMMENT_FONT_KEY, size);
+  if (shouldRender) render();
 }
 
 function nextViewMode() {
@@ -433,13 +458,22 @@ function applyFilterAction(action, value) {
     state.selectedRaceKey = "";
     return;
   }
+  if (action === "race:clear") {
+    state.query = "";
+    search.value = "";
+    state.filters.raceG1Only = false;
+    state.filters.raceYear = "";
+    state.filters.raceName = "";
+    state.selectedRaceKey = "";
+    return;
+  }
   if (action === "race:year") {
     state.filters.raceYear = value;
     state.selectedRaceKey = "";
     return;
   }
   if (action === "race:name") {
-    state.filters.raceName = value;
+    state.filters.raceName = state.filters.raceName === value ? "" : value;
     state.selectedRaceKey = "";
   }
 }
@@ -486,6 +520,7 @@ function render() {
   document.body.dataset.filterOpen = state.filterOpen ? "true" : "false";
   document.body.dataset.sidebarOpen = state.sidebarOpen ? "true" : "false";
   document.body.dataset.viewMode = state.viewMode;
+  document.body.dataset.commentFont = state.commentFontSize;
   modeHorse.classList.toggle("active", state.mode === "horse");
   modeRace.classList.toggle("active", state.mode === "race");
   modeFavorites.classList.toggle("active", state.mode === "favorites");
@@ -506,6 +541,7 @@ function render() {
     toggleSidebar.title = state.sidebarOpen ? "サイドバーを隠す" : "サイドバーを表示";
     toggleSidebar.setAttribute("aria-label", toggleSidebar.title);
   }
+  renderSettingsMenu();
   renderFilterControls();
 
   if (state.mode === "race") renderRaceList();
@@ -580,6 +616,7 @@ function raceFilterHtml() {
           ${yearOptions.map((year) => `<option value="${escapeHtml(year)}" ${state.filters.raceYear === year ? "selected" : ""}>${escapeHtml(year)}年</option>`).join("")}
         </select>
         ${filterChip("race:class", "G1", state.filters.raceG1Only ? "G1" : "全レース", false)}
+        <button type="button" class="filter-clear race-reset" data-filter-action="race:clear">クリア</button>
       </div>
       <div class="chip-row race-name-chips">
         ${g1Options.map((name) => filterChip("race:name", name, name, state.filters.raceName === name)).join("")}
@@ -626,11 +663,13 @@ function renderHorseList() {
       state.filterOpen = false;
       state.filters.horseTouch = "";
       search.value = "";
+      closeSidebarAfterListTap();
       render();
     });
   });
   itemList.querySelectorAll("button[data-open-offspring-id]").forEach((button) => {
     button.addEventListener("click", () => {
+      closeSidebarAfterListTap();
       openOffspring(button.dataset.openOffspringId);
     });
   });
@@ -673,6 +712,7 @@ function renderRaceList() {
     button.addEventListener("click", () => {
       state.selectedRaceKey = button.dataset.raceKey;
       state.filterOpen = false;
+      closeSidebarAfterListTap();
       render();
     });
   });
@@ -700,11 +740,13 @@ function renderFavoriteList() {
       const horseLink = event.target.closest("[data-open-horse-id]");
       if (horseLink) {
         event.stopPropagation();
+        closeSidebarAfterListTap();
         openHorse(horseLink.dataset.openHorseId);
         return;
       }
       renderFavoriteDetail(button.dataset.jumpPhotoKey);
       state.filterOpen = false;
+      closeSidebarAfterListTap();
       render();
     });
   });
@@ -771,8 +813,8 @@ function renderHorseDetail() {
       <div>
         <div class="horse-title-row">
           <h2>${escapeHtml(horse.name)}</h2>
+          ${bodyTagChips(horse)}
         </div>
-        ${bodyTagChips(horse)}
         <div class="blood">
           <div><span>父</span>${escapeHtml(horse.sire || "-")}</div>
           <div><span>母</span>${escapeHtml(horse.dam || "-")}</div>
@@ -784,6 +826,25 @@ function renderHorseDetail() {
       ${photos.map((photo) => photoCard(photo, { context: "horse" })).join("") || `<div class="empty">写真がありません。</div>`}
     </div>
   `;
+}
+
+function renderSettingsMenu() {
+  if (!storageMenu || !storageInfo) return;
+  storageInfo.innerHTML = `
+    <span>${state.db?.horses.length || 0}頭</span>
+    <span>${state.db?.photos.length || 0}枚</span>
+    <span>${state.db ? races().length : 0}レース</span>
+    <span>お気に入り ${state.favorites.size}枚</span>
+  `;
+  storageMenu.querySelectorAll("button[data-comment-font-size]").forEach((button) => {
+    button.classList.toggle("active", button.dataset.commentFontSize === state.commentFontSize);
+  });
+}
+
+function closeSidebarAfterListTap() {
+  if (!window.matchMedia("(max-width: 820px)").matches) return;
+  state.sidebarOpen = false;
+  state.filterOpen = false;
 }
 
 function renderRaceDetail() {
