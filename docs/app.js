@@ -464,7 +464,6 @@ function applyFilterAction(action, value) {
     state.filters.raceG1Only = false;
     state.filters.raceYear = "";
     state.filters.raceName = "";
-    state.selectedRaceKey = "";
     return;
   }
   if (action === "race:year") {
