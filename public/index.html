@@ -20,27 +20,41 @@
             <button id="modeFavorites" class="active" type="button">★ (0)</button>
           </div>
           <div class="search-row">
-            <button id="toggleSidebar" type="button" class="icon-button" aria-label="サイドバー表示切替" title="サイドバー表示切替">
-              <span aria-hidden="true">☰</span>
+            <button id="toggleStorage" type="button" class="icon-button" aria-label="設定" title="設定">
+              <span aria-hidden="true">⚙</span>
             </button>
             <input id="search" type="search" placeholder="お気に入りを検索" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
             <button id="toggleFilter" type="button" class="icon-button" aria-label="文字選択" title="文字選択">
               <span aria-hidden="true">▦</span>
             </button>
-            <button id="toggleStorage" type="button" class="icon-button" aria-label="保存データ保守" title="保存データ保守">
-              <span aria-hidden="true">↧</span>
+            <button id="toggleSidebar" type="button" class="icon-button" aria-label="サイドバー表示切替" title="サイドバー表示切替">
+              <span aria-hidden="true">☰</span>
             </button>
             <button id="toggleComments" type="button" class="icon-button active" aria-label="POINT表示切替" title="POINT表示切替">
               <span aria-hidden="true">▥</span>
             </button>
           </div>
           <div id="storageMenu" class="storage-menu" hidden>
+            <div class="settings-section">
+              <h3>設定</h3>
+              <div class="settings-info" id="storageInfo"></div>
+            </div>
+            <div class="settings-section">
+              <h3>寸評フォント</h3>
+              <div class="settings-actions">
+                <button id="commentFontNormal" type="button" data-comment-font-size="normal">標準</button>
+                <button id="commentFontLarge" type="button" data-comment-font-size="large">大きめ</button>
+              </div>
+            </div>
+            <div class="settings-section">
+              <h3>保存データ</h3>
             <div class="storage-actions">
               <button id="exportStorage" type="button">書き出し</button>
               <label class="storage-import">
                 読み込み
                 <input id="importStorage" type="file" accept="application/json">
               </label>
+            </div>
             </div>
           </div>
           <div id="filterControls" class="filter-row"></div>

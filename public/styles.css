@@ -13,12 +13,17 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
   height: 100vh;
+  height: 100dvh;
   overflow: hidden;
 }
 
@@ -51,7 +56,7 @@ body {
   position: absolute;
   right: 12px;
   z-index: 6;
-  width: 190px;
+  width: 260px;
   border: 1px solid var(--line);
   border-radius: 6px;
   background: var(--panel);
@@ -62,15 +67,39 @@ body {
   display: none;
 }
 
+.settings-section {
+  padding: 10px;
+  border-bottom: 1px solid rgba(217, 222, 212, 0.72);
+}
+
+.settings-section:last-child {
+  border-bottom: 0;
+}
+
+.settings-section h3 {
+  margin: 0 0 8px;
+  font-size: 13px;
+}
+
+.settings-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 8px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.settings-actions,
 .storage-actions {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 8px;
-  padding: 8px;
 }
 
 .storage-actions button,
-.storage-import {
+.storage-import,
+.settings-actions button {
   display: grid;
   place-items: center;
   height: 32px;
@@ -185,6 +214,11 @@ body {
   background: transparent;
 }
 
+.race-reset {
+  margin-left: auto;
+  padding: 0 4px;
+}
+
 .race-name-chips .filter-chip {
   max-width: 160px;
   overflow: hidden;
@@ -216,6 +250,7 @@ body {
   display: grid;
   grid-template-columns: 360px 1fr;
   height: 100vh;
+  height: 100dvh;
   overflow: hidden;
 }
 
@@ -383,7 +418,7 @@ body[data-filter-open="true"] .race-year-group summary {
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
-  margin: 3px 0 7px;
+  margin: 0;
 }
 
 .body-tag {
@@ -539,8 +574,13 @@ body[data-filter-open="true"] .race-year-group summary {
 .comment {
   margin: 0;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.7;
+}
+
+body[data-comment-font="large"] .comment {
+  font-size: 17px;
+  line-height: 1.85;
 }
 
 .toast {
@@ -592,6 +632,7 @@ body[data-filter-open="true"] .race-year-group summary {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr auto;
     height: 100vh;
+    height: 100dvh;
   }
 
   .sidebar {
@@ -599,6 +640,7 @@ body[data-filter-open="true"] .race-year-group summary {
     display: flex;
     flex-direction: column;
     max-height: 42vh;
+    max-height: 42dvh;
     border-right: 0;
     border-top: 1px solid var(--line);
     border-bottom: 0;
@@ -610,14 +652,15 @@ body[data-filter-open="true"] .race-year-group summary {
   }
 
   body[data-sidebar-open="false"][data-has-query="false"][data-filter-open="false"] .sidebar {
-    max-height: 104px;
+    max-height: 116px;
     overflow: hidden;
   }
 
   body[data-filter-open="true"] .sidebar,
   body[data-sidebar-open="true"] .sidebar,
   body[data-mode="horse"][data-filter-open="true"] .sidebar {
-    max-height: 56vh;
+    max-height: 62vh;
+    max-height: 62dvh;
   }
 
   body[data-sidebar-open="false"][data-has-query="false"][data-filter-open="false"] #itemList {
@@ -649,29 +692,48 @@ body[data-filter-open="true"] .race-year-group summary {
   .toolbar {
     order: 2;
     gap: 6px;
-    padding: 8px 10px;
+    padding: 9px 10px;
+  }
+
+  .toolbar button {
+    height: 40px;
+    font-size: 15px;
   }
 
   .search-row {
     order: 3;
     gap: 6px;
-    padding: 0 10px 6px;
+    padding: 0 10px 8px;
   }
 
   .filter-row {
-    order: 1;
-    max-height: 40vh;
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    bottom: calc(116px + env(safe-area-inset-bottom));
+    z-index: 20;
+    max-height: calc(100vh - 142px);
+    max-height: calc(100dvh - 142px);
     overflow: auto;
     padding: 8px 10px 6px;
-    border-bottom: 1px solid rgba(217, 222, 212, 0.72);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--panel);
+    box-shadow: 0 -8px 24px rgba(31, 38, 31, 0.14);
   }
 
   .storage-menu {
-    position: static;
-    order: 1;
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    bottom: calc(116px + env(safe-area-inset-bottom));
+    z-index: 21;
     width: auto;
-    margin: 8px 10px 6px;
-    box-shadow: none;
+    max-height: calc(100vh - 142px);
+    max-height: calc(100dvh - 142px);
+    overflow: auto;
+    margin: 0;
+    box-shadow: 0 -8px 24px rgba(31, 38, 31, 0.14);
   }
 
   .filter-chip,
@@ -689,12 +751,14 @@ body[data-filter-open="true"] .race-year-group summary {
   }
 
   #search {
-    height: 36px;
+    height: 40px;
+    font-size: 16px;
   }
 
   .icon-button {
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
+    font-size: 21px;
   }
 
   #toggleSidebar {
@@ -753,6 +817,11 @@ body[data-filter-open="true"] .race-year-group summary {
   body[data-view-mode="two"] .comment {
     font-size: 11px;
     line-height: 1.45;
+  }
+
+  body[data-comment-font="large"][data-view-mode="oneComments"] .comment {
+    font-size: 18px;
+    line-height: 1.85;
   }
 
   body[data-view-mode="two"] .favorite-button,
