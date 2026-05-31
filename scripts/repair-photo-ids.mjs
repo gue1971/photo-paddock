@@ -1,15 +1,24 @@
 import { loadStore, saveStore } from "./lib/store.mjs";
 
 const db = await loadStore();
-let changed = 0;
+const usedIds = new Set();
+let nextNumber = db.photos.reduce((max, photo) => {
+  const number = Number(String(photo.id || "").match(/^photo_(\d+)$/)?.[1] || 0);
+  return Math.max(max, number);
+}, 0) + 1;
+let reassigned = 0;
 
-db.photos.forEach((photo, index) => {
-  const nextId = `photo_${index + 1}`;
-  if (photo.id !== nextId) {
-    photo.id = nextId;
-    changed += 1;
+for (const photo of db.photos) {
+  if (!usedIds.has(photo.id)) {
+    usedIds.add(photo.id);
+    continue;
   }
-});
+  while (usedIds.has(`photo_${nextNumber}`)) nextNumber += 1;
+  photo.id = `photo_${nextNumber}`;
+  usedIds.add(photo.id);
+  reassigned += 1;
+}
 
 await saveStore(db);
-console.log(`renumbered photos: ${changed}`);
+
+console.log(`reassigned photos: ${reassigned}`);

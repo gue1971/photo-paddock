@@ -83,12 +83,22 @@ export function upsertPhoto(db, photo) {
     return existing;
   }
   const created = {
-    id: `photo_${db.photos.length + 1}`,
+    id: nextPhotoId(db),
     key,
     ...photo
   };
   db.photos.push(created);
   return created;
+}
+
+function nextPhotoId(db) {
+  const used = new Set(db.photos.map((photo) => photo.id));
+  let next = db.photos.reduce((max, photo) => {
+    const number = Number(String(photo.id || "").match(/^photo_(\d+)$/)?.[1] || 0);
+    return Math.max(max, number);
+  }, 0) + 1;
+  while (used.has(`photo_${next}`)) next += 1;
+  return `photo_${next}`;
 }
 
 export function markPage(db, page) {

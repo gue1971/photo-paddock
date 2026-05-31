@@ -181,8 +181,8 @@ function parseHorseBlock(block, url, publishedDate) {
     block.match(/<th[^>]*>\s*POINT\s*<\/th>\s*<\/tr>\s*<tr>\s*<td[^>]*colspan=["']2["'][^>]*>([\s\S]*?)<\/td>/i)?.[1] ??
     ""
   );
-  const photos = [...block.matchAll(/<a[^>]+href=["']([^"']+\.(?:jpg|jpeg|png|webp|gif)\??[^"']*)["'][^>]*>\s*<img/gi)]
-    .map((match) => ({ imageUrl: normalizeImageUrl(absoluteUrl(url, match[1])) }))
+  const photos = [...block.matchAll(/<a[^>]+href=["']([^"']+\.(?:jpg|jpeg|png|webp|gif)\??[^"']*)["'][^>]*>\s*<img[^>]+src=["']([^"']+)["']/gi)]
+    .map((match) => ({ imageUrl: normalizeImageUrl(absoluteUrl(url, match[2] || match[1])) }))
     .filter((photo, index, array) => photo.imageUrl && array.findIndex((item) => item.imageUrl === photo.imageUrl) === index);
 
   return {
@@ -200,7 +200,10 @@ function parseHorseBlock(block, url, publishedDate) {
 }
 
 function normalizeImageUrl(url) {
-  return url.replace(/\.(jpe?g|png|webp|gif)\.\1(\?|$)/i, ".$1$2");
+  return url
+    .replace(/\/focus\/(\d{6})\/focus\/\1\//, "/focus/$1/")
+    .replace(/\.(jpe?g|png|webp|gif)\.\1(\?|$)/i, ".$1$2")
+    .replace(/\?$/, "");
 }
 
 function tableValue(block, label) {
