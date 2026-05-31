@@ -881,7 +881,7 @@ function renderFavoriteDetail(focusPhotoKey = "") {
 
 function photoCard(photo, options = {}) {
   const { context = "horse", focused = false } = options;
-  const src = photo.localImagePath ? `/data/${photo.localImagePath}` : photo.imageUrl;
+  const src = photo.localImagePath ? `data/${photo.localImagePath}` : photo.imageUrl;
   const horse = horseById(photo.horseId);
   const raceCaption = [photo.raceDate || photo.photoDate, photo.raceName].filter(Boolean).join(" ");
   const caption = context === "race" || context === "favorite" || context === "offspring"

@@ -37,7 +37,7 @@ function handleRequest(port) {
   return async (request, response) => {
     try {
       const url = new URL(request.url, `http://127.0.0.1:${port}`);
-      const pathname = url.pathname === "/" ? "/public/index.html" : url.pathname;
+      const pathname = decodeURIComponent(url.pathname === "/" ? "/public/index.html" : url.pathname);
       const safePath = path.normalize(pathname).replace(/^(\.\.[/\\])+/, "");
       const filePath = path.join(root, safePath);
       if (!filePath.startsWith(root)) throw new Error("invalid path");
