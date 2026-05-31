@@ -419,6 +419,47 @@
       ]
     },
     {
+      "id": "horse_2636",
+      "key": "アメティスタ|2023|キタサンブラック|ティアーモ",
+      "name": "アメティスタ",
+      "birthYear": 2023,
+      "sex": "牝",
+      "sire": "キタサンブラック",
+      "dam": "ティアーモ",
+      "damsire": "キングカメハメハ",
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "脚長",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_7816",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "クビさしも細く、四肢に長さがあるため、2400mへの距離延長は問題なさそう。"
+            }
+          ]
+        },
+        {
+          "tag": "首長",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_7816",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "クビさしも細く、四肢に長さがあるため、2400mへの距離延長は問題なさそう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "horse_210",
       "key": "アメテュストス|2023|サートゥルナーリア|メガン",
       "name": "アメテュストス",
@@ -480,8 +521,14 @@
           "tag": "脚長",
           "category": "体型",
           "confidence": "confirmed",
-          "evidenceCount": 3,
+          "evidenceCount": 4,
           "evidence": [
+            {
+              "photoId": "photo_7817",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "馬格の割に跳びが大きく、いい脚を長く繰り出せるタイプ。"
+            },
             {
               "photoId": "photo_73",
               "raceDate": "2026-04-12",
@@ -506,8 +553,14 @@
           "tag": "低重心",
           "category": "体型",
           "confidence": "confirmed",
-          "evidenceCount": 3,
+          "evidenceCount": 4,
           "evidence": [
+            {
+              "photoId": "photo_7817",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "父の影響か、母よりも背中周りに若干伸びがあり、重心は低め。"
+            },
             {
               "photoId": "photo_73",
               "raceDate": "2026-04-12",
@@ -532,8 +585,14 @@
           "tag": "胴詰まり",
           "category": "体型",
           "confidence": "suggested",
-          "evidenceCount": 3,
+          "evidenceCount": 4,
           "evidence": [
+            {
+              "photoId": "photo_7817",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "オークス馬・母シンハライト似のコンパクトな体型。"
+            },
             {
               "photoId": "photo_73",
               "raceDate": "2026-04-12",
@@ -551,6 +610,20 @@
               "raceDate": "2025-12-14",
               "raceName": "阪神ジュベナイルF",
               "phrase": "母シンハライト似のコンパクトかつ骨格のバランスが整った馬体。"
+            }
+          ]
+        },
+        {
+          "tag": "直飛",
+          "category": "骨格",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_7817",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "後肢の飛節は「直飛」で小柄ながらストライドが大きく、東京コースも適している。"
             }
           ]
         }
@@ -659,6 +732,61 @@
               "raceDate": "2025-12-14",
               "raceName": "阪神ジュベナイルF",
               "phrase": "斜尻でトモは縦長の造りだが肉付きは良く、バネ感があって溜めれば速い脚を繰り出すことができる。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "horse_2637",
+      "key": "アンジュドジョワ|2023|キタサンブラック|ピースエンジェル",
+      "name": "アンジュドジョワ",
+      "birthYear": 2023,
+      "sex": "牝",
+      "sire": "キタサンブラック",
+      "dam": "ピースエンジェル",
+      "damsire": "Dark Angel",
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "長躯短背",
+          "category": "体型",
+          "confidence": "suggested",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_7818",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "小柄だが背中が短く、腹側を長く見せる、バランスが整った骨格。"
+            }
+          ]
+        },
+        {
+          "tag": "曲飛",
+          "category": "骨格",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_7818",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "コンパクトかつ、後肢の飛節は折りの深い「曲飛」の構造で、ピッチの速い走りをするタイプ。"
+            }
+          ]
+        },
+        {
+          "tag": "斜尻",
+          "category": "骨格",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_7818",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "やや斜尻気味のトモにはバネ感も秘めており、上がり勝負にも対応できそう。"
             }
           ]
         }
@@ -992,6 +1120,47 @@
       ]
     },
     {
+      "id": "horse_2638",
+      "key": "エンジョイドアスク|2023|エピファネイア|マキシマムドパリ",
+      "name": "エンジョイドアスク",
+      "birthYear": 2023,
+      "sex": "牝",
+      "sire": "エピファネイア",
+      "dam": "マキシマムドパリ",
+      "damsire": "キングカメハメハ",
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "胸深",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_7819",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "胸の縦幅も深く、心肺機能の高さがうかがえる。"
+            }
+          ]
+        },
+        {
+          "tag": "胴長",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_7819",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "※抽選除外父エピファネイア似で背中を長く見せる体型。"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "horse_74",
       "key": "エンネ|2023|キズナ|ルパン2",
       "name": "エンネ",
@@ -1006,8 +1175,14 @@
           "tag": "脚長",
           "category": "体型",
           "confidence": "confirmed",
-          "evidenceCount": 1,
+          "evidenceCount": 2,
           "evidence": [
+            {
+              "photoId": "photo_7820",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "太くクビさし、発達した肩周り＝前躯に対して後躯がやや薄く映る分、行き脚は速くないが、バネが利いてストライドを伸ばし、いい脚を長く繰り出すことができる。"
+            },
             {
               "photoId": "photo_42",
               "raceDate": "2026-04-26",
@@ -1017,11 +1192,31 @@
           ]
         },
         {
-          "tag": "斜尻",
-          "category": "骨格",
+          "tag": "首長",
+          "category": "体型",
           "confidence": "confirmed",
           "evidenceCount": 1,
           "evidence": [
+            {
+              "photoId": "photo_7820",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "太くクビさし、発達した肩周り＝前躯に対して後躯がやや薄く映る分、行き脚は速くないが、バネが利いてストライドを伸ばし、いい脚を長く繰り出すことができる。"
+            }
+          ]
+        },
+        {
+          "tag": "斜尻",
+          "category": "骨格",
+          "confidence": "confirmed",
+          "evidenceCount": 2,
+          "evidence": [
+            {
+              "photoId": "photo_7820",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "大型馬だが背中が詰まったフォルムで、トモの仙骨は傾斜した斜尻タイプ。"
+            },
             {
               "photoId": "photo_42",
               "raceDate": "2026-04-26",
@@ -2212,6 +2407,47 @@
       ]
     },
     {
+      "id": "horse_2639",
+      "key": "ジュウリョクピエロ|2023|オルフェーヴル|ハッピーヴァリュー",
+      "name": "ジュウリョクピエロ",
+      "birthYear": 2023,
+      "sex": "牝",
+      "sire": "オルフェーヴル",
+      "dam": "ハッピーヴァリュー",
+      "damsire": "ゼンノロブロイ",
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "胸深",
+          "category": "体型",
+          "confidence": "suggested",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_7821",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "胸の縦幅に厚みがあって、心臓や肺の容量が広く、心肺機能の高さがうかがえる。"
+            }
+          ]
+        },
+        {
+          "tag": "繋ぎ立ち",
+          "category": "骨格",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_7821",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "蹄底に厚みがあり、繋ぎも立ち気味。"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "horse_152",
       "key": "ショウナンカリス|2023|リアルスティール|ロシアンサモワール",
       "name": "ショウナンカリス",
@@ -2314,8 +2550,14 @@
           "tag": "脚長",
           "category": "体型",
           "confidence": "suggested",
-          "evidenceCount": 1,
+          "evidenceCount": 2,
           "evidence": [
+            {
+              "photoId": "photo_7822",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "後肢の飛節は真っすぐに伸びた「直飛」の構造で、関節の可動域が広く、跳びが大きい。"
+            },
             {
               "photoId": "photo_76",
               "raceDate": "2026-04-12",
@@ -2328,8 +2570,14 @@
           "tag": "胴詰まり",
           "category": "体型",
           "confidence": "suggested",
-          "evidenceCount": 1,
+          "evidenceCount": 2,
           "evidence": [
+            {
+              "photoId": "photo_7822",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "骨格のバランスが良く、コンパクトにまとまっている。"
+            },
             {
               "photoId": "photo_76",
               "raceDate": "2026-04-12",
@@ -2342,8 +2590,14 @@
           "tag": "直飛",
           "category": "骨格",
           "confidence": "confirmed",
-          "evidenceCount": 1,
+          "evidenceCount": 2,
           "evidence": [
+            {
+              "photoId": "photo_7822",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "後肢の飛節は真っすぐに伸びた「直飛」の構造で、関節の可動域が広く、跳びが大きい。"
+            },
             {
               "photoId": "photo_76",
               "raceDate": "2026-04-12",
@@ -2369,8 +2623,14 @@
           "tag": "前肢短",
           "category": "体型",
           "confidence": "confirmed",
-          "evidenceCount": 3,
+          "evidenceCount": 4,
           "evidence": [
+            {
+              "photoId": "photo_7823",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "前肢が短く、重心の低いフォルム。"
+            },
             {
               "photoId": "photo_77",
               "raceDate": "2026-04-12",
@@ -2395,8 +2655,14 @@
           "tag": "低重心",
           "category": "体型",
           "confidence": "confirmed",
-          "evidenceCount": 3,
+          "evidenceCount": 4,
           "evidence": [
+            {
+              "photoId": "photo_7823",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "前肢が短く、重心の低いフォルム。"
+            },
             {
               "photoId": "photo_77",
               "raceDate": "2026-04-12",
@@ -2421,8 +2687,14 @@
           "tag": "胴長",
           "category": "体型",
           "confidence": "confirmed",
-          "evidenceCount": 3,
+          "evidenceCount": 4,
           "evidence": [
+            {
+              "photoId": "photo_7823",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "ピッチの速い走りをするタイプだが、背中の長さから持続力も十分に秘めている。"
+            },
             {
               "photoId": "photo_77",
               "raceDate": "2026-04-12",
@@ -2611,8 +2883,14 @@
           "tag": "長躯短背",
           "category": "体型",
           "confidence": "suggested",
-          "evidenceCount": 1,
+          "evidenceCount": 2,
           "evidence": [
+            {
+              "photoId": "photo_7829",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "やや背中を短く見せて、腹側が長く引き締まったバランスは父よりも母スマートレイアーに近い。"
+            },
             {
               "photoId": "photo_150",
               "raceDate": "2026-03-01",
@@ -2676,11 +2954,31 @@
           ]
         },
         {
-          "tag": "斜尻",
-          "category": "骨格",
+          "tag": "胴長",
+          "category": "体型",
           "confidence": "confirmed",
           "evidenceCount": 1,
           "evidence": [
+            {
+              "photoId": "photo_7824",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "背中周りを長く見せるバランス。"
+            }
+          ]
+        },
+        {
+          "tag": "斜尻",
+          "category": "骨格",
+          "confidence": "confirmed",
+          "evidenceCount": 2,
+          "evidence": [
+            {
+              "photoId": "photo_7824",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "斜尻でトモの横幅はやや狭く、前躯の筋肉量が勝っている。"
+            },
             {
               "photoId": "photo_151",
               "raceDate": "2026-03-01",
@@ -2693,8 +2991,14 @@
           "tag": "直飛",
           "category": "骨格",
           "confidence": "suggested",
-          "evidenceCount": 1,
+          "evidenceCount": 2,
           "evidence": [
+            {
+              "photoId": "photo_7824",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "飛節は中間的な角度で、関節が伸びてストライドが大きいタイプ。"
+            },
             {
               "photoId": "photo_151",
               "raceDate": "2026-03-01",
@@ -4290,8 +4594,14 @@
           "tag": "脚長",
           "category": "体型",
           "confidence": "confirmed",
-          "evidenceCount": 1,
+          "evidenceCount": 2,
           "evidence": [
+            {
+              "photoId": "photo_7826",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "小柄な馬体を大きく使うフットワークで、長くいい脚を繰り出すことができるため、直線の長いコースは合う。"
+            },
             {
               "photoId": "photo_301",
               "raceDate": "2025-12-14",
@@ -4565,6 +4875,33 @@
               "raceDate": "2026-03-15",
               "raceName": "スプリングS",
               "phrase": "東京コースで2勝を挙げているが、飛節は折りの深い「曲飛」でバランスの重心は低く、小回りの中山でも力は発揮できそう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "horse_2641",
+      "key": "ラフターラインズ|2023|アルアイン|バンゴール",
+      "name": "ラフターラインズ",
+      "birthYear": 2023,
+      "sex": "牝",
+      "sire": "アルアイン",
+      "dam": "バンゴール",
+      "damsire": "キングカメハメハ",
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "斜尻",
+          "category": "骨格",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_7828",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "斜尻でトモの横幅は狭いものの、バネが利いて良質な瞬発力を発揮できる。"
             }
           ]
         }
@@ -4990,6 +5327,47 @@
       "dam": "ソングライティング",
       "damsire": "Giant’s Causeway",
       "notes": ""
+    },
+    {
+      "id": "horse_2640",
+      "key": "ロンギングセリーヌ|2023|モーリス|パセンジャーシップ",
+      "name": "ロンギングセリーヌ",
+      "birthYear": 2023,
+      "sex": "牝",
+      "sire": "モーリス",
+      "dam": "パセンジャーシップ",
+      "damsire": "ダイワメジャー",
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "前肢短",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_7827",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "やや前肢が短く、前重心のバランス。"
+            }
+          ]
+        },
+        {
+          "tag": "胴長",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_7827",
+              "raceDate": "2026-05-24",
+              "raceName": "オークス",
+              "phrase": "胴長体型ではあるものの、骨量・筋肉量が豊かなため本質的には2000m辺りまでで持続力を活かす形が合いそう。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "horse_497",
@@ -106938,6 +107316,286 @@
     }
   ],
   "photos": [
+    {
+      "id": "photo_7829",
+      "key": "horse_158|keibalab|725|https://www.keibalab.jp/img/upload/focus/202605/260517_smartpriere.jpg",
+      "horseId": "horse_158",
+      "source": "keibalab",
+      "sourceId": "725",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/725/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202605/260517_smartpriere.jpg",
+      "localImagePath": "",
+      "caption": "2026-05-24 オークス",
+      "raceName": "オークス",
+      "photoDate": "2026-05-24",
+      "issueDate": "2026-05-22",
+      "sourceOrder": 1,
+      "comment": "やや背中を短く見せて、腹側が長く引き締まったバランスは父よりも母スマートレイアーに近い。水準以上の馬格がある割に立ち姿はシャープで素軽く、溜めて切れを活かす競馬が合っている。また、ムダ肉の少ない体格から2400mへの距離延長は好材料と見て良さそう。チューリップ賞時よりも余分な部分が削げて完成度が高まってきている。毛艶や張りも良好で、いい状態でレースを迎えられそう。",
+      "publishedDate": "2026-05-22",
+      "raceKey": "2026:オークス",
+      "raceDate": "2026-05-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_7824",
+      "key": "horse_159|keibalab|725|https://www.keibalab.jp/img/upload/focus/202605/260517_sorpassare.jpg",
+      "horseId": "horse_159",
+      "source": "keibalab",
+      "sourceId": "725",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/725/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202605/260517_sorpassare.jpg",
+      "localImagePath": "",
+      "caption": "2026-05-24 オークス",
+      "raceName": "オークス",
+      "photoDate": "2026-05-24",
+      "issueDate": "2026-05-22",
+      "sourceOrder": 1,
+      "comment": "背中周りを長く見せるバランス。飛節は中間的な角度で、関節が伸びてストライドが大きいタイプ。斜尻でトモの横幅はやや狭く、前躯の筋肉量が勝っている。エンジンの掛かりが遅く、レースでは促してからしぶとく脚を使う持続型。スッキリと見せて距離延長は好材料も、決め手比べに対応できるかがカギ。チューリップ賞時よりも全体にシェイプアップ。完成度が高まり、今回のほうが見栄えする。体調が良さそう。",
+      "publishedDate": "2026-05-22",
+      "raceKey": "2026:オークス",
+      "raceDate": "2026-05-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_7826",
+      "key": "horse_240|keibalab|725|https://www.keibalab.jp/img/upload/focus/202605/260517_mitsukanevenera.jpg",
+      "horseId": "horse_240",
+      "source": "keibalab",
+      "sourceId": "725",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/725/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202605/260517_mitsukanevenera.jpg",
+      "localImagePath": "",
+      "caption": "2026-05-24 オークス",
+      "raceName": "オークス",
+      "photoDate": "2026-05-24",
+      "issueDate": "2026-05-22",
+      "sourceOrder": 1,
+      "comment": "コンパクトで胴はやや詰まり気味のバランス。腹側のラインが後躯に向かって引き締まっており、筋肉の質感はしなやか。小柄な馬体を大きく使うフットワークで、長くいい脚を繰り出すことができるため、直線の長いコースは合う。ムダ肉の少ない馬体から、距離は延びても対応できそう。阪神JF時と比較して筋肉の張り、毛艶は良化しているものの、まだ全体に幼さが残り、成長余地を残している。",
+      "publishedDate": "2026-05-22",
+      "raceKey": "2026:オークス",
+      "raceDate": "2026-05-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_7816",
+      "key": "horse_2636|keibalab|725|https://www.keibalab.jp/img/upload/focus/202605/260517_ametista.jpg",
+      "horseId": "horse_2636",
+      "source": "keibalab",
+      "sourceId": "725",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/725/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202605/260517_ametista.jpg",
+      "localImagePath": "",
+      "caption": "2026-05-24 オークス",
+      "raceName": "オークス",
+      "photoDate": "2026-05-24",
+      "issueDate": "2026-05-22",
+      "sourceOrder": 1,
+      "comment": "肋骨がわずかに浮き、筋肉の輪郭が明瞭に感じ取れるように、ムダ肉の付きづらいタイプ。クビさしも細く、四肢に長さがあるため、2400mへの距離延長は問題なさそう。跳びが大きく、トモの横幅も広いことから、持続力勝負に向いている体型。決め手比べに課題は残るも、距離適性としぶとさを活かせれば。まだ成長余地を残すも、肌ツヤが良く体調面に不安なし。",
+      "publishedDate": "2026-05-22",
+      "raceKey": "2026:オークス",
+      "raceDate": "2026-05-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_7818",
+      "key": "horse_2637|keibalab|725|https://www.keibalab.jp/img/upload/focus/202605/260517_angedejoie.jpg",
+      "horseId": "horse_2637",
+      "source": "keibalab",
+      "sourceId": "725",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/725/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202605/260517_angedejoie.jpg",
+      "localImagePath": "",
+      "caption": "2026-05-24 オークス",
+      "raceName": "オークス",
+      "photoDate": "2026-05-24",
+      "issueDate": "2026-05-22",
+      "sourceOrder": 1,
+      "comment": "小柄だが背中が短く、腹側を長く見せる、バランスが整った骨格。コンパクトかつ、後肢の飛節は折りの深い「曲飛」の構造で、ピッチの速い走りをするタイプ。やや斜尻気味のトモにはバネ感も秘めており、上がり勝負にも対応できそう。スッキリと見せる体つきで、世代戦なら距離も克服可能か。幼い面を残しながらも、太めなく仕上がっており、力を出せる状態にありそう。",
+      "publishedDate": "2026-05-22",
+      "raceKey": "2026:オークス",
+      "raceDate": "2026-05-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_7819",
+      "key": "horse_2638|keibalab|725|https://www.keibalab.jp/img/upload/focus/202605/260517_enjoydeask.jpg",
+      "horseId": "horse_2638",
+      "source": "keibalab",
+      "sourceId": "725",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/725/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202605/260517_enjoydeask.jpg",
+      "localImagePath": "",
+      "caption": "2026-05-24 オークス",
+      "raceName": "オークス",
+      "photoDate": "2026-05-24",
+      "issueDate": "2026-05-22",
+      "sourceOrder": 1,
+      "comment": "※ 抽選除外\n父エピファネイア似で背中を長く見せる体型。前走時484キロと水準以上の体重がありながら細身に映る辺り、中長距離への適性は高そう。胸の縦幅も深く、心肺機能の高さがうかがえる。横広のトモと胴の構造から、持続力を要求される競馬を好むタイプか。キャリア1戦の馬とあってまだ全体に緩さと成長の余地を感じる。腹周りはスッキリ見せて、太め感はない。",
+      "publishedDate": "2026-05-22",
+      "raceKey": "2026:オークス",
+      "raceDate": "2026-05-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_7821",
+      "key": "horse_2639|keibalab|725|https://www.keibalab.jp/img/upload/focus/202605/260517_juryokupierrot.jpg",
+      "horseId": "horse_2639",
+      "source": "keibalab",
+      "sourceId": "725",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/725/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202605/260517_juryokupierrot.jpg",
+      "localImagePath": "",
+      "caption": "2026-05-24 オークス",
+      "raceName": "オークス",
+      "photoDate": "2026-05-24",
+      "issueDate": "2026-05-22",
+      "sourceOrder": 1,
+      "comment": "蹄底に厚みがあり、繋ぎも立ち気味。ダートのデビュー戦で初勝利を挙げている点も納得できる脚元の構造で、芝の道悪や荒れた馬場も対応できそう。胸の縦幅に厚みがあって、心臓や肺の容量が広く、心肺機能の高さがうかがえる。背中に伸びがあり、持続力勝負が合っているタイプか。ややパワー型の印象を受けるものの、距離は対応できそう。1週前の時点で肋骨が薄っすらと浮き上がり、トモの張りも上々。態勢は整った。",
+      "publishedDate": "2026-05-22",
+      "raceKey": "2026:オークス",
+      "raceDate": "2026-05-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_7827",
+      "key": "horse_2640|keibalab|725|https://www.keibalab.jp/img/upload/focus/202605/260517_longingceline.jpg",
+      "horseId": "horse_2640",
+      "source": "keibalab",
+      "sourceId": "725",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/725/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202605/260517_longingceline.jpg",
+      "localImagePath": "",
+      "caption": "2026-05-24 オークス",
+      "raceName": "オークス",
+      "photoDate": "2026-05-24",
+      "issueDate": "2026-05-22",
+      "sourceOrder": 1,
+      "comment": "やや前肢が短く、前重心のバランス。キャリア5戦すべて逃げているように、重心が前傾しているためテンの行き脚が付きやすい。胴長体型ではあるものの、骨量・筋肉量が豊かなため本質的には2000m辺りまでで持続力を活かす形が合いそう。2400mへの距離延長と、末脚勝負になりやすいオークスのレース質でどこまで粘れるか。成長余地を残すものの、膨張色の芦毛でもスッキリと見せ、太めなく仕上がっている。",
+      "publishedDate": "2026-05-22",
+      "raceKey": "2026:オークス",
+      "raceDate": "2026-05-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_7828",
+      "key": "horse_2641|keibalab|725|https://www.keibalab.jp/img/upload/focus/202605/260517_laughterlines.jpg",
+      "horseId": "horse_2641",
+      "source": "keibalab",
+      "sourceId": "725",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/725/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202605/260517_laughterlines.jpg",
+      "localImagePath": "",
+      "caption": "2026-05-24 オークス",
+      "raceName": "オークス",
+      "photoDate": "2026-05-24",
+      "issueDate": "2026-05-22",
+      "sourceOrder": 1,
+      "comment": "筋肉質な父アルアインと比較すると、本馬はスレンダーな体型で筋肉の質感もしなやか。斜尻でトモの横幅は狭いものの、バネが利いて良質な瞬発力を発揮できる。この辺りは母バンゴールの特徴を受け継いでいるか。柔軟性があり、水準級の体格に収まっているため、2400mへの距離延長も不安なし。前走との写真比較はできないが、背中周りに薄っすらと銭型模様が浮いて、体調が良さそう。皮膚を薄く見せ、筋肉の張りも上々といえる。",
+      "publishedDate": "2026-05-22",
+      "raceKey": "2026:オークス",
+      "raceDate": "2026-05-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_7820",
+      "key": "horse_74|keibalab|725|https://www.keibalab.jp/img/upload/focus/202605/260517_enne.jpg",
+      "horseId": "horse_74",
+      "source": "keibalab",
+      "sourceId": "725",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/725/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202605/260517_enne.jpg",
+      "localImagePath": "",
+      "caption": "2026-05-24 オークス",
+      "raceName": "オークス",
+      "photoDate": "2026-05-24",
+      "issueDate": "2026-05-22",
+      "sourceOrder": 1,
+      "comment": "大型馬だが背中が詰まったフォルムで、トモの仙骨は傾斜した斜尻タイプ。太くクビさし、発達した肩周り＝前躯に対して後躯がやや薄く映る分、行き脚は速くないが、バネが利いてストライドを伸ばし、いい脚を長く繰り出すことができる。体格の大きさから2400mは距離がやや長い印象も、東京向きの馬体といえそう。緩さを感じさせた前走よりも体つきは締まって見せる。キャリア3戦目、一戦ごとに良化中。",
+      "publishedDate": "2026-05-22",
+      "raceKey": "2026:オークス",
+      "raceDate": "2026-05-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_7817",
+      "key": "horse_93|keibalab|725|https://www.keibalab.jp/img/upload/focus/202605/260517_alankar.jpg",
+      "horseId": "horse_93",
+      "source": "keibalab",
+      "sourceId": "725",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/725/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202605/260517_alankar.jpg",
+      "localImagePath": "",
+      "caption": "2026-05-24 オークス",
+      "raceName": "オークス",
+      "photoDate": "2026-05-24",
+      "issueDate": "2026-05-22",
+      "sourceOrder": 1,
+      "comment": "オークス馬・母シンハライト似のコンパクトな体型。父の影響か、母よりも背中周りに若干伸びがあり、重心は低め。馬格の割に跳びが大きく、いい脚を長く繰り出せるタイプ。血統・馬体の両面から距離延長は好材料。後肢の飛節は「直飛」で小柄ながらストライドが大きく、東京コースも適している。馬体の維持がカギにはなるが、近2走と比較しても毛艶に光沢があって、体調そのものは上向きと見て良さそう。",
+      "publishedDate": "2026-05-22",
+      "raceKey": "2026:オークス",
+      "raceDate": "2026-05-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_7822",
+      "key": "horse_96|keibalab|725|https://www.keibalab.jp/img/upload/focus/202605/260517_sweethappiness.jpg",
+      "horseId": "horse_96",
+      "source": "keibalab",
+      "sourceId": "725",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/725/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202605/260517_sweethappiness.jpg",
+      "localImagePath": "",
+      "caption": "2026-05-24 オークス",
+      "raceName": "オークス",
+      "photoDate": "2026-05-24",
+      "issueDate": "2026-05-22",
+      "sourceOrder": 1,
+      "comment": "骨格のバランスが良く、コンパクトにまとまっている。骨格に対しての肉付きが良く、筋肉量は多い。後肢の飛節は真っすぐに伸びた「直飛」の構造で、関節の可動域が広く、跳びが大きい。直線の長い東京コースは合いそう。クビが短いため距離延長がどうかも、控えて末脚勝負に徹すれば入着があっても。冬毛が残っていた桜花賞時と比較すると、毛艶は明らかに良化。筋肉の張りもアップしており、デキは上向きと見ている。",
+      "publishedDate": "2026-05-22",
+      "raceKey": "2026:オークス",
+      "raceDate": "2026-05-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_7823",
+      "key": "horse_97|keibalab|725|https://www.keibalab.jp/img/upload/focus/202605/260517_staranise.jpg",
+      "horseId": "horse_97",
+      "source": "keibalab",
+      "sourceId": "725",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/725/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202605/260517_staranise.jpg",
+      "localImagePath": "",
+      "caption": "2026-05-24 オークス",
+      "raceName": "オークス",
+      "photoDate": "2026-05-24",
+      "issueDate": "2026-05-22",
+      "sourceOrder": 1,
+      "comment": "前肢が短く、重心の低いフォルム。トモの横幅は広く、大腿筋は膨らむように発達。クビはやや短めで、前躯の筋肉量も多い。ピッチの速い走りをするタイプだが、背中の長さから持続力も十分に秘めている。基本的に短距離志向が強く、2400mの距離は長そう。絶対能力の高さでカバーできるかがカギ。後肢の下腿部には前走時以上に血管が浮いているくらいで、筋肉の張りはさらに良くなっている。仕上がり面に不安なし。",
+      "publishedDate": "2026-05-22",
+      "raceKey": "2026:オークス",
+      "raceDate": "2026-05-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_7825",
+      "key": "horse_99|keibalab|725|https://www.keibalab.jp/img/upload/focus/202605/260517_dreamcore.jpg",
+      "horseId": "horse_99",
+      "source": "keibalab",
+      "sourceId": "725",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/725/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202605/260517_dreamcore.jpg",
+      "localImagePath": "",
+      "caption": "2026-05-24 オークス",
+      "raceName": "オークス",
+      "photoDate": "2026-05-24",
+      "issueDate": "2026-05-22",
+      "sourceOrder": 1,
+      "comment": "500キロを超える大型馬。母ノームコアと同様に骨格のバランスが整っていて、背中周りにまとまりがある。母よりも大きいが、キ甲も伸びが感じられて、同時期の比較で完成度はこの馬のほうが高い。筋肉質なボディで、今回は桜花賞時よりもボリュームがあるように映るため、2400mへの距離延長がどうか。大敗後でも毛艶は良好で、体調面に不安は感じない。少しふっくらと見せるも、当週のひと追いで引き締まってきそう。",
+      "publishedDate": "2026-05-22",
+      "raceKey": "2026:オークス",
+      "raceDate": "2026-05-24",
+      "raceDateSource": "override"
+    },
     {
       "id": "photo_1",
       "key": "horse_28|keibalab|724|https://www.keibalab.jp/img/upload/focus/202605/260510_aisansan.jpg?",
@@ -262961,6 +263619,36 @@
   ],
   "pages": [
     {
+      "key": "keibalab:727",
+      "source": "keibalab",
+      "sourceId": "727",
+      "url": "https://www.keibalab.jp/column/focus/727/",
+      "fetchedAt": "2026-05-31T21:03:00.478Z",
+      "status": "error",
+      "error": "本文から馬情報を抽出できませんでした。未ログイン向け表示、公開前、またはページ構造変更の可能性があります。"
+    },
+    {
+      "key": "keibalab:726",
+      "source": "keibalab",
+      "sourceId": "726",
+      "url": "https://www.keibalab.jp/column/focus/726/",
+      "fetchedAt": "2026-05-31T21:02:52.627Z",
+      "status": "error",
+      "error": "本文から馬情報を抽出できませんでした。未ログイン向け表示、公開前、またはページ構造変更の可能性があります。"
+    },
+    {
+      "key": "keibalab:725",
+      "source": "keibalab",
+      "sourceId": "725",
+      "url": "https://www.keibalab.jp/column/focus/725/",
+      "fetchedAt": "2026-05-31T21:02:47.530Z",
+      "status": "ok",
+      "error": "本文から馬情報を抽出できませんでした。未ログイン向け表示、公開前、またはページ構造変更の可能性があります。",
+      "title": "【オークス】牝馬クラシック二冠目は距離適性がポイント！適性と仕上がりを馬体でチェック",
+      "horses": 14,
+      "photos": 14
+    },
+    {
       "key": "keibalab:197",
       "source": "keibalab",
       "sourceId": "197",
@@ -271486,15 +272174,6 @@
       "photos": 12
     },
     {
-      "key": "keibalab:726",
-      "source": "keibalab",
-      "sourceId": "726",
-      "url": "https://www.keibalab.jp/column/focus/726/",
-      "fetchedAt": "2026-05-25T02:40:13.201Z",
-      "status": "error",
-      "error": "fetch failed"
-    },
-    {
       "key": "keibalab:700",
       "source": "keibalab",
       "sourceId": "700",
@@ -271768,15 +272447,6 @@
       "status": "ok",
       "horses": 13,
       "photos": 13
-    },
-    {
-      "key": "keibalab:725",
-      "source": "keibalab",
-      "sourceId": "725",
-      "url": "https://www.keibalab.jp/column/focus/725/",
-      "fetchedAt": "2026-05-25T02:10:21.127Z",
-      "status": "error",
-      "error": "本文から馬情報を抽出できませんでした。未ログイン向け表示、公開前、またはページ構造変更の可能性があります。"
     }
   ],
   "errors": [
@@ -274004,6 +274674,20 @@
       "source": "keibalab",
       "sourceId": "4",
       "url": "https://www.keibalab.jp/column/focus/4/",
+      "message": "本文から馬情報を抽出できませんでした。未ログイン向け表示、公開前、またはページ構造変更の可能性があります。"
+    },
+    {
+      "at": "2026-05-31T21:02:52.627Z",
+      "source": "keibalab",
+      "sourceId": "726",
+      "url": "https://www.keibalab.jp/column/focus/726/",
+      "message": "本文から馬情報を抽出できませんでした。未ログイン向け表示、公開前、またはページ構造変更の可能性があります。"
+    },
+    {
+      "at": "2026-05-31T21:03:00.478Z",
+      "source": "keibalab",
+      "sourceId": "727",
+      "url": "https://www.keibalab.jp/column/focus/727/",
       "message": "本文から馬情報を抽出できませんでした。未ログイン向け表示、公開前、またはページ構造変更の可能性があります。"
     }
   ]
