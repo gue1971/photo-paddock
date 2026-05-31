@@ -12,7 +12,8 @@ let changed = 0;
 for (const photo of db.photos) {
   const publishedDate = photo.publishedDate || photo.photoDate || photo.issueDate || "";
   const page = pages.get(`${photo.source}:${photo.sourceId}`);
-  const normalizedRaceName = normalizeRaceName(photo.raceName || inferRaceNameFromText(page?.title || "", aliases), aliases);
+  const rawRaceName = photo.raceName || inferRaceNameFromText(page?.title || "", aliases);
+  const normalizedRaceName = normalizeRaceName(resolveAmbiguousRaceName(rawRaceName, photo.issueDate || publishedDate), aliases);
   const year = photo.source === "keibabook" && photo.issueDate
     ? raceYearFromDate(photo.issueDate)
     : raceYearFromDate(publishedDate);
@@ -52,6 +53,13 @@ function inferRaceNameFromText(text, aliases) {
     .filter(Boolean)
     .sort((a, b) => b.length - a.length);
   return candidates.find((candidate) => text.includes(candidate)) || "";
+}
+
+function resolveAmbiguousRaceName(name, contextDate) {
+  const cleaned = String(name || "").normalize("NFKC").replace(/\s+/g, "");
+  if (!["天皇賞", "天皇賞・春", "天皇賞(春)"].includes(cleaned)) return name;
+  const month = Number(String(contextDate || "").slice(5, 7));
+  return month >= 8 ? "天皇賞・秋" : "天皇賞・春";
 }
 
 function resolveRaceDateOverride(year, publishedDate, raceName, overrides, source = "") {
