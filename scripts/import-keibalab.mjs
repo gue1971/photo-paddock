@@ -1,6 +1,8 @@
 import { absoluteUrl, attr, normalizeText, stripTags } from "./lib/html.mjs";
 import { downloadImage, fetchText } from "./lib/download.mjs";
 import { addError, isPageImported, loadStore, markPage, saveStore, upsertHorse, upsertPhoto } from "./lib/store.mjs";
+import { readFile } from "node:fs/promises";
+import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
@@ -27,7 +29,7 @@ async function main() {
 
     const url = `https://www.keibalab.jp/column/focus/${id}/`;
     try {
-      const html = await fetchText(url);
+      const html = await loadPageHtml(args, id, url);
       const result = parseKeibalabPage(html, id, url);
       if (!result.horses.length) {
         throw new Error("本文から馬情報を抽出できませんでした。未ログイン向け表示、公開前、またはページ構造変更の可能性があります。");
@@ -90,6 +92,29 @@ async function main() {
 
   await saveStore(db);
   console.log(`done: imported=${imported} skipped=${skipped} failed=${failed}`);
+}
+
+async function loadPageHtml(args, id, url) {
+  if (args["html-file"]) {
+    return readFile(String(args["html-file"]), "utf8");
+  }
+  if (args["html-dir"]) {
+    const dir = String(args["html-dir"]);
+    const candidates = [
+      path.join(dir, `${id}.html`),
+      path.join(dir, `keibalab${id}.html`),
+      path.join(dir, `focus-${id}.html`)
+    ];
+    for (const candidate of candidates) {
+      try {
+        return await readFile(candidate, "utf8");
+      } catch (error) {
+        if (error.code !== "ENOENT") throw error;
+      }
+    }
+    throw new Error(`HTMLファイルが見つかりません: ${candidates.join(", ")}`);
+  }
+  return fetchText(url);
 }
 
 export function parseKeibalabPage(html, id, url) {
@@ -181,8 +206,8 @@ function parseHorseBlock(block, url, publishedDate) {
     block.match(/<th[^>]*>\s*POINT\s*<\/th>\s*<\/tr>\s*<tr>\s*<td[^>]*colspan=["']2["'][^>]*>([\s\S]*?)<\/td>/i)?.[1] ??
     ""
   );
-  const photos = [...block.matchAll(/<a[^>]+href=["']([^"']+\.(?:jpg|jpeg|png|webp|gif)\??[^"']*)["'][^>]*>\s*<img[^>]+src=["']([^"']+)["']/gi)]
-    .map((match) => ({ imageUrl: normalizeImageUrl(absoluteUrl(url, match[2] || match[1])) }))
+  const photos = extractPhotoUrls(block)
+    .map((imageUrl) => ({ imageUrl: normalizeImageUrl(absoluteUrl(url, imageUrl)) }))
     .filter((photo, index, array) => photo.imageUrl && array.findIndex((item) => item.imageUrl === photo.imageUrl) === index);
 
   return {
@@ -197,6 +222,15 @@ function parseHorseBlock(block, url, publishedDate) {
     photos,
     comment
   };
+}
+
+function extractPhotoUrls(block) {
+  const linkedImages = [...block.matchAll(/<a[^>]+href=["']([^"']+\.(?:jpg|jpeg|png|webp|gif)\??[^"']*)["'][^>]*>\s*<img[^>]+src=["']([^"']+)["']/gi)]
+    .map((match) => match[2] || match[1]);
+  if (linkedImages.length) return linkedImages;
+
+  return [...block.matchAll(/<img[^>]+src=["']([^"']*\/img\/upload\/focus\/[^"']+\.(?:jpg|jpeg|png|webp|gif)\??[^"']*)["']/gi)]
+    .map((match) => match[1]);
 }
 
 function normalizeImageUrl(url) {

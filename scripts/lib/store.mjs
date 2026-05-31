@@ -105,7 +105,10 @@ export function markPage(db, page) {
   const key = `${page.source}:${page.sourceId}`;
   const existing = db.pages.find((item) => item.key === key);
   const payload = { key, ...page };
-  if (existing) Object.assign(existing, payload);
+  if (existing) {
+    if (payload.status === "ok") delete existing.error;
+    Object.assign(existing, payload);
+  }
   else db.pages.push(payload);
 }
 
