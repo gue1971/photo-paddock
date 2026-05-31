@@ -13,8 +13,10 @@ for (const photo of db.photos) {
   const publishedDate = photo.publishedDate || photo.photoDate || photo.issueDate || "";
   const page = pages.get(`${photo.source}:${photo.sourceId}`);
   const normalizedRaceName = normalizeRaceName(photo.raceName || inferRaceNameFromText(page?.title || "", aliases), aliases);
-  const year = raceYearFromDate(publishedDate);
-  const { key, override } = resolveRaceDateOverride(year, publishedDate, normalizedRaceName, overrides);
+  const year = photo.source === "keibabook" && photo.issueDate
+    ? raceYearFromDate(photo.issueDate)
+    : raceYearFromDate(publishedDate);
+  const { key, override } = resolveRaceDateOverride(year, publishedDate, normalizedRaceName, overrides, photo.source);
   const raceDate = override || inferRaceDate(publishedDate);
   const next = {
     ...photo,
@@ -52,8 +54,9 @@ function inferRaceNameFromText(text, aliases) {
   return candidates.find((candidate) => text.includes(candidate)) || "";
 }
 
-function resolveRaceDateOverride(year, publishedDate, raceName, overrides) {
+function resolveRaceDateOverride(year, publishedDate, raceName, overrides, source = "") {
   const currentYearKey = raceKey(year, raceName);
+  if (source === "keibabook") return { key: currentYearKey || "", override: overrides[currentYearKey] || "" };
   const nextYearKey = raceKey(year + 1, raceName);
   const candidates = [currentYearKey, nextYearKey]
     .filter((item) => item && overrides[item])

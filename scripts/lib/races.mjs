@@ -20,6 +20,7 @@ export async function loadRaceDateOverrides() {
 
 export function normalizeRaceName(name = "", aliases = {}) {
   const cleaned = String(name)
+    .normalize("NFKC")
     .trim()
     .replace(/[ＳＣＲＭＧ]/g, (char) => ({ "Ｓ": "S", "Ｃ": "C", "Ｒ": "R", "Ｍ": "M", "Ｇ": "G" })[char])
     .replace(/[（）]/g, (char) => ({ "（": "(", "）": ")" })[char])
