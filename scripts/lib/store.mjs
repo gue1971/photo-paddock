@@ -42,7 +42,7 @@ export function upsertHorse(db, horse) {
   let existing = db.horses.find((item) => item.key === key);
   if (!existing) {
     existing = {
-      id: `horse_${db.horses.length + 1}`,
+      id: nextHorseId(db),
       key,
       name: horse.name,
       birthYear: horse.birthYear ?? null,
@@ -63,6 +63,16 @@ export function upsertHorse(db, horse) {
     }));
   }
   return existing;
+}
+
+function nextHorseId(db) {
+  const used = new Set(db.horses.map((horse) => horse.id));
+  let next = db.horses.reduce((max, horse) => {
+    const number = Number(String(horse.id || "").match(/^horse_(\d+)$/)?.[1] || 0);
+    return Math.max(max, number);
+  }, 0) + 1;
+  while (used.has(`horse_${next}`)) next += 1;
+  return `horse_${next}`;
 }
 
 export function upsertPhoto(db, photo) {

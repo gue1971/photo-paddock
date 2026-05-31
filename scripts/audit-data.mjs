@@ -4,9 +4,18 @@ import { loadRaceAliases, normalizeRaceName } from "./lib/races.mjs";
 const db = await loadStore();
 const raceAliases = await loadRaceAliases();
 const horseIds = new Set(db.horses.map((horse) => horse.id));
+const horseIdCounts = new Map();
 const photoKeys = new Map();
 const photoIds = new Map();
 const problems = [];
+
+for (const horse of db.horses) {
+  horseIdCounts.set(horse.id, (horseIdCounts.get(horse.id) || 0) + 1);
+}
+
+for (const [id, count] of horseIdCounts) {
+  if (count > 1) problems.push(`duplicate horse id x${count}: ${id}`);
+}
 
 for (const photo of db.photos) {
   if (!horseIds.has(photo.horseId)) {
