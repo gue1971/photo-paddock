@@ -254544,27 +254544,6 @@
       "sourceId": "4",
       "url": "https://www.keibalab.jp/column/focus/4/",
       "message": "本文から馬情報を抽出できませんでした。未ログイン向け表示、公開前、またはページ構造変更の可能性があります。"
-    },
-    {
-      "at": "2026-05-31T05:56:16.964Z",
-      "source": "keibabook",
-      "sourceId": "150921",
-      "url": "http://old.keibado.ne.jp/keibabook/150921/index.html",
-      "message": "fetch failed"
-    },
-    {
-      "at": "2026-05-31T06:04:46.207Z",
-      "source": "keibabook",
-      "sourceId": "150706",
-      "url": "http://old.keibado.ne.jp/keibabook/150706/index.html",
-      "message": "fetch failed"
-    },
-    {
-      "at": "2026-05-31T06:08:32.409Z",
-      "source": "keibabook",
-      "sourceId": "150413",
-      "url": "http://old.keibado.ne.jp/keibabook/150413/index.html",
-      "message": "fetch failed"
     }
   ]
 }
