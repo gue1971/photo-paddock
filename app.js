@@ -509,7 +509,7 @@ function openRace(raceKey) {
   state.filters.raceYear = "";
   state.filters.raceName = "";
   const year = raceKey.split(":")[0];
-  if (year) state.openRaceYears.add(year);
+  if (year) setOpenRaceYear(year);
   render();
 }
 
@@ -688,10 +688,10 @@ function renderRaceList() {
   const items = filteredRaces();
   if (!items.some((race) => race.key === state.selectedRaceKey)) state.selectedRaceKey = items[0]?.key || "";
   const grouped = Map.groupBy(items, (race) => race.date?.slice(0, 4) || race.key.split(":")[0] || "年不明");
-  const latestYear = [...grouped.keys()].sort((a, b) => b.localeCompare(a))[0];
-  const selectedYear = state.selectedRaceKey?.split(":")[0] || "";
-  if (!state.openRaceYears.size && latestYear) state.openRaceYears.add(latestYear);
-  if (selectedYear) state.openRaceYears.add(selectedYear);
+  const years = [...grouped.keys()].sort((a, b) => b.localeCompare(a));
+  const latestYear = years[0];
+  const oldestYear = years.at(-1);
+  if (!state.openRaceYears.size && latestYear) setOpenRaceYear(latestYear);
 
   itemList.innerHTML = state.query || hasRaceFilters()
     ? items.map(raceButton).join("")
@@ -701,10 +701,12 @@ function renderRaceList() {
         ${racesInYear.map(raceButton).join("")}
       </details>
     `).join("");
-  itemList.querySelectorAll("details[data-race-year]").forEach((details) => {
-    details.addEventListener("toggle", () => {
-      if (details.open) state.openRaceYears.add(details.dataset.raceYear);
-      else state.openRaceYears.delete(details.dataset.raceYear);
+  itemList.querySelectorAll("details[data-race-year] summary").forEach((summary) => {
+    summary.addEventListener("click", (event) => {
+      event.preventDefault();
+      const year = summary.closest("details")?.dataset.raceYear || "";
+      setOpenRaceYear(state.openRaceYears.has(year) ? oldestYear : year);
+      render();
     });
   });
   itemList.querySelectorAll("button[data-race-key]").forEach((button) => {
@@ -715,6 +717,10 @@ function renderRaceList() {
       render();
     });
   });
+}
+
+function setOpenRaceYear(year) {
+  state.openRaceYears = new Set(year ? [year] : []);
 }
 
 function renderFavoriteList() {
