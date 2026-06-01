@@ -759,9 +759,10 @@ function renderFavoriteList() {
 
 function horseButton(horse) {
   const count = photosForHorse(horse.id).length;
+  const favoriteMark = hasFavoriteHorse(horse.id) ? `<span class="favorite-mark" aria-label="お気に入りあり">★</span>` : "";
   return `
     <button type="button" class="horse-button ${horse.id === state.selectedHorseId ? "selected" : ""}" data-horse-id="${horse.id}">
-      <span class="horse-name">${escapeHtml(horse.name)}</span>
+      <span class="horse-name">${escapeHtml(horse.name)}${favoriteMark}</span>
       <span class="horse-meta">${horse.birthYear || "生年不明"} / ${count}枚 / ${escapeHtml(horse.sire || "父不明")}</span>
     </button>
   `;
@@ -943,8 +944,8 @@ function horseSearchResult() {
   };
 
   addSection("", horses.filter((horse) => equalsText(horse.name)).sort(birthYearSort));
-  addSection("産駒", horses.filter((horse) => equalsText(horse.dam) || equalsText(horse.sire)).sort(birthYearSort));
-  addSection(`母父 ${query}`, horses.filter((horse) => equalsText(horse.damsire)).sort(birthYearSort));
+  addSection("産駒", horses.filter((horse) => equalsText(horse.dam) || equalsText(horse.sire)).sort(favoriteBirthYearSort));
+  addSection(`母父 ${query}`, horses.filter((horse) => equalsText(horse.damsire)).sort(favoriteBirthYearSort));
   addSection("馬名を含む", horses.filter((horse) => matchesText(horse.name)).sort(birthYearSort));
   addSection("血統に含む", horses
     .filter((horse) => [horse.sire, horse.dam, horse.damsire].some(matchesText))
@@ -993,8 +994,8 @@ function horseContextResult(horse) {
 
   addSection("", [horse]);
   addSection("父", state.db.horses.filter((item) => item.name === horse.sire).sort(birthYearSort));
-  addSection("産駒", offspringForHorse(horse).sort(birthYearSort), { offspringHorseId: horse.id });
-  addSection(`母父 ${horse.name}`, state.db.horses.filter((item) => item.damsire === horse.name).sort(birthYearSort));
+  addSection("産駒", offspringForHorse(horse).sort(favoriteBirthYearSort), { offspringHorseId: horse.id });
+  addSection(`母父 ${horse.name}`, state.db.horses.filter((item) => item.damsire === horse.name).sort(favoriteBirthYearSort));
 
   return { all: sections.flatMap((section) => section.items), sections };
 }
@@ -1057,6 +1058,10 @@ function photosForHorse(horseId) {
 
 function favoritePhotosForHorse(horseId) {
   return photosForHorse(horseId).filter((photo) => state.favorites.has(photo.key));
+}
+
+function hasFavoriteHorse(horseId) {
+  return state.db.photos.some((photo) => photo.horseId === horseId && state.favorites.has(photo.key));
 }
 
 function firstFavoriteHorseId() {
@@ -1190,6 +1195,11 @@ function favoritePhotoSort(a, b) {
 
 function birthYearSort(a, b) {
   return (b.birthYear || 0) - (a.birthYear || 0) || a.name.localeCompare(b.name, "ja");
+}
+
+function favoriteBirthYearSort(a, b) {
+  const favoriteDiff = Number(hasFavoriteHorse(b.id)) - Number(hasFavoriteHorse(a.id));
+  return favoriteDiff || birthYearSort(a, b);
 }
 
 function escapeHtml(value = "") {
