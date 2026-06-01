@@ -98682,7 +98682,7 @@
           "evidence": [
             {
               "photoId": "photo_7935",
-              "raceDate": "2013-07-28",
+              "raceDate": "2013-07-21",
               "raceName": "函館2歳S",
               "phrase": "流れるようなトモ、繋ぎの柔らかさが天性のスピードにつながっているのだろう。"
             }
@@ -100628,7 +100628,7 @@
           "evidence": [
             {
               "photoId": "photo_7882",
-              "raceDate": "2013-08-18",
+              "raceDate": "2013-08-25",
               "raceName": "新潟2歳S",
               "phrase": "肩のあたりと後肢の発達した筋肉が際立ち、全体的にも寸が詰まっていかにもダイワメジャー産駒らしい体形。"
             }
@@ -100666,7 +100666,7 @@
           "evidence": [
             {
               "photoId": "photo_7880",
-              "raceDate": "2013-08-18",
+              "raceDate": "2013-08-25",
               "raceName": "新潟2歳S",
               "phrase": "重心が低くて、やや胴は詰まり気味。"
             }
@@ -101693,6 +101693,17 @@
       ]
     },
     {
+      "id": "horse_2712",
+      "key": "アクションスター|2010|アグネスタキオン|レディオブヴェニス",
+      "name": "アクションスター",
+      "birthYear": 2010,
+      "sex": "牡",
+      "sire": "アグネスタキオン",
+      "dam": "レディオブヴェニス",
+      "damsire": "ルーソリテール",
+      "notes": ""
+    },
+    {
       "id": "horse_2451",
       "key": "アドマイヤスピカ|2010|キングカメハメハ|エルダンジュ",
       "name": "アドマイヤスピカ",
@@ -101750,7 +101761,37 @@
       "sire": "ディープインパクト",
       "dam": "バイザキャット",
       "damsire": "ストームキャット",
-      "notes": ""
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "胴長",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_8098",
+              "raceDate": "2013-04-07",
+              "raceName": "桜花賞",
+              "phrase": "胴長でもマイルに対応するのはそのためだろう。"
+            }
+          ]
+        },
+        {
+          "tag": "肩立ち",
+          "category": "骨格",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_8098",
+              "raceDate": "2013-04-07",
+              "raceName": "桜花賞",
+              "phrase": "肩甲骨が立ち気味なせいかピッチが速い。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "horse_2533",
@@ -101774,6 +101815,33 @@
               "raceDate": "2015-09-13",
               "raceName": "京成杯AH",
               "phrase": "前回よりもリラックスしたような立ち姿で、少し胴長のようにも見せている。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "horse_2703",
+      "key": "イリュミナンス|2010|マンハッタンカフェ|スキッフル",
+      "name": "イリュミナンス",
+      "birthYear": 2010,
+      "sex": "牝",
+      "sire": "マンハッタンカフェ",
+      "dam": "スキッフル",
+      "damsire": "トニービン",
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "胴長",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_8075",
+              "raceDate": "2013-04-21",
+              "raceName": "フローラS",
+              "phrase": "この父の仔らしく胴がスラリと伸びて、繋ぎが長目。"
             }
           ]
         }
@@ -101838,7 +101906,7 @@
             },
             {
               "photoId": "photo_7912",
-              "raceDate": "2013-07-28",
+              "raceDate": "2013-08-04",
               "raceName": "レパードS",
               "phrase": "胴は長目だが、実の入りが良くて重厚感のある馬体。"
             }
@@ -101852,7 +101920,7 @@
           "evidence": [
             {
               "photoId": "photo_7912",
-              "raceDate": "2013-07-28",
+              "raceDate": "2013-08-04",
               "raceName": "レパードS",
               "phrase": "繋ぎも短くて立ち気味。"
             }
@@ -101890,7 +101958,7 @@
           "evidence": [
             {
               "photoId": "photo_7968",
-              "raceDate": "2013-06-23",
+              "raceDate": "2013-06-30",
               "raceName": "ラジオNIKKEI賞",
               "phrase": "少し重心は低く、どちらかと言うとマイラー体形か。"
             }
@@ -102053,13 +102121,19 @@
           "tag": "胴長",
           "category": "体型",
           "confidence": "confirmed",
-          "evidenceCount": 1,
+          "evidenceCount": 2,
           "evidence": [
             {
               "photoId": "photo_7066",
               "raceDate": "2014-11-30",
               "raceName": "ジャパンカップ",
               "phrase": "胴が伸び、尻上が長く肉体は2400ｍ向き。"
+            },
+            {
+              "photoId": "photo_8157",
+              "raceDate": "2013-03-03",
+              "raceName": "弥生賞",
+              "phrase": "ただ、胴長でいかにも芝の中距離が向いていそうなタイプ。"
             }
           ]
         }
@@ -102189,6 +102263,17 @@
       ]
     },
     {
+      "id": "horse_2705",
+      "key": "カミノタサハラ|2010|ディープインパクト|クロウキャニオン",
+      "name": "カミノタサハラ",
+      "birthYear": 2010,
+      "sex": "牡",
+      "sire": "ディープインパクト",
+      "dam": "クロウキャニオン",
+      "damsire": "フレンチデピュティ",
+      "notes": ""
+    },
+    {
       "id": "horse_2240",
       "key": "キズナ|2010|ディープインパクト|キャットクイル",
       "name": "キズナ",
@@ -102208,6 +102293,28 @@
       "sire": "キングカメハメハ",
       "dam": "レクレドール",
       "damsire": "サンデーサイレンス",
+      "notes": ""
+    },
+    {
+      "id": "horse_2706",
+      "key": "クラウンレガーロ|2010|グラスワンダー|エクストラニュース",
+      "name": "クラウンレガーロ",
+      "birthYear": 2010,
+      "sex": "牡",
+      "sire": "グラスワンダー",
+      "dam": "エクストラニュース",
+      "damsire": "エンドスウィープ",
+      "notes": ""
+    },
+    {
+      "id": "horse_2710",
+      "key": "クラウンロゼ|2010|ロサード|ヒシアスカ",
+      "name": "クラウンロゼ",
+      "birthYear": 2010,
+      "sex": "牝",
+      "sire": "ロサード",
+      "dam": "ヒシアスカ",
+      "damsire": "ヒシアケボノ",
       "notes": ""
     },
     {
@@ -102277,13 +102384,25 @@
           "tag": "胴長",
           "category": "体型",
           "confidence": "confirmed",
-          "evidenceCount": 1,
+          "evidenceCount": 3,
           "evidence": [
             {
               "photoId": "photo_8027",
-              "raceDate": "2013-05-12",
+              "raceDate": "2013-05-19",
               "raceName": "オークス",
               "phrase": "折り合いが鍵となるが、胴長でスラッとしており、体形的には2400ｍでも大丈夫そう。"
+            },
+            {
+              "photoId": "photo_8090",
+              "raceDate": "2013-04-07",
+              "raceName": "桜花賞",
+              "phrase": "胴長でスラッとしたシルエットだが、腹構えは程よく丸みを帯びている。"
+            },
+            {
+              "photoId": "photo_8147",
+              "raceDate": "2013-03-02",
+              "raceName": "チューリップ賞",
+              "phrase": "休養を挟んで胴が伸びた印象。"
             }
           ]
         }
@@ -102319,7 +102438,7 @@
           "evidence": [
             {
               "photoId": "photo_7989",
-              "raceDate": "2013-06-09",
+              "raceDate": "2013-06-16",
               "raceName": "ユニコーンS",
               "phrase": "前々走時の体重で546キロという大型馬だが、背が高くて胴も長目。"
             }
@@ -102396,7 +102515,23 @@
       "sire": "ハーツクライ",
       "dam": "ネットオークション",
       "damsire": "ストームバード",
-      "notes": ""
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "胸深",
+          "category": "体型",
+          "confidence": "suggested",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_8092",
+              "raceDate": "2013-04-07",
+              "raceName": "桜花賞",
+              "phrase": "筋肉量では譲るものの、腹袋はこちらの方が大きく、心肺機能が高そう。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "horse_1685",
@@ -102466,6 +102601,33 @@
       "dam": "サクラプレステージ",
       "damsire": "ブライアンズタイム",
       "notes": ""
+    },
+    {
+      "id": "horse_2723",
+      "key": "サトノネプチューン|2010|シンボリクリスエス|アンナヴァン",
+      "name": "サトノネプチューン",
+      "birthYear": 2010,
+      "sex": "牡",
+      "sire": "シンボリクリスエス",
+      "dam": "アンナヴァン",
+      "damsire": "エンドスウィープ",
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "脚長",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_8159",
+              "raceDate": "2013-03-03",
+              "raceName": "弥生賞",
+              "phrase": "胸前と後肢の発達した筋肉はひと際目を引き、スラッと脚も長くて体高は高い。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "horse_1791",
@@ -102550,7 +102712,7 @@
           "evidence": [
             {
               "photoId": "photo_7985",
-              "raceDate": "2013-06-09",
+              "raceDate": "2013-06-16",
               "raceName": "ユニコーンS",
               "phrase": "実の詰まった馬体は、牝馬らしからぬ逞しさ。"
             }
@@ -102568,6 +102730,44 @@
       "dam": "フェザーレイ",
       "damsire": "エルコンドルパサー",
       "notes": ""
+    },
+    {
+      "id": "horse_2720",
+      "key": "サンブルエミューズ|2010|ダイワメジャー|ヴィートマルシェ",
+      "name": "サンブルエミューズ",
+      "birthYear": 2010,
+      "sex": "牝",
+      "sire": "ダイワメジャー",
+      "dam": "ヴィートマルシェ",
+      "damsire": "フレンチデピュティ",
+      "notes": ""
+    },
+    {
+      "id": "horse_2721",
+      "key": "シーブリーズライフ|2010|アドマイヤジャパン|プレシャスライフ",
+      "name": "シーブリーズライフ",
+      "birthYear": 2010,
+      "sex": "牝",
+      "sire": "アドマイヤジャパン",
+      "dam": "プレシャスライフ",
+      "damsire": "タイキシャトル",
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "低重心",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_8145",
+              "raceDate": "2013-03-10",
+              "raceName": "フィリーズレビュー",
+              "phrase": "重心が低くて、胴の詰まった体形。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "horse_2534",
@@ -102588,7 +102788,7 @@
           "evidence": [
             {
               "photoId": "photo_7915",
-              "raceDate": "2013-07-28",
+              "raceDate": "2013-08-04",
               "raceName": "レパードS",
               "phrase": "脚は長いが太くて力強く、立ち姿からも馬力の凄さが伝わってくるほど。"
             }
@@ -102849,7 +103049,22 @@
       "dam": "マンハッタンフィズ",
       "damsire": "サンデーサイレンス",
       "notes": "",
-      "bodyTags": []
+      "bodyTags": [
+        {
+          "tag": "低重心",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_8154",
+              "raceDate": "2013-03-03",
+              "raceName": "弥生賞",
+              "phrase": "全姉のアプリコットフィズよりも骨太で、重心も低い体形。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "horse_2035",
@@ -102920,7 +103135,7 @@
             },
             {
               "photoId": "photo_8020",
-              "raceDate": "2013-05-19",
+              "raceDate": "2013-05-26",
               "raceName": "日本ダービー",
               "phrase": "血統的に更なる距離延長が気になるところだが、この馬の場合は胴長で少しゆったりとした体形。"
             }
@@ -103229,6 +103444,47 @@
       ]
     },
     {
+      "id": "horse_2704",
+      "key": "テンシンランマン|2010|ハーツクライ|ハナランマン",
+      "name": "テンシンランマン",
+      "birthYear": 2010,
+      "sex": "牝",
+      "sire": "ハーツクライ",
+      "dam": "ハナランマン",
+      "damsire": "サクラユタカオー",
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "首短",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_8076",
+              "raceDate": "2013-04-21",
+              "raceName": "フローラS",
+              "phrase": "スイートピーＳを制したダイワズームと同じ父を持ち、胴長で首の短い体形など類似点も多い。"
+            }
+          ]
+        },
+        {
+          "tag": "胴長",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_8076",
+              "raceDate": "2013-04-21",
+              "raceName": "フローラS",
+              "phrase": "スイートピーＳを制したダイワズームと同じ父を持ち、胴長で首の短い体形など類似点も多い。"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "horse_2024",
       "key": "トウシンモンステラ|2010|キングカメハメハ|ピンクパピヨン",
       "name": "トウシンモンステラ",
@@ -103311,6 +103567,17 @@
       "sire": "ディープインパクト",
       "dam": "アドマイヤキラメキ",
       "damsire": "エンドスウィープ",
+      "notes": ""
+    },
+    {
+      "id": "horse_2709",
+      "key": "トーセンソレイユ|2010|ネオユニヴァース|ウインドインハーヘア",
+      "name": "トーセンソレイユ",
+      "birthYear": 2010,
+      "sex": "牝",
+      "sire": "ネオユニヴァース",
+      "dam": "ウインドインハーヘア",
+      "damsire": "アルザオ",
       "notes": ""
     },
     {
@@ -103454,7 +103721,23 @@
       "sire": "ダイワメジャー",
       "dam": "ゴールデンジャック",
       "damsire": "アフリート",
-      "notes": ""
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "胴長",
+          "category": "体型",
+          "confidence": "suggested",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_8149",
+              "raceDate": "2013-03-02",
+              "raceName": "チューリップ賞",
+              "phrase": "少し胴が伸びたようにも思え、牝馬らしくスカッとした体形になってきた。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "horse_2075",
@@ -103594,6 +103877,17 @@
       "notes": ""
     },
     {
+      "id": "horse_2722",
+      "key": "ヘミングウェイ|2010|ネオユニヴァース|シェルシーカー",
+      "name": "ヘミングウェイ",
+      "birthYear": 2010,
+      "sex": "牡",
+      "sire": "ネオユニヴァース",
+      "dam": "シェルシーカー",
+      "damsire": "マキアヴェリアン",
+      "notes": ""
+    },
+    {
       "id": "horse_2682",
       "key": "ベリートゥベリー|2010|イーグルカフェ|ビサイド",
       "name": "ベリートゥベリー",
@@ -103662,7 +103956,23 @@
       "sire": "スズカフェニックス",
       "dam": "テンザンローズ",
       "damsire": "フレンチデピュティ",
-      "notes": ""
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "低重心",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_8125",
+              "raceDate": "2013-03-17",
+              "raceName": "スプリングS",
+              "phrase": "ただ、こちらの方が骨太で重心も低く見せている。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "horse_1908",
@@ -103766,6 +104076,17 @@
       ]
     },
     {
+      "id": "horse_2713",
+      "key": "マンボネフュー|2010|バゴ|セカンドハピネス",
+      "name": "マンボネフュー",
+      "birthYear": 2010,
+      "sex": "牡",
+      "sire": "バゴ",
+      "dam": "セカンドハピネス",
+      "damsire": "ストームキャット",
+      "notes": ""
+    },
+    {
       "id": "horse_2675",
       "key": "ミエノワンダー|2010|グラスワンダー|トリプレックス",
       "name": "ミエノワンダー",
@@ -103785,6 +104106,17 @@
       "sire": "キングカメハメハ",
       "dam": "コイウタ",
       "damsire": "フジキセキ",
+      "notes": ""
+    },
+    {
+      "id": "horse_2707",
+      "key": "ミヤジタイガ|2010|ネオユニヴァース|フローレンスガール",
+      "name": "ミヤジタイガ",
+      "birthYear": 2010,
+      "sex": "牡",
+      "sire": "ネオユニヴァース",
+      "dam": "フローレンスガール",
+      "damsire": "エルコレドール",
       "notes": ""
     },
     {
@@ -103817,7 +104149,7 @@
           "evidence": [
             {
               "photoId": "photo_8034",
-              "raceDate": "2013-05-12",
+              "raceDate": "2013-05-19",
               "raceName": "オークス",
               "phrase": "蹄底は浅そうだが繋ぎは立ち気味で道悪もＯＫ。"
             }
@@ -104120,6 +104452,33 @@
       ]
     },
     {
+      "id": "horse_2702",
+      "key": "ラストグルーヴ|2010|ディープインパクト|エアグルーヴ",
+      "name": "ラストグルーヴ",
+      "birthYear": 2010,
+      "sex": "牝",
+      "sire": "ディープインパクト",
+      "dam": "エアグルーヴ",
+      "damsire": "トニービン",
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "首長",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_8072",
+              "raceDate": "2013-04-21",
+              "raceName": "フローラS",
+              "phrase": "首の角度や長さ、詰まり気味の胴からマイラー系の横姿だが、肘離れが良く、そこから非凡な回転力が生まれる。"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "horse_2046",
       "key": "ラブリーデイ|2010|キングカメハメハ|ポップコーンジャズ",
       "name": "ラブリーデイ",
@@ -104172,7 +104531,7 @@
             },
             {
               "photoId": "photo_7906",
-              "raceDate": "2013-07-28",
+              "raceDate": "2013-08-04",
               "raceName": "小倉記念",
               "phrase": "胴が伸びて、キ甲が抜けて首の位置が低くなっている。"
             }
@@ -104351,6 +104710,17 @@
       ]
     },
     {
+      "id": "horse_2708",
+      "key": "レッドルーラー|2010|キングカメハメハ|ガゼルロワイヤル",
+      "name": "レッドルーラー",
+      "birthYear": 2010,
+      "sex": "牡",
+      "sire": "キングカメハメハ",
+      "dam": "ガゼルロワイヤル",
+      "damsire": "ガルドロワイヤル",
+      "notes": ""
+    },
+    {
       "id": "horse_2544",
       "key": "レッドレイヴン|2010|スマートストライク|ワンダーアゲイン",
       "name": "レッドレイヴン",
@@ -104403,7 +104773,23 @@
       "sire": "ウォーエンブレム",
       "dam": "プチノワール",
       "damsire": "シングスピール",
-      "notes": ""
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "胴長",
+          "category": "体型",
+          "confidence": "suggested",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_8151",
+              "raceDate": "2013-03-02",
+              "raceName": "チューリップ賞",
+              "phrase": "若干、胴が伸びた印象で、筋肉質のムキムキとした馬体は男勝りの迫力。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "horse_1956",
@@ -104414,7 +104800,23 @@
       "sire": "ローエングリン",
       "dam": "ステレオタイプ",
       "damsire": "サンデーサイレンス",
-      "notes": ""
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "胴長",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_8124",
+              "raceDate": "2013-03-17",
+              "raceName": "スプリングS",
+              "phrase": "胴長の体形からは距離延長は問題なさそう。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "horse_2002",
@@ -104507,6 +104909,17 @@
       "sire": "キングカメハメハ",
       "dam": "ジェイズミラクル",
       "damsire": "フジキセキ",
+      "notes": ""
+    },
+    {
+      "id": "horse_2719",
+      "key": "アラフネ|2009|クロフネ|サイレンスマンボウ",
+      "name": "アラフネ",
+      "birthYear": 2009,
+      "sex": "牝",
+      "sire": "クロフネ",
+      "dam": "サイレンスマンボウ",
+      "damsire": "サンデーサイレンス",
       "notes": ""
     },
     {
@@ -104756,6 +105169,17 @@
       "notes": ""
     },
     {
+      "id": "horse_2718",
+      "key": "オメガハートランド|2009|アグネスタキオン|オメガアイランド",
+      "name": "オメガハートランド",
+      "birthYear": 2009,
+      "sex": "牝",
+      "sire": "アグネスタキオン",
+      "dam": "オメガアイランド",
+      "damsire": "エルコンドルパサー",
+      "notes": ""
+    },
+    {
       "id": "horse_2187",
       "key": "オリービン|2009|ダイワメジャー|シャンクシー",
       "name": "オリービン",
@@ -104776,6 +105200,17 @@
       "sire": "ケイムホーム",
       "dam": "ロマンスプレゼント",
       "damsire": "ティンバーカントリー",
+      "notes": ""
+    },
+    {
+      "id": "horse_2700",
+      "key": "カポーティスター|2009|ハーツクライ|サビアーレ",
+      "name": "カポーティスター",
+      "birthYear": 2009,
+      "sex": "牡",
+      "sire": "ハーツクライ",
+      "dam": "サビアーレ",
+      "damsire": "カポウティ",
       "notes": ""
     },
     {
@@ -104819,7 +105254,7 @@
           "evidence": [
             {
               "photoId": "photo_7923",
-              "raceDate": "2013-08-04",
+              "raceDate": "2013-07-28",
               "raceName": "クイーンステークス",
               "phrase": "以前より胸前が深く感じられ、それが前走の重心が低い走りにつながったよう。"
             }
@@ -104833,7 +105268,7 @@
           "evidence": [
             {
               "photoId": "photo_7923",
-              "raceDate": "2013-08-04",
+              "raceDate": "2013-07-28",
               "raceName": "クイーンステークス",
               "phrase": "以前より胸前が深く感じられ、それが前走の重心が低い走りにつながったよう。"
             }
@@ -105243,7 +105678,7 @@
           "evidence": [
             {
               "photoId": "photo_7902",
-              "raceDate": "2013-08-04",
+              "raceDate": "2013-08-11",
               "raceName": "関屋記念",
               "phrase": "その分、胴長の体形にしてはドッシリ感がある。"
             }
@@ -105836,6 +106271,17 @@
       "notes": ""
     },
     {
+      "id": "horse_2714",
+      "key": "ベールドインパクト|2009|ディープインパクト|ヴァイオレットラブ",
+      "name": "ベールドインパクト",
+      "birthYear": 2009,
+      "sex": "牡",
+      "sire": "ディープインパクト",
+      "dam": "ヴァイオレットラブ",
+      "damsire": "ドクターデヴィアス",
+      "notes": ""
+    },
+    {
       "id": "horse_2272",
       "key": "ホーカーテンペスト|2009|ホークウイング|リッチダンサー",
       "name": "ホーカーテンペスト",
@@ -106352,7 +106798,23 @@
       "sire": "タニノギムレット",
       "dam": "ダイヤモンドピサ",
       "damsire": "サンデーサイレンス",
-      "notes": ""
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "低重心",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_8135",
+              "raceDate": "2013-03-10",
+              "raceName": "中山牝馬S",
+              "phrase": "その分、重心の低い横姿に。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "horse_2431",
@@ -106744,7 +107206,7 @@
           "evidence": [
             {
               "photoId": "photo_7952",
-              "raceDate": "2013-06-30",
+              "raceDate": "2013-07-07",
               "raceName": "七夕賞",
               "phrase": "胴も長目の体形とあって、良馬場の芝・中距離戦が最適の条件だろう。"
             }
@@ -106870,8 +107332,8 @@
           "evidence": [
             {
               "photoId": "photo_7984",
-              "raceDate": "2013-06-02",
-              "raceName": "函館スプリント",
+              "raceDate": "2013-06-16",
+              "raceName": "函館スプリントS",
               "phrase": "背中が詰まって、重心が低いスプリンターらしい体形。"
             }
           ]
@@ -106985,7 +107447,7 @@
           "evidence": [
             {
               "photoId": "photo_8012",
-              "raceDate": "2013-05-26",
+              "raceDate": "2013-06-02",
               "raceName": "安田記念",
               "phrase": "全体に肉づきが良くなり、そのせいか重心を低く見せるようになってきた。"
             }
@@ -107073,7 +107535,7 @@
             },
             {
               "photoId": "photo_7977",
-              "raceDate": "2013-06-16",
+              "raceDate": "2013-06-23",
               "raceName": "宝塚記念",
               "phrase": "前々走時との比較になるが、今回の方が重心が低く、立ち姿が力強い。"
             }
@@ -107099,7 +107561,7 @@
             },
             {
               "photoId": "photo_7977",
-              "raceDate": "2013-06-16",
+              "raceDate": "2013-06-23",
               "raceName": "宝塚記念",
               "phrase": "胴長の体形で、ひ腹が上がり気味に映ることもある馬だが、実が詰まって今はしっかりとしている。"
             }
@@ -107439,7 +107901,23 @@
       "sire": "マヤノトップガン",
       "dam": "シェリール",
       "damsire": "サンデーサイレンス",
-      "notes": ""
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "繋ぎ立ち",
+          "category": "骨格",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_8062",
+              "raceDate": "2013-04-28",
+              "raceName": "天皇賞・春",
+              "phrase": "繋ぎは立ち気味だが、腹線が随分締まってきており、長距離適性はある。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "horse_2426",
@@ -107608,7 +108086,7 @@
           "evidence": [
             {
               "photoId": "photo_7954",
-              "raceDate": "2013-06-30",
+              "raceDate": "2013-07-07",
               "raceName": "プロキオンS",
               "phrase": "どちらも繋ぎは立ち気味だが、この馬は少し短い分、ダート適性が高いのかも。"
             }
@@ -107714,6 +108192,33 @@
       "dam": "パフェ",
       "damsire": "キングマンボ",
       "notes": ""
+    },
+    {
+      "id": "horse_2717",
+      "key": "スマートシルエット|2007|ファルブラヴ|ミズストライクゾーン",
+      "name": "スマートシルエット",
+      "birthYear": 2007,
+      "sex": "牝",
+      "sire": "ファルブラヴ",
+      "dam": "ミズストライクゾーン",
+      "damsire": "デピュティミニスター",
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "胴長",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_8137",
+              "raceDate": "2013-03-10",
+              "raceName": "中山牝馬S",
+              "phrase": "胴長のゆったりとした体形。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "horse_2573",
@@ -107974,7 +108479,7 @@
           "evidence": [
             {
               "photoId": "photo_7900",
-              "raceDate": "2013-08-04",
+              "raceDate": "2013-08-11",
               "raceName": "関屋記念",
               "phrase": "四肢が長い分、体高があって、骨量は豊富だが贅肉のつかないタイプ。"
             }
@@ -108005,6 +108510,17 @@
       "notes": ""
     },
     {
+      "id": "horse_2715",
+      "key": "マカニビスティー|2007|ゼンノロブロイ|サクセスウイッチ",
+      "name": "マカニビスティー",
+      "birthYear": 2007,
+      "sex": "牡",
+      "sire": "ゼンノロブロイ",
+      "dam": "サクセスウイッチ",
+      "damsire": "ブライアンズタイム",
+      "notes": ""
+    },
+    {
       "id": "horse_2578",
       "key": "マジンプロスパー|2007|アドマイヤコジーン|ハリウッドドリーム",
       "name": "マジンプロスパー",
@@ -108023,7 +108539,7 @@
           "evidence": [
             {
               "photoId": "photo_7959",
-              "raceDate": "2013-06-23",
+              "raceDate": "2013-06-30",
               "raceName": "CBC賞",
               "phrase": "繋ぎも立ち気味とあり、渋った馬場は上手そう。"
             }
@@ -108070,6 +108586,17 @@
       "notes": ""
     },
     {
+      "id": "horse_2701",
+      "key": "メイショウカンパク|2007|グラスワンダー|ダンシングハピネス",
+      "name": "メイショウカンパク",
+      "birthYear": 2007,
+      "sex": "牡",
+      "sire": "グラスワンダー",
+      "dam": "ダンシングハピネス",
+      "damsire": "ダンスインザダーク",
+      "notes": ""
+    },
+    {
       "id": "horse_2660",
       "key": "リルダヴァル|2007|アグネスタキオン|ヴェイルオブアヴァロン",
       "name": "リルダヴァル",
@@ -108088,7 +108615,7 @@
           "evidence": [
             {
               "photoId": "photo_7991",
-              "raceDate": "2013-06-02",
+              "raceDate": "2013-06-09",
               "raceName": "エプソムC",
               "phrase": "前後のバランスがいいし、直飛で姿勢に硬さがない。"
             }
@@ -108181,7 +108708,7 @@
           "evidence": [
             {
               "photoId": "photo_7956",
-              "raceDate": "2013-06-30",
+              "raceDate": "2013-07-07",
               "raceName": "プロキオンS",
               "phrase": "やや胴詰まりながら、骨格がしっかりした馬で、四肢が力強い。"
             }
@@ -108228,13 +108755,24 @@
           "evidence": [
             {
               "photoId": "photo_7957",
-              "raceDate": "2013-06-30",
+              "raceDate": "2013-07-07",
               "raceName": "プロキオンS",
               "phrase": "1200～1400ｍを最も得意としている馬だが、意外に胴は長目。"
             }
           ]
         }
       ]
+    },
+    {
+      "id": "horse_2725",
+      "key": "タッチミーノット|2006|ダンスインザダーク|タッチフォーゴールド",
+      "name": "タッチミーノット",
+      "birthYear": 2006,
+      "sex": "牡",
+      "sire": "ダンスインザダーク",
+      "dam": "タッチフォーゴールド",
+      "damsire": "ミスタープロスペクター",
+      "notes": ""
     },
     {
       "id": "horse_2345",
@@ -108255,7 +108793,7 @@
           "evidence": [
             {
               "photoId": "photo_7953",
-              "raceDate": "2013-06-30",
+              "raceDate": "2013-07-07",
               "raceName": "プロキオンS",
               "phrase": "胴長のゆったりとした体形。"
             }
@@ -108305,6 +108843,28 @@
       "sire": "スペシャルウィーク",
       "dam": "プレシャスラバー",
       "damsire": "ペンタイア",
+      "notes": ""
+    },
+    {
+      "id": "horse_2711",
+      "key": "フィフスペトル|2006|キングカメハメハ|ライラックレーン",
+      "name": "フィフスペトル",
+      "birthYear": 2006,
+      "sex": "牡",
+      "sire": "キングカメハメハ",
+      "dam": "ライラックレーン",
+      "damsire": "バーリ",
+      "notes": ""
+    },
+    {
+      "id": "horse_2716",
+      "key": "フォゲッタブル|2006|ダンスインザダーク|エアグルーヴ",
+      "name": "フォゲッタブル",
+      "birthYear": 2006,
+      "sex": "牡",
+      "sire": "ダンスインザダーク",
+      "dam": "エアグルーヴ",
+      "damsire": "トニービン",
       "notes": ""
     },
     {
@@ -108364,6 +108924,17 @@
       "notes": ""
     },
     {
+      "id": "horse_2724",
+      "key": "オセアニアボス|2005|レッドランサム|タッチドバイゴッド",
+      "name": "オセアニアボス",
+      "birthYear": 2005,
+      "sex": "牡",
+      "sire": "レッドランサム",
+      "dam": "タッチドバイゴッド",
+      "damsire": "サンデーサイレンス",
+      "notes": ""
+    },
+    {
       "id": "horse_2416",
       "key": "カワキタフウジン|2005|マーベラスサンデー|オースミサツキ",
       "name": "カワキタフウジン",
@@ -108383,7 +108954,23 @@
       "sire": "ホワイトマズル",
       "dam": "スペランツァ",
       "damsire": "サンデーサイレンス",
-      "notes": ""
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "繋ぎ立ち",
+          "category": "骨格",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_8171",
+              "raceDate": "2013-02-24",
+              "raceName": "中山記念",
+              "phrase": "いかにもパワーがありそうだし、繋も立ち気味。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "horse_2654",
@@ -108395,6 +108982,55 @@
       "dam": "タガノピアース",
       "damsire": "ダンスインザダーク",
       "notes": ""
+    },
+    {
+      "id": "horse_2697",
+      "key": "ジャガーメイル|2004|ジャングルポケット|ハヤベニコマチ",
+      "name": "ジャガーメイル",
+      "birthYear": 2004,
+      "sex": "牡",
+      "sire": "ジャングルポケット",
+      "dam": "ハヤベニコマチ",
+      "damsire": "サンデーサイレンス",
+      "notes": ""
+    },
+    {
+      "id": "horse_2699",
+      "key": "マイネルキッツ|2003|チーフベアハート|タカラカンナ",
+      "name": "マイネルキッツ",
+      "birthYear": 2003,
+      "sex": "牡",
+      "sire": "チーフベアハート",
+      "dam": "タカラカンナ",
+      "damsire": "サッカーボーイ",
+      "notes": ""
+    },
+    {
+      "id": "horse_2698",
+      "key": "トウカイトリック|2002|エルコンドルパサー|ズーナクア",
+      "name": "トウカイトリック",
+      "birthYear": 2002,
+      "sex": "牡",
+      "sire": "エルコンドルパサー",
+      "dam": "ズーナクア",
+      "damsire": "シルヴァーホーク",
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "胴長",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_8058",
+              "raceDate": "2013-04-28",
+              "raceName": "天皇賞・春",
+              "phrase": "胴長のゆったりとした体形で、いかにも長丁場が合っていそうなタイプ。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "horse_2333",
@@ -269112,9 +269748,2468 @@
       "raceKey": "2013:NHKマイルカップ",
       "raceDate": "2013-05-05",
       "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8056",
+      "key": "horse_2243|keibabook|130430|http://old.keibado.ne.jp/keibabook/130430/images/pp02.jpg",
+      "horseId": "horse_2243",
+      "source": "keibabook",
+      "sourceId": "130430",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130430/photo02.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130430/images/pp02.jpg",
+      "localImagePath": "images/keibabook/130430/フェノーメノ-2.jpg",
+      "caption": "2013-04-28 天皇賞・春",
+      "raceName": "天皇賞・春",
+      "photoDate": "2013-04-28",
+      "issueDate": "2013-04-30",
+      "sourceOrder": 2,
+      "comment": "後肢の張りが昨秋とは見違えるほど良くなり、全体的にもフックラと見せるようになってきた。まさに実が入ってきたということだろう。撮影の翌日には猛調教を消化。ピークと言える状態。",
+      "publishedDate": "2013-04-17",
+      "raceKey": "2013:天皇賞・春",
+      "raceDate": "2013-04-28",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8061",
+      "key": "horse_2294|keibabook|130430|http://old.keibado.ne.jp/keibabook/130430/images/pp07.jpg",
+      "horseId": "horse_2294",
+      "source": "keibabook",
+      "sourceId": "130430",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130430/photo07.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130430/images/pp07.jpg",
+      "localImagePath": "images/keibabook/130430/デスペラード-7.jpg",
+      "caption": "2013-04-28 天皇賞・春",
+      "raceName": "天皇賞・春",
+      "photoDate": "2013-04-28",
+      "issueDate": "2013-04-30",
+      "sourceOrder": 7,
+      "comment": "ひと息入っていた分、前走はいくらか立派に映ったが、叩かれたことで無駄肉が削ぎ落とされ、いい感じに引き締まってきた。それでいながら張りの良さは相変わらず。文句ないデキ。",
+      "publishedDate": "2013-04-17",
+      "raceKey": "2013:天皇賞・春",
+      "raceDate": "2013-04-28",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8063",
+      "key": "horse_2352|keibabook|130430|http://old.keibado.ne.jp/keibabook/130430/images/pp09.jpg",
+      "horseId": "horse_2352",
+      "source": "keibabook",
+      "sourceId": "130430",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130430/photo09.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130430/images/pp09.jpg",
+      "localImagePath": "images/keibabook/130430/トーセンラー-9.jpg",
+      "caption": "2013-04-28 天皇賞・春",
+      "raceName": "天皇賞・春",
+      "photoDate": "2013-04-28",
+      "issueDate": "2013-04-30",
+      "sourceOrder": 9,
+      "comment": "前走完勝。確かに仕上がっていたが、馬体はひと回り大きくなっている。前後のバランスが良く、落ち着きもあって、心身ともに充実。肩の筋肉の盛り上がりが目下の好調を物語る。",
+      "publishedDate": "2013-04-17",
+      "raceKey": "2013:天皇賞・春",
+      "raceDate": "2013-04-28",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8060",
+      "key": "horse_2372|keibabook|130430|http://old.keibado.ne.jp/keibabook/130430/images/pp06.jpg",
+      "horseId": "horse_2372",
+      "source": "keibabook",
+      "sourceId": "130430",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130430/photo06.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130430/images/pp06.jpg",
+      "localImagePath": "images/keibabook/130430/アドマイヤラクティ-6.jpg",
+      "caption": "2013-04-28 天皇賞・春",
+      "raceName": "天皇賞・春",
+      "photoDate": "2013-04-28",
+      "issueDate": "2013-04-30",
+      "sourceOrder": 6,
+      "comment": "今年初めの厳冬期より随分スッキリした。それだけ体脂肪が落ちて更に研ぎ澄まされている。歩様もひと頃よりいいし、稽古の動きも切れ十分。肩や肘が柔軟で繋ぎの長さや角度も理想的。",
+      "publishedDate": "2013-04-17",
+      "raceKey": "2013:天皇賞・春",
+      "raceDate": "2013-04-28",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8062",
+      "key": "horse_2449|keibabook|130430|http://old.keibado.ne.jp/keibabook/130430/images/pp08.jpg",
+      "horseId": "horse_2449",
+      "source": "keibabook",
+      "sourceId": "130430",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130430/photo08.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130430/images/pp08.jpg",
+      "localImagePath": "images/keibabook/130430/ムスカテール-8.jpg",
+      "caption": "2013-04-28 天皇賞・春",
+      "raceName": "天皇賞・春",
+      "photoDate": "2013-04-28",
+      "issueDate": "2013-04-30",
+      "sourceOrder": 8,
+      "comment": "ゆったりした胴で、飛節にバネを感じる。繋ぎは立ち気味だが、腹線が随分締まってきており、長距離適性はある。久々を叩いて中身も違ってくるはず。体調は極めて良く、内にモタれねば。",
+      "publishedDate": "2013-04-17",
+      "raceKey": "2013:天皇賞・春",
+      "raceDate": "2013-04-28",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8055",
+      "key": "horse_2551|keibabook|130430|http://old.keibado.ne.jp/keibabook/130430/images/pp01.jpg",
+      "horseId": "horse_2551",
+      "source": "keibabook",
+      "sourceId": "130430",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130430/photo01.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130430/images/pp01.jpg",
+      "localImagePath": "images/keibabook/130430/ゴールドシップ-1.jpg",
+      "caption": "2013-04-28 天皇賞・春",
+      "raceName": "天皇賞・春",
+      "photoDate": "2013-04-28",
+      "issueDate": "2013-04-30",
+      "sourceOrder": 1,
+      "comment": "ひと叩きされたが、いい意味で変わりのない馬体。フックラとした腹構えを維持しているが、芦毛の割には輪郭がクッキリしており、まったく緩みがない。順調そのものと言える。",
+      "publishedDate": "2013-04-17",
+      "raceKey": "2013:天皇賞・春",
+      "raceDate": "2013-04-28",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8057",
+      "key": "horse_2697|keibabook|130430|http://old.keibado.ne.jp/keibabook/130430/images/pp03.jpg",
+      "horseId": "horse_2697",
+      "source": "keibabook",
+      "sourceId": "130430",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130430/photo03.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130430/images/pp03.jpg",
+      "localImagePath": "images/keibabook/130430/ジャガーメイル-3.jpg",
+      "caption": "2013-04-28 天皇賞・春",
+      "raceName": "天皇賞・春",
+      "photoDate": "2013-04-28",
+      "issueDate": "2013-04-30",
+      "sourceOrder": 3,
+      "comment": "天皇賞を制した３年前に比べるとさすがに張りは物足りないが、その分、中身が凝縮されたような引き締まった馬体になった。年齢なりの活気は十分に感じさせ、ほぼ万全と言える状態。",
+      "publishedDate": "2013-04-17",
+      "raceKey": "2013:天皇賞・春",
+      "raceDate": "2013-04-28",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8058",
+      "key": "horse_2698|keibabook|130430|http://old.keibado.ne.jp/keibabook/130430/images/pp04.jpg",
+      "horseId": "horse_2698",
+      "source": "keibabook",
+      "sourceId": "130430",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130430/photo04.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130430/images/pp04.jpg",
+      "localImagePath": "images/keibabook/130430/トウカイトリック-4.jpg",
+      "caption": "2013-04-28 天皇賞・春",
+      "raceName": "天皇賞・春",
+      "photoDate": "2013-04-28",
+      "issueDate": "2013-04-30",
+      "sourceOrder": 4,
+      "comment": "超高齢馬とあり、さすがに大きく変わってきた様子はないが、前回に比べると少し皮膚は薄くなってきた印象。胴長のゆったりとした体形で、いかにも長丁場が合っていそうなタイプ。",
+      "publishedDate": "2013-04-17",
+      "raceKey": "2013:天皇賞・春",
+      "raceDate": "2013-04-28",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8059",
+      "key": "horse_2699|keibabook|130430|http://old.keibado.ne.jp/keibabook/130430/images/pp05.jpg",
+      "horseId": "horse_2699",
+      "source": "keibabook",
+      "sourceId": "130430",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130430/photo05.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130430/images/pp05.jpg",
+      "localImagePath": "images/keibabook/130430/マイネルキッツ-5.jpg",
+      "caption": "2013-04-28 天皇賞・春",
+      "raceName": "天皇賞・春",
+      "photoDate": "2013-04-28",
+      "issueDate": "2013-04-30",
+      "sourceOrder": 5,
+      "comment": "うっすらとアバラを見せて、無駄のない引き締まった馬体にはなってきた。ただ、ひと頃に比べると張りは少し物足りない感じ。年齢的なものを加味すればこんなものかもしれないが……。",
+      "publishedDate": "2013-04-17",
+      "raceKey": "2013:天皇賞・春",
+      "raceDate": "2013-04-28",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8064",
+      "key": "horse_2700|keibabook|130430|http://old.keibado.ne.jp/keibabook/130430/images/pp10.jpg",
+      "horseId": "horse_2700",
+      "source": "keibabook",
+      "sourceId": "130430",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130430/photo10.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130430/images/pp10.jpg",
+      "localImagePath": "images/keibabook/130430/カポーティスター-10.jpg",
+      "caption": "2013-04-28 天皇賞・春",
+      "raceName": "天皇賞・春",
+      "photoDate": "2013-04-28",
+      "issueDate": "2013-04-30",
+      "sourceOrder": 10,
+      "comment": "体質も精神面でも強く、多少の強行軍や長距離輸送も平気。逞しい流線形のいつもの横姿である。腰回りも徐々に強化され、黒光りする左後一白の体はいかにも潜在能力が高そうで、好調維持。",
+      "publishedDate": "2013-04-17",
+      "raceKey": "2013:天皇賞・春",
+      "raceDate": "2013-04-28",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8065",
+      "key": "horse_2701|keibabook|130430|http://old.keibado.ne.jp/keibabook/130430/images/pp11.jpg",
+      "horseId": "horse_2701",
+      "source": "keibabook",
+      "sourceId": "130430",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130430/photo11.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130430/images/pp11.jpg",
+      "localImagePath": "images/keibabook/130430/メイショウカンパク-11.jpg",
+      "caption": "2013-04-28 天皇賞・春",
+      "raceName": "天皇賞・春",
+      "photoDate": "2013-04-28",
+      "issueDate": "2013-04-30",
+      "sourceOrder": 11,
+      "comment": "腹構えにはいくらか余裕があるが、20キロ増えていた前々走時に比べると、全体的には引き締まって映る。動きもひと頃の重苦しさは完全に解消。暖かくなるにつれて、調子は上向き。",
+      "publishedDate": "2013-04-17",
+      "raceKey": "2013:天皇賞・春",
+      "raceDate": "2013-04-28",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8067",
+      "key": "horse_1958|keibabook|130422|http://old.keibado.ne.jp/keibabook/130422/images/pp02.jpg",
+      "horseId": "horse_1958",
+      "source": "keibabook",
+      "sourceId": "130422",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130422/photo02.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130422/images/pp02.jpg",
+      "localImagePath": "images/keibabook/130422/クラレント-2.jpg",
+      "caption": "2013-04-21 マイラーズC",
+      "raceName": "マイラーズC",
+      "photoDate": "2013-04-21",
+      "issueDate": "2013-04-22",
+      "sourceOrder": 2,
+      "comment": "ひと息入ったが、緩みなくキッチリと仕上がった馬体。皮膚が薄く、はち切れんばかりの張りの良さである。当欄登場は久しぶりだが、古馬らしい完成された体つきになってきた。",
+      "publishedDate": "2013-04-10",
+      "raceKey": "2013:マイラーズC",
+      "raceDate": "2013-04-21",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8070",
+      "key": "horse_2037|keibabook|130422|http://old.keibado.ne.jp/keibabook/130422/images/pp05.jpg",
+      "horseId": "horse_2037",
+      "source": "keibabook",
+      "sourceId": "130422",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130422/photo05.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130422/images/pp05.jpg",
+      "localImagePath": "images/keibabook/130422/ダノンシャーク-5.jpg",
+      "caption": "2013-04-21 マイラーズC",
+      "raceName": "マイラーズC",
+      "photoDate": "2013-04-21",
+      "issueDate": "2013-04-22",
+      "sourceOrder": 5,
+      "comment": "丸み十分のプリプリとした馬体で、一段とボリュームアップ。気候の違いもあるが、毛ヅヤの良さも前走時を上回る。まとまった筋肉質の馬体は、いかにもマイラーといった感。好気配。",
+      "publishedDate": "2013-04-10",
+      "raceKey": "2013:マイラーズC",
+      "raceDate": "2013-04-21",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8066",
+      "key": "horse_2224|keibabook|130422|http://old.keibado.ne.jp/keibabook/130422/images/pp01.jpg",
+      "horseId": "horse_2224",
+      "source": "keibabook",
+      "sourceId": "130422",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130422/photo01.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130422/images/pp01.jpg",
+      "localImagePath": "images/keibabook/130422/カレンブラックヒル-1.jpg",
+      "caption": "2013-04-21 マイラーズC",
+      "raceName": "マイラーズC",
+      "photoDate": "2013-04-21",
+      "issueDate": "2013-04-22",
+      "sourceOrder": 1,
+      "comment": "前回よりも腹構えに厚みが増し、胸前や臀部も筋肉の盛り上がりが凄い。古馬らしい貫禄が備わってきており、仕上がりはなかなか良さそう。長目で柔軟な繋とあり、やはり芝向きか。",
+      "publishedDate": "2013-04-10",
+      "raceKey": "2013:マイラーズC",
+      "raceDate": "2013-04-21",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8073",
+      "key": "horse_2236|keibabook|130422|http://old.keibado.ne.jp/keibabook/130422/images/pp08.jpg",
+      "horseId": "horse_2236",
+      "source": "keibabook",
+      "sourceId": "130422",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130422/photo08.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130422/images/pp08.jpg",
+      "localImagePath": "images/keibabook/130422/スイートサルサ-8.jpg",
+      "caption": "2013-04-21 フローラS",
+      "raceName": "フローラS",
+      "photoDate": "2013-04-21",
+      "issueDate": "2013-04-22",
+      "sourceOrder": 8,
+      "comment": "ひと息入ったせいか、全体に肉づきが良くなり、かなり逞しさを感じさせるようになった。まだ毛ヅヤはパッとしないが、直前の１本でそのあたりは変わりそう。雰囲気はウンと良くなった。",
+      "publishedDate": "2013-04-10",
+      "raceKey": "2013:フローラS",
+      "raceDate": "2013-04-21",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8069",
+      "key": "horse_2303|keibabook|130422|http://old.keibado.ne.jp/keibabook/130422/images/pp04.jpg",
+      "horseId": "horse_2303",
+      "source": "keibabook",
+      "sourceId": "130422",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130422/photo04.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130422/images/pp04.jpg",
+      "localImagePath": "images/keibabook/130422/グランプリボス-4.jpg",
+      "caption": "2013-04-21 マイラーズC",
+      "raceName": "マイラーズC",
+      "photoDate": "2013-04-21",
+      "issueDate": "2013-04-22",
+      "sourceOrder": 4,
+      "comment": "海外帰りといっても十分間隔を開けている。少し背が伸びたようで、今までで一番好バランスの横姿。昨年秋より毛ヅヤがいいし、力の篭った前躯や筋肉の張りは文句なし。いきなり走るか。",
+      "publishedDate": "2013-04-10",
+      "raceKey": "2013:マイラーズC",
+      "raceDate": "2013-04-21",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8074",
+      "key": "horse_2395|keibabook|130422|http://old.keibado.ne.jp/keibabook/130422/images/pp09.jpg",
+      "horseId": "horse_2395",
+      "source": "keibabook",
+      "sourceId": "130422",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130422/photo09.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130422/images/pp09.jpg",
+      "localImagePath": "images/keibabook/130422/エバーブロッサム-9.jpg",
+      "caption": "2013-04-21 フローラS",
+      "raceName": "フローラS",
+      "photoDate": "2013-04-21",
+      "issueDate": "2013-04-22",
+      "sourceOrder": 9,
+      "comment": "背中が少し詰まって、胸前と後肢の筋肉をフックラと見せている。まだ全体に幼さは残しているが、輪郭は姉のエイジアンウインズに似ていると言えそう。張りが良く、活気溢れて好気配。",
+      "publishedDate": "2013-04-10",
+      "raceKey": "2013:フローラS",
+      "raceDate": "2013-04-21",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8071",
+      "key": "horse_2445|keibabook|130422|http://old.keibado.ne.jp/keibabook/130422/images/pp06.jpg",
+      "horseId": "horse_2445",
+      "source": "keibabook",
+      "sourceId": "130422",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130422/photo06.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130422/images/pp06.jpg",
+      "localImagePath": "images/keibabook/130422/レインボーダリア-6.jpg",
+      "caption": "2013-04-21 マイラーズC",
+      "raceName": "マイラーズC",
+      "photoDate": "2013-04-21",
+      "issueDate": "2013-04-22",
+      "sourceOrder": 6,
+      "comment": "しっかりとした立ち姿で、かつてはなかった逞しさがある。華奢に映った頃とはまさに別馬だが、今回に関してはいくらか立派過ぎる印象。まだやれそうな活気はあるが、割引は必要か。",
+      "publishedDate": "2013-04-10",
+      "raceKey": "2013:マイラーズC",
+      "raceDate": "2013-04-21",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8077",
+      "key": "horse_2454|keibabook|130422|http://old.keibado.ne.jp/keibabook/130422/images/pp12.jpg",
+      "horseId": "horse_2454",
+      "source": "keibabook",
+      "sourceId": "130422",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130422/photo12.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130422/images/pp12.jpg",
+      "localImagePath": "images/keibabook/130422/セキショウ-12.jpg",
+      "caption": "2013-04-21 フローラS",
+      "raceName": "フローラS",
+      "photoDate": "2013-04-21",
+      "issueDate": "2013-04-22",
+      "sourceOrder": 12,
+      "comment": "体高があって大きく見せるが、腹袋はなく、牝馬らしい線の細さも感じさせている。どちらかと言えば母の影響が強く出ているか。使う毎に逞しさを増して、本格化の雰囲気がある。",
+      "publishedDate": "2013-04-10",
+      "raceKey": "2013:フローラS",
+      "raceDate": "2013-04-21",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8068",
+      "key": "horse_2683|keibabook|130422|http://old.keibado.ne.jp/keibabook/130422/images/pp03.jpg",
+      "horseId": "horse_2683",
+      "source": "keibabook",
+      "sourceId": "130422",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130422/photo03.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130422/images/pp03.jpg",
+      "localImagePath": "images/keibabook/130422/ファイナルフォーム-3.jpg",
+      "caption": "2013-04-21 マイラーズC",
+      "raceName": "マイラーズC",
+      "photoDate": "2013-04-21",
+      "issueDate": "2013-04-22",
+      "sourceOrder": 3,
+      "comment": "太く映るのは体形的なものだろう。毛ヅヤも前走時に比べると冴えないが、写真は１週前追い切り前のもの。この後に２本追って、京都への長距離輸送。一応は及第点の仕上がりか。",
+      "publishedDate": "2013-04-10",
+      "raceKey": "2013:マイラーズC",
+      "raceDate": "2013-04-21",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8072",
+      "key": "horse_2702|keibabook|130422|http://old.keibado.ne.jp/keibabook/130422/images/pp07.jpg",
+      "horseId": "horse_2702",
+      "source": "keibabook",
+      "sourceId": "130422",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130422/photo07.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130422/images/pp07.jpg",
+      "localImagePath": "images/keibabook/130422/ラストグルーヴ-7.jpg",
+      "caption": "2013-04-21 フローラS",
+      "raceName": "フローラS",
+      "photoDate": "2013-04-21",
+      "issueDate": "2013-04-22",
+      "sourceOrder": 7,
+      "comment": "超良血の超高馬。皮膚が薄く、筋肉が非常に柔らかそうだ。首の角度や長さ、詰まり気味の胴からマイラー系の横姿だが、肘離れが良く、そこから非凡な回転力が生まれる。落ち着きも十分。",
+      "publishedDate": "2013-04-10",
+      "raceKey": "2013:フローラS",
+      "raceDate": "2013-04-21",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8075",
+      "key": "horse_2703|keibabook|130422|http://old.keibado.ne.jp/keibabook/130422/images/pp10.jpg",
+      "horseId": "horse_2703",
+      "source": "keibabook",
+      "sourceId": "130422",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130422/photo10.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130422/images/pp10.jpg",
+      "localImagePath": "images/keibabook/130422/イリュミナンス-10.jpg",
+      "caption": "2013-04-21 フローラS",
+      "raceName": "フローラS",
+      "photoDate": "2013-04-21",
+      "issueDate": "2013-04-22",
+      "sourceOrder": 10,
+      "comment": "この父の仔らしく胴がスラリと伸びて、繋ぎが長目。やや集中力を欠き気性面は若いが、肩からキ甲や背から尻・尾根にかけての流れるようなラインは素晴らしい。後肢もバネがありそうだ。",
+      "publishedDate": "2013-04-10",
+      "raceKey": "2013:フローラS",
+      "raceDate": "2013-04-21",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8076",
+      "key": "horse_2704|keibabook|130422|http://old.keibado.ne.jp/keibabook/130422/images/pp11.jpg",
+      "horseId": "horse_2704",
+      "source": "keibabook",
+      "sourceId": "130422",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130422/photo11.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130422/images/pp11.jpg",
+      "localImagePath": "images/keibabook/130422/テンシンランマン-11.jpg",
+      "caption": "2013-04-21 フローラS",
+      "raceName": "フローラS",
+      "photoDate": "2013-04-21",
+      "issueDate": "2013-04-22",
+      "sourceOrder": 11,
+      "comment": "スイートピーＳを制したダイワズームと同じ父を持ち、胴長で首の短い体形など類似点も多い。ひと息入ったとは思えないほど馬体はスッキリ。皮膚も薄くていかにも体調は良さそう。",
+      "publishedDate": "2013-04-10",
+      "raceKey": "2013:フローラS",
+      "raceDate": "2013-04-21",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8085",
+      "key": "horse_1889|keibabook|130415|http://old.keibado.ne.jp/keibabook/130415/images/pp08.jpg",
+      "horseId": "horse_1889",
+      "source": "keibabook",
+      "sourceId": "130415",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130415/photo08.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130415/images/pp08.jpg",
+      "localImagePath": "images/keibabook/130415/フェイムゲーム-8.jpg",
+      "caption": "2013-04-14 皐月賞",
+      "raceName": "皐月賞",
+      "photoDate": "2013-04-14",
+      "issueDate": "2013-04-15",
+      "sourceOrder": 8,
+      "comment": "前回、立派に見せていた体が、今回は僅かでも引き締まって見えるようになった。その分、胸前も後肢も筋肉が目立つようになり、より完成度を増してきた印象。確実に上向いている。",
+      "publishedDate": "2013-04-04",
+      "raceKey": "2013:皐月賞",
+      "raceDate": "2013-04-14",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8088",
+      "key": "horse_1907|keibabook|130415|http://old.keibado.ne.jp/keibabook/130415/images/pp11.jpg",
+      "horseId": "horse_1907",
+      "source": "keibabook",
+      "sourceId": "130415",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130415/photo11.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130415/images/pp11.jpg",
+      "localImagePath": "images/keibabook/130415/タマモベストプレイ-11.jpg",
+      "caption": "2013-04-14 皐月賞",
+      "raceName": "皐月賞",
+      "photoDate": "2013-04-14",
+      "issueDate": "2013-04-15",
+      "sourceOrder": 11,
+      "comment": "前走で長距離輸送を克服したように、経験を積むにつれ落ち着きが出ている。更に毛ヅヤが良くなったし、腹回りも締まって本番モードの仕上がりに。ハードな稽古に耐える強い体質も魅力。",
+      "publishedDate": "2013-04-04",
+      "raceKey": "2013:皐月賞",
+      "raceDate": "2013-04-14",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8079",
+      "key": "horse_1956|keibabook|130415|http://old.keibado.ne.jp/keibabook/130415/images/pp02.jpg",
+      "horseId": "horse_1956",
+      "source": "keibabook",
+      "sourceId": "130415",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130415/photo02.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130415/images/pp02.jpg",
+      "localImagePath": "images/keibabook/130415/ロゴタイプ-2.jpg",
+      "caption": "2013-04-14 皐月賞",
+      "raceName": "皐月賞",
+      "photoDate": "2013-04-14",
+      "issueDate": "2013-04-15",
+      "sourceOrder": 2,
+      "comment": "前走時よりも腰回りはスッキリとして、１回使われた効果はそれなりに窺える。父にあまり似ていないあたり、母系の影響が強く出ているのか。いずれにしてもますます充実してきた。",
+      "publishedDate": "2013-04-04",
+      "raceKey": "2013:皐月賞",
+      "raceDate": "2013-04-14",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8082",
+      "key": "horse_2214|keibabook|130415|http://old.keibado.ne.jp/keibabook/130415/images/pp05.jpg",
+      "horseId": "horse_2214",
+      "source": "keibabook",
+      "sourceId": "130415",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130415/photo05.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130415/images/pp05.jpg",
+      "localImagePath": "images/keibabook/130415/コパノリチャード-5.jpg",
+      "caption": "2013-04-14 皐月賞",
+      "raceName": "皐月賞",
+      "photoDate": "2013-04-14",
+      "issueDate": "2013-04-15",
+      "sourceOrder": 5,
+      "comment": "以前の太目感は完全に解消。お腹のラインもシャープになっている。まとまった筋肉質の馬体。スピードタイプで本質的にはマイラーかもしれないが、体調はとても良さそう。",
+      "publishedDate": "2013-04-03",
+      "raceKey": "2013:皐月賞",
+      "raceDate": "2013-04-14",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8080",
+      "key": "horse_2277|keibabook|130415|http://old.keibado.ne.jp/keibabook/130415/images/pp03.jpg",
+      "horseId": "horse_2277",
+      "source": "keibabook",
+      "sourceId": "130415",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130415/photo03.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130415/images/pp03.jpg",
+      "localImagePath": "images/keibabook/130415/エピファネイア-3.jpg",
+      "caption": "2013-04-14 皐月賞",
+      "raceName": "皐月賞",
+      "photoDate": "2013-04-14",
+      "issueDate": "2013-04-15",
+      "sourceOrder": 3,
+      "comment": "皮膚が薄く、筋肉の線が滑らかで芸術品のよう。今回撮影者が絶賛したのがこの馬。水平首で姿勢に柔軟さがあり、腹斜筋もクッキリ。繋の長さや角度も理想的。叩いて中身も充実。",
+      "publishedDate": "2013-04-03",
+      "raceKey": "2013:皐月賞",
+      "raceDate": "2013-04-14",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8081",
+      "key": "horse_2383|keibabook|130415|http://old.keibado.ne.jp/keibabook/130415/images/pp04.jpg",
+      "horseId": "horse_2383",
+      "source": "keibabook",
+      "sourceId": "130415",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130415/photo04.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130415/images/pp04.jpg",
+      "localImagePath": "images/keibabook/130415/コディーノ-4.jpg",
+      "caption": "2013-04-14 皐月賞",
+      "raceName": "皐月賞",
+      "photoDate": "2013-04-14",
+      "issueDate": "2013-04-15",
+      "sourceOrder": 4,
+      "comment": "ひと叩きされて大きく変わった感じはないが、朝日杯ＦＳ時のように少し細く映るよりは、今回のようにフックラと見せる方がいいタイプか。直前にしっかり追えば態勢は整いそう。",
+      "publishedDate": "2013-04-04",
+      "raceKey": "2013:皐月賞",
+      "raceDate": "2013-04-14",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8083",
+      "key": "horse_2428|keibabook|130415|http://old.keibado.ne.jp/keibabook/130415/images/pp06.jpg",
+      "horseId": "horse_2428",
+      "source": "keibabook",
+      "sourceId": "130415",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130415/photo06.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130415/images/pp06.jpg",
+      "localImagePath": "images/keibabook/130415/メイケイペガスター-6.jpg",
+      "caption": "2013-04-14 皐月賞",
+      "raceName": "皐月賞",
+      "photoDate": "2013-04-14",
+      "issueDate": "2013-04-15",
+      "sourceOrder": 6,
+      "comment": "当欄初登場。見ての通り筋骨隆々でパワフルな横姿である。三角筋も胸筋も尻も盛り上がり、後肢にバネを感じる。坂路中心の調整に切り替え落ち着きが出ている。デキは依然文句ない。",
+      "publishedDate": "2013-04-03",
+      "raceKey": "2013:皐月賞",
+      "raceDate": "2013-04-14",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8078",
+      "key": "horse_2705|keibabook|130415|http://old.keibado.ne.jp/keibabook/130415/images/pp01.jpg",
+      "horseId": "horse_2705",
+      "source": "keibabook",
+      "sourceId": "130415",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130415/photo01.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130415/images/pp01.jpg",
+      "localImagePath": "images/keibabook/130415/カミノタサハラ-1.jpg",
+      "caption": "2013-04-14 皐月賞",
+      "raceName": "皐月賞",
+      "photoDate": "2013-04-14",
+      "issueDate": "2013-04-15",
+      "sourceOrder": 1,
+      "comment": "弥生賞の写真に比べると一目瞭然だが、今回は腹回りをスッキリと見せて、アバラがうっすらと見えるようになった。後肢も筋肉が浮き出るくらいに引き締まり、間違いなく前走以上の馬体。",
+      "publishedDate": "2013-04-04",
+      "raceKey": "2013:皐月賞",
+      "raceDate": "2013-04-14",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8084",
+      "key": "horse_2706|keibabook|130415|http://old.keibado.ne.jp/keibabook/130415/images/pp07.jpg",
+      "horseId": "horse_2706",
+      "source": "keibabook",
+      "sourceId": "130415",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130415/photo07.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130415/images/pp07.jpg",
+      "localImagePath": "images/keibabook/130415/クラウンレガーロ-7.jpg",
+      "caption": "2013-04-14 皐月賞",
+      "raceName": "皐月賞",
+      "photoDate": "2013-04-14",
+      "issueDate": "2013-04-15",
+      "sourceOrder": 7,
+      "comment": "ここにきて首差しが逞しくなり、腹構えにも厚み。牡馬らしい力強さが備わってきた。それでいながら皮膚の薄さは際立っており、体調は文句なし。ただ、蹄底が浅く、道悪は割引かも。",
+      "publishedDate": "2013-04-04",
+      "raceKey": "2013:皐月賞",
+      "raceDate": "2013-04-14",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8086",
+      "key": "horse_2707|keibabook|130415|http://old.keibado.ne.jp/keibabook/130415/images/pp09.jpg",
+      "horseId": "horse_2707",
+      "source": "keibabook",
+      "sourceId": "130415",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130415/photo09.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130415/images/pp09.jpg",
+      "localImagePath": "images/keibabook/130415/ミヤジタイガ-9.jpg",
+      "caption": "2013-04-14 皐月賞",
+      "raceName": "皐月賞",
+      "photoDate": "2013-04-14",
+      "issueDate": "2013-04-15",
+      "sourceOrder": 9,
+      "comment": "手足はスラッとしているが、実が詰まってガッチリとした馬体。とりわけトモの筋肉の発達ぶりが目を引く。パワーを感じさせるだけに、最終週の荒れた馬場は向くかも。",
+      "publishedDate": "2013-04-03",
+      "raceKey": "2013:皐月賞",
+      "raceDate": "2013-04-14",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8087",
+      "key": "horse_2708|keibabook|130415|http://old.keibado.ne.jp/keibabook/130415/images/pp10.jpg",
+      "horseId": "horse_2708",
+      "source": "keibabook",
+      "sourceId": "130415",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130415/photo10.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130415/images/pp10.jpg",
+      "localImagePath": "images/keibabook/130415/レッドルーラー-10.jpg",
+      "caption": "2013-04-14 皐月賞",
+      "raceName": "皐月賞",
+      "photoDate": "2013-04-14",
+      "issueDate": "2013-04-15",
+      "sourceOrder": 10,
+      "comment": "体脂肪率が低そうな筋肉質の馬体。前躯はやや華奢だが、飛節にバネを感じる横姿である。キ甲→背→尻上にかけてのラインも流線型で実にしなやか。この時期の３歳にしては完成度が高い。",
+      "publishedDate": "2013-04-03",
+      "raceKey": "2013:皐月賞",
+      "raceDate": "2013-04-14",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8094",
+      "key": "horse_2038|keibabook|130408|http://old.keibado.ne.jp/keibabook/130408/images/pp06.jpg",
+      "horseId": "horse_2038",
+      "source": "keibabook",
+      "sourceId": "130408",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130408/photo06.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130408/images/pp06.jpg",
+      "localImagePath": "images/keibabook/130408/ウインプリメーラ-6.jpg",
+      "caption": "2013-04-07 桜花賞",
+      "raceName": "桜花賞",
+      "photoDate": "2013-04-07",
+      "issueDate": "2013-04-08",
+      "sourceOrder": 6,
+      "comment": "今年、既に４走目となるが、細化した様子はまったくなし。むしろ前回に比べると腹構えがフックラ、胸前にも厚みが増している。１週前もハードに追われて力強い動き。本当にタフ。",
+      "publishedDate": "2013-03-27",
+      "raceKey": "2013:桜花賞",
+      "raceDate": "2013-04-07",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8089",
+      "key": "horse_2235|keibabook|130408|http://old.keibado.ne.jp/keibabook/130408/images/pp01.jpg",
+      "horseId": "horse_2235",
+      "source": "keibabook",
+      "sourceId": "130408",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130408/photo01.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130408/images/pp01.jpg",
+      "localImagePath": "images/keibabook/130408/メイショウマンボ-1.jpg",
+      "caption": "2013-04-07 桜花賞",
+      "raceName": "桜花賞",
+      "photoDate": "2013-04-07",
+      "issueDate": "2013-04-08",
+      "sourceOrder": 1,
+      "comment": "一戦毎の馬体減で初戦時に比べると22キロも減っているが、細い印象はまったくなし。丸み十分でプリプリとしており、体調は万全と言えそうだ。立ち気味の繋ぎで道悪をこなせるのも強み。",
+      "publishedDate": "2013-03-27",
+      "raceKey": "2013:桜花賞",
+      "raceDate": "2013-04-07",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8098",
+      "key": "horse_2385|keibabook|130408|http://old.keibado.ne.jp/keibabook/130408/images/pp10.jpg",
+      "horseId": "horse_2385",
+      "source": "keibabook",
+      "sourceId": "130408",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130408/photo10.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130408/images/pp10.jpg",
+      "localImagePath": "images/keibabook/130408/アユサン-10.jpg",
+      "caption": "2013-04-07 桜花賞",
+      "raceName": "桜花賞",
+      "photoDate": "2013-04-07",
+      "issueDate": "2013-04-08",
+      "sourceOrder": 10,
+      "comment": "肩甲骨が立ち気味なせいかピッチが速い。胴長でもマイルに対応するのはそのためだろう。腹回りに余裕があった緒戦を叩き、前々走時くらいに引き締まってきた。前走以上の状態。",
+      "publishedDate": "2013-04-08",
+      "raceKey": "2013:桜花賞",
+      "raceDate": "2013-04-07",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8092",
+      "key": "horse_2461|keibabook|130408|http://old.keibado.ne.jp/keibabook/130408/images/pp04.jpg",
+      "horseId": "horse_2461",
+      "source": "keibabook",
+      "sourceId": "130408",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130408/photo04.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130408/images/pp04.jpg",
+      "localImagePath": "images/keibabook/130408/コレクターアイテム-4.jpg",
+      "caption": "2013-04-07 桜花賞",
+      "raceName": "桜花賞",
+      "photoDate": "2013-04-07",
+      "issueDate": "2013-04-08",
+      "sourceOrder": 4,
+      "comment": "血統は違うが、シルエットが同厩の２歳女王と似ている。筋肉量では譲るものの、腹袋はこちらの方が大きく、心肺機能が高そう。２歳時より引き締まり、全体にバランスが良化。",
+      "publishedDate": "2013-03-27",
+      "raceKey": "2013:桜花賞",
+      "raceDate": "2013-04-07",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8095",
+      "key": "horse_2543|keibabook|130408|http://old.keibado.ne.jp/keibabook/130408/images/pp07.jpg",
+      "horseId": "horse_2543",
+      "source": "keibabook",
+      "sourceId": "130408",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130408/photo07.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130408/images/pp07.jpg",
+      "localImagePath": "images/keibabook/130408/レッドオーヴァル-7.jpg",
+      "caption": "2013-04-07 桜花賞",
+      "raceName": "桜花賞",
+      "photoDate": "2013-04-07",
+      "issueDate": "2013-04-08",
+      "sourceOrder": 7,
+      "comment": "一戦毎の馬体減だが、特に淋しく映るようなところはない。むしろ、無駄なくキリッと締まってきており、チューリップ賞時よりも良く見せる。毛ヅヤも良化し、体調面の上積みは十分。",
+      "publishedDate": "2013-03-28",
+      "raceKey": "2013:桜花賞",
+      "raceDate": "2013-04-07",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8091",
+      "key": "horse_2545|keibabook|130408|http://old.keibado.ne.jp/keibabook/130408/images/pp03.jpg",
+      "horseId": "horse_2545",
+      "source": "keibabook",
+      "sourceId": "130408",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130408/photo03.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130408/images/pp03.jpg",
+      "localImagePath": "images/keibabook/130408/ローブティサージュ-3.jpg",
+      "caption": "2013-04-07 桜花賞",
+      "raceName": "桜花賞",
+      "photoDate": "2013-04-07",
+      "issueDate": "2013-04-08",
+      "sourceOrder": 3,
+      "comment": "腹の線はスキッとしているが、全体に骨量豊富。特に肩から上腕、前胸周辺は筋肉で覆われており、３歳牝馬らしからぬ存在感がある。気温上昇とともに肌艶も良くなり、型通りに上昇。",
+      "publishedDate": "2013-03-27",
+      "raceKey": "2013:桜花賞",
+      "raceDate": "2013-04-07",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8096",
+      "key": "horse_2672|keibabook|130408|http://old.keibado.ne.jp/keibabook/130408/images/pp08.jpg",
+      "horseId": "horse_2672",
+      "source": "keibabook",
+      "sourceId": "130408",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130408/photo08.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130408/images/pp08.jpg",
+      "localImagePath": "images/keibabook/130408/ナンシーシャイン-8.jpg",
+      "caption": "2013-04-07 桜花賞",
+      "raceName": "桜花賞",
+      "photoDate": "2013-04-07",
+      "issueDate": "2013-04-08",
+      "sourceOrder": 8,
+      "comment": "栗東入厩。前回に比べると多少スッキリして映るが、細いというほどではない。胸前の筋肉が盛り上がり、前躯は牝馬らしからぬ逞しさ。これでトモの肉づきがもう少し良くなれば完璧。",
+      "publishedDate": "2013-04-08",
+      "raceKey": "2013:桜花賞",
+      "raceDate": "2013-04-07",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8099",
+      "key": "horse_2681|keibabook|130408|http://old.keibado.ne.jp/keibabook/130408/images/pp11.jpg",
+      "horseId": "horse_2681",
+      "source": "keibabook",
+      "sourceId": "130408",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130408/photo11.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130408/images/pp11.jpg",
+      "localImagePath": "images/keibabook/130408/サウンドリアーナ-11.jpg",
+      "caption": "2013-04-07 桜花賞",
+      "raceName": "桜花賞",
+      "photoDate": "2013-04-07",
+      "issueDate": "2013-04-08",
+      "sourceOrder": 11,
+      "comment": "トモが流れた姿勢を考慮しても腹回りが、やや頼りなく映る。ただ、前後躯とも筋肉の張りは昨秋の好調時と変わりなし。大きな上積みはないかも知れないが、悪くはない。",
+      "publishedDate": "2013-03-27",
+      "raceKey": "2013:桜花賞",
+      "raceDate": "2013-04-07",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8090",
+      "key": "horse_2687|keibabook|130408|http://old.keibado.ne.jp/keibabook/130408/images/pp02.jpg",
+      "horseId": "horse_2687",
+      "source": "keibabook",
+      "sourceId": "130408",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130408/photo02.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130408/images/pp02.jpg",
+      "localImagePath": "images/keibabook/130408/クロフネサプライズ-2.jpg",
+      "caption": "2013-04-07 桜花賞",
+      "raceName": "桜花賞",
+      "photoDate": "2013-04-07",
+      "issueDate": "2013-04-08",
+      "sourceOrder": 2,
+      "comment": "ダメージは少なかったようで、休み明けの前走と比べても、馬体に大きな変化は見られない。胴長でスラッとしたシルエットだが、腹構えは程よく丸みを帯びている。順調そのもの。",
+      "publishedDate": "2013-03-27",
+      "raceKey": "2013:桜花賞",
+      "raceDate": "2013-04-07",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8093",
+      "key": "horse_2709|keibabook|130408|http://old.keibado.ne.jp/keibabook/130408/images/pp05.jpg",
+      "horseId": "horse_2709",
+      "source": "keibabook",
+      "sourceId": "130408",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130408/photo05.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130408/images/pp05.jpg",
+      "localImagePath": "images/keibabook/130408/トーセンソレイユ-5.jpg",
+      "caption": "2013-04-07 桜花賞",
+      "raceName": "桜花賞",
+      "photoDate": "2013-04-07",
+      "issueDate": "2013-04-08",
+      "sourceOrder": 5,
+      "comment": "利発そうな顔立ちが、いかにも超良血らしい。筋肉量は多くなさそうだが、骨格がコンパクトなのでこれで十分。姿勢から四肢の柔軟性が感じられ、体形からシャープな走りが想像できる。",
+      "publishedDate": "2013-03-27",
+      "raceKey": "2013:桜花賞",
+      "raceDate": "2013-04-07",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8097",
+      "key": "horse_2710|keibabook|130408|http://old.keibado.ne.jp/keibabook/130408/images/pp09.jpg",
+      "horseId": "horse_2710",
+      "source": "keibabook",
+      "sourceId": "130408",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130408/photo09.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130408/images/pp09.jpg",
+      "localImagePath": "images/keibabook/130408/クラウンロゼ-9.jpg",
+      "caption": "2013-04-07 桜花賞",
+      "raceName": "桜花賞",
+      "photoDate": "2013-04-07",
+      "issueDate": "2013-04-08",
+      "sourceOrder": 9,
+      "comment": "栗東入りしての調整だが、環境の変化にも慣れたようで、ドッシリとした佇まい。牝馬にしては逞しく、母系の血が色濃く出ている印象。体形的にもマイルがベストか。",
+      "publishedDate": "2013-04-08",
+      "raceKey": "2013:桜花賞",
+      "raceDate": "2013-04-07",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8105",
+      "key": "horse_1944|keibabook|130401|http://old.keibado.ne.jp/keibabook/130401/images/pp06.jpg",
+      "horseId": "horse_1944",
+      "source": "keibabook",
+      "sourceId": "130401",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130401/photo06.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130401/images/pp06.jpg",
+      "localImagePath": "images/keibabook/130401/ヒットザターゲット-6.jpg",
+      "caption": "2013-03-31 大阪杯",
+      "raceName": "大阪杯",
+      "photoDate": "2013-03-31",
+      "issueDate": "2013-04-01",
+      "sourceOrder": 6,
+      "comment": "この欄に登場するのは昨年の９月以来だが、馬体重が示す通り、当時に比べると腹構えがフックラ。肉づきが良くなって、随分とパワーアップされた感。毛ヅヤも良く、ムードはいい。",
+      "publishedDate": "2013-03-20",
+      "raceKey": "2013:大阪杯",
+      "raceDate": "2013-03-31",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8108",
+      "key": "horse_2187|keibabook|130401|http://old.keibado.ne.jp/keibabook/130401/images/pp09.jpg",
+      "horseId": "horse_2187",
+      "source": "keibabook",
+      "sourceId": "130401",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130401/photo09.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130401/images/pp09.jpg",
+      "localImagePath": "images/keibabook/130401/オリービン-9.jpg",
+      "caption": "2013-03-31 ダービー卿CT",
+      "raceName": "ダービー卿CT",
+      "photoDate": "2013-03-31",
+      "issueDate": "2013-04-01",
+      "sourceOrder": 9,
+      "comment": "前走時も良く見せていたが、皮膚が薄くて馬体の張りが素晴らしい。筋肉質でガチッとしており、ややスプリンター色が強いが、折り合いさえクリアできればマイルまでなら大丈夫。",
+      "publishedDate": "2013-03-20",
+      "raceKey": "2013:ダービー卿CT",
+      "raceDate": "2013-03-31",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8106",
+      "key": "horse_2225|keibabook|130401|http://old.keibado.ne.jp/keibabook/130401/images/pp07.jpg",
+      "horseId": "horse_2225",
+      "source": "keibabook",
+      "sourceId": "130401",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130401/photo07.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130401/images/pp07.jpg",
+      "localImagePath": "images/keibabook/130401/ダイワマッジョーレ-7.jpg",
+      "caption": "2013-03-31 ダービー卿CT",
+      "raceName": "ダービー卿CT",
+      "photoDate": "2013-03-31",
+      "issueDate": "2013-04-01",
+      "sourceOrder": 7,
+      "comment": "磨き上げられた馬体で、これ以上ないほどに毛ヅヤがいい。肩と胸の筋肉の盛り上がり具合は凄まじいが、今回はそれに加えて臀部にもボリューム感が加わっている。素晴らしいデキ。",
+      "publishedDate": "2013-03-21",
+      "raceKey": "2013:ダービー卿CT",
+      "raceDate": "2013-03-31",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8102",
+      "key": "horse_2269|keibabook|130401|http://old.keibado.ne.jp/keibabook/130401/images/pp03.jpg",
+      "horseId": "horse_2269",
+      "source": "keibabook",
+      "sourceId": "130401",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130401/photo03.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130401/images/pp03.jpg",
+      "localImagePath": "images/keibabook/130401/ダークシャドウ-3.jpg",
+      "caption": "2013-03-31 大阪杯",
+      "raceName": "大阪杯",
+      "photoDate": "2013-03-31",
+      "issueDate": "2013-04-01",
+      "sourceOrder": 3,
+      "comment": "もともとアバラは見えないタイプだが、今回はいくらかフックラとしているか。ただ、この程度なら直前の１本で引き締まりそう。皮膚の薄さを感じさせる馬体で、体調面に不安はない。",
+      "publishedDate": "2013-03-20",
+      "raceKey": "2013:大阪杯",
+      "raceDate": "2013-03-31",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8103",
+      "key": "horse_2281|keibabook|130401|http://old.keibado.ne.jp/keibabook/130401/images/pp04.jpg",
+      "horseId": "horse_2281",
+      "source": "keibabook",
+      "sourceId": "130401",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130401/photo04.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130401/images/pp04.jpg",
+      "localImagePath": "images/keibabook/130401/ヴィルシーナ-4.jpg",
+      "caption": "2013-03-31 大阪杯",
+      "raceName": "大阪杯",
+      "photoDate": "2013-03-31",
+      "issueDate": "2013-04-01",
+      "sourceOrder": 4,
+      "comment": "キッチリと仕上がっているが、３歳春に見られた線の細さは解消。適度に幅が出て、古馬らしい貫禄が備わってきた。ローズＳ時に比べると攻め量が少なめだが、息さえ保てば好走可能。",
+      "publishedDate": "2013-03-21",
+      "raceKey": "2013:大阪杯",
+      "raceDate": "2013-03-31",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8111",
+      "key": "horse_2305|keibabook|130401|http://old.keibado.ne.jp/keibabook/130401/images/pp12.jpg",
+      "horseId": "horse_2305",
+      "source": "keibabook",
+      "sourceId": "130401",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130401/photo12.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130401/images/pp12.jpg",
+      "localImagePath": "images/keibabook/130401/ガルボ-12.jpg",
+      "caption": "2013-03-31 ダービー卿CT",
+      "raceName": "ダービー卿CT",
+      "photoDate": "2013-03-31",
+      "issueDate": "2013-04-01",
+      "sourceOrder": 12,
+      "comment": "前走時から絞れてきた印象はなく、昨年のこのレースの時よりはいくらか立派には見せているか。ただ、皮膚の薄さを感じさせるくらいに毛ヅヤは良く、活気は十分に感じさせている。",
+      "publishedDate": "2013-03-20",
+      "raceKey": "2013:ダービー卿CT",
+      "raceDate": "2013-03-31",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8110",
+      "key": "horse_2347|keibabook|130401|http://old.keibado.ne.jp/keibabook/130401/images/pp11.jpg",
+      "horseId": "horse_2347",
+      "source": "keibabook",
+      "sourceId": "130401",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130401/photo11.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130401/images/pp11.jpg",
+      "localImagePath": "images/keibabook/130401/ダイワファルコン-11.jpg",
+      "caption": "2013-03-31 ダービー卿CT",
+      "raceName": "ダービー卿CT",
+      "photoDate": "2013-03-31",
+      "issueDate": "2013-04-01",
+      "sourceOrder": 11,
+      "comment": "前走時ほどピカピカには見えないが、これは光線のせいだろう。アバラをうっすらと見せるくらいに引き締まり、皮膚は光沢のある惚れぼれするような馬体。まさに本格化の印象がある。",
+      "publishedDate": "2013-03-20",
+      "raceKey": "2013:ダービー卿CT",
+      "raceDate": "2013-03-31",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8104",
+      "key": "horse_2363|keibabook|130401|http://old.keibado.ne.jp/keibabook/130401/images/pp05.jpg",
+      "horseId": "horse_2363",
+      "source": "keibabook",
+      "sourceId": "130401",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130401/photo05.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130401/images/pp05.jpg",
+      "localImagePath": "images/keibabook/130401/ショウナンマイティ-5.jpg",
+      "caption": "2013-03-31 大阪杯",
+      "raceName": "大阪杯",
+      "photoDate": "2013-03-31",
+      "issueDate": "2013-04-01",
+      "sourceOrder": 5,
+      "comment": "久々の前走がプラス10キロだったが、写真で言えばその時とアウトラインは同じである。ただ、張りも毛ヅヤも良くなったし、何よりガス抜きが終わり落ち着きが出ている。当日までに絞れるなら。",
+      "publishedDate": "2013-03-20",
+      "raceKey": "2013:大阪杯",
+      "raceDate": "2013-03-31",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8100",
+      "key": "horse_2430|keibabook|130401|http://old.keibado.ne.jp/keibabook/130401/images/pp01.jpg",
+      "horseId": "horse_2430",
+      "source": "keibabook",
+      "sourceId": "130401",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130401/photo01.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130401/images/pp01.jpg",
+      "localImagePath": "images/keibabook/130401/エイシンフラッシュ-1.jpg",
+      "caption": "2013-03-31 大阪杯",
+      "raceName": "大阪杯",
+      "photoDate": "2013-03-31",
+      "issueDate": "2013-04-01",
+      "sourceOrder": 1,
+      "comment": "有馬記念以来。厳冬期の調整がうまくいったようで、肌艶がいいし、スカッとして体脂肪率がいつも以上に低そう。顔つきも戦闘モードで四肢にも力が漲っている。いきなり能力全開か。",
+      "publishedDate": "2013-03-21",
+      "raceKey": "2013:大阪杯",
+      "raceDate": "2013-03-31",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8101",
+      "key": "horse_2431|keibabook|130401|http://old.keibado.ne.jp/keibabook/130401/images/pp02.jpg",
+      "horseId": "horse_2431",
+      "source": "keibabook",
+      "sourceId": "130401",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130401/photo02.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130401/images/pp02.jpg",
+      "localImagePath": "images/keibabook/130401/オルフェーヴル-2.jpg",
+      "caption": "2013-03-31 大阪杯",
+      "raceName": "大阪杯",
+      "photoDate": "2013-03-31",
+      "issueDate": "2013-04-01",
+      "sourceOrder": 2,
+      "comment": "迫力という点では、前走時の方が多少上回っているようにも感じるが、無駄なくスカッと仕上がっているし、毛ヅヤもピカピカ。精悍な顔つきにも好感が持てる。力を出し切れる態勢だ。",
+      "publishedDate": "2013-03-21",
+      "raceKey": "2013:大阪杯",
+      "raceDate": "2013-03-31",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8107",
+      "key": "horse_2443|keibabook|130401|http://old.keibado.ne.jp/keibabook/130401/images/pp08.jpg",
+      "horseId": "horse_2443",
+      "source": "keibabook",
+      "sourceId": "130401",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130401/photo08.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130401/images/pp08.jpg",
+      "localImagePath": "images/keibabook/130401/ドナウブルー-8.jpg",
+      "caption": "2013-03-31 ダービー卿CT",
+      "raceName": "ダービー卿CT",
+      "photoDate": "2013-03-31",
+      "issueDate": "2013-04-01",
+      "sourceOrder": 8,
+      "comment": "写真撮影の時点では、少し余裕のある体つきだった前走。１度使われたことで随分スカッとしており、上積みは十分。道悪で勝ち鞍はあるものの、パワー型ではないだけに良馬場が理想。",
+      "publishedDate": "2013-03-21",
+      "raceKey": "2013:ダービー卿CT",
+      "raceDate": "2013-03-31",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8109",
+      "key": "horse_2570|keibabook|130401|http://old.keibado.ne.jp/keibabook/130401/images/pp10.jpg",
+      "horseId": "horse_2570",
+      "source": "keibabook",
+      "sourceId": "130401",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130401/photo10.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130401/images/pp10.jpg",
+      "localImagePath": "images/keibabook/130401/リアルインパクト-10.jpg",
+      "caption": "2013-03-31 ダービー卿CT",
+      "raceName": "ダービー卿CT",
+      "photoDate": "2013-03-31",
+      "issueDate": "2013-04-01",
+      "sourceOrder": 10,
+      "comment": "前々走は確認できなかったアバラをうっすらと見せるようになった。暖かくなって絞りやすくなった分もあるが、使う毎に引き締まってきている分もあるだろう。今季では一番と言えそうだ。",
+      "publishedDate": "2013-03-20",
+      "raceKey": "2013:ダービー卿CT",
+      "raceDate": "2013-03-31",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8117",
+      "key": "horse_2053|keibabook|130325|http://old.keibado.ne.jp/keibabook/130325/images/pp06.jpg",
+      "horseId": "horse_2053",
+      "source": "keibabook",
+      "sourceId": "130325",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130325/photo06.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130325/images/pp06.jpg",
+      "localImagePath": "images/keibabook/130325/サクラゴスペル-6.jpg",
+      "caption": "2013-03-24 高松宮記念",
+      "raceName": "高松宮記念",
+      "photoDate": "2013-03-24",
+      "issueDate": "2013-03-25",
+      "sourceOrder": 6,
+      "comment": "全体の輪郭は父に似ていないこともないが、こちらの方が後肢は発達していて、スプリンターらしい体形といえそう。とにかく、馬体の張りが素晴らしく、毛ヅヤもピカピカ。充実一途か。",
+      "publishedDate": "2013-03-14",
+      "raceKey": "2013:高松宮記念",
+      "raceDate": "2013-03-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8122",
+      "key": "horse_2267|keibabook|130325|http://old.keibado.ne.jp/keibabook/130325/images/pp11.jpg",
+      "horseId": "horse_2267",
+      "source": "keibabook",
+      "sourceId": "130325",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130325/photo11.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130325/images/pp11.jpg",
+      "localImagePath": "images/keibabook/130325/シルクフォーチュン-11.jpg",
+      "caption": "2013-03-24 高松宮記念",
+      "raceName": "高松宮記念",
+      "photoDate": "2013-03-24",
+      "issueDate": "2013-03-25",
+      "sourceOrder": 11,
+      "comment": "芝はデビュー戦以来。管が短めで球関節も硬めだし、父系からもプラスとはいえまい。ただ、前回より毛ヅヤが良く、体に張りがある。落ち着きもあるのだが、15日の放馬が少し心配。",
+      "publishedDate": "2013-03-13",
+      "raceKey": "2013:高松宮記念",
+      "raceDate": "2013-03-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8114",
+      "key": "horse_2308|keibabook|130325|http://old.keibado.ne.jp/keibabook/130325/images/pp03.jpg",
+      "horseId": "horse_2308",
+      "source": "keibabook",
+      "sourceId": "130325",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130325/photo03.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130325/images/pp03.jpg",
+      "localImagePath": "images/keibabook/130325/ダッシャーゴーゴー-3.jpg",
+      "caption": "2013-03-24 高松宮記念",
+      "raceName": "高松宮記念",
+      "photoDate": "2013-03-24",
+      "issueDate": "2013-03-25",
+      "sourceOrder": 3,
+      "comment": "久々だった前々走時との比較になるが、肩の筋肉が盛り上がり、胸前に厚みが増している。臀部もボリュームアップし、パワーを感じさせる体になった。蹄底が深めで道悪もこなせるだろう。",
+      "publishedDate": "2013-03-14",
+      "raceKey": "2013:高松宮記念",
+      "raceDate": "2013-03-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8115",
+      "key": "horse_2309|keibabook|130325|http://old.keibado.ne.jp/keibabook/130325/images/pp04.jpg",
+      "horseId": "horse_2309",
+      "source": "keibabook",
+      "sourceId": "130325",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130325/photo04.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130325/images/pp04.jpg",
+      "localImagePath": "images/keibabook/130325/エピセアローム-4.jpg",
+      "caption": "2013-03-24 高松宮記念",
+      "raceName": "高松宮記念",
+      "photoDate": "2013-03-24",
+      "issueDate": "2013-03-25",
+      "sourceOrder": 4,
+      "comment": "スカッと仕上がっていた前走だが、昨秋に比べると迫力という点で物足りなさがあった。ひと叩きされて本来のボリューム感が出てきたし、落ち着いてるのも好材料。変わってきそう。",
+      "publishedDate": "2013-03-13",
+      "raceKey": "2013:高松宮記念",
+      "raceDate": "2013-03-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8116",
+      "key": "horse_2326|keibabook|130325|http://old.keibado.ne.jp/keibabook/130325/images/pp05.jpg",
+      "horseId": "horse_2326",
+      "source": "keibabook",
+      "sourceId": "130325",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130325/photo05.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130325/images/pp05.jpg",
+      "localImagePath": "images/keibabook/130325/ツルマルレオン-5.jpg",
+      "caption": "2013-03-24 高松宮記念",
+      "raceName": "高松宮記念",
+      "photoDate": "2013-03-24",
+      "issueDate": "2013-03-25",
+      "sourceOrder": 5,
+      "comment": "腹袋があり、少し太く映るくらいの逞しい馬体。ここにきて、一段とスプリンター色が強くなっている。中、長距離を得意とする馬が多い父の産駒としては、ちょっと異色の存在だ。",
+      "publishedDate": "2013-03-13",
+      "raceKey": "2013:高松宮記念",
+      "raceDate": "2013-03-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8118",
+      "key": "horse_2388|keibabook|130325|http://old.keibado.ne.jp/keibabook/130325/images/pp07.jpg",
+      "horseId": "horse_2388",
+      "source": "keibabook",
+      "sourceId": "130325",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130325/photo07.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130325/images/pp07.jpg",
+      "localImagePath": "images/keibabook/130325/サンカルロ-7.jpg",
+      "caption": "2013-03-24 高松宮記念",
+      "raceName": "高松宮記念",
+      "photoDate": "2013-03-24",
+      "issueDate": "2013-03-25",
+      "sourceOrder": 7,
+      "comment": "今回も少し立派に見せているが、フックラし過ぎているくらいの方が走るタイプ。皮膚の薄さは相変わらずで、筋肉の張りも素晴らしい。年齢的な衰えはなく、力は十分に出せる状態。",
+      "publishedDate": "2013-03-14",
+      "raceKey": "2013:高松宮記念",
+      "raceDate": "2013-03-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8113",
+      "key": "horse_2409|keibabook|130325|http://old.keibado.ne.jp/keibabook/130325/images/pp02.jpg",
+      "horseId": "horse_2409",
+      "source": "keibabook",
+      "sourceId": "130325",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130325/photo02.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130325/images/pp02.jpg",
+      "localImagePath": "images/keibabook/130325/ドリームバレンチノ-2.jpg",
+      "caption": "2013-03-24 高松宮記念",
+      "raceName": "高松宮記念",
+      "photoDate": "2013-03-24",
+      "issueDate": "2013-03-25",
+      "sourceOrder": 2,
+      "comment": "前走久々で快勝。やはりその後、馬体を締めてきている。毛ヅヤが更に良くなったし、立ち姿に力が漲ってきた。首から背・尻にかけてのラインも流線型で滑らか。落ち着きもありほぼピーク。",
+      "publishedDate": "2013-03-14",
+      "raceKey": "2013:高松宮記念",
+      "raceDate": "2013-03-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8112",
+      "key": "horse_2457|keibabook|130325|http://old.keibado.ne.jp/keibabook/130325/images/pp01.jpg",
+      "horseId": "horse_2457",
+      "source": "keibabook",
+      "sourceId": "130325",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130325/photo01.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130325/images/pp01.jpg",
+      "localImagePath": "images/keibabook/130325/ロードカナロア-1.jpg",
+      "caption": "2013-03-24 高松宮記念",
+      "raceName": "高松宮記念",
+      "photoDate": "2013-03-24",
+      "issueDate": "2013-03-25",
+      "sourceOrder": 1,
+      "comment": "スプリンターズＳ時ほどの威圧感はないが、今回とほぼ同じ姿に映った前走があの強さ。まったく心配ないだろう。毛ヅヤは一段と良くなっており、文句ないデキで大一番に臨めそう。",
+      "publishedDate": "2013-03-14",
+      "raceKey": "2013:高松宮記念",
+      "raceDate": "2013-03-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8121",
+      "key": "horse_2566|keibabook|130325|http://old.keibado.ne.jp/keibabook/130325/images/pp10.jpg",
+      "horseId": "horse_2566",
+      "source": "keibabook",
+      "sourceId": "130325",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130325/photo10.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130325/images/pp10.jpg",
+      "localImagePath": "images/keibabook/130325/スギノエンデバー-10.jpg",
+      "caption": "2013-03-24 高松宮記念",
+      "raceName": "高松宮記念",
+      "photoDate": "2013-03-24",
+      "issueDate": "2013-03-25",
+      "sourceOrder": 10,
+      "comment": "デビュー時より30キロ以上増えているが、腹線は締まっている。体重の割に肩幅があり、腿も大きい。コズミも軽いし、以前よりリラックスして心身ともに完成された。高いレベルで安定。",
+      "publishedDate": "2013-03-13",
+      "raceKey": "2013:高松宮記念",
+      "raceDate": "2013-03-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8120",
+      "key": "horse_2578|keibabook|130325|http://old.keibado.ne.jp/keibabook/130325/images/pp09.jpg",
+      "horseId": "horse_2578",
+      "source": "keibabook",
+      "sourceId": "130325",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130325/photo09.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130325/images/pp09.jpg",
+      "localImagePath": "images/keibabook/130325/マジンプロスパー-9.jpg",
+      "caption": "2013-03-24 高松宮記念",
+      "raceName": "高松宮記念",
+      "photoDate": "2013-03-24",
+      "issueDate": "2013-03-25",
+      "sourceOrder": 9,
+      "comment": "前肢が揃った前回の写真より横姿に柔軟さを感じるし、腹回りも締まっている。昨年のこの時期より背が伸びて幅も出て、確実にパワーアップ。中間の動きも絶品。ＧⅠ制覇に向け万全の態勢。",
+      "publishedDate": "2013-03-13",
+      "raceKey": "2013:高松宮記念",
+      "raceDate": "2013-03-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8119",
+      "key": "horse_2711|keibabook|130325|http://old.keibado.ne.jp/keibabook/130325/images/pp08.jpg",
+      "horseId": "horse_2711",
+      "source": "keibabook",
+      "sourceId": "130325",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130325/photo08.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130325/images/pp08.jpg",
+      "localImagePath": "images/keibabook/130325/フィフスペトル-8.jpg",
+      "caption": "2013-03-24 高松宮記念",
+      "raceName": "高松宮記念",
+      "photoDate": "2013-03-24",
+      "issueDate": "2013-03-25",
+      "sourceOrder": 8,
+      "comment": "全体に丸みがあって、腹袋もしっかりとしている体形。どうしても少し太目には映るが、今回は休み明けの割に腰回りをスカッと見せている。毛ヅヤも良く、ここ最近の中では一番の仕上がり。",
+      "publishedDate": "2013-03-14",
+      "raceKey": "2013:高松宮記念",
+      "raceDate": "2013-03-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8127",
+      "key": "horse_1889|keibabook|130318|http://old.keibado.ne.jp/keibabook/130318/images/pp05.jpg",
+      "horseId": "horse_1889",
+      "source": "keibabook",
+      "sourceId": "130318",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130318/photo05.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130318/images/pp05.jpg",
+      "localImagePath": "images/keibabook/130318/フェイムゲーム-5.jpg",
+      "caption": "2013-03-17 スプリングS",
+      "raceName": "スプリングS",
+      "photoDate": "2013-03-17",
+      "issueDate": "2013-03-18",
+      "sourceOrder": 5,
+      "comment": "京成杯の写真に比べると全体に大きくなり、短い期間でも成長の跡を感じさせている。その分、幾らか立派には映るが、毛ヅヤそのものは良く、直前の追い切りでキッチリ態勢は整いそう。",
+      "publishedDate": "2013-03-06",
+      "raceKey": "2013:スプリングS",
+      "raceDate": "2013-03-17",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8123",
+      "key": "horse_1907|keibabook|130318|http://old.keibado.ne.jp/keibabook/130318/images/pp01.jpg",
+      "horseId": "horse_1907",
+      "source": "keibabook",
+      "sourceId": "130318",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130318/photo01.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130318/images/pp01.jpg",
+      "localImagePath": "images/keibabook/130318/タマモベストプレイ-1.jpg",
+      "caption": "2013-03-17 スプリングS",
+      "raceName": "スプリングS",
+      "photoDate": "2013-03-17",
+      "issueDate": "2013-03-18",
+      "sourceOrder": 1,
+      "comment": "全兄３頭と全姉はすべてオープン馬に。体高はそうないが飛節が強く、きょうだい馬の中でも一番筋肉が柔らかい。少しヤンチャな面はあるが、それを補って余りある体の強靭さが持ち味。",
+      "publishedDate": "2013-03-06",
+      "raceKey": "2013:スプリングS",
+      "raceDate": "2013-03-17",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8124",
+      "key": "horse_1956|keibabook|130318|http://old.keibado.ne.jp/keibabook/130318/images/pp02.jpg",
+      "horseId": "horse_1956",
+      "source": "keibabook",
+      "sourceId": "130318",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130318/photo02.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130318/images/pp02.jpg",
+      "localImagePath": "images/keibabook/130318/ロゴタイプ-2.jpg",
+      "caption": "2013-03-17 スプリングS",
+      "raceName": "スプリングS",
+      "photoDate": "2013-03-17",
+      "issueDate": "2013-03-18",
+      "sourceOrder": 2,
+      "comment": "昨夏の写真とはまさに別馬。全体のバランスが良くなり、後肢などには力強さが漲っている。胴長の体形からは距離延長は問題なさそう。久々とは思えない馬体の張りで、ほぼ仕上がった。",
+      "publishedDate": "2013-03-06",
+      "raceKey": "2013:スプリングS",
+      "raceDate": "2013-03-17",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8133",
+      "key": "horse_2294|keibabook|130318|http://old.keibado.ne.jp/keibabook/130318/images/pp11.jpg",
+      "horseId": "horse_2294",
+      "source": "keibabook",
+      "sourceId": "130318",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130318/photo11.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130318/images/pp11.jpg",
+      "localImagePath": "images/keibabook/130318/デスペラード-11.jpg",
+      "caption": "2013-03-17 阪神大賞典",
+      "raceName": "阪神大賞典",
+      "photoDate": "2013-03-17",
+      "issueDate": "2013-03-18",
+      "sourceOrder": 11,
+      "comment": "幾らか立派には映るが、素晴らしい馬っぷり。ここにきての充実ぶりは目を引く。以前はダート中心に使われていたが、長くて角度の深い繋を見ると、芝の方が良さそうな印象すら受ける。",
+      "publishedDate": "2013-03-06",
+      "raceKey": "2013:阪神大賞典",
+      "raceDate": "2013-03-17",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8132",
+      "key": "horse_2551|keibabook|130318|http://old.keibado.ne.jp/keibabook/130318/images/pp10.jpg",
+      "horseId": "horse_2551",
+      "source": "keibabook",
+      "sourceId": "130318",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130318/photo10.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130318/images/pp10.jpg",
+      "localImagePath": "images/keibabook/130318/ゴールドシップ-10.jpg",
+      "caption": "2013-03-17 阪神大賞典",
+      "raceName": "阪神大賞典",
+      "photoDate": "2013-03-17",
+      "issueDate": "2013-03-18",
+      "sourceOrder": 10,
+      "comment": "休み明けで腹線は少し緩く映るが、まったく重目感はなし。胴の肉づきが良くなって更にパワーアップした印象を受けるし、神戸新聞杯時よりも動きがいい。緒戦からやってくれそう。",
+      "publishedDate": "2013-03-06",
+      "raceKey": "2013:阪神大賞典",
+      "raceDate": "2013-03-17",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8125",
+      "key": "horse_2686|keibabook|130318|http://old.keibado.ne.jp/keibabook/130318/images/pp03.jpg",
+      "horseId": "horse_2686",
+      "source": "keibabook",
+      "sourceId": "130318",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130318/photo03.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130318/images/pp03.jpg",
+      "localImagePath": "images/keibabook/130318/マイネルホウオウ-3.jpg",
+      "caption": "2013-03-17 スプリングS",
+      "raceName": "スプリングS",
+      "photoDate": "2013-03-17",
+      "issueDate": "2013-03-18",
+      "sourceOrder": 3,
+      "comment": "後肢の方が少し高く見える体形で、全体の輪郭としては父に似ているとはいえそう。ただ、こちらの方が骨太で重心も低く見せている。距離に限界はありそうだが、仕上がりそのものはいい。",
+      "publishedDate": "2013-03-06",
+      "raceKey": "2013:スプリングS",
+      "raceDate": "2013-03-17",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8134",
+      "key": "horse_2698|keibabook|130318|http://old.keibado.ne.jp/keibabook/130318/images/pp12.jpg",
+      "horseId": "horse_2698",
+      "source": "keibabook",
+      "sourceId": "130318",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130318/photo12.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130318/images/pp12.jpg",
+      "localImagePath": "images/keibabook/130318/トウカイトリック-12.jpg",
+      "caption": "2013-03-17 阪神大賞典",
+      "raceName": "阪神大賞典",
+      "photoDate": "2013-03-17",
+      "issueDate": "2013-03-18",
+      "sourceOrder": 12,
+      "comment": "今回でこのレースには、８年連続の出走。超がつくほどの高齢馬とあって、さすがにピチピチ感は物足りない。逞しい首差しと、ドッシリした腹構え。貫禄はさすがといった感じだが。",
+      "publishedDate": "2013-03-06",
+      "raceKey": "2013:阪神大賞典",
+      "raceDate": "2013-03-17",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8126",
+      "key": "horse_2712|keibabook|130318|http://old.keibado.ne.jp/keibabook/130318/images/pp04.jpg",
+      "horseId": "horse_2712",
+      "source": "keibabook",
+      "sourceId": "130318",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130318/photo04.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130318/images/pp04.jpg",
+      "localImagePath": "images/keibabook/130318/アクションスター-4.jpg",
+      "caption": "2013-03-17 スプリングS",
+      "raceName": "スプリングS",
+      "photoDate": "2013-03-17",
+      "issueDate": "2013-03-18",
+      "sourceOrder": 4,
+      "comment": "メンタル面では若いが、肉体面の完成度は高い。少し小ぶりでも骨量はあり、ひとつひとつのパーツがしっかりしている。毛ヅヤもいいし、アバラがクッキリ。飛節にもバネを感じる。",
+      "publishedDate": "2013-03-06",
+      "raceKey": "2013:スプリングS",
+      "raceDate": "2013-03-17",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8128",
+      "key": "horse_2713|keibabook|130318|http://old.keibado.ne.jp/keibabook/130318/images/pp06.jpg",
+      "horseId": "horse_2713",
+      "source": "keibabook",
+      "sourceId": "130318",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130318/photo06.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130318/images/pp06.jpg",
+      "localImagePath": "images/keibabook/130318/マンボネフュー-6.jpg",
+      "caption": "2013-03-17 スプリングS",
+      "raceName": "スプリングS",
+      "photoDate": "2013-03-17",
+      "issueDate": "2013-03-18",
+      "sourceOrder": 6,
+      "comment": "もともと骨太で肉づきのいい方だが、更に後肢などには張りが出て、とても460キロ台とは思えない迫力になってきた。ピカピカの毛ヅヤでバランスも抜群。グングン成長してきている。",
+      "publishedDate": "2013-03-06",
+      "raceKey": "2013:スプリングS",
+      "raceDate": "2013-03-17",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8129",
+      "key": "horse_2714|keibabook|130318|http://old.keibado.ne.jp/keibabook/130318/images/pp07.jpg",
+      "horseId": "horse_2714",
+      "source": "keibabook",
+      "sourceId": "130318",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130318/photo07.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130318/images/pp07.jpg",
+      "localImagePath": "images/keibabook/130318/ベールドインパクト-7.jpg",
+      "caption": "2013-03-17 阪神大賞典",
+      "raceName": "阪神大賞典",
+      "photoDate": "2013-03-17",
+      "issueDate": "2013-03-18",
+      "sourceOrder": 7,
+      "comment": "今回は晴天での撮影のせいか、グンと締まって見える。肩の筋肉が浮いて、腰回りに筋肉がついた分の前走馬体増。パワーアップしている。鞍傷はいつものことで心配ない。更に上昇。",
+      "publishedDate": "2013-03-06",
+      "raceKey": "2013:阪神大賞典",
+      "raceDate": "2013-03-17",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8130",
+      "key": "horse_2715|keibabook|130318|http://old.keibado.ne.jp/keibabook/130318/images/pp08.jpg",
+      "horseId": "horse_2715",
+      "source": "keibabook",
+      "sourceId": "130318",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130318/photo08.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130318/images/pp08.jpg",
+      "localImagePath": "images/keibabook/130318/マカニビスティー-8.jpg",
+      "caption": "2013-03-17 阪神大賞典",
+      "raceName": "阪神大賞典",
+      "photoDate": "2013-03-17",
+      "issueDate": "2013-03-18",
+      "sourceOrder": 8,
+      "comment": "芝・ダートを問わずに走れるタイプだが、昔のゴツい感じはなくなって、幾分スラッとした体形に。長い繋を見ても、より適性が高いのは芝の長丁場かも。肌艶が良く、デキ落ちなし。",
+      "publishedDate": "2013-03-06",
+      "raceKey": "2013:阪神大賞典",
+      "raceDate": "2013-03-17",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8131",
+      "key": "horse_2716|keibabook|130318|http://old.keibado.ne.jp/keibabook/130318/images/pp09.jpg",
+      "horseId": "horse_2716",
+      "source": "keibabook",
+      "sourceId": "130318",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130318/photo09.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130318/images/pp09.jpg",
+      "localImagePath": "images/keibabook/130318/フォゲッタブル-9.jpg",
+      "caption": "2013-03-17 阪神大賞典",
+      "raceName": "阪神大賞典",
+      "photoDate": "2013-03-17",
+      "issueDate": "2013-03-18",
+      "sourceOrder": 9,
+      "comment": "久々の登場。背が伸びてスカッと見せるし、後肢も以前よりバネを感じる。最近実戦で結果が出てないのは気持ちの問題だろう。姿勢に柔軟さを感じるし、表情もリラックスして悪くない。",
+      "publishedDate": "2013-03-06",
+      "raceKey": "2013:阪神大賞典",
+      "raceDate": "2013-03-17",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8142",
+      "key": "horse_2235|keibabook|130311|http://old.keibado.ne.jp/keibabook/130311/images/pp08.jpg",
+      "horseId": "horse_2235",
+      "source": "keibabook",
+      "sourceId": "130311",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130311/photo08.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130311/images/pp08.jpg",
+      "localImagePath": "images/keibabook/130311/メイショウマンボ-8.jpg",
+      "caption": "2013-03-10 フィリーズレビュー",
+      "raceName": "フィリーズレビュー",
+      "photoDate": "2013-03-10",
+      "issueDate": "2013-03-11",
+      "sourceOrder": 8,
+      "comment": "骨量の割にはまだ腿回りに筋肉がつき切っていないが、若い牝馬にしては好バランスである。肘が柔らかそうだし、スラリと伸びた管も印象的。キャリアを積むにつれ落ち着きも出てきた。",
+      "publishedDate": "2013-02-27",
+      "raceKey": "2013:フィリーズレビュー",
+      "raceDate": "2013-03-10",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8139",
+      "key": "horse_2444|keibabook|130311|http://old.keibado.ne.jp/keibabook/130311/images/pp05.jpg",
+      "horseId": "horse_2444",
+      "source": "keibabook",
+      "sourceId": "130311",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130311/photo05.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130311/images/pp05.jpg",
+      "localImagePath": "images/keibabook/130311/マイネイサベル-5.jpg",
+      "caption": "2013-03-10 中山牝馬S",
+      "raceName": "中山牝馬S",
+      "photoDate": "2013-03-10",
+      "issueDate": "2013-03-11",
+      "sourceOrder": 5,
+      "comment": "この時季で少し冬毛が生えているように映るが、太目感はほとんどなく、腹目などはいつものようにスッキリと見せている。以前のひ弱な印象はまったくなく、逞しさすら感じさせる馬体。",
+      "publishedDate": "2013-02-27",
+      "raceKey": "2013:中山牝馬S",
+      "raceDate": "2013-03-10",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8135",
+      "key": "horse_2446|keibabook|130311|http://old.keibado.ne.jp/keibabook/130311/images/pp01.jpg",
+      "horseId": "horse_2446",
+      "source": "keibabook",
+      "sourceId": "130311",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130311/photo01.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130311/images/pp01.jpg",
+      "localImagePath": "images/keibabook/130311/オールザットジャズ-1.jpg",
+      "caption": "2013-03-10 中山牝馬S",
+      "raceName": "中山牝馬S",
+      "photoDate": "2013-03-10",
+      "issueDate": "2013-03-11",
+      "sourceOrder": 1,
+      "comment": "概ね写真は頭が高いが、ひと回り大きくなり、後肢が伸びた。その分、重心の低い横姿に。厳冬期の牝馬でも冬毛が出ず磨き込んだ体。フックラした腹回りと中間の豪快な動きも好調を物語る。",
+      "publishedDate": "2013-02-27",
+      "raceKey": "2013:中山牝馬S",
+      "raceDate": "2013-03-10",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8146",
+      "key": "horse_2672|keibabook|130311|http://old.keibado.ne.jp/keibabook/130311/images/pp12.jpg",
+      "horseId": "horse_2672",
+      "source": "keibabook",
+      "sourceId": "130311",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130311/photo12.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130311/images/pp12.jpg",
+      "localImagePath": "images/keibabook/130311/ナンシーシャイン-12.jpg",
+      "caption": "2013-03-10 フィリーズレビュー",
+      "raceName": "フィリーズレビュー",
+      "photoDate": "2013-03-10",
+      "issueDate": "2013-03-11",
+      "sourceOrder": 12,
+      "comment": "発達した胸前の筋肉は目を引き、牝馬にしては逞しさも感じさせている。まだ後肢などには成長の余地を残しているだけに、これからどんどん良くなりそうな雰囲気がある。体調も良好。",
+      "publishedDate": "2013-02-27",
+      "raceKey": "2013:フィリーズレビュー",
+      "raceDate": "2013-03-10",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8143",
+      "key": "horse_2678|keibabook|130311|http://old.keibado.ne.jp/keibabook/130311/images/pp09.jpg",
+      "horseId": "horse_2678",
+      "source": "keibabook",
+      "sourceId": "130311",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130311/photo09.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130311/images/pp09.jpg",
+      "localImagePath": "images/keibabook/130311/サマリーズ-9.jpg",
+      "caption": "2013-03-10 フィリーズレビュー",
+      "raceName": "フィリーズレビュー",
+      "photoDate": "2013-03-10",
+      "issueDate": "2013-03-11",
+      "sourceOrder": 9,
+      "comment": "寒い時季だけに、冬毛が目につくのは仕方なし。ダートに替わって３戦３勝。確かにパワーがありそうなタイプだが、繋は長さ、角度ともに十分。芝がまったく駄目とは思えない。",
+      "publishedDate": "2013-02-27",
+      "raceKey": "2013:フィリーズレビュー",
+      "raceDate": "2013-03-10",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8141",
+      "key": "horse_2681|keibabook|130311|http://old.keibado.ne.jp/keibabook/130311/images/pp07.jpg",
+      "horseId": "horse_2681",
+      "source": "keibabook",
+      "sourceId": "130311",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130311/photo07.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130311/images/pp07.jpg",
+      "localImagePath": "images/keibabook/130311/サウンドリアーナ-7.jpg",
+      "caption": "2013-03-10 フィリーズレビュー",
+      "raceName": "フィリーズレビュー",
+      "photoDate": "2013-03-10",
+      "issueDate": "2013-03-11",
+      "sourceOrder": 7,
+      "comment": "骨量豊富で筋肉質な馬体。ガチッとしており、牝馬らしからぬ逞しさがあるが、緩みや太目感はまったくなし。寸が詰まって、ややスプリンター色が強く、距離は短い方が良さそう。",
+      "publishedDate": "2013-02-27",
+      "raceKey": "2013:フィリーズレビュー",
+      "raceDate": "2013-03-10",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8136",
+      "key": "horse_2693|keibabook|130311|http://old.keibado.ne.jp/keibabook/130311/images/pp02.jpg",
+      "horseId": "horse_2693",
+      "source": "keibabook",
+      "sourceId": "130311",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130311/photo02.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130311/images/pp02.jpg",
+      "localImagePath": "images/keibabook/130311/フミノイマージン-2.jpg",
+      "caption": "2013-03-10 中山牝馬S",
+      "raceName": "中山牝馬S",
+      "photoDate": "2013-03-10",
+      "issueDate": "2013-03-11",
+      "sourceOrder": 2,
+      "comment": "アウトラインはできているが、まだ顔つきや皮膚の張りや毛ヅヤが本当ではない。長い繋と強靭な四肢で良馬場なら能力で補える力はあるが、中間の動きが案外。今回は割引が必要か。",
+      "publishedDate": "2013-02-27",
+      "raceKey": "2013:中山牝馬S",
+      "raceDate": "2013-03-10",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8137",
+      "key": "horse_2717|keibabook|130311|http://old.keibado.ne.jp/keibabook/130311/images/pp03.jpg",
+      "horseId": "horse_2717",
+      "source": "keibabook",
+      "sourceId": "130311",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130311/photo03.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130311/images/pp03.jpg",
+      "localImagePath": "images/keibabook/130311/スマートシルエット-3.jpg",
+      "caption": "2013-03-10 中山牝馬S",
+      "raceName": "中山牝馬S",
+      "photoDate": "2013-03-10",
+      "issueDate": "2013-03-11",
+      "sourceOrder": 3,
+      "comment": "胴長のゆったりとした体形。中山の内回りというのは微妙だが、距離延長は歓迎材料。数字的にはほとんど同じでも、昨秋より馬体良化。蹄底が浅く道悪だと割引になるが、前進は可能。",
+      "publishedDate": "2013-02-27",
+      "raceKey": "2013:中山牝馬S",
+      "raceDate": "2013-03-10",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8138",
+      "key": "horse_2718|keibabook|130311|http://old.keibado.ne.jp/keibabook/130311/images/pp04.jpg",
+      "horseId": "horse_2718",
+      "source": "keibabook",
+      "sourceId": "130311",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130311/photo04.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130311/images/pp04.jpg",
+      "localImagePath": "images/keibabook/130311/オメガハートランド-4.jpg",
+      "caption": "2013-03-10 中山牝馬S",
+      "raceName": "中山牝馬S",
+      "photoDate": "2013-03-10",
+      "issueDate": "2013-03-11",
+      "sourceOrder": 4,
+      "comment": "桜花賞時の写真に比べると胸前も後肢も逞しくなり、腹構えもしっかりとしてきた。当時からは10キロほど増えた程度だが、確実に成長の跡は窺える。今回も力強い立ち姿で、雰囲気はいい。",
+      "publishedDate": "2013-02-27",
+      "raceKey": "2013:中山牝馬S",
+      "raceDate": "2013-03-10",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8140",
+      "key": "horse_2719|keibabook|130311|http://old.keibado.ne.jp/keibabook/130311/images/pp06.jpg",
+      "horseId": "horse_2719",
+      "source": "keibabook",
+      "sourceId": "130311",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130311/photo06.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130311/images/pp06.jpg",
+      "localImagePath": "images/keibabook/130311/アラフネ-6.jpg",
+      "caption": "2013-03-10 中山牝馬S",
+      "raceName": "中山牝馬S",
+      "photoDate": "2013-03-10",
+      "issueDate": "2013-03-11",
+      "sourceOrder": 6,
+      "comment": "３歳の春先は線が細くて華奢な印象だったが、秋に復帰した後は数字が示す通り、むしろフックラと見せるようになってきた。毛ヅヤはパッとしないが、引き締まった馬体で好調を維持している。",
+      "publishedDate": "2013-02-27",
+      "raceKey": "2013:中山牝馬S",
+      "raceDate": "2013-03-10",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8144",
+      "key": "horse_2720|keibabook|130311|http://old.keibado.ne.jp/keibabook/130311/images/pp10.jpg",
+      "horseId": "horse_2720",
+      "source": "keibabook",
+      "sourceId": "130311",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130311/photo10.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130311/images/pp10.jpg",
+      "localImagePath": "images/keibabook/130311/サンブルエミューズ-10.jpg",
+      "caption": "2013-03-10 フィリーズレビュー",
+      "raceName": "フィリーズレビュー",
+      "photoDate": "2013-03-10",
+      "issueDate": "2013-03-11",
+      "sourceOrder": 10,
+      "comment": "阪神ＪＦ時の写真に比べると全体に筋肉がついてきた感じで、ハッキリと逞しさを増している。この時季とは思えないほどピカピカの毛ヅヤで、体調そのものもグンと良くなってきた。",
+      "publishedDate": "2013-02-28",
+      "raceKey": "2013:フィリーズレビュー",
+      "raceDate": "2013-03-10",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8145",
+      "key": "horse_2721|keibabook|130311|http://old.keibado.ne.jp/keibabook/130311/images/pp11.jpg",
+      "horseId": "horse_2721",
+      "source": "keibabook",
+      "sourceId": "130311",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130311/photo11.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130311/images/pp11.jpg",
+      "localImagePath": "images/keibabook/130311/シーブリーズライフ-11.jpg",
+      "caption": "2013-03-10 フィリーズレビュー",
+      "raceName": "フィリーズレビュー",
+      "photoDate": "2013-03-10",
+      "issueDate": "2013-03-11",
+      "sourceOrder": 11,
+      "comment": "重心が低くて、胴の詰まった体形。あまり父のアドマイヤジャパンには似ておらず、母系の血が出たのかも知れない。３歳牝馬とは思えないほど逞しく、完成度も高そう。",
+      "publishedDate": "2013-02-27",
+      "raceKey": "2013:フィリーズレビュー",
+      "raceDate": "2013-03-10",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8155",
+      "key": "horse_2240|keibabook|130304|http://old.keibado.ne.jp/keibabook/130304/images/pp09.jpg",
+      "horseId": "horse_2240",
+      "source": "keibabook",
+      "sourceId": "130304",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130304/photo09.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130304/images/pp09.jpg",
+      "localImagePath": "images/keibabook/130304/キズナ-9.jpg",
+      "caption": "2013-03-03 弥生賞",
+      "raceName": "弥生賞",
+      "photoDate": "2013-03-03",
+      "issueDate": "2013-03-04",
+      "sourceOrder": 9,
+      "comment": "肩甲骨が長く、肩や胸の部分が逞しい。繋の角度も理想的でキチッと大地についている。少し腹回りに余裕があるが、あくまで目標は先だからこの姿でいい。気の強そうな顔も闘争心の表れ。",
+      "publishedDate": "2013-02-20",
+      "raceKey": "2013:弥生賞",
+      "raceDate": "2013-03-03",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8157",
+      "key": "horse_2277|keibabook|130304|http://old.keibado.ne.jp/keibabook/130304/images/pp11.jpg",
+      "horseId": "horse_2277",
+      "source": "keibabook",
+      "sourceId": "130304",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130304/photo11.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130304/images/pp11.jpg",
+      "localImagePath": "images/keibabook/130304/エピファネイア-11.jpg",
+      "caption": "2013-03-03 弥生賞",
+      "raceName": "弥生賞",
+      "photoDate": "2013-03-03",
+      "issueDate": "2013-03-04",
+      "sourceOrder": 11,
+      "comment": "圧倒的な馬っぷりの良さを誇っていたＧⅠ２勝の母に比べると、現状では幾らか迫力不足。ただ、胴長でいかにも芝の中距離が向いていそうなタイプ。ピカピカの毛ヅヤで好仕上がり。",
+      "publishedDate": "2013-02-20",
+      "raceKey": "2013:弥生賞",
+      "raceDate": "2013-03-03",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8158",
+      "key": "horse_2383|keibabook|130304|http://old.keibado.ne.jp/keibabook/130304/images/pp12.jpg",
+      "horseId": "horse_2383",
+      "source": "keibabook",
+      "sourceId": "130304",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130304/photo12.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130304/images/pp12.jpg",
+      "localImagePath": "images/keibabook/130304/コディーノ-12.jpg",
+      "caption": "2013-03-03 弥生賞",
+      "raceName": "弥生賞",
+      "photoDate": "2013-03-03",
+      "issueDate": "2013-03-04",
+      "sourceOrder": 12,
+      "comment": "しっかりと休ませて、２歳時よりもひと回り大きくなってきた印象。写真の時点では少し立派な印象だが、この後に１週前の追い切りを消化。直前にもう１本追えば臨戦態勢は整いそうだ。",
+      "publishedDate": "2013-02-20",
+      "raceKey": "2013:弥生賞",
+      "raceDate": "2013-03-03",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8154",
+      "key": "horse_2536|keibabook|130304|http://old.keibado.ne.jp/keibabook/130304/images/pp08.jpg",
+      "horseId": "horse_2536",
+      "source": "keibabook",
+      "sourceId": "130304",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130304/photo08.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130304/images/pp08.jpg",
+      "localImagePath": "images/keibabook/130304/ダービーフィズ-8.jpg",
+      "caption": "2013-03-03 弥生賞",
+      "raceName": "弥生賞",
+      "photoDate": "2013-03-03",
+      "issueDate": "2013-03-04",
+      "sourceOrder": 8,
+      "comment": "全姉のアプリコットフィズよりも骨太で、重心も低い体形。他の兄姉馬にもあまり似ていないあたり、父の影響が強く出たのかも知れない。まだ少し余裕残しだが、当日までには仕上がりそう。",
+      "publishedDate": "2013-02-20",
+      "raceKey": "2013:弥生賞",
+      "raceDate": "2013-03-03",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8153",
+      "key": "horse_2705|keibabook|130304|http://old.keibado.ne.jp/keibabook/130304/images/pp07.jpg",
+      "horseId": "horse_2705",
+      "source": "keibabook",
+      "sourceId": "130304",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130304/photo07.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130304/images/pp07.jpg",
+      "localImagePath": "images/keibabook/130304/カミノタサハラ-7.jpg",
+      "caption": "2013-03-03 弥生賞",
+      "raceName": "弥生賞",
+      "photoDate": "2013-03-03",
+      "issueDate": "2013-03-04",
+      "sourceOrder": 7,
+      "comment": "全兄の２頭でもマウントシャスタよりは骨太で筋肉質。体形的にはボレアスに似たタイプといえそうだ。腹構えがしっかりとして、体の張りも抜群。一戦毎に体調を上げて、まさに充実期。",
+      "publishedDate": "2013-02-20",
+      "raceKey": "2013:弥生賞",
+      "raceDate": "2013-03-03",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8156",
+      "key": "horse_2722|keibabook|130304|http://old.keibado.ne.jp/keibabook/130304/images/pp10.jpg",
+      "horseId": "horse_2722",
+      "source": "keibabook",
+      "sourceId": "130304",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130304/photo10.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130304/images/pp10.jpg",
+      "localImagePath": "images/keibabook/130304/ヘミングウェイ-10.jpg",
+      "caption": "2013-03-03 弥生賞",
+      "raceName": "弥生賞",
+      "photoDate": "2013-03-03",
+      "issueDate": "2013-03-04",
+      "sourceOrder": 10,
+      "comment": "体脂肪率が低そうな手入れの行き届いた体。凹凸がハッキリしているのがいい。特に上腕三頭筋の盛り上がりが凄い。緩かったトモも逞しく成長。爪の形から荒れ馬場もＯＫか。絶好調だ。",
+      "publishedDate": "2013-02-20",
+      "raceKey": "2013:弥生賞",
+      "raceDate": "2013-03-03",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8159",
+      "key": "horse_2723|keibabook|130304|http://old.keibado.ne.jp/keibabook/130304/images/pp13.jpg",
+      "horseId": "horse_2723",
+      "source": "keibabook",
+      "sourceId": "130304",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130304/photo13.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130304/images/pp13.jpg",
+      "localImagePath": "images/keibabook/130304/サトノネプチューン-13.jpg",
+      "caption": "2013-03-03 弥生賞",
+      "raceName": "弥生賞",
+      "photoDate": "2013-03-03",
+      "issueDate": "2013-03-04",
+      "sourceOrder": 13,
+      "comment": "腹袋がなく、牝馬のような印象も受けるが、これでいて500キロを超える大型馬。胸前と後肢の発達した筋肉はひと際目を引き、スラッと脚も長くて体高は高い。毛ヅヤが冴え、態勢は万全か。",
+      "publishedDate": "2013-02-20",
+      "raceKey": "2013:弥生賞",
+      "raceDate": "2013-03-03",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8152",
+      "key": "horse_2038|keibabook|130304|http://old.keibado.ne.jp/keibabook/130304/images/pp06.jpg",
+      "horseId": "horse_2038",
+      "source": "keibabook",
+      "sourceId": "130304",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130304/photo06.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130304/images/pp06.jpg",
+      "localImagePath": "images/keibabook/130304/ウインプリメーラ-6.jpg",
+      "caption": "2013-03-02 チューリップ賞",
+      "raceName": "チューリップ賞",
+      "photoDate": "2013-03-02",
+      "issueDate": "2013-03-04",
+      "sourceOrder": 6,
+      "comment": "父母に似て馬体は小柄。あまり馬力がありそうなタイプではなく、理想は良馬場だろう。繋は長目で柔らかみがあり、なかなかバネを感じさせる。顔つきも凛としており、雰囲気はいい。",
+      "publishedDate": "2013-02-20",
+      "raceKey": "2013:チューリップ賞",
+      "raceDate": "2013-03-02",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8148",
+      "key": "horse_2385|keibabook|130304|http://old.keibado.ne.jp/keibabook/130304/images/pp02.jpg",
+      "horseId": "horse_2385",
+      "source": "keibabook",
+      "sourceId": "130304",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130304/photo02.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130304/images/pp02.jpg",
+      "localImagePath": "images/keibabook/130304/アユサン-2.jpg",
+      "caption": "2013-03-02 チューリップ賞",
+      "raceName": "チューリップ賞",
+      "photoDate": "2013-03-02",
+      "issueDate": "2013-03-04",
+      "sourceOrder": 2,
+      "comment": "２歳時に比べると少し立派に映るが、筋肉がついて成長している分もありそう。いずれにしてもこの写真の後にハードな併せ馬を消化。当日までには絞れるはずで、及第点以上の気配。",
+      "publishedDate": "2013-02-20",
+      "raceKey": "2013:チューリップ賞",
+      "raceDate": "2013-03-02",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8150",
+      "key": "horse_2543|keibabook|130304|http://old.keibado.ne.jp/keibabook/130304/images/pp04.jpg",
+      "horseId": "horse_2543",
+      "source": "keibabook",
+      "sourceId": "130304",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130304/photo04.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130304/images/pp04.jpg",
+      "localImagePath": "images/keibabook/130304/レッドオーヴァル-4.jpg",
+      "caption": "2013-03-02 チューリップ賞",
+      "raceName": "チューリップ賞",
+      "photoDate": "2013-03-02",
+      "issueDate": "2013-03-04",
+      "sourceOrder": 4,
+      "comment": "フックラとした腹構え。430キロほどの馬だが、首から胸前にかけてもしっかりと実が入っており、数字以上に大きく見せる。ゆったりとした体形で、ノビノビ走れる阪神外回りは歓迎。",
+      "publishedDate": "2013-02-20",
+      "raceKey": "2013:チューリップ賞",
+      "raceDate": "2013-03-02",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8151",
+      "key": "horse_2545|keibabook|130304|http://old.keibado.ne.jp/keibabook/130304/images/pp05.jpg",
+      "horseId": "horse_2545",
+      "source": "keibabook",
+      "sourceId": "130304",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130304/photo05.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130304/images/pp05.jpg",
+      "localImagePath": "images/keibabook/130304/ローブティサージュ-5.jpg",
+      "caption": "2013-03-02 チューリップ賞",
+      "raceName": "チューリップ賞",
+      "photoDate": "2013-03-02",
+      "issueDate": "2013-03-04",
+      "sourceOrder": 5,
+      "comment": "若干、胴が伸びた印象で、筋肉質のムキムキとした馬体は男勝りの迫力。青毛ということもあって、非常に見栄えする。寒いこの時季でも肌艶がいいし、動きも素軽い。緒戦から。",
+      "publishedDate": "2013-02-20",
+      "raceKey": "2013:チューリップ賞",
+      "raceDate": "2013-03-02",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8147",
+      "key": "horse_2687|keibabook|130304|http://old.keibado.ne.jp/keibabook/130304/images/pp01.jpg",
+      "horseId": "horse_2687",
+      "source": "keibabook",
+      "sourceId": "130304",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130304/photo01.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130304/images/pp01.jpg",
+      "localImagePath": "images/keibabook/130304/クロフネサプライズ-1.jpg",
+      "caption": "2013-03-02 チューリップ賞",
+      "raceName": "チューリップ賞",
+      "photoDate": "2013-03-02",
+      "issueDate": "2013-03-04",
+      "sourceOrder": 1,
+      "comment": "休養を挟んで胴が伸びた印象。スラッとしてまったく無駄のない体つきに映るのは、その分もあるのかも。繋にも柔軟性が増しており、この先、距離が長くなっても十分対応できそう。",
+      "publishedDate": "2013-02-20",
+      "raceKey": "2013:チューリップ賞",
+      "raceDate": "2013-03-02",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8149",
+      "key": "horse_2688|keibabook|130304|http://old.keibado.ne.jp/keibabook/130304/images/pp03.jpg",
+      "horseId": "horse_2688",
+      "source": "keibabook",
+      "sourceId": "130304",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130304/photo03.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130304/images/pp03.jpg",
+      "localImagePath": "images/keibabook/130304/プリンセスジャック-3.jpg",
+      "caption": "2013-03-02 チューリップ賞",
+      "raceName": "チューリップ賞",
+      "photoDate": "2013-03-02",
+      "issueDate": "2013-03-04",
+      "sourceOrder": 3,
+      "comment": "前回よりも輪郭がシャープに映る。少し胴が伸びたようにも思え、牝馬らしくスカッとした体形になってきた。寒いこの時季にしては毛ヅヤも上々。いい仕上がりで臨めそうだ。",
+      "publishedDate": "2013-02-20",
+      "raceKey": "2013:チューリップ賞",
+      "raceDate": "2013-03-02",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8167",
+      "key": "horse_2106|keibabook|130225|http://old.keibado.ne.jp/keibabook/130225/images/pp08.jpg",
+      "horseId": "horse_2106",
+      "source": "keibabook",
+      "sourceId": "130225",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130225/photo08.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130225/images/pp08.jpg",
+      "localImagePath": "images/keibabook/130225/ナカヤマナイト-8.jpg",
+      "caption": "2013-02-24 中山記念",
+      "raceName": "中山記念",
+      "photoDate": "2013-02-24",
+      "issueDate": "2013-02-25",
+      "sourceOrder": 8,
+      "comment": "引き締まって映った前回がデビュー以来の最高馬体重。おそらく更に実が入ってきたということではないだろうか。今回は更に引き締まり、いかにも充実してきたような馬体。本格化か。",
+      "publishedDate": "2013-02-13",
+      "raceKey": "2013:中山記念",
+      "raceDate": "2013-02-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8162",
+      "key": "horse_2187|keibabook|130225|http://old.keibado.ne.jp/keibabook/130225/images/pp03.jpg",
+      "horseId": "horse_2187",
+      "source": "keibabook",
+      "sourceId": "130225",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130225/photo03.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130225/images/pp03.jpg",
+      "localImagePath": "images/keibabook/130225/オリービン-3.jpg",
+      "caption": "2013-02-24 阪急杯",
+      "raceName": "阪急杯",
+      "photoDate": "2013-02-24",
+      "issueDate": "2013-02-25",
+      "sourceOrder": 3,
+      "comment": "ボリューム感溢れる筋肉質の馬体で、いかにも瞬発力がありそう。勝ち鞍こそないが、寸の詰まった体形で1400ｍの距離もピッタリに思える。毛ヅヤが冴え、体調も良好。",
+      "publishedDate": "2013-02-13",
+      "raceKey": "2013:阪急杯",
+      "raceDate": "2013-02-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8164",
+      "key": "horse_2309|keibabook|130225|http://old.keibado.ne.jp/keibabook/130225/images/pp05.jpg",
+      "horseId": "horse_2309",
+      "source": "keibabook",
+      "sourceId": "130225",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130225/photo05.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130225/images/pp05.jpg",
+      "localImagePath": "images/keibabook/130225/エピセアローム-5.jpg",
+      "caption": "2013-02-24 阪急杯",
+      "raceName": "阪急杯",
+      "photoDate": "2013-02-24",
+      "issueDate": "2013-02-25",
+      "sourceOrder": 5,
+      "comment": "久々だし、冬場ということもあって、前走時ほどの張りの良さは感じられないが、緩みなく仕上がった馬体。少しスラッとした体形になっているだけに、距離延長も悪くないのでは。",
+      "publishedDate": "2013-02-13",
+      "raceKey": "2013:阪急杯",
+      "raceDate": "2013-02-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8169",
+      "key": "horse_2337|keibabook|130225|http://old.keibado.ne.jp/keibabook/130225/images/pp10.jpg",
+      "horseId": "horse_2337",
+      "source": "keibabook",
+      "sourceId": "130225",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130225/photo10.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130225/images/pp10.jpg",
+      "localImagePath": "images/keibabook/130225/アンコイルド-10.jpg",
+      "caption": "2013-02-24 中山記念",
+      "raceName": "中山記念",
+      "photoDate": "2013-02-24",
+      "issueDate": "2013-02-25",
+      "sourceOrder": 10,
+      "comment": "目下４連勝で当欄初登場。馬体や管に比べ、繋が長い点が特徴的で、バネの源になっている。弱かった後躯もグンと張りが出て、腿や尻が盛り上がり腰角が深い。いきなり能力全開か。",
+      "publishedDate": "2013-02-13",
+      "raceKey": "2013:中山記念",
+      "raceDate": "2013-02-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8166",
+      "key": "horse_2347|keibabook|130225|http://old.keibado.ne.jp/keibabook/130225/images/pp07.jpg",
+      "horseId": "horse_2347",
+      "source": "keibabook",
+      "sourceId": "130225",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130225/photo07.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130225/images/pp07.jpg",
+      "localImagePath": "images/keibabook/130225/ダイワファルコン-7.jpg",
+      "caption": "2013-02-24 中山記念",
+      "raceName": "中山記念",
+      "photoDate": "2013-02-24",
+      "issueDate": "2013-02-25",
+      "sourceOrder": 7,
+      "comment": "この時季とは思えないほどの素晴らしい毛ヅヤ。細く映る時よりは少し太いくらいの方が走るタイプで、うっすらとアバラが見える程度なのも理想的。いつも以上に活気を感じさせている。",
+      "publishedDate": "2013-02-13",
+      "raceKey": "2013:中山記念",
+      "raceDate": "2013-02-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8163",
+      "key": "horse_2388|keibabook|130225|http://old.keibado.ne.jp/keibabook/130225/images/pp04.jpg",
+      "horseId": "horse_2388",
+      "source": "keibabook",
+      "sourceId": "130225",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130225/photo04.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130225/images/pp04.jpg",
+      "localImagePath": "images/keibabook/130225/サンカルロ-4.jpg",
+      "caption": "2013-02-24 阪急杯",
+      "raceName": "阪急杯",
+      "photoDate": "2013-02-24",
+      "issueDate": "2013-02-25",
+      "sourceOrder": 4,
+      "comment": "若干、肉づきは良過ぎるような気もするが、もともとギスギスした感じの時よりもフックラ見せた時の方がいいタイプ。この時季でも皮膚の薄さは感じさせており、力は出せる仕上がり。",
+      "publishedDate": "2013-02-14",
+      "raceKey": "2013:阪急杯",
+      "raceDate": "2013-02-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8170",
+      "key": "horse_2411|keibabook|130225|http://old.keibado.ne.jp/keibabook/130225/images/pp11.jpg",
+      "horseId": "horse_2411",
+      "source": "keibabook",
+      "sourceId": "130225",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130225/photo11.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130225/images/pp11.jpg",
+      "localImagePath": "images/keibabook/130225/ダノンバラード-11.jpg",
+      "caption": "2013-02-24 中山記念",
+      "raceName": "中山記念",
+      "photoDate": "2013-02-24",
+      "issueDate": "2013-02-25",
+      "sourceOrder": 11,
+      "comment": "非常にスカッとしたいつもの姿。長い繋としなやかな胴が印象的だ。内にモタれる癖も中間は見せず精神面でも安定し落ち着きがある。爪の形から雨は苦手だろうが、デキは高いレベルで安定。",
+      "publishedDate": "2013-02-13",
+      "raceKey": "2013:中山記念",
+      "raceDate": "2013-02-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8160",
+      "key": "horse_2457|keibabook|130225|http://old.keibado.ne.jp/keibabook/130225/images/pp01.jpg",
+      "horseId": "horse_2457",
+      "source": "keibabook",
+      "sourceId": "130225",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130225/photo01.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130225/images/pp01.jpg",
+      "localImagePath": "images/keibabook/130225/ロードカナロア-1.jpg",
+      "caption": "2013-02-24 阪急杯",
+      "raceName": "阪急杯",
+      "photoDate": "2013-02-24",
+      "issueDate": "2013-02-25",
+      "sourceOrder": 1,
+      "comment": "筋骨隆々の、いかにも短距離馬らしい体形。スプリンターズＳ時に比べると、張りや力強さが若干足りない気はするが、太目感なく動きも軽快。海外遠征明けでも大幅な割引は必要ない。",
+      "publishedDate": "2013-02-13",
+      "raceKey": "2013:阪急杯",
+      "raceDate": "2013-02-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8165",
+      "key": "horse_2578|keibabook|130225|http://old.keibado.ne.jp/keibabook/130225/images/pp06.jpg",
+      "horseId": "horse_2578",
+      "source": "keibabook",
+      "sourceId": "130225",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130225/photo06.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130225/images/pp06.jpg",
+      "localImagePath": "images/keibabook/130225/マジンプロスパー-6.jpg",
+      "caption": "2013-02-24 阪急杯",
+      "raceName": "阪急杯",
+      "photoDate": "2013-02-24",
+      "issueDate": "2013-02-25",
+      "sourceOrder": 6,
+      "comment": "少し背が伸びたようだが、ひと息入り腹回りは少し立派。それでも筋肉の張りは上々で、四肢のバネが戻ってきている。絞りづらい冬場は苦手だし、次が目標なので、現状はこれでいいかも。",
+      "publishedDate": "2013-02-13",
+      "raceKey": "2013:阪急杯",
+      "raceDate": "2013-02-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8171",
+      "key": "horse_2676|keibabook|130225|http://old.keibado.ne.jp/keibabook/130225/images/pp12.jpg",
+      "horseId": "horse_2676",
+      "source": "keibabook",
+      "sourceId": "130225",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130225/photo12.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130225/images/pp12.jpg",
+      "localImagePath": "images/keibabook/130225/シルポート-12.jpg",
+      "caption": "2013-02-24 中山記念",
+      "raceName": "中山記念",
+      "photoDate": "2013-02-24",
+      "issueDate": "2013-02-25",
+      "sourceOrder": 12,
+      "comment": "実の詰まった非常に逞しい馬体。いかにもパワーがありそうだし、繋も立ち気味。重馬場で行われた昨年のこのレースが、見せ場タップリの２着。道悪の適性もかなり高い。",
+      "publishedDate": "2013-02-13",
+      "raceKey": "2013:中山記念",
+      "raceDate": "2013-02-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8161",
+      "key": "horse_2724|keibabook|130225|http://old.keibado.ne.jp/keibabook/130225/images/pp02.jpg",
+      "horseId": "horse_2724",
+      "source": "keibabook",
+      "sourceId": "130225",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130225/photo02.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130225/images/pp02.jpg",
+      "localImagePath": "images/keibabook/130225/オセアニアボス-2.jpg",
+      "caption": "2013-02-24 阪急杯",
+      "raceName": "阪急杯",
+      "photoDate": "2013-02-24",
+      "issueDate": "2013-02-25",
+      "sourceOrder": 2,
+      "comment": "その名の通り南半球産である。放牧先で乗り込み、腹斜筋がクッキリして、既に仕上がった体だ。眼を剥いて気迫が窺えるし、皮膚も薄くて若々しい。いきなり能力発揮できそう。",
+      "publishedDate": "2013-02-13",
+      "raceKey": "2013:阪急杯",
+      "raceDate": "2013-02-24",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_8168",
+      "key": "horse_2725|keibabook|130225|http://old.keibado.ne.jp/keibabook/130225/images/pp09.jpg",
+      "horseId": "horse_2725",
+      "source": "keibabook",
+      "sourceId": "130225",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130225/photo09.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130225/images/pp09.jpg",
+      "localImagePath": "images/keibabook/130225/タッチミーノット-9.jpg",
+      "caption": "2013-02-24 中山記念",
+      "raceName": "中山記念",
+      "photoDate": "2013-02-24",
+      "issueDate": "2013-02-25",
+      "sourceOrder": 9,
+      "comment": "写真では常に少し頭の高い姿勢。いかにも切れ味で勝負するような体形である。間隔は少し開いているが、前走時から大きく変わった感じはなく、体の張りは相変わらずいい。",
+      "publishedDate": "2013-02-13",
+      "raceKey": "2013:中山記念",
+      "raceDate": "2013-02-24",
+      "raceDateSource": "override"
     }
   ],
   "pages": [
+    {
+      "key": "keibabook:130225",
+      "source": "keibabook",
+      "sourceId": "130225",
+      "url": "http://old.keibado.ne.jp/keibabook/130225/index.html",
+      "title": "競馬ブック 130225",
+      "fetchedAt": "2026-06-01T02:29:36.303Z",
+      "status": "ok",
+      "horses": 12,
+      "photos": 12
+    },
+    {
+      "key": "keibabook:130304",
+      "source": "keibabook",
+      "sourceId": "130304",
+      "url": "http://old.keibado.ne.jp/keibabook/130304/index.html",
+      "title": "競馬ブック 130304",
+      "fetchedAt": "2026-06-01T02:29:24.035Z",
+      "status": "ok",
+      "horses": 13,
+      "photos": 13
+    },
+    {
+      "key": "keibabook:130311",
+      "source": "keibabook",
+      "sourceId": "130311",
+      "url": "http://old.keibado.ne.jp/keibabook/130311/index.html",
+      "title": "競馬ブック 130311",
+      "fetchedAt": "2026-06-01T02:29:06.761Z",
+      "status": "ok",
+      "horses": 12,
+      "photos": 12
+    },
+    {
+      "key": "keibabook:130318",
+      "source": "keibabook",
+      "sourceId": "130318",
+      "url": "http://old.keibado.ne.jp/keibabook/130318/index.html",
+      "title": "競馬ブック 130318",
+      "fetchedAt": "2026-06-01T02:28:52.812Z",
+      "status": "ok",
+      "horses": 12,
+      "photos": 12
+    },
+    {
+      "key": "keibabook:130325",
+      "source": "keibabook",
+      "sourceId": "130325",
+      "url": "http://old.keibado.ne.jp/keibabook/130325/index.html",
+      "title": "競馬ブック 130325",
+      "fetchedAt": "2026-06-01T02:28:30.758Z",
+      "status": "ok",
+      "horses": 11,
+      "photos": 11
+    },
+    {
+      "key": "keibabook:130401",
+      "source": "keibabook",
+      "sourceId": "130401",
+      "url": "http://old.keibado.ne.jp/keibabook/130401/index.html",
+      "title": "競馬ブック 130401",
+      "fetchedAt": "2026-06-01T02:26:31.471Z",
+      "status": "ok",
+      "horses": 12,
+      "photos": 12
+    },
+    {
+      "key": "keibabook:130408",
+      "source": "keibabook",
+      "sourceId": "130408",
+      "url": "http://old.keibado.ne.jp/keibabook/130408/index.html",
+      "title": "競馬ブック 130408",
+      "fetchedAt": "2026-06-01T02:26:11.649Z",
+      "status": "ok",
+      "horses": 11,
+      "photos": 11
+    },
+    {
+      "key": "keibabook:130415",
+      "source": "keibabook",
+      "sourceId": "130415",
+      "url": "http://old.keibado.ne.jp/keibabook/130415/index.html",
+      "title": "競馬ブック 130415",
+      "fetchedAt": "2026-06-01T02:25:53.101Z",
+      "status": "ok",
+      "horses": 11,
+      "photos": 11
+    },
+    {
+      "key": "keibabook:130422",
+      "source": "keibabook",
+      "sourceId": "130422",
+      "url": "http://old.keibado.ne.jp/keibabook/130422/index.html",
+      "title": "競馬ブック 130422",
+      "fetchedAt": "2026-06-01T02:25:41.800Z",
+      "status": "ok",
+      "horses": 12,
+      "photos": 12
+    },
+    {
+      "key": "keibabook:130430",
+      "source": "keibabook",
+      "sourceId": "130430",
+      "url": "http://old.keibado.ne.jp/keibabook/130430/index.html",
+      "title": "競馬ブック 130430",
+      "fetchedAt": "2026-06-01T02:25:23.310Z",
+      "status": "ok",
+      "horses": 11,
+      "photos": 11
+    },
+    {
+      "key": "keibabook:130429",
+      "source": "keibabook",
+      "sourceId": "130429",
+      "url": "http://old.keibado.ne.jp/keibabook/130429/index.html",
+      "fetchedAt": "2026-06-01T02:24:42.502Z",
+      "status": "error",
+      "error": "404 Not Found: http://old.keibado.ne.jp/keibabook/130429/index.html"
+    },
     {
       "key": "keibabook:130506",
       "source": "keibabook",
@@ -280383,6 +283478,13 @@
       "sourceId": "130826",
       "url": "http://old.keibado.ne.jp/keibabook/130826/index.html",
       "message": "fetch failed"
+    },
+    {
+      "at": "2026-06-01T02:24:42.502Z",
+      "source": "keibabook",
+      "sourceId": "130429",
+      "url": "http://old.keibado.ne.jp/keibabook/130429/index.html",
+      "message": "404 Not Found: http://old.keibado.ne.jp/keibabook/130429/index.html"
     }
   ]
 }
