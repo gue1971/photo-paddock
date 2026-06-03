@@ -834,7 +834,7 @@ function renderOffspringDetail() {
     detail.innerHTML = `<div class="empty">馬を選択してください。</div>`;
     return;
   }
-  const offspring = offspringForName(baseName).sort(birthYearSort);
+  const offspring = offspringForName(baseName).sort(favoriteBirthYearSort);
   detail.innerHTML = `
     <div class="horse-head">
       <div>
