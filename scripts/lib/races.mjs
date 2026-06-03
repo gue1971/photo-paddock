@@ -25,7 +25,8 @@ export function normalizeRaceName(name = "", aliases = {}) {
     .replace(/[ＳＣＲＭＧ]/g, (char) => ({ "Ｓ": "S", "Ｃ": "C", "Ｒ": "R", "Ｍ": "M", "Ｇ": "G" })[char])
     .replace(/[（）]/g, (char) => ({ "（": "(", "）": ")" })[char])
     .replace(/\s+/g, "");
-  return aliases[cleaned] || cleaned;
+  const aliased = aliases[cleaned] || cleaned;
+  return aliased.replace(/ステークス$/, "S");
 }
 
 export function raceKey(year, raceName) {
