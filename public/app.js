@@ -427,8 +427,6 @@ function setMode(mode) {
       state.selectedHorseId = firstFavoriteHorseId() || "";
     }
   }
-  search.placeholder = mode === "race" ? "レース名を入力検索" : mode === "favorites" ? "お気に入りを入力検索" : "馬名・父・母を入力検索";
-  search.removeAttribute("list");
   render();
 }
 
@@ -562,6 +560,7 @@ function clearOffspringSelection() {
 }
 
 function render() {
+  syncSearchControl();
   document.body.dataset.mode = state.mode;
   document.body.dataset.hasQuery = state.query || hasActiveFilters() ? "true" : "false";
   document.body.dataset.filterOpen = state.filterOpen ? "true" : "false";
@@ -596,6 +595,15 @@ function render() {
   else renderHorseList();
 
   renderDetail();
+}
+
+function syncSearchControl() {
+  search.placeholder = state.mode === "race"
+    ? "レース名を入力検索"
+    : state.mode === "favorites"
+      ? "お気に入りを入力検索"
+      : "馬名・父・母を入力検索";
+  search.removeAttribute("list");
 }
 
 function renderFilterControls() {
