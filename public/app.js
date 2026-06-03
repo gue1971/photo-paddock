@@ -197,6 +197,12 @@ detail.addEventListener("click", (event) => {
   const offspringNameLink = event.target.closest("button[data-open-offspring-name]");
   if (offspringNameLink) {
     openOffspringByName(offspringNameLink.dataset.openOffspringName);
+    return;
+  }
+
+  const pedigreeSearchLink = event.target.closest("button[data-search-pedigree]");
+  if (pedigreeSearchLink) {
+    searchHorseByPedigreeName(pedigreeSearchLink.dataset.searchPedigree);
   }
 });
 
@@ -536,6 +542,20 @@ function openRace(raceKey) {
   render();
 }
 
+function searchHorseByPedigreeName(name) {
+  if (!name) return;
+  state.mode = "horse";
+  clearOffspringSelection();
+  state.query = name;
+  state.filters.horseTouch = "";
+  state.filterOpen = false;
+  state.sidebarOpen = true;
+  search.value = "";
+  const exact = state.db.horses.find((horse) => normalizeTouchText(horse.name) === normalizeTouchText(name));
+  if (exact) state.selectedHorseId = exact.id;
+  render();
+}
+
 function clearOffspringSelection() {
   state.offspringHorseId = "";
   state.offspringHorseName = "";
@@ -866,14 +886,24 @@ function renderHorseDetail() {
           ${bodyTagChips(horse)}
         </div>
         <div class="blood">
-          <div><span>父</span>${escapeHtml(horse.sire || "-")}</div>
-          <div><span>母</span>${escapeHtml(horse.dam || "-")}</div>
-          <div><span>母父</span>${escapeHtml(horse.damsire || "-")}</div>
+          ${bloodLine("父", horse.sire)}
+          ${bloodLine("母", horse.dam)}
+          ${bloodLine("母父", horse.damsire)}
         </div>
       </div>
     </div>
     <div class="photos">
       ${photos.map((photo) => photoCard(photo, { context: "horse" })).join("") || `<div class="empty">写真がありません。</div>`}
+    </div>
+  `;
+}
+
+function bloodLine(label, name) {
+  return `
+    <div>
+      <span>${escapeHtml(label)}</span>${name
+        ? `<button type="button" class="blood-link" data-search-pedigree="${escapeHtml(name)}">${escapeHtml(name)}</button>`
+        : "-"}
     </div>
   `;
 }
