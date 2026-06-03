@@ -83,8 +83,8 @@ try {
 export function parseIndex(html) {
   const links = [];
   let currentRace = "";
-  const mini = (html.match(/<table[^>]+class=["']mini["'][\s\S]*?<\/table>/i)?.[0] ?? html)
-    .replace(/<!--[\s\S]*?-->/g, "");
+  const miniTables = [...html.matchAll(/<table[^>]+class=["']mini["'][\s\S]*?<\/table>/gi)].map((match) => match[0]);
+  const mini = (miniTables.length ? miniTables.join("\n") : html).replace(/<!--[\s\S]*?-->/g, "");
   const tokens = [...mini.matchAll(/<td[^>]*>\s*(?:<b>\s*<font[^>]*>|<font[^>]*>\s*<b>)([\s\S]*?)(?:<\/font>\s*<\/b>|<\/b>\s*<\/font>)[\s\S]*?<\/td>|<a\s+href=['"](\.\/)?(photo(\d+)\.html)['"][^>]*>([\s\S]*?)<\/a>/gi)];
   for (const token of tokens) {
     if (token[1]) currentRace = stripTags(token[1]);
