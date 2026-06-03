@@ -39,7 +39,8 @@ export async function saveStore(db) {
 
 export function upsertHorse(db, horse) {
   const key = horseKey(horse);
-  let existing = db.horses.find((item) => item.key === key);
+  let existing = (horse.birthYear === undefined || horse.birthYear === null) ? findKnownHorseByIdentity(db, horse) : null;
+  if (!existing) existing = db.horses.find((item) => item.key === key);
   if (!existing) {
     existing = {
       id: nextHorseId(db),
@@ -63,6 +64,20 @@ export function upsertHorse(db, horse) {
     }));
   }
   return existing;
+}
+
+export function findKnownHorseByIdentity(db, horse) {
+  const name = normalizeHorseIdentityPart(horse.name);
+  const sire = normalizeHorseIdentityPart(horse.sire);
+  const dam = normalizeHorseIdentityPart(horse.dam);
+  if (!name || !sire || !dam) return null;
+  return db.horses.find((item) => {
+    return normalizeHorseIdentityPart(item.name) === name
+      && normalizeHorseIdentityPart(item.sire) === sire
+      && normalizeHorseIdentityPart(item.dam) === dam
+      && item.birthYear !== undefined
+      && item.birthYear !== null;
+  }) ?? null;
 }
 
 function nextHorseId(db) {

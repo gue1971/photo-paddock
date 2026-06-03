@@ -84,16 +84,21 @@ export function parseIndex(html) {
   const links = [];
   let currentRace = "";
   const miniTables = [...html.matchAll(/<table[^>]+class=["']mini["'][\s\S]*?<\/table>/gi)].map((match) => match[0]);
-  const mini = (miniTables.length ? miniTables.join("\n") : html).replace(/<!--[\s\S]*?-->/g, "");
-  const headingTag = "(?:b|strong)";
-  const tokens = [...mini.matchAll(new RegExp(`<td[^>]*>\\s*(?:<${headingTag}>\\s*<font[^>]*>|<font[^>]*>\\s*<${headingTag}>)([\\s\\S]*?)(?:<\\/font>\\s*<\\/${headingTag}>|<\\/${headingTag}>\\s*<\\/font>)[\\s\\S]*?<\\/td>|<a\\s+href=['"](\\.\\/)?(photo(\\d+)\\.html)['"][^>]*>([\\s\\S]*?)<\\/a>`, "gi"))];
-  for (const token of tokens) {
-    if (token[1]) currentRace = stripTags(token[1]);
-    if (token[3]) {
+  const legacyBlocks = [...html.matchAll(/<!--\s*#BeginLibraryItem\s+"\/Library\/m_photo\.lbi"\s*-->([\s\S]*?)<!--\s*#EndLibraryItem\s*-->/gi)].map((match) => match[1]);
+  const sections = miniTables.length ? miniTables : legacyBlocks.length ? legacyBlocks : [html];
+  const mini = sections.join("\n").replace(/<!--[\s\S]*?-->/g, "");
+  const rows = [...mini.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/gi)].map((match) => match[1]);
+  const scanTargets = rows.length ? rows : [mini];
+
+  for (const row of scanTargets) {
+    const heading = extractRaceHeading(row);
+    if (heading) currentRace = heading;
+
+    for (const token of row.matchAll(/<a\s+href=['"](\.\/)?(photo(\d+)\.html)['"][^>]*>([\s\S]*?)<\/a>/gi)) {
       links.push({
-        href: token[3],
-        sourceOrder: Number(token[4]),
-        name: stripTags(token[5]),
+        href: token[2],
+        sourceOrder: Number(token[3]),
+        name: stripTags(token[4]),
         raceName: currentRace
       });
     }
@@ -101,12 +106,23 @@ export function parseIndex(html) {
   return links;
 }
 
+function extractRaceHeading(row) {
+  if (/<a\s/i.test(row)) return "";
+  const boldHeading = row.match(/(?:<b>|<strong>)\s*<font[^>]*>([\s\S]*?)<\/font>\s*(?:<\/b>|<\/strong>)/i)
+    ?? row.match(/<font[^>]*>\s*(?:<b>|<strong>)([\s\S]*?)(?:<\/b>|<\/strong>)\s*<\/font>/i);
+  const text = stripTags(boldHeading?.[1] ?? row).normalize("NFKC").replace(/\s+/g, "").trim();
+  if (!text || text.length > 30) return "";
+  if (/^(PHOTO|BackNumber|CONTENTS|News|Home|リンク|更新情報)$/i.test(text)) return "";
+  if (/写真|フォトパドック|競馬ブック|ニュース|編集部|出走予定馬|重賞展望/.test(text)) return "";
+  return text.replace(/^[■◆]+/, "");
+}
+
 export function parsePhotoPage(html, pageUrl, issue, raceName, fallbackName) {
   const name = stripTags(html.match(/<img[^>]+p_name\.gif[^>]*>\s*([^<]+)/i)?.[1] ?? fallbackName);
   const profile = stripTags(html.match(/<div align="right"><font[^>]*>([\s\S]*?)<\/font><\/div>/i)?.[1] ?? "").normalize("NFKC");
   const sexAge = profile.match(/([牡牝セ])\s*(\d+)/);
   const photoDate = normalizeJapaneseDate(profile.match(/[（(]([^）)]+撮影)[）)]/)?.[1] ?? "", issue);
-  const image = html.match(/<img\s+src=["']([^"']*pp(\d+)\.jpg)["'][^>]*>/i);
+  const image = html.match(/<img\s+src=["']([^"']*(?:(?:pp|p_photo)(\d+)|photo_(\d+))\.jpg)["'][^>]*>/i);
   const comment = stripTags(html.match(/<table width="310"[\s\S]*?<font[^>]*>([\s\S]*?)<\/font>[\s\S]*?<\/table>/i)?.[1] ?? "");
   const pedigree = [...html.matchAll(/<font size="2" color="#000000">([\s\S]*?)<\/font>/gi)].map((match) => stripTags(match[1])).filter(Boolean);
   const sire = pedigree[0] ?? "";
@@ -129,7 +145,7 @@ export function parsePhotoPage(html, pageUrl, issue, raceName, fallbackName) {
       imageUrl: absoluteUrl(pageUrl, image[1]),
       caption: [photoDate, raceName].filter(Boolean).join(" "),
       photoDate,
-      sourceOrder: Number(image[2]),
+      sourceOrder: Number(image[2] ?? image[3]),
       comment
     }
   };

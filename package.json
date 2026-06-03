@@ -11,6 +11,7 @@
     "cleanup:keibalab": "node scripts/cleanup-keibalab-comparison-photos.mjs",
     "repair:keibalab-races": "node scripts/repair-keibalab-single-race-captions.mjs",
     "prune:orphans": "node scripts/prune-orphan-horses.mjs",
+    "backfill:birth-years": "node scripts/backfill-birth-years.mjs",
     "merge:duplicate-horses": "node scripts/merge-duplicate-horses.mjs",
     "repair:photo-ids": "node scripts/repair-photo-ids.mjs",
     "repair:image-urls": "node scripts/repair-image-urls.mjs",
