@@ -25143,33 +25143,6 @@
       ]
     },
     {
-      "id": "horse_2597",
-      "key": "オニャンコポン|2020|エイシンフラッシュ|シャリオドール",
-      "name": "オニャンコポン",
-      "birthYear": 2020,
-      "sex": "牡",
-      "sire": "エイシンフラッシュ",
-      "dam": "シャリオドール",
-      "damsire": "ヴィクトワールピサ",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "長躯短背",
-          "category": "体型",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_2211",
-              "raceDate": "2023-01-05",
-              "raceName": "京都金杯",
-              "phrase": "「長躯短背」の理想的なバランスで、骨格は前後に程よいまとまりがある。"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "horse_850",
       "key": "オマツリオトコ|2020|ヴィットリオドーロ|マツリバヤシ",
       "name": "オマツリオトコ",
@@ -30981,47 +30954,6 @@
       ]
     },
     {
-      "id": "horse_2599",
-      "key": "プレサージュリフト|2020|ハービンジャー|シュプリームギフト",
-      "name": "プレサージュリフト",
-      "birthYear": 2020,
-      "sex": "牝",
-      "sire": "ハービンジャー",
-      "dam": "シュプリームギフト",
-      "damsire": "ディープインパクト",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "脚長",
-          "category": "体型",
-          "confidence": "suggested",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_2213",
-              "raceDate": "2023-01-05",
-              "raceName": "京都金杯",
-              "phrase": "前脚もスラっと見せていて、跳びが大きいタイプの追い込み馬。"
-            }
-          ]
-        },
-        {
-          "tag": "胴長",
-          "category": "体型",
-          "confidence": "suggested",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_2213",
-              "raceDate": "2023-01-05",
-              "raceName": "京都金杯",
-              "phrase": "父ハービンジャー同様に、胴周りに伸びがある体型。"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "horse_998",
       "key": "プロトポロス|2020|WarFront|キャヴァルドレ",
       "name": "プロトポロス",
@@ -31741,47 +31673,6 @@
       ]
     },
     {
-      "id": "horse_2600",
-      "key": "マテンロウオリオン|2020|ダイワメジャー|パルテノン",
-      "name": "マテンロウオリオン",
-      "birthYear": 2020,
-      "sex": "牡",
-      "sire": "ダイワメジャー",
-      "dam": "パルテノン",
-      "damsire": "キングカメハメハ",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "胴詰まり",
-          "category": "体型",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_2214",
-              "raceDate": "2023-01-05",
-              "raceName": "京都金杯",
-              "phrase": "胴詰まりのフォルム。"
-            }
-          ]
-        },
-        {
-          "tag": "曲飛",
-          "category": "骨格",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_2214",
-              "raceDate": "2023-01-05",
-              "raceName": "京都金杯",
-              "phrase": "連動性に優れていて、後肢の飛節は緩やかにカーブ。"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "horse_779",
       "key": "マラキナイア|2020|ジャスタウェイ|カウアイレーン",
       "name": "マラキナイア",
@@ -32416,17 +32307,6 @@
       ]
     },
     {
-      "id": "horse_2591",
-      "key": "ラーグルフ|2020|モーリス|アバンドーネ",
-      "name": "ラーグルフ",
-      "birthYear": 2020,
-      "sex": "牡",
-      "sire": "モーリス",
-      "dam": "アバンドーネ",
-      "damsire": "ファルブラヴ",
-      "notes": ""
-    },
-    {
       "id": "horse_824",
       "key": "ライオットガール|2020|シニスターミニスター|マリアビスティー",
       "name": "ライオットガール",
@@ -33046,33 +32926,6 @@
               "raceDate": "2026-06-07",
               "raceName": "安田記念",
               "phrase": "ある程度胴に伸びがあって、後肢の飛節は真っすぐに伸びた「直飛」の構造。"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "horse_2592",
-      "key": "レッドランメルト|2020|ディープインパクト|クイーンズアドヴァイス",
-      "name": "レッドランメルト",
-      "birthYear": 2020,
-      "sex": "牡",
-      "sire": "ディープインパクト",
-      "dam": "クイーンズアドヴァイス",
-      "damsire": "Orpen",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "直飛",
-          "category": "骨格",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_2206",
-              "raceDate": "2023-01-05",
-              "raceName": "中山金杯",
-              "phrase": "飛節は真っ直ぐに伸びた「直飛」タイプで、ストライドを伸ばして走るタイプ。"
             }
           ]
         }
@@ -34343,17 +34196,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "horse_2595",
-      "key": "イルーシヴパンサー|2019|ハーツクライ|イルーシヴキャット",
-      "name": "イルーシヴパンサー",
-      "birthYear": 2019,
-      "sex": "牡",
-      "sire": "ハーツクライ",
-      "dam": "イルーシヴキャット",
-      "damsire": "キングカメハメハ",
-      "notes": ""
     },
     {
       "id": "horse_633",
@@ -35665,6 +35507,12 @@
               "raceDate": "2022-01-16",
               "raceName": "京成杯",
               "phrase": "いわゆる「長躯短背」の理想的なバランスといえるだろう。"
+            },
+            {
+              "photoId": "photo_2211",
+              "raceDate": "2023-01-05",
+              "raceName": "京都金杯",
+              "phrase": "「長躯短背」の理想的なバランスで、骨格は前後に程よいまとまりがある。"
             }
           ]
         }
@@ -41929,7 +41777,7 @@
           "tag": "脚長",
           "category": "体型",
           "confidence": "confirmed",
-          "evidenceCount": 5,
+          "evidenceCount": 6,
           "evidence": [
             {
               "photoId": "photo_1184",
@@ -41960,6 +41808,12 @@
               "raceDate": "2022-04-10",
               "raceName": "桜花賞",
               "phrase": "前脚もスラっと見せていて、跳びが大きいタイプの追い込み馬。"
+            },
+            {
+              "photoId": "photo_2213",
+              "raceDate": "2023-01-05",
+              "raceName": "京都金杯",
+              "phrase": "前脚もスラっと見せていて、跳びが大きいタイプの追い込み馬。"
             }
           ]
         },
@@ -41967,7 +41821,7 @@
           "tag": "胴長",
           "category": "体型",
           "confidence": "suggested",
-          "evidenceCount": 5,
+          "evidenceCount": 6,
           "evidence": [
             {
               "photoId": "photo_1184",
@@ -41997,6 +41851,12 @@
               "photoId": "photo_2669",
               "raceDate": "2022-04-10",
               "raceName": "桜花賞",
+              "phrase": "父ハービンジャー同様に、胴周りに伸びがある体型。"
+            },
+            {
+              "photoId": "photo_2213",
+              "raceDate": "2023-01-05",
+              "raceName": "京都金杯",
               "phrase": "父ハービンジャー同様に、胴周りに伸びがある体型。"
             }
           ]
@@ -42831,7 +42691,7 @@
           "tag": "胴詰まり",
           "category": "体型",
           "confidence": "confirmed",
-          "evidenceCount": 5,
+          "evidenceCount": 6,
           "evidence": [
             {
               "photoId": "photo_593",
@@ -42862,6 +42722,12 @@
               "raceDate": "2022-05-29",
               "raceName": "日本ダービー",
               "phrase": "本質的には底力勝負、パワー勝負のほうが合っており、胴詰まりの体型からも、距離はマイル近辺がベストか。"
+            },
+            {
+              "photoId": "photo_2214",
+              "raceDate": "2023-01-05",
+              "raceName": "京都金杯",
+              "phrase": "胴詰まりのフォルム。"
             }
           ]
         },
@@ -42869,7 +42735,7 @@
           "tag": "曲飛",
           "category": "骨格",
           "confidence": "confirmed",
-          "evidenceCount": 4,
+          "evidenceCount": 5,
           "evidence": [
             {
               "photoId": "photo_593",
@@ -42894,6 +42760,12 @@
               "raceDate": "2022-05-29",
               "raceName": "日本ダービー",
               "phrase": "飛節は緩やかにカーブ、切れ味を秘めている。"
+            },
+            {
+              "photoId": "photo_2214",
+              "raceDate": "2023-01-05",
+              "raceName": "京都金杯",
+              "phrase": "連動性に優れていて、後肢の飛節は緩やかにカーブ。"
             }
           ]
         },
@@ -43593,17 +43465,6 @@
       ]
     },
     {
-      "id": "horse_2594",
-      "key": "ラーゴム|2019|オルフェーヴル|シュガーショック",
-      "name": "ラーゴム",
-      "birthYear": 2019,
-      "sex": "牡",
-      "sire": "オルフェーヴル",
-      "dam": "シュガーショック",
-      "damsire": "Candy Ride",
-      "notes": ""
-    },
-    {
       "id": "horse_214",
       "key": "ライラック|2019|オルフェーヴル|ヴィーヴァブーケ",
       "name": "ライラック",
@@ -44122,12 +43983,18 @@
           "tag": "直飛",
           "category": "骨格",
           "confidence": "confirmed",
-          "evidenceCount": 1,
+          "evidenceCount": 2,
           "evidence": [
             {
               "photoId": "photo_1189",
               "raceDate": "2024-08-11",
               "raceName": "小倉記念",
+              "phrase": "飛節は真っ直ぐに伸びた「直飛」タイプで、ストライドを伸ばして走るタイプ。"
+            },
+            {
+              "photoId": "photo_2206",
+              "raceDate": "2023-01-05",
+              "raceName": "中山金杯",
               "phrase": "飛節は真っ直ぐに伸びた「直飛」タイプで、ストライドを伸ばして走るタイプ。"
             }
           ]
@@ -44971,33 +44838,6 @@
               "raceDate": "2022-02-27",
               "raceName": "中山記念",
               "phrase": "跳びが大きく綺麗な馬ではあるが、飛節は緩やかにカーブしており、小回りコースも対応可能。"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "horse_2589",
-      "key": "アドマイヤビルゴ|2018|ディープインパクト|イルーシヴウェーヴ",
-      "name": "アドマイヤビルゴ",
-      "birthYear": 2018,
-      "sex": "牡",
-      "sire": "ディープインパクト",
-      "dam": "イルーシヴウェーヴ",
-      "damsire": "Elusive City",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "胴詰まり",
-          "category": "体型",
-          "confidence": "suggested",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_2203",
-              "raceDate": "2023-01-05",
-              "raceName": "中山金杯",
-              "phrase": "※出走回避牡馬としてはコンパクトな馬体。"
             }
           ]
         }
@@ -45885,47 +45725,6 @@
       ]
     },
     {
-      "id": "horse_2593",
-      "key": "ウインキートス|2018|ゴールドシップ|イクスキューズ",
-      "name": "ウインキートス",
-      "birthYear": 2018,
-      "sex": "牝",
-      "sire": "ゴールドシップ",
-      "dam": "イクスキューズ",
-      "damsire": "ボストンハーバー",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "胴長",
-          "category": "体型",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_2207",
-              "raceDate": "2023-01-05",
-              "raceName": "中山金杯",
-              "phrase": "胴周りはゆったりと見せていて、中長距離への適性が高い。"
-            }
-          ]
-        },
-        {
-          "tag": "曲飛",
-          "category": "骨格",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_2207",
-              "raceDate": "2023-01-05",
-              "raceName": "中山金杯",
-              "phrase": "飛節の折りは深い「曲飛」の構造で、機動力に優れたタイプ。"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "horse_1222",
       "key": "ヴェイルネビュラ|2018|ロードカナロア|リングネブラ",
       "name": "ヴェイルネビュラ",
@@ -46072,33 +45871,6 @@
       ]
     },
     {
-      "id": "horse_2596",
-      "key": "エアロロノア|2018|キングカメハメハ|エアワンピース",
-      "name": "エアロロノア",
-      "birthYear": 2018,
-      "sex": "牡",
-      "sire": "キングカメハメハ",
-      "dam": "エアワンピース",
-      "damsire": "ロックオブジブラルタル",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "曲飛",
-          "category": "骨格",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_2210",
-              "raceDate": "2023-01-05",
-              "raceName": "京都金杯",
-              "phrase": "飛節は「くの字」に折れている、曲飛の造り。"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "horse_1170",
       "key": "エイシンヒテン|2018|エイシンヒカリ|エイシンサンバレー",
       "name": "エイシンヒテン",
@@ -46120,33 +45892,6 @@
               "raceDate": "2021-03-14",
               "raceName": "フィリーズレビュー",
               "phrase": "四肢がやや短めで低重心、胴周りもゆったりとした造りで、持続力に優れている印象。"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "horse_2590",
-      "key": "エヒト|2018|ルーラーシップ|ヒーラ",
-      "name": "エヒト",
-      "birthYear": 2018,
-      "sex": "牡",
-      "sire": "ルーラーシップ",
-      "dam": "ヒーラ",
-      "damsire": "ディープインパクト",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "曲飛",
-          "category": "骨格",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_2204",
-              "raceDate": "2023-01-05",
-              "raceName": "中山金杯",
-              "phrase": "飛節は折りの深い「曲飛」タイプで、小回りコースでの実績が光る。"
             }
           ]
         }
@@ -47395,47 +47140,6 @@
               "raceDate": "2021-03-14",
               "raceName": "フィリーズレビュー",
               "phrase": "胴詰まりのシルエットで、肩のラインは立ち気味。"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "horse_2604",
-      "key": "ココロノトウダイ|2018|エイシンフラッシュ|フェアリーダンス",
-      "name": "ココロノトウダイ",
-      "birthYear": 2018,
-      "sex": "牡",
-      "sire": "エイシンフラッシュ",
-      "dam": "フェアリーダンス",
-      "damsire": "アグネスタキオン",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "胴長",
-          "category": "体型",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_3457",
-              "raceDate": "2021-01-05",
-              "raceName": "中山金杯",
-              "phrase": "胴長で大型馬、ストライドも大きく、持続力を活かした競馬が合っている印象。"
-            }
-          ]
-        },
-        {
-          "tag": "曲飛",
-          "category": "骨格",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_3457",
-              "raceDate": "2021-01-05",
-              "raceName": "中山金杯",
-              "phrase": "その一方で飛節は折りの深い「曲飛」であるため、後肢のピッチは馬格の割に利くタイプ。"
             }
           ]
         }
@@ -49622,28 +49326,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "horse_2605",
-      "key": "ダーリントンホール|2018|NewApproach|MissKenton",
-      "name": "ダーリントンホール",
-      "birthYear": 2018,
-      "sex": "牡",
-      "sire": "New Approach",
-      "dam": "Miss Kenton",
-      "damsire": "Pivotal",
-      "notes": ""
-    },
-    {
-      "id": "horse_2610",
-      "key": "タイセイビジョン|2018|タートルボウル|ソムニア",
-      "name": "タイセイビジョン",
-      "birthYear": 2018,
-      "sex": "牡",
-      "sire": "タートルボウル",
-      "dam": "ソムニア",
-      "damsire": "スペシャルウィーク",
-      "notes": ""
     },
     {
       "id": "horse_1223",
@@ -55489,6 +55171,20 @@
               "phrase": "背中側がやや短く、腹側のラインが長く映る「長躯短背」の造りや、仙骨が傾斜した「斜尻」といったパーツの造りは父ディープインパクトと良く似ている。"
             }
           ]
+        },
+        {
+          "tag": "胴詰まり",
+          "category": "体型",
+          "confidence": "suggested",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_2203",
+              "raceDate": "2023-01-05",
+              "raceName": "中山金杯",
+              "phrase": "※出走回避牡馬としてはコンパクトな馬体。"
+            }
+          ]
         }
       ]
     },
@@ -56215,17 +55911,6 @@
       ]
     },
     {
-      "id": "horse_2602",
-      "key": "ヴァンケドミンゴ|2017|ルーラーシップ|アンフィルージュ",
-      "name": "ヴァンケドミンゴ",
-      "birthYear": 2017,
-      "sex": "牡",
-      "sire": "ルーラーシップ",
-      "dam": "アンフィルージュ",
-      "damsire": "アグネスタキオン",
-      "notes": ""
-    },
-    {
       "id": "horse_1482",
       "key": "ヴィアメント|2017|キングカメハメハ|ダイワズーム",
       "name": "ヴィアメント",
@@ -56463,7 +56148,7 @@
           "tag": "胴長",
           "category": "体型",
           "confidence": "confirmed",
-          "evidenceCount": 5,
+          "evidenceCount": 6,
           "evidence": [
             {
               "photoId": "photo_2301",
@@ -56494,6 +56179,26 @@
               "raceDate": "2021-09-26",
               "raceName": "オールカマー",
               "phrase": "背中が長めで胴も長く見せており、中長距離向きの馬体といえる。"
+            },
+            {
+              "photoId": "photo_2207",
+              "raceDate": "2023-01-05",
+              "raceName": "中山金杯",
+              "phrase": "胴周りはゆったりと見せていて、中長距離への適性が高い。"
+            }
+          ]
+        },
+        {
+          "tag": "曲飛",
+          "category": "骨格",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_2207",
+              "raceDate": "2023-01-05",
+              "raceName": "中山金杯",
+              "phrase": "飛節の折りは深い「曲飛」の構造で、機動力に優れたタイプ。"
             }
           ]
         }
@@ -56948,7 +56653,7 @@
           "tag": "曲飛",
           "category": "骨格",
           "confidence": "confirmed",
-          "evidenceCount": 7,
+          "evidenceCount": 6,
           "evidence": [
             {
               "photoId": "photo_1378",
@@ -56979,6 +56684,12 @@
               "raceDate": "2022-04-24",
               "raceName": "マイラーズC",
               "phrase": "飛節も「くの字」に折れている「曲飛」の造りで、500キロ近い大型馬ながら後肢のピッチは速い。"
+            },
+            {
+              "photoId": "photo_2210",
+              "raceDate": "2023-01-05",
+              "raceName": "京都金杯",
+              "phrase": "飛節は「くの字」に折れている、曲飛の造り。"
             }
           ]
         }
@@ -57142,7 +56853,7 @@
           "tag": "曲飛",
           "category": "骨格",
           "confidence": "confirmed",
-          "evidenceCount": 3,
+          "evidenceCount": 4,
           "evidence": [
             {
               "photoId": "photo_1868",
@@ -57161,6 +56872,12 @@
               "raceDate": "2022-09-04",
               "raceName": "新潟記念",
               "phrase": "飛節は折りの深い「曲飛」タイプで、小倉や福島といった小回りコースでの実績が光る。"
+            },
+            {
+              "photoId": "photo_2204",
+              "raceDate": "2023-01-05",
+              "raceName": "中山金杯",
+              "phrase": "飛節は折りの深い「曲飛」タイプで、小回りコースでの実績が光る。"
             }
           ]
         },
@@ -58337,7 +58054,7 @@
           "tag": "曲飛",
           "category": "骨格",
           "confidence": "confirmed",
-          "evidenceCount": 2,
+          "evidenceCount": 3,
           "evidence": [
             {
               "photoId": "photo_3934",
@@ -58350,6 +58067,26 @@
               "raceDate": "2020-02-16",
               "raceName": "共同通信杯",
               "phrase": "飛節が「くの字」に折れた曲飛で、後肢の回転が速く、瞬発力に優れている。"
+            },
+            {
+              "photoId": "photo_3457",
+              "raceDate": "2021-01-05",
+              "raceName": "中山金杯",
+              "phrase": "その一方で飛節は折りの深い「曲飛」であるため、後肢のピッチは馬格の割に利くタイプ。"
+            }
+          ]
+        },
+        {
+          "tag": "胴長",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_3457",
+              "raceDate": "2021-01-05",
+              "raceName": "中山金杯",
+              "phrase": "胴長で大型馬、ストライドも大きく、持続力を活かした競馬が合っている印象。"
             }
           ]
         }
@@ -59616,33 +59353,6 @@
               "raceDate": "2020-09-20",
               "raceName": "ローズS",
               "phrase": "前走時の馬体重が500キロと牝馬ながら雄大な馬格の持ち主であるが、飛節の折りが「くの字」に折れている曲飛で、後肢の回転が速いため一瞬の加速力も秘めている。"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "horse_2609",
-      "key": "シュリ|2017|ハーツクライ|エーゲリア",
-      "name": "シュリ",
-      "birthYear": 2017,
-      "sex": "牡",
-      "sire": "ハーツクライ",
-      "dam": "エーゲリア",
-      "damsire": "Giant’s Causeway",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "胴詰まり",
-          "category": "体型",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_3462",
-              "raceDate": "2021-01-05",
-              "raceName": "京都金杯",
-              "phrase": "ハーツクライ産駒の中でも胴詰まりで、前後にまとまりを感じさせる体型。"
             }
           ]
         }
@@ -61706,53 +61416,6 @@
               "raceDate": "2020-09-13",
               "raceName": "セントウルS",
               "phrase": "がっしりとした体型で重心も低く、スプリント戦への高い適性を感じさせる馬体。"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "horse_2598",
-      "key": "ピースワンパラディ|2017|ジャングルポケット|クリアソウル",
-      "name": "ピースワンパラディ",
-      "birthYear": 2017,
-      "sex": "牡",
-      "sire": "ジャングルポケット",
-      "dam": "クリアソウル",
-      "damsire": "アグネスデジタル",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "胴長",
-          "category": "体型",
-          "confidence": "suggested",
-          "evidenceCount": 2,
-          "evidence": [
-            {
-              "photoId": "photo_2212",
-              "raceDate": "2023-01-05",
-              "raceName": "京都金杯",
-              "phrase": "胴周りに伸びがあり、数字以上に体を大きく見せる好馬体。"
-            },
-            {
-              "photoId": "photo_3453",
-              "raceDate": "2021-01-05",
-              "raceName": "京都金杯",
-              "phrase": "胴周りに伸びを感じさせる体型で、広いコースをノビノビと走らせて能力が活きてくるタイプ。"
-            }
-          ]
-        },
-        {
-          "tag": "繋ぎ立ち",
-          "category": "骨格",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_2212",
-              "raceDate": "2023-01-05",
-              "raceName": "京都金杯",
-              "phrase": "繋ぎは立ち気味、馬場は渋っても対応可能。"
             }
           ]
         }
@@ -64619,33 +64282,6 @@
       ]
     },
     {
-      "id": "horse_2601",
-      "key": "アールスター|2016|ロードカナロア|ウェーブクイーン",
-      "name": "アールスター",
-      "birthYear": 2016,
-      "sex": "牡",
-      "sire": "ロードカナロア",
-      "dam": "ウェーブクイーン",
-      "damsire": "サツカーボーイ",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "胸深",
-          "category": "体型",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_3454",
-              "raceDate": "2021-01-05",
-              "raceName": "中山金杯",
-              "phrase": "バランスが整っており、胸の深さも十分。"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "horse_1446",
       "key": "アイラブテーラー|2016|トーセンラー|タケショウレジーナ",
       "name": "アイラブテーラー",
@@ -67314,17 +66950,6 @@
       ]
     },
     {
-      "id": "horse_2607",
-      "key": "ケイアイノーテック|2016|ディープインパクト|ケイアイガーベラ",
-      "name": "ケイアイノーテック",
-      "birthYear": 2016,
-      "sex": "牡",
-      "sire": "ディープインパクト",
-      "dam": "ケイアイガーベラ",
-      "damsire": "Smarty Jones",
-      "notes": ""
-    },
-    {
       "id": "horse_1150",
       "key": "ケイデンスコール|2016|ロードカナロア|インダクティ",
       "name": "ケイデンスコール",
@@ -68707,6 +68332,20 @@
               "raceDate": "2021-06-13",
               "raceName": "エプソムC",
               "phrase": "一方で、飛節は地面に対して真っ直ぐに伸びた「直飛」の構造をしており、後肢をキックした際に飛節がしっかりと伸び切る。"
+            }
+          ]
+        },
+        {
+          "tag": "胴詰まり",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_3462",
+              "raceDate": "2021-01-05",
+              "raceName": "京都金杯",
+              "phrase": "ハーツクライ産駒の中でも胴詰まりで、前後にまとまりを感じさせる体型。"
             }
           ]
         }
@@ -70473,47 +70112,6 @@
       ]
     },
     {
-      "id": "horse_2606",
-      "key": "バイオスパーク|2016|オルフェーヴル|ナナヨーティアラ",
-      "name": "バイオスパーク",
-      "birthYear": 2016,
-      "sex": "牡",
-      "sire": "オルフェーヴル",
-      "dam": "ナナヨーティアラ",
-      "damsire": "マイネルラヴ",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "胴長",
-          "category": "体型",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_3459",
-              "raceDate": "2021-01-05",
-              "raceName": "中山金杯",
-              "phrase": "背中と腹側のラインが平行に近く伸びがあるため、一瞬の切れよりも長く良い脚を使ってこその持続力タイプ。"
-            }
-          ]
-        },
-        {
-          "tag": "曲飛",
-          "category": "骨格",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_3459",
-              "raceDate": "2021-01-05",
-              "raceName": "中山金杯",
-              "phrase": "飛節も緩やかにカーブしており、後肢の回転はなかなか速い。"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "horse_1533",
       "key": "パッシングスルー|2016|ルーラーシップ|マイティースルー",
       "name": "パッシングスルー",
@@ -70756,13 +70354,39 @@
           "tag": "胴長",
           "category": "体型",
           "confidence": "confirmed",
-          "evidenceCount": 1,
+          "evidenceCount": 3,
           "evidence": [
             {
               "photoId": "photo_3683",
               "raceDate": "2020-09-06",
               "raceName": "新潟記念",
               "phrase": "胴周りにやや伸びがあり、クビも細く長めの造り。"
+            },
+            {
+              "photoId": "photo_2212",
+              "raceDate": "2023-01-05",
+              "raceName": "京都金杯",
+              "phrase": "胴周りに伸びがあり、数字以上に体を大きく見せる好馬体。"
+            },
+            {
+              "photoId": "photo_3453",
+              "raceDate": "2021-01-05",
+              "raceName": "京都金杯",
+              "phrase": "胴周りに伸びを感じさせる体型で、広いコースをノビノビと走らせて能力が活きてくるタイプ。"
+            }
+          ]
+        },
+        {
+          "tag": "繋ぎ立ち",
+          "category": "骨格",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_2212",
+              "raceDate": "2023-01-05",
+              "raceName": "京都金杯",
+              "phrase": "繋ぎは立ち気味、馬場は渋っても対応可能。"
             }
           ]
         }
@@ -73613,7 +73237,7 @@
           "tag": "胸深",
           "category": "体型",
           "confidence": "confirmed",
-          "evidenceCount": 2,
+          "evidenceCount": 3,
           "evidence": [
             {
               "photoId": "photo_2827",
@@ -73625,6 +73249,12 @@
               "photoId": "photo_3071",
               "raceDate": "2021-08-15",
               "raceName": "小倉記念",
+              "phrase": "バランスが整っており、胸の深さも十分。"
+            },
+            {
+              "photoId": "photo_3454",
+              "raceDate": "2021-01-05",
+              "raceName": "中山金杯",
               "phrase": "バランスが整っており、胸の深さも十分。"
             }
           ]
@@ -75010,17 +74640,6 @@
       ]
     },
     {
-      "id": "horse_2603",
-      "key": "カデナ|2015|ディープインパクト|フレンチリヴィエラ",
-      "name": "カデナ",
-      "birthYear": 2015,
-      "sex": "牡",
-      "sire": "ディープインパクト",
-      "dam": "フレンチリヴィエラ",
-      "damsire": "French Deputy",
-      "notes": ""
-    },
-    {
       "id": "horse_1795",
       "key": "カフジバンガード|2015|ハービンジャー|エミリア",
       "name": "カフジバンガード",
@@ -75892,61 +75511,6 @@
       "dam": "メガクライト",
       "damsire": "アグネスタキオン",
       "notes": ""
-    },
-    {
-      "id": "horse_2608",
-      "key": "サトノアーサー|2015|ディープインパクト|キングスローズ",
-      "name": "サトノアーサー",
-      "birthYear": 2015,
-      "sex": "牡",
-      "sire": "ディープインパクト",
-      "dam": "キングスローズ",
-      "damsire": "Redoute’s Choice",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "脚長",
-          "category": "体型",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_3461",
-              "raceDate": "2021-01-05",
-              "raceName": "京都金杯",
-              "phrase": "胴からは瞬発力を、後肢の長い脚からは持続力を発揮し、長く良い脚を繰り出せそうだ。"
-            }
-          ]
-        },
-        {
-          "tag": "胴長",
-          "category": "体型",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_3461",
-              "raceDate": "2021-01-05",
-              "raceName": "京都金杯",
-              "phrase": "胴からは瞬発力を、後肢の長い脚からは持続力を発揮し、長く良い脚を繰り出せそうだ。"
-            }
-          ]
-        },
-        {
-          "tag": "直飛",
-          "category": "骨格",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_3461",
-              "raceDate": "2021-01-05",
-              "raceName": "京都金杯",
-              "phrase": "飛節が真っ直ぐに伸びた「直飛」が特徴的で、パーツの構造はディープインパクト産駒らしい形と言える。"
-            }
-          ]
-        }
-      ]
     },
     {
       "id": "horse_1354",
@@ -78707,7 +78271,7 @@
           "tag": "胴長",
           "category": "体型",
           "confidence": "confirmed",
-          "evidenceCount": 1,
+          "evidenceCount": 3,
           "evidence": [
             {
               "photoId": "photo_3619",
@@ -78720,6 +78284,26 @@
               "raceDate": "2020-10-11",
               "raceName": "京都大賞典",
               "phrase": "背中と腹側のラインが平行に近く伸びがあるため、一瞬の切れよりも長く良い脚を使ってこその持続力タイプ。"
+            },
+            {
+              "photoId": "photo_3459",
+              "raceDate": "2021-01-05",
+              "raceName": "中山金杯",
+              "phrase": "背中と腹側のラインが平行に近く伸びがあるため、一瞬の切れよりも長く良い脚を使ってこその持続力タイプ。"
+            }
+          ]
+        },
+        {
+          "tag": "曲飛",
+          "category": "骨格",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_3459",
+              "raceDate": "2021-01-05",
+              "raceName": "中山金杯",
+              "phrase": "飛節も緩やかにカーブしており、後肢の回転はなかなか速い。"
             }
           ]
         }
@@ -83276,7 +82860,7 @@
           "tag": "脚長",
           "category": "体型",
           "confidence": "confirmed",
-          "evidenceCount": 2,
+          "evidenceCount": 3,
           "evidence": [
             {
               "photoId": "photo_3046",
@@ -83289,6 +82873,12 @@
               "raceDate": "2018-10-07",
               "raceName": "毎日王冠",
               "phrase": "特に前脚はスラッと長く、伸び伸び走ることのできる東京コースはピッタリだ。"
+            },
+            {
+              "photoId": "photo_3461",
+              "raceDate": "2021-01-05",
+              "raceName": "京都金杯",
+              "phrase": "胴からは瞬発力を、後肢の長い脚からは持続力を発揮し、長く良い脚を繰り出せそうだ。"
             }
           ]
         },
@@ -83296,7 +82886,7 @@
           "tag": "胴長",
           "category": "体型",
           "confidence": "confirmed",
-          "evidenceCount": 2,
+          "evidenceCount": 3,
           "evidence": [
             {
               "photoId": "photo_3395",
@@ -83309,6 +82899,12 @@
               "raceDate": "2017-09-24",
               "raceName": "神戸新聞杯",
               "phrase": "胴がやや詰まり気味で長距離向きとはいえない体つきなので、距離をこなせるかが最大のカギ。"
+            },
+            {
+              "photoId": "photo_3461",
+              "raceDate": "2021-01-05",
+              "raceName": "京都金杯",
+              "phrase": "胴からは瞬発力を、後肢の長い脚からは持続力を発揮し、長く良い脚を繰り出せそうだ。"
             }
           ]
         },
@@ -83387,6 +82983,12 @@
               "raceDate": "2018-06-10",
               "raceName": "エプソムC",
               "phrase": "ディープインパクト産駒らしい斜尻直飛だけに広い東京コースはベストの舞台であるし、母父リダウツチョイスの影響か筋肉量も豊富なので、マイル～1800ｍ向きだろう。"
+            },
+            {
+              "photoId": "photo_3461",
+              "raceDate": "2021-01-05",
+              "raceName": "京都金杯",
+              "phrase": "飛節が真っ直ぐに伸びた「直飛」が特徴的で、パーツの構造はディープインパクト産駒らしい形と言える。"
             }
           ]
         }
@@ -87712,17 +87314,6 @@
       ]
     },
     {
-      "id": "horse_2618",
-      "key": "アメリカズカップ|2013|マンハッタンカフェ|ベガスナイト",
-      "name": "アメリカズカップ",
-      "birthYear": 2013,
-      "sex": "牡",
-      "sire": "マンハッタンカフェ",
-      "dam": "ベガスナイト",
-      "damsire": "Coronado’s Quest",
-      "notes": ""
-    },
-    {
       "id": "horse_2151",
       "key": "アラバスター|2013|ハービンジャー|レーヴディソール",
       "name": "アラバスター",
@@ -88034,17 +87625,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "horse_2611",
-      "key": "ウインブライト|2013|ステイゴールド|サマーエタニティ",
-      "name": "ウインブライト",
-      "birthYear": 2013,
-      "sex": "牡",
-      "sire": "ステイゴールド",
-      "dam": "サマーエタニティ",
-      "damsire": "アドマイヤコジーン",
-      "notes": ""
     },
     {
       "id": "horse_2178",
@@ -88439,17 +88019,6 @@
       "notes": ""
     },
     {
-      "id": "horse_2612",
-      "key": "カデナ|2013|ディープインパクト|フレンチリヴィエラ",
-      "name": "カデナ",
-      "birthYear": 2013,
-      "sex": "牡",
-      "sire": "ディープインパクト",
-      "dam": "フレンチリヴィエラ",
-      "damsire": "French Deputy",
-      "notes": ""
-    },
-    {
       "id": "horse_1565",
       "key": "カフェブリッツ|2013|マンハッタンカフェ|カフェララルー",
       "name": "カフェブリッツ",
@@ -88532,17 +88101,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "horse_2620",
-      "key": "カラクレナイ|2013|ローエングリン|バーニングレッド",
-      "name": "カラクレナイ",
-      "birthYear": 2013,
-      "sex": "牝",
-      "sire": "ローエングリン",
-      "dam": "バーニングレッド",
-      "damsire": "アグネスタキオン",
-      "notes": ""
     },
     {
       "id": "horse_2059",
@@ -89846,17 +89404,6 @@
       ]
     },
     {
-      "id": "horse_2613",
-      "key": "セダブリランテス|2013|ディープブリランテ|シルクユニバーサル",
-      "name": "セダブリランテス",
-      "birthYear": 2013,
-      "sex": "牡",
-      "sire": "ディープブリランテ",
-      "dam": "シルクユニバーサル",
-      "damsire": "ブライアンズタイム",
-      "notes": ""
-    },
-    {
       "id": "horse_1969",
       "key": "ソルヴェイグ|2013|ダイワメジャー|アスドゥクール",
       "name": "ソルヴェイグ",
@@ -90041,17 +89588,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "horse_2614",
-      "key": "ダイワキャグニー|2013|キングカメハメハ|トリプレックス",
-      "name": "ダイワキャグニー",
-      "birthYear": 2013,
-      "sex": "牡",
-      "sire": "キングカメハメハ",
-      "dam": "トリプレックス",
-      "damsire": "サンデーサイレンス",
-      "notes": ""
     },
     {
       "id": "horse_2049",
@@ -91870,17 +91406,6 @@
       ]
     },
     {
-      "id": "horse_2622",
-      "key": "ラビットラン|2013|Tapit|Amelia",
-      "name": "ラビットラン",
-      "birthYear": 2013,
-      "sex": "牝",
-      "sire": "Tapit",
-      "dam": "Amelia",
-      "damsire": "Dixieland Band",
-      "notes": ""
-    },
-    {
       "id": "horse_2136",
       "key": "ラベンダーヴァレイ|2013|ディープインパクト|クロウキャニオン",
       "name": "ラベンダーヴァレイ",
@@ -92253,17 +91778,6 @@
       "sire": "ディープインパクト",
       "dam": "エリモピクシー",
       "damsire": "ダンシングブレーヴ",
-      "notes": ""
-    },
-    {
-      "id": "horse_2623",
-      "key": "レッドアンシェル|2013|マンハッタンカフェ|スタイルリスティック",
-      "name": "レッドアンシェル",
-      "birthYear": 2013,
-      "sex": "牡",
-      "sire": "マンハッタンカフェ",
-      "dam": "スタイルリスティック",
-      "damsire": "Storm Cat",
       "notes": ""
     },
     {
@@ -92940,17 +92454,6 @@
       "notes": ""
     },
     {
-      "id": "horse_2142",
-      "key": "アルビアーノ|2012|ハーランズホリデイ|アンティクス",
-      "name": "アルビアーノ",
-      "birthYear": 2012,
-      "sex": "牝",
-      "sire": "ハーランズホリデイ",
-      "dam": "アンティクス",
-      "damsire": "アンブライドルド",
-      "notes": ""
-    },
-    {
       "id": "horse_2238",
       "key": "アルマワイオリ|2012|マツリダゴッホ|イナズマローレル",
       "name": "アルマワイオリ",
@@ -93494,18 +92997,6 @@
       "dam": "Melito",
       "damsire": "Redoute’s Choice",
       "notes": ""
-    },
-    {
-      "id": "horse_2203",
-      "key": "キャンベルジュニア|2012|エンコスタデラゴ|メリト",
-      "name": "キャンベルジュニア",
-      "birthYear": 2012,
-      "sex": "牡",
-      "sire": "エンコスタデラゴ",
-      "dam": "メリト",
-      "damsire": "リダウツチョイス",
-      "notes": "",
-      "bodyTags": []
     },
     {
       "id": "horse_2519",
@@ -94314,17 +93805,6 @@
       "notes": ""
     },
     {
-      "id": "horse_2228",
-      "key": "サトノクラウン|2012|マルジュ|ジョコンダII",
-      "name": "サトノクラウン",
-      "birthYear": 2012,
-      "sex": "牡",
-      "sire": "マルジュ",
-      "dam": "ジョコンダⅡ",
-      "damsire": "Rossini",
-      "notes": ""
-    },
-    {
       "id": "horse_2193",
       "key": "サトノラーゼン|2012|ディープインパクト|トゥーピー",
       "name": "サトノラーゼン",
@@ -94659,17 +94139,6 @@
       "notes": ""
     },
     {
-      "id": "horse_2627",
-      "key": "ストロングタイタン|2012|RegalRansom|TitanQueen",
-      "name": "ストロングタイタン",
-      "birthYear": 2012,
-      "sex": "牡",
-      "sire": "Regal Ransom",
-      "dam": "Titan Queen",
-      "damsire": "Tiznow",
-      "notes": ""
-    },
-    {
       "id": "horse_2316",
       "key": "スノーエンジェル|2012|スウェプトオーヴァーボード|サイレントプレアー",
       "name": "スノーエンジェル",
@@ -94967,17 +94436,6 @@
       "notes": ""
     },
     {
-      "id": "horse_2291",
-      "key": "ダッシングブレイズ|2012|キトゥンズジョイ|ブレイジングブリス",
-      "name": "ダッシングブレイズ",
-      "birthYear": 2012,
-      "sex": "牡",
-      "sire": "キトゥンズジョイ",
-      "dam": "ブレイジングブリス",
-      "damsire": "オナーアンドグローリー",
-      "notes": ""
-    },
-    {
       "id": "horse_2039",
       "key": "タッチングスピーチ|2012|ディープインパクト|リッスン",
       "name": "タッチングスピーチ",
@@ -95140,7 +94598,65 @@
       "sire": "ダイワメジャー",
       "dam": "ヴィヤダーナ",
       "damsire": "アザムール",
-      "notes": ""
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "脚長",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_5883",
+              "raceDate": "2017-01-05",
+              "raceName": "中山金杯",
+              "phrase": "胴と脚の長さを見ても、いかにもマイラー体型で今回に関しては若干距離が長い印象。"
+            }
+          ]
+        },
+        {
+          "tag": "胴長",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_5883",
+              "raceDate": "2017-01-05",
+              "raceName": "中山金杯",
+              "phrase": "胴と脚の長さを見ても、いかにもマイラー体型で今回に関しては若干距離が長い印象。"
+            }
+          ]
+        },
+        {
+          "tag": "斜尻",
+          "category": "骨格",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_5883",
+              "raceDate": "2017-01-05",
+              "raceName": "中山金杯",
+              "phrase": "斜尻直飛でトモの造りは理想的。"
+            }
+          ]
+        },
+        {
+          "tag": "直飛",
+          "category": "骨格",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_5883",
+              "raceDate": "2017-01-05",
+              "raceName": "中山金杯",
+              "phrase": "斜尻直飛でトモの造りは理想的。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "horse_1896",
@@ -96352,6 +95868,20 @@
               "raceDate": "2017-08-06",
               "raceName": "小倉記念",
               "phrase": "腹袋が大きいタイプのハービンジャーで、直飛も父譲りの造り。"
+            }
+          ]
+        },
+        {
+          "tag": "脚長",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_6424",
+              "raceDate": "2016-01-05",
+              "raceName": "中山金杯",
+              "phrase": "ハービンジャー産駒らしいボリューミーな馬体だが、四肢は長めでサイズもあるので、バランスの悪さは感じさせない。"
             }
           ]
         }
@@ -97664,17 +97194,6 @@
       "notes": ""
     },
     {
-      "id": "horse_2330",
-      "key": "アジアエクスプレス|2011|ヘニーヒューズ|ランニングボブキャッツ",
-      "name": "アジアエクスプレス",
-      "birthYear": 2011,
-      "sex": "牡",
-      "sire": "ヘニーヒューズ",
-      "dam": "ランニングボブキャッツ",
-      "damsire": "ラニングスタッグ",
-      "notes": ""
-    },
-    {
       "id": "horse_2356",
       "key": "アジアエクスプレス|2011|ヘニーヒューズ|ラニングボブキャッツ",
       "name": "アジアエクスプレス",
@@ -98026,17 +97545,6 @@
       "notes": ""
     },
     {
-      "id": "horse_2619",
-      "key": "ウインガニオン|2011|ステイゴールド|チャンネルワン",
-      "name": "ウインガニオン",
-      "birthYear": 2011,
-      "sex": "牡",
-      "sire": "ステイゴールド",
-      "dam": "チャンネルワン",
-      "damsire": "ポリッシュネイビー",
-      "notes": ""
-    },
-    {
       "id": "horse_2276",
       "key": "ウインフルブルーム|2011|スペシャルウィーク|ハナノメガミ",
       "name": "ウインフルブルーム",
@@ -98264,17 +97772,6 @@
       "sire": "Belgravia",
       "dam": "Miss Fear Factor",
       "damsire": "Siphon",
-      "notes": ""
-    },
-    {
-      "id": "horse_2268",
-      "key": "エイシンブルズアイ|2011|ベルグラヴィア|ミスフィアファクター",
-      "name": "エイシンブルズアイ",
-      "birthYear": 2011,
-      "sex": "牡",
-      "sire": "ベルグラヴィア",
-      "dam": "ミスフィアファクター",
-      "damsire": "サイフォン",
       "notes": "",
       "bodyTags": [
         {
@@ -98642,17 +98139,6 @@
       ]
     },
     {
-      "id": "horse_2624",
-      "key": "クラリティスカイ|2011|クロフネ|タイキクラリティ",
-      "name": "クラリティスカイ",
-      "birthYear": 2011,
-      "sex": "牡",
-      "sire": "クロフネ",
-      "dam": "タイキクラリティ",
-      "damsire": "スペシャルウィーク",
-      "notes": ""
-    },
-    {
       "id": "horse_2439",
       "key": "グランシェリー|2011|アルデバランII|エポックサクラ",
       "name": "グランシェリー",
@@ -98689,17 +98175,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "horse_2621",
-      "key": "クルーガー|2011|キングカメハメハ|アディクティド",
-      "name": "クルーガー",
-      "birthYear": 2011,
-      "sex": "牡",
-      "sire": "キングカメハメハ",
-      "dam": "アディクティド",
-      "damsire": "Diktat",
-      "notes": ""
     },
     {
       "id": "horse_2358",
@@ -99459,75 +98934,6 @@
       "notes": ""
     },
     {
-      "id": "horse_2018",
-      "key": "ダノンメジャー|2011|ダイワメジャー|ヴィヤダーナ",
-      "name": "ダノンメジャー",
-      "birthYear": 2011,
-      "sex": "牡",
-      "sire": "ダイワメジャー",
-      "dam": "ヴィヤダーナ",
-      "damsire": "Azamour",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "脚長",
-          "category": "体型",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_5883",
-              "raceDate": "2017-01-05",
-              "raceName": "中山金杯",
-              "phrase": "胴と脚の長さを見ても、いかにもマイラー体型で今回に関しては若干距離が長い印象。"
-            }
-          ]
-        },
-        {
-          "tag": "胴長",
-          "category": "体型",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_5883",
-              "raceDate": "2017-01-05",
-              "raceName": "中山金杯",
-              "phrase": "胴と脚の長さを見ても、いかにもマイラー体型で今回に関しては若干距離が長い印象。"
-            }
-          ]
-        },
-        {
-          "tag": "斜尻",
-          "category": "骨格",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_5883",
-              "raceDate": "2017-01-05",
-              "raceName": "中山金杯",
-              "phrase": "斜尻直飛でトモの造りは理想的。"
-            }
-          ]
-        },
-        {
-          "tag": "直飛",
-          "category": "骨格",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_5883",
-              "raceDate": "2017-01-05",
-              "raceName": "中山金杯",
-              "phrase": "斜尻直飛でトモの造りは理想的。"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "horse_2060",
       "key": "ダンスアミーガ|2011|サクラバクシンオー|ダンスオールナイト",
       "name": "ダンスアミーガ",
@@ -99575,7 +98981,22 @@
       "dam": "ニューグランジ",
       "damsire": "Giant’s Causeway",
       "notes": "",
-      "bodyTags": []
+      "bodyTags": [
+        {
+          "tag": "胴詰まり",
+          "category": "体型",
+          "confidence": "suggested",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_5890",
+              "raceDate": "2017-01-05",
+              "raceName": "中山金杯",
+              "phrase": "＜今週のイチオシ＞父の産駒らしく、コンパクトながらしっかりとまとまった馬体。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "horse_2307",
@@ -100303,28 +99724,6 @@
       "notes": ""
     },
     {
-      "id": "horse_2628",
-      "key": "ブライトエンブレム|2011|ネオユニヴァース|ブラックエンブレム",
-      "name": "ブライトエンブレム",
-      "birthYear": 2011,
-      "sex": "牡",
-      "sire": "ネオユニヴァース",
-      "dam": "ブラックエンブレム",
-      "damsire": "ウォーエンブレム",
-      "notes": ""
-    },
-    {
-      "id": "horse_2616",
-      "key": "ブラックバゴ|2011|バゴ|ステイウィズユー",
-      "name": "ブラックバゴ",
-      "birthYear": 2011,
-      "sex": "牡",
-      "sire": "バゴ",
-      "dam": "ステイウィズユー",
-      "damsire": "ステイゴールド",
-      "notes": ""
-    },
-    {
       "id": "horse_2180",
       "key": "ブランネージュ|2011|シンボリクリスエス|シナノネージュ",
       "name": "ブランネージュ",
@@ -100464,33 +99863,6 @@
       "dam": "ベッラレイア",
       "damsire": "ナリタトップロード",
       "notes": ""
-    },
-    {
-      "id": "horse_2630",
-      "key": "ベルーフ|2011|ハービンジャー|レクレドール",
-      "name": "ベルーフ",
-      "birthYear": 2011,
-      "sex": "牡",
-      "sire": "ハービンジャー",
-      "dam": "レクレドール",
-      "damsire": "サンデーサイレンス",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "脚長",
-          "category": "体型",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_6424",
-              "raceDate": "2016-01-05",
-              "raceName": "中山金杯",
-              "phrase": "ハービンジャー産駒らしいボリューミーな馬体だが、四肢は長めでサイズもあるので、バランスの悪さは感じさせない。"
-            }
-          ]
-        }
-      ]
     },
     {
       "id": "horse_2052",
@@ -100824,7 +100196,7 @@
           "tag": "胴長",
           "category": "体型",
           "confidence": "confirmed",
-          "evidenceCount": 3,
+          "evidenceCount": 4,
           "evidence": [
             {
               "photoId": "photo_4964",
@@ -100843,6 +100215,12 @@
               "raceDate": "2017-09-03",
               "raceName": "新潟記念",
               "phrase": "胴が長く、一見して緩く見えるシルエット。"
+            },
+            {
+              "photoId": "photo_5891",
+              "raceDate": "2017-01-05",
+              "raceName": "中山金杯",
+              "phrase": "背中と胴回りが平行、同じくらいの長さで、平均的に脚を使うタイプ。"
             }
           ]
         },
@@ -101113,17 +100491,6 @@
       "damsire": "ラグビーボール",
       "notes": "",
       "bodyTags": []
-    },
-    {
-      "id": "horse_2631",
-      "key": "ヤマカツエース|2011|キングカメハメハ|ヤマカツマリリン",
-      "name": "ヤマカツエース",
-      "birthYear": 2011,
-      "sex": "牡",
-      "sire": "キングカメハメハ",
-      "dam": "ヤマカツマリリン",
-      "damsire": "グラスワンダー",
-      "notes": ""
     },
     {
       "id": "horse_2392",
@@ -101641,17 +101008,6 @@
       ]
     },
     {
-      "id": "horse_2211",
-      "key": "ワンアンドオンリー|2011|ハーツクライ|ポップコーンジャズ",
-      "name": "ワンアンドオンリー",
-      "birthYear": 2011,
-      "sex": "牡",
-      "sire": "ハーツクライ",
-      "dam": "ポップコーンジャズ",
-      "damsire": "タイキシャトル",
-      "notes": ""
-    },
-    {
       "id": "horse_1808",
       "key": "アウォーディー|2010|JunglePocket|HeavenlyRomance",
       "name": "アウォーディー",
@@ -102090,17 +101446,6 @@
       "sire": "ディープインパクト",
       "dam": "ウィキウィキ",
       "damsire": "フレンチデピュティ",
-      "notes": ""
-    },
-    {
-      "id": "horse_2634",
-      "key": "エイシンブルズアイ|2010|Belgravia|MissFearFactor",
-      "name": "エイシンブルズアイ",
-      "birthYear": 2010,
-      "sex": "牡",
-      "sire": "Belgravia",
-      "dam": "Miss Fear Factor",
-      "damsire": "Siphon",
       "notes": ""
     },
     {
@@ -103381,33 +102726,6 @@
       "notes": ""
     },
     {
-      "id": "horse_2625",
-      "key": "ツクバアズマオー|2010|ステイゴールド|ニューグランジ",
-      "name": "ツクバアズマオー",
-      "birthYear": 2010,
-      "sex": "牡",
-      "sire": "ステイゴールド",
-      "dam": "ニューグランジ",
-      "damsire": "Giant’s Causeway",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "胴詰まり",
-          "category": "体型",
-          "confidence": "suggested",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_5890",
-              "raceDate": "2017-01-05",
-              "raceName": "中山金杯",
-              "phrase": "＜今週のイチオシ＞父の産駒らしく、コンパクトながらしっかりとまとまった馬体。"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "horse_2452",
       "key": "ティアーモ|2010|キングカメハメハ|レディチャーム",
       "name": "ティアーモ",
@@ -103634,13 +102952,19 @@
           "tag": "斜尻",
           "category": "骨格",
           "confidence": "confirmed",
-          "evidenceCount": 1,
+          "evidenceCount": 2,
           "evidence": [
             {
               "photoId": "photo_5169",
               "raceDate": "2018-03-11",
               "raceName": "金鯱賞",
               "phrase": "父ディープインパクトの特徴を受け継いだ斜尻直飛。"
+            },
+            {
+              "photoId": "photo_5291",
+              "raceDate": "2018-01-06",
+              "raceName": "中山金杯",
+              "phrase": "ディープインパクトらしい斜尻直飛。"
             }
           ]
         },
@@ -103648,7 +102972,7 @@
           "tag": "直飛",
           "category": "骨格",
           "confidence": "confirmed",
-          "evidenceCount": 2,
+          "evidenceCount": 3,
           "evidence": [
             {
               "photoId": "photo_5169",
@@ -103661,6 +102985,12 @@
               "raceDate": "2016-12-25",
               "raceName": "有馬記念",
               "phrase": "直飛で脚長のディープインパクト産駒らしい形。"
+            },
+            {
+              "photoId": "photo_5291",
+              "raceDate": "2018-01-06",
+              "raceName": "中山金杯",
+              "phrase": "ディープインパクトらしい斜尻直飛。"
             }
           ]
         }
@@ -103780,17 +103110,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "horse_2166",
-      "key": "トーセンスターダム|2010|ディープインパクト|アドマイヤキラメキ",
-      "name": "トーセンスターダム",
-      "birthYear": 2010,
-      "sex": "牡",
-      "sire": "ディープインパクト",
-      "dam": "アドマイヤキラメキ",
-      "damsire": "エンドスウィープ",
-      "notes": ""
     },
     {
       "id": "horse_2709",
@@ -104032,16 +103351,30 @@
       "notes": ""
     },
     {
-      "id": "horse_1954",
-      "key": "フルーキー|2010|Redoute'sChoice|サンデースマイル2",
+      "id": "horse_2222",
+      "key": "フルーキー|2010|リダウツチョイス|サンデースマイルII",
       "name": "フルーキー",
       "birthYear": 2010,
       "sex": "牡",
-      "sire": "Redoute’s Choice",
-      "dam": "サンデースマイル２",
-      "damsire": "Sunday Silence",
+      "sire": "リダウツチョイス",
+      "dam": "サンデースマイルⅡ",
+      "damsire": "サンデーサイレンス",
       "notes": "",
       "bodyTags": [
+        {
+          "tag": "胴長",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_6971",
+              "raceDate": "2015-02-08",
+              "raceName": "東京新聞杯",
+              "phrase": "体形は以前よりも胴長でゆったりとしてきた感。"
+            }
+          ]
+        },
         {
           "tag": "脚長",
           "category": "体型",
@@ -104087,33 +103420,6 @@
       ]
     },
     {
-      "id": "horse_2222",
-      "key": "フルーキー|2010|リダウツチョイス|サンデースマイルII",
-      "name": "フルーキー",
-      "birthYear": 2010,
-      "sex": "牡",
-      "sire": "リダウツチョイス",
-      "dam": "サンデースマイルⅡ",
-      "damsire": "サンデーサイレンス",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "胴長",
-          "category": "体型",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_6971",
-              "raceDate": "2015-02-08",
-              "raceName": "東京新聞杯",
-              "phrase": "体形は以前よりも胴長でゆったりとしてきた感。"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "horse_1924",
       "key": "プレイズエターナル|2010|アドマイヤムーン|メイビーフォーエヴァー",
       "name": "プレイズエターナル",
@@ -104144,17 +103450,6 @@
       "sire": "Majestic Warrior",
       "dam": "Flirtatious Miss",
       "damsire": "Mr. Greeley",
-      "notes": ""
-    },
-    {
-      "id": "horse_2538",
-      "key": "ベストウォーリア|2010|マジェスティックウォリアー|フラーテイシャスミス",
-      "name": "ベストウォーリア",
-      "birthYear": 2010,
-      "sex": "牡",
-      "sire": "マジェスティックウォリアー",
-      "dam": "フラーテイシャスミス",
-      "damsire": "ミスターグリーリー",
       "notes": ""
     },
     {
@@ -104200,33 +103495,6 @@
       "dam": "グレートハーベスト",
       "damsire": "サンデーサイレンス",
       "notes": ""
-    },
-    {
-      "id": "horse_2626",
-      "key": "マイネルフロスト|2010|ブラックタイド|スリースノーグラス",
-      "name": "マイネルフロスト",
-      "birthYear": 2010,
-      "sex": "牡",
-      "sire": "ブラックタイド",
-      "dam": "スリースノーグラス",
-      "damsire": "グラスワンダー",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "胴長",
-          "category": "体型",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_5891",
-              "raceDate": "2017-01-05",
-              "raceName": "中山金杯",
-              "phrase": "背中と胴回りが平行、同じくらいの長さで、平均的に脚を使うタイプ。"
-            }
-          ]
-        }
-      ]
     },
     {
       "id": "horse_2686",
@@ -104311,7 +103579,7 @@
           "tag": "曲飛",
           "category": "骨格",
           "confidence": "confirmed",
-          "evidenceCount": 2,
+          "evidenceCount": 3,
           "evidence": [
             {
               "photoId": "photo_5529",
@@ -104324,6 +103592,12 @@
               "raceDate": "2017-06-11",
               "raceName": "エプソムC",
               "phrase": "曲飛気味でありつつ胸前には発達した筋肉をもっており、テンのダッシュ力につながっている。"
+            },
+            {
+              "photoId": "photo_5293",
+              "raceDate": "2018-01-06",
+              "raceName": "中山金杯",
+              "phrase": "曲飛寄りでテンが速そうな造りをしているが、トモの筋肉を見てもわかるように全盛期はもっと筋肉量があってボリュームを感じられた。"
             }
           ]
         }
@@ -104403,17 +103677,6 @@
       "sire": "グラスワンダー",
       "dam": "トリプレックス",
       "damsire": "サンデーサイレンス",
-      "notes": ""
-    },
-    {
-      "id": "horse_2635",
-      "key": "ミッキーラブソング|2010|キングカメハメハ|コイウタ",
-      "name": "ミッキーラブソング",
-      "birthYear": 2010,
-      "sex": "牡",
-      "sire": "キングカメハメハ",
-      "dam": "コイウタ",
-      "damsire": "フジキセキ",
       "notes": ""
     },
     {
@@ -106305,47 +105568,6 @@
       ]
     },
     {
-      "id": "horse_2615",
-      "key": "デニムアンドルビー|2009|ディープインパクト|ベネンシアドール",
-      "name": "デニムアンドルビー",
-      "birthYear": 2009,
-      "sex": "牝",
-      "sire": "ディープインパクト",
-      "dam": "ベネンシアドール",
-      "damsire": "キングカメハメハ",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "斜尻",
-          "category": "骨格",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_5291",
-              "raceDate": "2018-01-06",
-              "raceName": "中山金杯",
-              "phrase": "ディープインパクトらしい斜尻直飛。"
-            }
-          ]
-        },
-        {
-          "tag": "直飛",
-          "category": "骨格",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_5291",
-              "raceDate": "2018-01-06",
-              "raceName": "中山金杯",
-              "phrase": "ディープインパクトらしい斜尻直飛。"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "horse_2200",
       "key": "トウケイヘイロー|2009|ゴールドヘイロー|ダンスクィーン",
       "name": "トウケイヘイロー",
@@ -106697,17 +105919,6 @@
       ]
     },
     {
-      "id": "horse_2629",
-      "key": "フルーキー|2009|Redoute'sChoice|サンデースマイル2",
-      "name": "フルーキー",
-      "birthYear": 2009,
-      "sex": "牡",
-      "sire": "Redoute’s Choice",
-      "dam": "サンデースマイル２",
-      "damsire": "Sunday Silence",
-      "notes": ""
-    },
-    {
       "id": "horse_2182",
       "key": "フレイムコード|2009|タヤスツヨシ|シマノラピス",
       "name": "フレイムコード",
@@ -106829,33 +106040,6 @@
       "notes": ""
     },
     {
-      "id": "horse_2617",
-      "key": "マイネルミラノ|2009|ステイゴールド|パールバーリー",
-      "name": "マイネルミラノ",
-      "birthYear": 2009,
-      "sex": "牡",
-      "sire": "ステイゴールド",
-      "dam": "パールバーリー",
-      "damsire": "Polish Precedent",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "曲飛",
-          "category": "骨格",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_5293",
-              "raceDate": "2018-01-06",
-              "raceName": "中山金杯",
-              "phrase": "曲飛寄りでテンが速そうな造りをしているが、トモの筋肉を見てもわかるように全盛期はもっと筋肉量があってボリュームを感じられた。"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "horse_2386",
       "key": "マウントシャスタ|2009|ディープインパクト|クロウキャニオン",
       "name": "マウントシャスタ",
@@ -106881,18 +106065,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "horse_2561",
-      "key": "マジェスティハーツ|2009|ハーツクライ|エアラホーヤ",
-      "name": "マジェスティハーツ",
-      "birthYear": 2009,
-      "sex": "牡",
-      "sire": "ハーツクライ",
-      "dam": "エアラホーヤ",
-      "damsire": "ボストンハーバー",
-      "notes": "",
-      "bodyTags": []
     },
     {
       "id": "horse_1932",
@@ -106931,17 +106103,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "horse_2632",
-      "key": "ライズトゥフェイム|2009|ゼンノロブロイ|バラファミー",
-      "name": "ライズトゥフェイム",
-      "birthYear": 2009,
-      "sex": "牡",
-      "sire": "ゼンノロブロイ",
-      "dam": "バラファミー",
-      "damsire": "Barathea",
-      "notes": ""
     },
     {
       "id": "horse_2562",
@@ -107127,17 +106288,6 @@
       "sire": "サクラバクシンオー",
       "dam": "プリティメイズ",
       "damsire": "ゼネラリスト",
-      "notes": ""
-    },
-    {
-      "id": "horse_2735",
-      "key": "アフォード|2008|サクラバクシンオー|ノーザンテースト",
-      "name": "アフォード",
-      "birthYear": 2008,
-      "sex": "牡",
-      "sire": "サクラバクシンオー",
-      "dam": "ノーザンテースト",
-      "damsire": "クリアアンバー",
       "notes": "",
       "bodyTags": [
         {
@@ -107248,17 +106398,6 @@
       "notes": ""
     },
     {
-      "id": "horse_2633",
-      "key": "エキストラエンド|2008|ディープインパクト|カーリング",
-      "name": "エキストラエンド",
-      "birthYear": 2008,
-      "sex": "牡",
-      "sire": "ディープインパクト",
-      "dam": "カーリング",
-      "damsire": "Garde Royale",
-      "notes": ""
-    },
-    {
       "id": "horse_1947",
       "key": "エポワス|2008|ファルブラヴ|マニックサンデー",
       "name": "エポワス",
@@ -107267,7 +106406,37 @@
       "sire": "ファルブラヴ",
       "dam": "マニックサンデー",
       "damsire": "サンデーサイレンス",
-      "notes": ""
+      "notes": "",
+      "bodyTags": [
+        {
+          "tag": "低重心",
+          "category": "体型",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_6617",
+              "raceDate": "2015-08-30",
+              "raceName": "キーンランドC",
+              "phrase": "四肢が短めで重心が低く、繋も立ち気味。"
+            }
+          ]
+        },
+        {
+          "tag": "繋ぎ立ち",
+          "category": "骨格",
+          "confidence": "confirmed",
+          "evidenceCount": 1,
+          "evidence": [
+            {
+              "photoId": "photo_6617",
+              "raceDate": "2015-08-30",
+              "raceName": "キーンランドC",
+              "phrase": "四肢が短めで重心が低く、繋も立ち気味。"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "horse_2171",
@@ -108218,15 +107387,16 @@
       ]
     },
     {
-      "id": "horse_2088",
-      "key": "フレイムヘイロー|2008|キングヘイロー|キュートネス2",
+      "id": "horse_2585",
+      "key": "フレイムヘイロー|2008|キングヘイロー|キュートネスII",
       "name": "フレイムヘイロー",
       "birthYear": 2008,
       "sex": "セ",
       "sire": "キングヘイロー",
-      "dam": "キュートネス２",
-      "damsire": "Forty Niner",
-      "notes": ""
+      "dam": "キュートネスⅡ",
+      "damsire": "フォーティナイナー",
+      "notes": "",
+      "bodyTags": []
     },
     {
       "id": "horse_2661",
@@ -108832,17 +108002,6 @@
       "notes": ""
     },
     {
-      "id": "horse_2384",
-      "key": "ダイワファルコン|2007|ジャングルポケット|サンデーサイレンス",
-      "name": "ダイワファルコン",
-      "birthYear": 2007,
-      "sex": "牡",
-      "sire": "ジャングルポケット",
-      "dam": "サンデーサイレンス",
-      "damsire": "Halo",
-      "notes": ""
-    },
-    {
       "id": "horse_2308",
       "key": "ダッシャーゴーゴー|2007|サクラバクシンオー|ネガノ",
       "name": "ダッシャーゴーゴー",
@@ -109047,17 +108206,6 @@
       "sire": "スターオブコジーン",
       "dam": "ブルーファイブ",
       "damsire": "シンコウキング",
-      "notes": ""
-    },
-    {
-      "id": "horse_2575",
-      "key": "フラアンジェリコ|2007|ネオユニヴァース|カーリーエンジェル",
-      "name": "フラアンジェリコ",
-      "birthYear": 2007,
-      "sex": "牡",
-      "sire": "ネオユニヴァース",
-      "dam": "カーリーエンジェル",
-      "damsire": "ジヤツジアンジエルーチ",
       "notes": ""
     },
     {
@@ -109791,47 +108939,6 @@
       ]
     },
     {
-      "id": "horse_2155",
-      "key": "エポワス||ファルブラヴ|マニックサンデー",
-      "name": "エポワス",
-      "birthYear": null,
-      "sex": "",
-      "sire": "ファルブラヴ",
-      "dam": "マニックサンデー",
-      "damsire": "サンデーサイレンス",
-      "notes": "",
-      "bodyTags": [
-        {
-          "tag": "低重心",
-          "category": "体型",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_6617",
-              "raceDate": "2015-08-30",
-              "raceName": "キーンランドC",
-              "phrase": "四肢が短めで重心が低く、繋も立ち気味。"
-            }
-          ]
-        },
-        {
-          "tag": "繋ぎ立ち",
-          "category": "骨格",
-          "confidence": "confirmed",
-          "evidenceCount": 1,
-          "evidence": [
-            {
-              "photoId": "photo_6617",
-              "raceDate": "2015-08-30",
-              "raceName": "キーンランドC",
-              "phrase": "四肢が短めで重心が低く、繋も立ち気味。"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "horse_2582",
       "key": "オメガヴェンデッタ||ゼンノロブロイ|ビハインドザマスク",
       "name": "オメガヴェンデッタ",
@@ -109840,17 +108947,6 @@
       "sire": "ゼンノロブロイ",
       "dam": "ビハインドザマスク",
       "damsire": "ホワイトマズル",
-      "notes": ""
-    },
-    {
-      "id": "horse_2583",
-      "key": "カレンミロティック||ハーツクライ|スターミー",
-      "name": "カレンミロティック",
-      "birthYear": null,
-      "sex": "",
-      "sire": "ハーツクライ",
-      "dam": "スターミー",
-      "damsire": "エーピーインディ",
       "notes": ""
     },
     {
@@ -109863,18 +108959,6 @@
       "dam": "バプティスタ",
       "damsire": "サンデーサイレンス",
       "notes": ""
-    },
-    {
-      "id": "horse_2585",
-      "key": "フレイムヘイロー||キングヘイロー|キュートネスII",
-      "name": "フレイムヘイロー",
-      "birthYear": null,
-      "sex": "",
-      "sire": "キングヘイロー",
-      "dam": "キュートネスⅡ",
-      "damsire": "フォーティナイナー",
-      "notes": "",
-      "bodyTags": []
     },
     {
       "id": "horse_2653",
@@ -109945,17 +109029,6 @@
       "sire": "アグネスデジタル",
       "dam": "サンシャインバレイ",
       "damsire": "サンデーサイレンス",
-      "notes": ""
-    },
-    {
-      "id": "horse_2306",
-      "key": "レッドリヴェール||ステイゴールド|ディソサード",
-      "name": "レッドリヴェール",
-      "birthYear": null,
-      "sex": "",
-      "sire": "ステイゴールド",
-      "dam": "ディソサード",
-      "damsire": "ディキシーランドバンド",
       "notes": ""
     }
   ],
@@ -154841,109 +153914,9 @@
       "raceDateSource": "override"
     },
     {
-      "id": "photo_2203",
-      "key": "horse_2589|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_admirevirgo.jpg?",
-      "horseId": "horse_2589",
-      "source": "keibalab",
-      "sourceId": "549",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/549/",
-      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202212/221225_admirevirgo.jpg",
-      "localImagePath": "",
-      "caption": "2023-01-05 中山金杯",
-      "raceName": "中山金杯",
-      "photoDate": "2023-01-05",
-      "issueDate": "2023-01-04",
-      "sourceOrder": 1,
-      "comment": "※ 出走回避\n牡馬としてはコンパクトな馬体。ただし骨格のバランスが整っているので、立ち姿はさほど小さく見せていない。骨格に対しての筋肉量も十分で、大腿筋膜周辺には膨らみが感じられる。後躯が発達したからこそ、安定した先行力が出てきたのかも。体重は大きな変化がないものの、体つきは明らかにメリハリが出て、成長が窺える。本質は軽さが武器の馬で、冬のタフな馬場をこなせるかは課題。非常に毛艶良く見せていて、後肢の下腿部には血管が浮いている。レースまで少し時間はあるものの、キッチリ仕上がった印象。",
-      "publishedDate": "2023-01-04",
-      "raceKey": "2023:中山金杯",
-      "raceDate": "2023-01-05",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_2204",
-      "key": "horse_2590|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_echt.jpg?",
-      "horseId": "horse_2590",
-      "source": "keibalab",
-      "sourceId": "549",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/549/",
-      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202212/221225_echt.jpg",
-      "localImagePath": "",
-      "caption": "2023-01-05 中山金杯",
-      "raceName": "中山金杯",
-      "photoDate": "2023-01-05",
-      "issueDate": "2023-01-04",
-      "sourceOrder": 1,
-      "comment": "少し腰高に映るフォルムはルーラーシップ産駒特有のモノ。骨格自体は完成されている。容量の大きいトモは父系譲りで、坂のあるコースでもパワフルに駆け上がることができそうだ。飛節は折りの深い「曲飛」タイプで、小回りコースでの実績が光る。中山コースでも十分にやれるはず。腹袋は大きめで、上がりの掛かるタフな競馬もOK。蹄はやや薄く、繋ぎは長い。冬毛が出ているので毛艶は見栄えしないが、トモの張り感は十分。夏よりもコロンとして映るものの、体つきにはメリハリがあり、太い印象はない。",
-      "publishedDate": "2023-01-04",
-      "raceKey": "2023:中山金杯",
-      "raceDate": "2023-01-05",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_2205",
-      "key": "horse_2591|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_lagulf.jpg?",
-      "horseId": "horse_2591",
-      "source": "keibalab",
-      "sourceId": "549",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/549/",
-      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202212/221225_lagulf.jpg",
-      "localImagePath": "",
-      "caption": "2023-01-05 中山金杯",
-      "raceName": "中山金杯",
-      "photoDate": "2023-01-05",
-      "issueDate": "2023-01-04",
-      "sourceOrder": 1,
-      "comment": "豊富な筋肉量と、まとまりのある胴周り。ファルブラヴの血が入っている分、全体にパワフルな印象があり、本質的にはパワー型。背中は短めで、腹周りも後躯に向かって引き締まっている。近走は広いコースでの鋭い末脚が目立つように、跳びは綺麗な馬。小回りコースで器用に立ち回れる機動力も秘めていて、総合力に優れている。中山での好走実績もあり、冬場のタフな馬場も合う印象。今回は過去の写真と比較して、肋骨がハッキリと浮いている。後躯のボリューム、張り感も前回のほうが良く見えたので、当日の気配も注意したい。",
-      "publishedDate": "2023-01-04",
-      "raceKey": "2023:中山金杯",
-      "raceDate": "2023-01-05",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_2206",
-      "key": "horse_2592|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_redlammert.jpg?",
-      "horseId": "horse_2592",
-      "source": "keibalab",
-      "sourceId": "549",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/549/",
-      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202212/221225_redlammert.jpg",
-      "localImagePath": "",
-      "caption": "2023-01-05 中山金杯",
-      "raceName": "中山金杯",
-      "photoDate": "2023-01-05",
-      "issueDate": "2023-01-04",
-      "sourceOrder": 1,
-      "comment": "前走時で510キロと、小柄な父とはあまり似ていない。全体に肉付きが良いフォルムで、距離は2000ｍ辺りが合っている印象。馬格のサイズがあってパワーを秘めている点は、冬の中山において有利に働きそう。飛節は真っ直ぐに伸びた「直飛」タイプで、ストライドを伸ばして走るタイプ。前向きな気性と素軽い先行力を秘めているため、長く脚を使って好位から抜け出す競馬が勝ちパターン。明け4歳馬で全体に成長余地を残しており、馬体はこれからよりメリハリが出てくるはず。現状太め感なく仕上がっており、動ける態勢にはありそう。",
-      "publishedDate": "2023-01-04",
-      "raceKey": "2023:中山金杯",
-      "raceDate": "2023-01-05",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_2207",
-      "key": "horse_2593|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_winkiitos.jpg?",
-      "horseId": "horse_2593",
-      "source": "keibalab",
-      "sourceId": "549",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/549/",
-      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202212/221225_winkiitos.jpg",
-      "localImagePath": "",
-      "caption": "2023-01-05 中山金杯",
-      "raceName": "中山金杯",
-      "photoDate": "2023-01-05",
-      "issueDate": "2023-01-04",
-      "sourceOrder": 1,
-      "comment": "牝馬らしいしなやかさを秘めつつ、水準以上の馬格があり、牡馬相手でもスケール感は見劣らない。胴周りはゆったりと見せていて、中長距離への適性が高い。久々の2000m戦となるが、冬場のタフな馬場ならむしろマッチしそう。飛節の折りは深い「曲飛」の構造で、機動力に優れたタイプ。小回りコースで器用に立ち回る競馬が得意のため、この舞台は合いそう。季節的に腹周りには多少、冬毛が生えているものの、後躯の張り具合は前走以上。トモの半腱半膜様筋は今回のほうがより明瞭に浮き上がっている。",
-      "publishedDate": "2023-01-04",
-      "raceKey": "2023:中山金杯",
-      "raceDate": "2023-01-05",
-      "raceDateSource": "override"
-    },
-    {
       "id": "photo_2208",
       "key": "horse_2594|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_lagom.jpg?",
-      "horseId": "horse_2594",
+      "horseId": "horse_1029",
       "source": "keibalab",
       "sourceId": "549",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/549/",
@@ -154961,69 +153934,9 @@
       "raceDateSource": "override"
     },
     {
-      "id": "photo_2209",
-      "key": "horse_2595|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_elusivepanther.jpg?",
-      "horseId": "horse_2595",
-      "source": "keibalab",
-      "sourceId": "549",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/549/",
-      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202212/221225_elusivepanther.jpg",
-      "localImagePath": "",
-      "caption": "2023-01-05 京都金杯",
-      "raceName": "京都金杯",
-      "photoDate": "2023-01-05",
-      "issueDate": "2023-01-04",
-      "sourceOrder": 1,
-      "comment": "ハーツクライ産駒の中でも、本馬は胴にまとまりがあるタイプ。背中が短めで、筋肉の質感も柔軟。飛節の形状もバネ感があって、優れた瞬発力を感じさせる。直線の長い中京コースは切れ味を活かせる舞台といえる。後肢が長いのでやや腰高に映るフォルムが特徴も、以前よりキ甲が伸びて、体躯のバランスは良くなった。関屋記念以来の休み明けでも、腹周りに太め感はない。トモのボリューム感はアップしており、前走よりも走れそう。それでも昨春と比べると、まだ良化の余地はありそう。当日の気配もチェックしたい1頭。",
-      "publishedDate": "2023-01-04",
-      "raceKey": "2023:京都金杯",
-      "raceDate": "2023-01-05",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_2210",
-      "key": "horse_2596|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_airlolonois.jpg?",
-      "horseId": "horse_2596",
-      "source": "keibalab",
-      "sourceId": "549",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/549/",
-      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202212/221225_airlolonois.jpg",
-      "localImagePath": "",
-      "caption": "2023-01-05 京都金杯",
-      "raceName": "京都金杯",
-      "photoDate": "2023-01-05",
-      "issueDate": "2023-01-04",
-      "sourceOrder": 1,
-      "comment": "父キングカメハメハ譲りの立派な後躯を有しており、力強いキックができそう。飛節は「くの字」に折れている、曲飛の造り。バネが利いて、500キロ近い大型馬ながら、後肢の回転力に優れる。一瞬の切れはかなりのモノで、直線の長い中京コースで持ち前の決め手を活かせれば。以前は体つきに若干の幼さも感じさせたが、今は皮膚を薄く見せるくらいに張り感が出て、スッキリと見せるようになってきた。近親には高齢になっても活躍した馬が揃っており、明け6歳になって本格化してきたのかも。冬場でも毛艶には光沢があって、張り感も上々。見た目に好調を示している。",
-      "publishedDate": "2023-01-04",
-      "raceKey": "2023:京都金杯",
-      "raceDate": "2023-01-05",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_2211",
-      "key": "horse_2597|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_onyankopon.jpg?",
-      "horseId": "horse_2597",
-      "source": "keibalab",
-      "sourceId": "549",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/549/",
-      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202212/221225_onyankopon.jpg",
-      "localImagePath": "",
-      "caption": "2023-01-05 京都金杯",
-      "raceName": "京都金杯",
-      "photoDate": "2023-01-05",
-      "issueDate": "2023-01-04",
-      "sourceOrder": 1,
-      "comment": "「長躯短背」の理想的なバランスで、骨格は前後に程よいまとまりがある。今回は初の1600m戦となるが、距離が短すぎることは無さそう。極端な高速決着にはどうかも、年明けの中京開催は水準クラスの時計で決まることが多く、十分に対応可能。素軽い造りの馬だが、意外と腹周りには重厚感もある。一方で歩様はしなやかさがあり、柔軟性も秘める。中距離前後がベストのイメージ。昨秋よりも馬体はシャープになり、筋肉の輪郭はより明確に浮いている。早くからココ目標に調整されてきたこともあって、状態面は文字通り万全といった気配。",
-      "publishedDate": "2023-01-04",
-      "raceKey": "2023:京都金杯",
-      "raceDate": "2023-01-05",
-      "raceDateSource": "override"
-    },
-    {
       "id": "photo_2212",
       "key": "horse_2598|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_peaceoneparadis.jpg?",
-      "horseId": "horse_2598",
+      "horseId": "horse_2489",
       "source": "keibalab",
       "sourceId": "549",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/549/",
@@ -155041,9 +153954,69 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_2214",
+      "key": "horse_2600|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_matenroorion.jpg?",
+      "horseId": "horse_380",
+      "source": "keibalab",
+      "sourceId": "549",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/549/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202212/221225_matenroorion.jpg",
+      "localImagePath": "",
+      "caption": "2023-01-05 京都金杯",
+      "raceName": "京都金杯",
+      "photoDate": "2023-01-05",
+      "issueDate": "2023-01-04",
+      "sourceOrder": 1,
+      "comment": "胴詰まりのフォルム。連動性に優れていて、後肢の飛節は緩やかにカーブ。前後にまとまっている分、ピッチは速く瞬発力がある。同時に、後肢は綺麗に伸びる造り・走りをしているので、広いコースのほうがこの馬にとっては合っているはず。筋肉量は父ダイワメジャー、母の父キングカメハメハから譲り受けた特徴。差し馬の中では、比較的腹構えはしっかりとしているタイプ。繋ぎは短めで角度も立っており、荒れた馬場や水分を含んだ馬場でも、差し脚を伸ばすことができそう。少し冬毛が伸びているが、毛艶自体はかなりイイ。前走よりもメリハリが出てきており、デキは上向きか。",
+      "publishedDate": "2023-01-04",
+      "raceKey": "2023:京都金杯",
+      "raceDate": "2023-01-05",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_2205",
+      "key": "horse_2591|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_lagulf.jpg?",
+      "horseId": "horse_540",
+      "source": "keibalab",
+      "sourceId": "549",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/549/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202212/221225_lagulf.jpg",
+      "localImagePath": "",
+      "caption": "2023-01-05 中山金杯",
+      "raceName": "中山金杯",
+      "photoDate": "2023-01-05",
+      "issueDate": "2023-01-04",
+      "sourceOrder": 1,
+      "comment": "豊富な筋肉量と、まとまりのある胴周り。ファルブラヴの血が入っている分、全体にパワフルな印象があり、本質的にはパワー型。背中は短めで、腹周りも後躯に向かって引き締まっている。近走は広いコースでの鋭い末脚が目立つように、跳びは綺麗な馬。小回りコースで器用に立ち回れる機動力も秘めていて、総合力に優れている。中山での好走実績もあり、冬場のタフな馬場も合う印象。今回は過去の写真と比較して、肋骨がハッキリと浮いている。後躯のボリューム、張り感も前回のほうが良く見えたので、当日の気配も注意したい。",
+      "publishedDate": "2023-01-04",
+      "raceKey": "2023:中山金杯",
+      "raceDate": "2023-01-05",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_2204",
+      "key": "horse_2590|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_echt.jpg?",
+      "horseId": "horse_56",
+      "source": "keibalab",
+      "sourceId": "549",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/549/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202212/221225_echt.jpg",
+      "localImagePath": "",
+      "caption": "2023-01-05 中山金杯",
+      "raceName": "中山金杯",
+      "photoDate": "2023-01-05",
+      "issueDate": "2023-01-04",
+      "sourceOrder": 1,
+      "comment": "少し腰高に映るフォルムはルーラーシップ産駒特有のモノ。骨格自体は完成されている。容量の大きいトモは父系譲りで、坂のあるコースでもパワフルに駆け上がることができそうだ。飛節は折りの深い「曲飛」タイプで、小回りコースでの実績が光る。中山コースでも十分にやれるはず。腹袋は大きめで、上がりの掛かるタフな競馬もOK。蹄はやや薄く、繋ぎは長い。冬毛が出ているので毛艶は見栄えしないが、トモの張り感は十分。夏よりもコロンとして映るものの、体つきにはメリハリがあり、太い印象はない。",
+      "publishedDate": "2023-01-04",
+      "raceKey": "2023:中山金杯",
+      "raceDate": "2023-01-05",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_2213",
       "key": "horse_2599|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_presagelift.jpg?",
-      "horseId": "horse_2599",
+      "horseId": "horse_590",
       "source": "keibalab",
       "sourceId": "549",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/549/",
@@ -155061,22 +154034,122 @@
       "raceDateSource": "override"
     },
     {
-      "id": "photo_2214",
-      "key": "horse_2600|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_matenroorion.jpg?",
-      "horseId": "horse_2600",
+      "id": "photo_2206",
+      "key": "horse_2592|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_redlammert.jpg?",
+      "horseId": "horse_595",
       "source": "keibalab",
       "sourceId": "549",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/549/",
-      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202212/221225_matenroorion.jpg",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202212/221225_redlammert.jpg",
+      "localImagePath": "",
+      "caption": "2023-01-05 中山金杯",
+      "raceName": "中山金杯",
+      "photoDate": "2023-01-05",
+      "issueDate": "2023-01-04",
+      "sourceOrder": 1,
+      "comment": "前走時で510キロと、小柄な父とはあまり似ていない。全体に肉付きが良いフォルムで、距離は2000ｍ辺りが合っている印象。馬格のサイズがあってパワーを秘めている点は、冬の中山において有利に働きそう。飛節は真っ直ぐに伸びた「直飛」タイプで、ストライドを伸ばして走るタイプ。前向きな気性と素軽い先行力を秘めているため、長く脚を使って好位から抜け出す競馬が勝ちパターン。明け4歳馬で全体に成長余地を残しており、馬体はこれからよりメリハリが出てくるはず。現状太め感なく仕上がっており、動ける態勢にはありそう。",
+      "publishedDate": "2023-01-04",
+      "raceKey": "2023:中山金杯",
+      "raceDate": "2023-01-05",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_2210",
+      "key": "horse_2596|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_airlolonois.jpg?",
+      "horseId": "horse_664",
+      "source": "keibalab",
+      "sourceId": "549",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/549/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202212/221225_airlolonois.jpg",
       "localImagePath": "",
       "caption": "2023-01-05 京都金杯",
       "raceName": "京都金杯",
       "photoDate": "2023-01-05",
       "issueDate": "2023-01-04",
       "sourceOrder": 1,
-      "comment": "胴詰まりのフォルム。連動性に優れていて、後肢の飛節は緩やかにカーブ。前後にまとまっている分、ピッチは速く瞬発力がある。同時に、後肢は綺麗に伸びる造り・走りをしているので、広いコースのほうがこの馬にとっては合っているはず。筋肉量は父ダイワメジャー、母の父キングカメハメハから譲り受けた特徴。差し馬の中では、比較的腹構えはしっかりとしているタイプ。繋ぎは短めで角度も立っており、荒れた馬場や水分を含んだ馬場でも、差し脚を伸ばすことができそう。少し冬毛が伸びているが、毛艶自体はかなりイイ。前走よりもメリハリが出てきており、デキは上向きか。",
+      "comment": "父キングカメハメハ譲りの立派な後躯を有しており、力強いキックができそう。飛節は「くの字」に折れている、曲飛の造り。バネが利いて、500キロ近い大型馬ながら、後肢の回転力に優れる。一瞬の切れはかなりのモノで、直線の長い中京コースで持ち前の決め手を活かせれば。以前は体つきに若干の幼さも感じさせたが、今は皮膚を薄く見せるくらいに張り感が出て、スッキリと見せるようになってきた。近親には高齢になっても活躍した馬が揃っており、明け6歳になって本格化してきたのかも。冬場でも毛艶には光沢があって、張り感も上々。見た目に好調を示している。",
       "publishedDate": "2023-01-04",
       "raceKey": "2023:京都金杯",
+      "raceDate": "2023-01-05",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_2209",
+      "key": "horse_2595|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_elusivepanther.jpg?",
+      "horseId": "horse_691",
+      "source": "keibalab",
+      "sourceId": "549",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/549/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202212/221225_elusivepanther.jpg",
+      "localImagePath": "",
+      "caption": "2023-01-05 京都金杯",
+      "raceName": "京都金杯",
+      "photoDate": "2023-01-05",
+      "issueDate": "2023-01-04",
+      "sourceOrder": 1,
+      "comment": "ハーツクライ産駒の中でも、本馬は胴にまとまりがあるタイプ。背中が短めで、筋肉の質感も柔軟。飛節の形状もバネ感があって、優れた瞬発力を感じさせる。直線の長い中京コースは切れ味を活かせる舞台といえる。後肢が長いのでやや腰高に映るフォルムが特徴も、以前よりキ甲が伸びて、体躯のバランスは良くなった。関屋記念以来の休み明けでも、腹周りに太め感はない。トモのボリューム感はアップしており、前走よりも走れそう。それでも昨春と比べると、まだ良化の余地はありそう。当日の気配もチェックしたい1頭。",
+      "publishedDate": "2023-01-04",
+      "raceKey": "2023:京都金杯",
+      "raceDate": "2023-01-05",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_2203",
+      "key": "horse_2589|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_admirevirgo.jpg?",
+      "horseId": "horse_832",
+      "source": "keibalab",
+      "sourceId": "549",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/549/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202212/221225_admirevirgo.jpg",
+      "localImagePath": "",
+      "caption": "2023-01-05 中山金杯",
+      "raceName": "中山金杯",
+      "photoDate": "2023-01-05",
+      "issueDate": "2023-01-04",
+      "sourceOrder": 1,
+      "comment": "※ 出走回避\n牡馬としてはコンパクトな馬体。ただし骨格のバランスが整っているので、立ち姿はさほど小さく見せていない。骨格に対しての筋肉量も十分で、大腿筋膜周辺には膨らみが感じられる。後躯が発達したからこそ、安定した先行力が出てきたのかも。体重は大きな変化がないものの、体つきは明らかにメリハリが出て、成長が窺える。本質は軽さが武器の馬で、冬のタフな馬場をこなせるかは課題。非常に毛艶良く見せていて、後肢の下腿部には血管が浮いている。レースまで少し時間はあるものの、キッチリ仕上がった印象。",
+      "publishedDate": "2023-01-04",
+      "raceKey": "2023:中山金杯",
+      "raceDate": "2023-01-05",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_2211",
+      "key": "horse_2597|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_onyankopon.jpg?",
+      "horseId": "horse_911",
+      "source": "keibalab",
+      "sourceId": "549",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/549/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202212/221225_onyankopon.jpg",
+      "localImagePath": "",
+      "caption": "2023-01-05 京都金杯",
+      "raceName": "京都金杯",
+      "photoDate": "2023-01-05",
+      "issueDate": "2023-01-04",
+      "sourceOrder": 1,
+      "comment": "「長躯短背」の理想的なバランスで、骨格は前後に程よいまとまりがある。今回は初の1600m戦となるが、距離が短すぎることは無さそう。極端な高速決着にはどうかも、年明けの中京開催は水準クラスの時計で決まることが多く、十分に対応可能。素軽い造りの馬だが、意外と腹周りには重厚感もある。一方で歩様はしなやかさがあり、柔軟性も秘める。中距離前後がベストのイメージ。昨秋よりも馬体はシャープになり、筋肉の輪郭はより明確に浮いている。早くからココ目標に調整されてきたこともあって、状態面は文字通り万全といった気配。",
+      "publishedDate": "2023-01-04",
+      "raceKey": "2023:京都金杯",
+      "raceDate": "2023-01-05",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_2207",
+      "key": "horse_2593|keibalab|549|https://www.keibalab.jp/img/upload/focus/202212/221225_winkiitos.jpg?",
+      "horseId": "horse_968",
+      "source": "keibalab",
+      "sourceId": "549",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/549/",
+      "imageUrl": "https://www.keibalab.jp/img/upload/focus/202212/221225_winkiitos.jpg",
+      "localImagePath": "",
+      "caption": "2023-01-05 中山金杯",
+      "raceName": "中山金杯",
+      "photoDate": "2023-01-05",
+      "issueDate": "2023-01-04",
+      "sourceOrder": 1,
+      "comment": "牝馬らしいしなやかさを秘めつつ、水準以上の馬格があり、牡馬相手でもスケール感は見劣らない。胴周りはゆったりと見せていて、中長距離への適性が高い。久々の2000m戦となるが、冬場のタフな馬場ならむしろマッチしそう。飛節の折りは深い「曲飛」の構造で、機動力に優れたタイプ。小回りコースで器用に立ち回る競馬が得意のため、この舞台は合いそう。季節的に腹周りには多少、冬毛が生えているものの、後躯の張り具合は前走以上。トモの半腱半膜様筋は今回のほうがより明瞭に浮き上がっている。",
+      "publishedDate": "2023-01-04",
+      "raceKey": "2023:中山金杯",
       "raceDate": "2023-01-05",
       "raceDateSource": "override"
     },
@@ -179841,29 +178914,9 @@
       "raceDateSource": "override"
     },
     {
-      "id": "photo_3453",
-      "key": "horse_2598|keibalab|438|https://www-f.keibalab.jp/img/upload/focus/202012/201227_peaceoneparadis.jpg?1609045330",
-      "horseId": "horse_2598",
-      "source": "keibalab",
-      "sourceId": "438",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/438/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/202012/201227_peaceoneparadis.jpg?1609045330",
-      "localImagePath": "",
-      "caption": "2021-01-05 京都金杯",
-      "raceName": "京都金杯",
-      "photoDate": "2021-01-05",
-      "issueDate": "2021-01-04",
-      "sourceOrder": 1,
-      "comment": "胴周りに伸びを感じさせる体型で、広いコースをノビノビと走らせて能力が活きてくるタイプ。どちらかといえば持続力タイプで、直線が比較的長い中京コースも問題なく力を発揮できそうなイメージ。体型的にはマイルオンリーという雰囲気ではなく、全体にゆとりのある造りをしているので、中距離辺りまで無難に対応できる体型。腹袋はふっくらと見せており、父ジャングルポケットの馬体的特徴を感じさせる。上がりが掛かるようなレースが合っており、馬場が渋っても変わらないパフォーマンスを披露することができる。だいぶトモに力強さが増してきて、逞しさが出てきた。状態面に関して特に気にする点も無く、現状のベストと言えるデキ。",
-      "publishedDate": "2021-01-04",
-      "raceKey": "2021:京都金杯",
-      "raceDate": "2021-01-05",
-      "raceDateSource": "override"
-    },
-    {
       "id": "photo_3454",
       "key": "horse_2601|keibalab|438|https://www-f.keibalab.jp/img/upload/focus/202012/201227_rstar.jpg?1609044119",
-      "horseId": "horse_2601",
+      "horseId": "horse_1122",
       "source": "keibalab",
       "sourceId": "438",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/438/",
@@ -179881,9 +178934,29 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_3461",
+      "key": "horse_2608|keibalab|438|https://www-f.keibalab.jp/img/upload/focus/202012/201227_satonoarthur.jpg?1609044989",
+      "horseId": "horse_1189",
+      "source": "keibalab",
+      "sourceId": "438",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/438/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/202012/201227_satonoarthur.jpg?1609044989",
+      "localImagePath": "",
+      "caption": "2021-01-05 京都金杯",
+      "raceName": "京都金杯",
+      "photoDate": "2021-01-05",
+      "issueDate": "2021-01-04",
+      "sourceOrder": 1,
+      "comment": "良血馬らしいバランスの整った好馬体。飛節が真っ直ぐに伸びた「直飛」が特徴的で、パーツの構造はディープインパクト産駒らしい形と言える。均整の取れた骨格にしっかりと筋肉が付いていて、出走メンバーの中でも1、2を争うくらい馬体は見栄えするタイプ。前脚をスラっと見せているように、ストライドが綺麗に伸びる走りをする。広い中京コースもマッチしそう。胴からは瞬発力を、後肢の長い脚からは持続力を発揮し、長く良い脚を繰り出せそうだ。季節的なこともあり、皮一枚分やや厚い雰囲気も残っているが、年齢から衰えは一切感じさせず、体調は良好。得意条件と言えそうな舞台で改めて。",
+      "publishedDate": "2021-01-04",
+      "raceKey": "2021:京都金杯",
+      "raceDate": "2021-01-05",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_3455",
       "key": "horse_2602|keibalab|438|https://www-f.keibalab.jp/img/upload/focus/202012/201227_vinquetdomingo.jpg?1609044129",
-      "horseId": "horse_2602",
+      "horseId": "horse_1217",
       "source": "keibalab",
       "sourceId": "438",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/438/",
@@ -179903,7 +178976,7 @@
     {
       "id": "photo_3456",
       "key": "horse_2603|keibalab|438|https://www-f.keibalab.jp/img/upload/focus/202012/201227_cadenas.jpg?1609044139",
-      "horseId": "horse_2603",
+      "horseId": "horse_1228",
       "source": "keibalab",
       "sourceId": "438",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/438/",
@@ -179921,69 +178994,9 @@
       "raceDateSource": "override"
     },
     {
-      "id": "photo_3457",
-      "key": "horse_2604|keibalab|438|https://www-f.keibalab.jp/img/upload/focus/202012/201227_kokoronotodai.jpg?1609044288",
-      "horseId": "horse_2604",
-      "source": "keibalab",
-      "sourceId": "438",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/438/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/202012/201227_kokoronotodai.jpg?1609044288",
-      "localImagePath": "",
-      "caption": "2021-01-05 中山金杯",
-      "raceName": "中山金杯",
-      "photoDate": "2021-01-05",
-      "issueDate": "2021-01-04",
-      "sourceOrder": 1,
-      "comment": "肉付きが良く、半腱半膜様筋がハッキリと浮き上がった立派なトモが目を引く。キングマンボ系の特徴と言える広い横幅を持ち、大きな推進力を生み出せそうな造り。胴長で大型馬、ストライドも大きく、持続力を活かした競馬が合っている印象。その一方で飛節は折りの深い「曲飛」であるため、後肢のピッチは馬格の割に利くタイプ。小回りコースでも問題なく力を発揮できそう。腹周りもどっしりとしており、パワーが必要な時計の掛かる馬場も十分にこなせそう。毛艶もピカピカ、薄っすらと肋骨が浮き上がっているように、1週前時点で仕上がりも万全。",
-      "publishedDate": "2021-01-04",
-      "raceKey": "2021:中山金杯",
-      "raceDate": "2021-01-05",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_3458",
-      "key": "horse_2605|keibalab|438|https://www-f.keibalab.jp/img/upload/focus/202012/201227_darlingtonhall.jpg?1609044397",
-      "horseId": "horse_2605",
-      "source": "keibalab",
-      "sourceId": "438",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/438/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/202012/201227_darlingtonhall.jpg?1609044397",
-      "localImagePath": "",
-      "caption": "2021-01-05 中山金杯",
-      "raceName": "中山金杯",
-      "photoDate": "2021-01-05",
-      "issueDate": "2021-01-04",
-      "sourceOrder": 1,
-      "comment": "500キロを優に超える大型馬であるが、四肢に伸びがあり、骨格のバランス自体も整っているため、数字よりも立ち姿は軽さを感じさせる。そんな中でも欧州血統らしい豊富な筋肉量で、どちらかと言えばパワータイプ。時計の掛かる馬場は上手にこなせそうだ。ダービー出走時よりも肉付きが良くなっている印象で、今回は休み明け。馬体重を増やして出走する可能性もありそう。腹周りを見ても太くは映らないので、仮に増えていても成長分と捉えて問題なし。冬場でも毛艶が良く体調はかなり良さそう。目一杯に仕上げられたイメージではないものの、力は出せるデキにある。",
-      "publishedDate": "2021-01-04",
-      "raceKey": "2021:中山金杯",
-      "raceDate": "2021-01-05",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_3459",
-      "key": "horse_2606|keibalab|438|https://www-f.keibalab.jp/img/upload/focus/202012/201227_biospark.jpg?1609044621",
-      "horseId": "horse_2606",
-      "source": "keibalab",
-      "sourceId": "438",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/438/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/202012/201227_biospark.jpg?1609044621",
-      "localImagePath": "",
-      "caption": "2021-01-05 中山金杯",
-      "raceName": "中山金杯",
-      "photoDate": "2021-01-05",
-      "issueDate": "2021-01-04",
-      "sourceOrder": 1,
-      "comment": "胴周りをゆったりと見せるシルエット。2000m前後で良績を残しているが、距離自体はもう少し長くても十分にやれるはず。背中と腹側のラインが平行に近く伸びがあるため、一瞬の切れよりも長く良い脚を使ってこその持続力タイプ。飛節も緩やかにカーブしており、後肢の回転はなかなか速い。小回りコースでも上手に立ち回れそうだ。中団前目から早め早めに勝負を仕掛けて欲しいところ。蹄にも厚みがあって、時計の掛かる馬場もこなせる。ムダ肉の付きづらい体型ではあるが、今回もスッキリと見せていて、仕上がりは良好。",
-      "publishedDate": "2021-01-04",
-      "raceKey": "2021:中山金杯",
-      "raceDate": "2021-01-05",
-      "raceDateSource": "override"
-    },
-    {
       "id": "photo_3460",
       "key": "horse_2607|keibalab|438|https://www-f.keibalab.jp/img/upload/focus/202012/201227_keiainautique.jpg?1609044848",
-      "horseId": "horse_2607",
+      "horseId": "horse_1351",
       "source": "keibalab",
       "sourceId": "438",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/438/",
@@ -180001,20 +179014,80 @@
       "raceDateSource": "override"
     },
     {
-      "id": "photo_3461",
-      "key": "horse_2608|keibalab|438|https://www-f.keibalab.jp/img/upload/focus/202012/201227_satonoarthur.jpg?1609044989",
-      "horseId": "horse_2608",
+      "id": "photo_3457",
+      "key": "horse_2604|keibalab|438|https://www-f.keibalab.jp/img/upload/focus/202012/201227_kokoronotodai.jpg?1609044288",
+      "horseId": "horse_1451",
       "source": "keibalab",
       "sourceId": "438",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/438/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/202012/201227_satonoarthur.jpg?1609044989",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/202012/201227_kokoronotodai.jpg?1609044288",
+      "localImagePath": "",
+      "caption": "2021-01-05 中山金杯",
+      "raceName": "中山金杯",
+      "photoDate": "2021-01-05",
+      "issueDate": "2021-01-04",
+      "sourceOrder": 1,
+      "comment": "肉付きが良く、半腱半膜様筋がハッキリと浮き上がった立派なトモが目を引く。キングマンボ系の特徴と言える広い横幅を持ち、大きな推進力を生み出せそうな造り。胴長で大型馬、ストライドも大きく、持続力を活かした競馬が合っている印象。その一方で飛節は折りの深い「曲飛」であるため、後肢のピッチは馬格の割に利くタイプ。小回りコースでも問題なく力を発揮できそう。腹周りもどっしりとしており、パワーが必要な時計の掛かる馬場も十分にこなせそう。毛艶もピカピカ、薄っすらと肋骨が浮き上がっているように、1週前時点で仕上がりも万全。",
+      "publishedDate": "2021-01-04",
+      "raceKey": "2021:中山金杯",
+      "raceDate": "2021-01-05",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_3453",
+      "key": "horse_2598|keibalab|438|https://www-f.keibalab.jp/img/upload/focus/202012/201227_peaceoneparadis.jpg?1609045330",
+      "horseId": "horse_2489",
+      "source": "keibalab",
+      "sourceId": "438",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/438/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/202012/201227_peaceoneparadis.jpg?1609045330",
       "localImagePath": "",
       "caption": "2021-01-05 京都金杯",
       "raceName": "京都金杯",
       "photoDate": "2021-01-05",
       "issueDate": "2021-01-04",
       "sourceOrder": 1,
-      "comment": "良血馬らしいバランスの整った好馬体。飛節が真っ直ぐに伸びた「直飛」が特徴的で、パーツの構造はディープインパクト産駒らしい形と言える。均整の取れた骨格にしっかりと筋肉が付いていて、出走メンバーの中でも1、2を争うくらい馬体は見栄えするタイプ。前脚をスラっと見せているように、ストライドが綺麗に伸びる走りをする。広い中京コースもマッチしそう。胴からは瞬発力を、後肢の長い脚からは持続力を発揮し、長く良い脚を繰り出せそうだ。季節的なこともあり、皮一枚分やや厚い雰囲気も残っているが、年齢から衰えは一切感じさせず、体調は良好。得意条件と言えそうな舞台で改めて。",
+      "comment": "胴周りに伸びを感じさせる体型で、広いコースをノビノビと走らせて能力が活きてくるタイプ。どちらかといえば持続力タイプで、直線が比較的長い中京コースも問題なく力を発揮できそうなイメージ。体型的にはマイルオンリーという雰囲気ではなく、全体にゆとりのある造りをしているので、中距離辺りまで無難に対応できる体型。腹袋はふっくらと見せており、父ジャングルポケットの馬体的特徴を感じさせる。上がりが掛かるようなレースが合っており、馬場が渋っても変わらないパフォーマンスを披露することができる。だいぶトモに力強さが増してきて、逞しさが出てきた。状態面に関して特に気にする点も無く、現状のベストと言えるデキ。",
+      "publishedDate": "2021-01-04",
+      "raceKey": "2021:京都金杯",
+      "raceDate": "2021-01-05",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_3459",
+      "key": "horse_2606|keibalab|438|https://www-f.keibalab.jp/img/upload/focus/202012/201227_biospark.jpg?1609044621",
+      "horseId": "horse_2499",
+      "source": "keibalab",
+      "sourceId": "438",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/438/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/202012/201227_biospark.jpg?1609044621",
+      "localImagePath": "",
+      "caption": "2021-01-05 中山金杯",
+      "raceName": "中山金杯",
+      "photoDate": "2021-01-05",
+      "issueDate": "2021-01-04",
+      "sourceOrder": 1,
+      "comment": "胴周りをゆったりと見せるシルエット。2000m前後で良績を残しているが、距離自体はもう少し長くても十分にやれるはず。背中と腹側のラインが平行に近く伸びがあるため、一瞬の切れよりも長く良い脚を使ってこその持続力タイプ。飛節も緩やかにカーブしており、後肢の回転はなかなか速い。小回りコースでも上手に立ち回れそうだ。中団前目から早め早めに勝負を仕掛けて欲しいところ。蹄にも厚みがあって、時計の掛かる馬場もこなせる。ムダ肉の付きづらい体型ではあるが、今回もスッキリと見せていて、仕上がりは良好。",
+      "publishedDate": "2021-01-04",
+      "raceKey": "2021:中山金杯",
+      "raceDate": "2021-01-05",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_3463",
+      "key": "horse_2610|keibalab|438|https://www-f.keibalab.jp/img/upload/focus/202012/201227_taiseivision.jpg?1609045198",
+      "horseId": "horse_988",
+      "source": "keibalab",
+      "sourceId": "438",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/438/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/202012/201227_taiseivision.jpg?1609045198",
+      "localImagePath": "",
+      "caption": "2021-01-05 京都金杯",
+      "raceName": "京都金杯",
+      "photoDate": "2021-01-05",
+      "issueDate": "2021-01-04",
+      "sourceOrder": 1,
+      "comment": "素軽い立ち姿でバランスも整っており、シルエットも正方形に近い。典型的なマイル以下の距離が合いそうなスピードタイプだ。タートルボウル産駒はがっしりとしたパワータイプの馬が多い印象も、本馬は立ち姿から素軽い。腹周りも後躯に向かって引き締まっており、身体の伸縮性にも優れている。安定して鋭い決め手を発揮できる点は差しの決まりやすい中京コースでも強みになる。蹄が薄く、繋ぎも寝ているので、速い時計の出る馬場が合っているイメージ。当日の馬場コンディションは要注意。いつも良く見せる馬ではあるものの、今回も筋肉の輪郭はハッキリと浮き上がっていて、仕上がりはかなり良さそう。",
       "publishedDate": "2021-01-04",
       "raceKey": "2021:京都金杯",
       "raceDate": "2021-01-05",
@@ -180023,7 +179096,7 @@
     {
       "id": "photo_3462",
       "key": "horse_2609|keibalab|438|https://www-f.keibalab.jp/img/upload/focus/202012/201227_shuri.jpg?1609045029",
-      "horseId": "horse_2609",
+      "horseId": "horse_994",
       "source": "keibalab",
       "sourceId": "438",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/438/",
@@ -180041,22 +179114,22 @@
       "raceDateSource": "override"
     },
     {
-      "id": "photo_3463",
-      "key": "horse_2610|keibalab|438|https://www-f.keibalab.jp/img/upload/focus/202012/201227_taiseivision.jpg?1609045198",
-      "horseId": "horse_2610",
+      "id": "photo_3458",
+      "key": "horse_2605|keibalab|438|https://www-f.keibalab.jp/img/upload/focus/202012/201227_darlingtonhall.jpg?1609044397",
+      "horseId": "horse_995",
       "source": "keibalab",
       "sourceId": "438",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/438/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/202012/201227_taiseivision.jpg?1609045198",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/202012/201227_darlingtonhall.jpg?1609044397",
       "localImagePath": "",
-      "caption": "2021-01-05 京都金杯",
-      "raceName": "京都金杯",
+      "caption": "2021-01-05 中山金杯",
+      "raceName": "中山金杯",
       "photoDate": "2021-01-05",
       "issueDate": "2021-01-04",
       "sourceOrder": 1,
-      "comment": "素軽い立ち姿でバランスも整っており、シルエットも正方形に近い。典型的なマイル以下の距離が合いそうなスピードタイプだ。タートルボウル産駒はがっしりとしたパワータイプの馬が多い印象も、本馬は立ち姿から素軽い。腹周りも後躯に向かって引き締まっており、身体の伸縮性にも優れている。安定して鋭い決め手を発揮できる点は差しの決まりやすい中京コースでも強みになる。蹄が薄く、繋ぎも寝ているので、速い時計の出る馬場が合っているイメージ。当日の馬場コンディションは要注意。いつも良く見せる馬ではあるものの、今回も筋肉の輪郭はハッキリと浮き上がっていて、仕上がりはかなり良さそう。",
+      "comment": "500キロを優に超える大型馬であるが、四肢に伸びがあり、骨格のバランス自体も整っているため、数字よりも立ち姿は軽さを感じさせる。そんな中でも欧州血統らしい豊富な筋肉量で、どちらかと言えばパワータイプ。時計の掛かる馬場は上手にこなせそうだ。ダービー出走時よりも肉付きが良くなっている印象で、今回は休み明け。馬体重を増やして出走する可能性もありそう。腹周りを見ても太くは映らないので、仮に増えていても成長分と捉えて問題なし。冬場でも毛艶が良く体調はかなり良さそう。目一杯に仕上げられたイメージではないものの、力は出せるデキにある。",
       "publishedDate": "2021-01-04",
-      "raceKey": "2021:京都金杯",
+      "raceKey": "2021:中山金杯",
       "raceDate": "2021-01-05",
       "raceDateSource": "override"
     },
@@ -216301,29 +215374,29 @@
       "raceDateSource": "override"
     },
     {
-      "id": "photo_5287",
-      "key": "horse_2611|keibalab|235|https://www-f.keibalab.jp/img/upload/focus/201712/171228_winbright.jpg?1514452940",
-      "horseId": "horse_2611",
+      "id": "photo_5299",
+      "key": "horse_2623|keibalab|235|https://www-f.keibalab.jp/img/upload/focus/201712/171228_redenciel.jpg?1514453074",
+      "horseId": "horse_1196",
       "source": "keibalab",
       "sourceId": "235",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/235/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201712/171228_winbright.jpg?1514452940",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201712/171228_redenciel.jpg?1514453074",
       "localImagePath": "",
-      "caption": "2018-01-06 中山金杯",
-      "raceName": "中山金杯",
+      "caption": "2018-01-06 京都金杯",
+      "raceName": "京都金杯",
       "photoDate": "2018-01-06",
       "issueDate": "2017-12-28",
       "sourceOrder": 1,
-      "comment": "身長が伸びたことによりキ甲が抜け始め、極端に腰高な印象は無くなった。腹回りは基本的に緩く見せるタイプなので、このくらいの見栄えであれば特に問題ない状態といえるだろう。シルエット的には正方形に近く、マイル～2000ｍくらいであれば安定したパフォーマンスを発揮することができるだろう。冬毛も伸びておらず体調は良さそうで、中山コース向きのパワーもある。安定勢力と見て良いのでは。",
+      "comment": "マンハッタンカフェ産駒ではあるが脚が短めで胴も詰まっていることからも、距離はマイルくらいまでだろう。全体的に3歳時はやや頼りなかった印象があったものの、4歳となって胸前や腹回りのボリュームがでて、逞しくなってきた。とはいえまだ成長途上にあり、キ甲もまだ抜けていないように今後の成長が楽しみな1頭。馬体の張り、毛艶も冬場ということを考えれば上々。上位争いを期待。",
       "publishedDate": "2017-12-28",
-      "raceKey": "2018:中山金杯",
+      "raceKey": "2018:京都金杯",
       "raceDate": "2018-01-06",
       "raceDateSource": "override"
     },
     {
       "id": "photo_5288",
       "key": "horse_2612|keibalab|235|https://www-f.keibalab.jp/img/upload/focus/201712/171228_cadenas.jpg?1514452947",
-      "horseId": "horse_2612",
+      "horseId": "horse_1228",
       "source": "keibalab",
       "sourceId": "235",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/235/",
@@ -216341,9 +215414,69 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_5297",
+      "key": "horse_2621|keibalab|235|https://www-f.keibalab.jp/img/upload/focus/201712/171228_kluger.jpg?1514453048",
+      "horseId": "horse_1431",
+      "source": "keibalab",
+      "sourceId": "235",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/235/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201712/171228_kluger.jpg?1514453048",
+      "localImagePath": "",
+      "caption": "2018-01-06 京都金杯",
+      "raceName": "京都金杯",
+      "photoDate": "2018-01-06",
+      "issueDate": "2017-12-28",
+      "sourceOrder": 1,
+      "comment": "キングカメハメハ産駒らしく筋肉量が多い、胴もコロンとして詰まり気味でいかにもマイラー、といった印象。丸みのあるトモの筋肉からは優れた瞬発力を生み出す。明け6歳となるが馬体の張りは使う度に良くなってきており、状態の良さが伝わってくる。毛艶も良く体調は問題なし。本番までにしっかりと仕上がってくるだろう。掲載しているメンバーの中では一番良く見えた。",
+      "publishedDate": "2017-12-28",
+      "raceKey": "2018:京都金杯",
+      "raceDate": "2018-01-06",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_5296",
+      "key": "horse_2620|keibalab|235|https://www-f.keibalab.jp/img/upload/focus/201712/171228_karakurenai.jpg?1514453039",
+      "horseId": "horse_1554",
+      "source": "keibalab",
+      "sourceId": "235",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/235/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201712/171228_karakurenai.jpg?1514453039",
+      "localImagePath": "",
+      "caption": "2018-01-06 京都金杯",
+      "raceName": "京都金杯",
+      "photoDate": "2018-01-06",
+      "issueDate": "2017-12-28",
+      "sourceOrder": 1,
+      "comment": "数字以上にスッキリとして見える造り。3歳春まではシャープすぎる印象もあったくらいなので、腹袋が気持ちふっくらとして見えるこの仕上がりは悪くない状態といえるだろう。トモの筋肉はもう少し容量が増えてきて欲しいところではあるが、胸前はがっしりとして成長も感じられる。冬場の牝馬ながら毛艶も良好で、体調面で問題はなさそう。",
+      "publishedDate": "2017-12-28",
+      "raceKey": "2018:京都金杯",
+      "raceDate": "2018-01-06",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_5298",
+      "key": "horse_2622|keibalab|235|https://www-f.keibalab.jp/img/upload/focus/201712/171228_rabbitrun.jpg?1514453058",
+      "horseId": "horse_1689",
+      "source": "keibalab",
+      "sourceId": "235",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/235/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201712/171228_rabbitrun.jpg?1514453058",
+      "localImagePath": "",
+      "caption": "2018-01-06 京都金杯",
+      "raceName": "京都金杯",
+      "photoDate": "2018-01-06",
+      "issueDate": "2017-12-28",
+      "sourceOrder": 1,
+      "comment": "蹄が小さく薄いため、血統はダートでも馬体の造りは芝向き。胸前、トモを見てもらうとわかるように相当な筋肉量がある。ダート血統の豊富な筋肉量を父から受け継ぎつつ、牝馬らしい柔軟性もある。胴が詰まり気味なのでやはりマイルがベストだろう。まだ腰高な面が残っており、もう少し背が伸びれば更なる活躍が望めそう。レース数を使っているため大きな上積みはないが、引き続き好勝負できそうだ。",
+      "publishedDate": "2017-12-28",
+      "raceKey": "2018:京都金杯",
+      "raceDate": "2018-01-06",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_5289",
       "key": "horse_2613|keibalab|235|https://www-f.keibalab.jp/img/upload/focus/201712/171228_sedabrillantes.jpg?1514452954",
-      "horseId": "horse_2613",
+      "horseId": "horse_1717",
       "source": "keibalab",
       "sourceId": "235",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/235/",
@@ -216361,29 +215494,29 @@
       "raceDateSource": "override"
     },
     {
-      "id": "photo_5290",
-      "key": "horse_2614|keibalab|235|https://www-f.keibalab.jp/img/upload/focus/201712/171228_daiwacagney.jpg?1514452961",
-      "horseId": "horse_2614",
+      "id": "photo_5295",
+      "key": "horse_2619|keibalab|235|https://www-f.keibalab.jp/img/upload/focus/201712/171228_wingagnant.jpg?1514453018",
+      "horseId": "horse_1739",
       "source": "keibalab",
       "sourceId": "235",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/235/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201712/171228_daiwacagney.jpg?1514452961",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201712/171228_wingagnant.jpg?1514453018",
       "localImagePath": "",
-      "caption": "2018-01-06 中山金杯",
-      "raceName": "中山金杯",
+      "caption": "2018-01-06 京都金杯",
+      "raceName": "京都金杯",
       "photoDate": "2018-01-06",
       "issueDate": "2017-12-28",
       "sourceOrder": 1,
-      "comment": "とにかく肉付きの良い馬で、筋肉量の多さでは今回のメンバー中でも1、2を争う。3歳春は全体的に緩さを残していたが、3歳秋から一気にムダ肉が削げて筋肉が彫刻のように浮き上がって見えるようになってきた。肉量が多い分、距離には限界が出てきそうだが、コーナー4つで息の入れやすい中山なら2000ｍでも問題ないだろう。馬体の張り、毛艶ともに申し分のない状態で、まさに絶好調といった雰囲気。勝ち負けが期待できる。",
+      "comment": "正方形のシルエットで胸前の筋肉が立派。飛節も折りが深くてピッチに近い走法のため、テンも速く先行前残りを身の上としている理由がわかる。腹回りがゆとりあるように見えるのは元々の造りで、太めが残っているわけではない。馬体の張りも悪くないが、昨年の夏競馬で好成績を残していた頃と比較すると若干物足りない印象も。基本的に夏のほうが良い馬なのかもしれない。",
       "publishedDate": "2017-12-28",
-      "raceKey": "2018:中山金杯",
+      "raceKey": "2018:京都金杯",
       "raceDate": "2018-01-06",
       "raceDateSource": "override"
     },
     {
       "id": "photo_5291",
       "key": "horse_2615|keibalab|235|https://www-f.keibalab.jp/img/upload/focus/201712/171228_denimandruby.jpg?1514452969",
-      "horseId": "horse_2615",
+      "horseId": "horse_1799",
       "source": "keibalab",
       "sourceId": "235",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/235/",
@@ -216403,7 +215536,7 @@
     {
       "id": "photo_5292",
       "key": "horse_2616|keibalab|235|https://www-f.keibalab.jp/img/upload/focus/201712/171228_blackbago.jpg?1514452976",
-      "horseId": "horse_2616",
+      "horseId": "horse_1824",
       "source": "keibalab",
       "sourceId": "235",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/235/",
@@ -216423,7 +215556,7 @@
     {
       "id": "photo_5293",
       "key": "horse_2617|keibalab|235|https://www-f.keibalab.jp/img/upload/focus/201712/171228_meinermilano.jpg?1514452983",
-      "horseId": "horse_2617",
+      "horseId": "horse_1908",
       "source": "keibalab",
       "sourceId": "235",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/235/",
@@ -216443,7 +215576,7 @@
     {
       "id": "photo_5294",
       "key": "horse_2618|keibalab|235|https://www-f.keibalab.jp/img/upload/focus/201712/171228_americascup.jpg?1514453011",
-      "horseId": "horse_2618",
+      "horseId": "horse_1961",
       "source": "keibalab",
       "sourceId": "235",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/235/",
@@ -216461,102 +215594,42 @@
       "raceDateSource": "override"
     },
     {
-      "id": "photo_5295",
-      "key": "horse_2619|keibalab|235|https://www-f.keibalab.jp/img/upload/focus/201712/171228_wingagnant.jpg?1514453018",
-      "horseId": "horse_2619",
+      "id": "photo_5287",
+      "key": "horse_2611|keibalab|235|https://www-f.keibalab.jp/img/upload/focus/201712/171228_winbright.jpg?1514452940",
+      "horseId": "horse_2506",
       "source": "keibalab",
       "sourceId": "235",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/235/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201712/171228_wingagnant.jpg?1514453018",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201712/171228_winbright.jpg?1514452940",
       "localImagePath": "",
-      "caption": "2018-01-06 京都金杯",
-      "raceName": "京都金杯",
+      "caption": "2018-01-06 中山金杯",
+      "raceName": "中山金杯",
       "photoDate": "2018-01-06",
       "issueDate": "2017-12-28",
       "sourceOrder": 1,
-      "comment": "正方形のシルエットで胸前の筋肉が立派。飛節も折りが深くてピッチに近い走法のため、テンも速く先行前残りを身の上としている理由がわかる。腹回りがゆとりあるように見えるのは元々の造りで、太めが残っているわけではない。馬体の張りも悪くないが、昨年の夏競馬で好成績を残していた頃と比較すると若干物足りない印象も。基本的に夏のほうが良い馬なのかもしれない。",
+      "comment": "身長が伸びたことによりキ甲が抜け始め、極端に腰高な印象は無くなった。腹回りは基本的に緩く見せるタイプなので、このくらいの見栄えであれば特に問題ない状態といえるだろう。シルエット的には正方形に近く、マイル～2000ｍくらいであれば安定したパフォーマンスを発揮することができるだろう。冬毛も伸びておらず体調は良さそうで、中山コース向きのパワーもある。安定勢力と見て良いのでは。",
       "publishedDate": "2017-12-28",
-      "raceKey": "2018:京都金杯",
+      "raceKey": "2018:中山金杯",
       "raceDate": "2018-01-06",
       "raceDateSource": "override"
     },
     {
-      "id": "photo_5296",
-      "key": "horse_2620|keibalab|235|https://www-f.keibalab.jp/img/upload/focus/201712/171228_karakurenai.jpg?1514453039",
-      "horseId": "horse_2620",
+      "id": "photo_5290",
+      "key": "horse_2614|keibalab|235|https://www-f.keibalab.jp/img/upload/focus/201712/171228_daiwacagney.jpg?1514452961",
+      "horseId": "horse_2508",
       "source": "keibalab",
       "sourceId": "235",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/235/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201712/171228_karakurenai.jpg?1514453039",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201712/171228_daiwacagney.jpg?1514452961",
       "localImagePath": "",
-      "caption": "2018-01-06 京都金杯",
-      "raceName": "京都金杯",
+      "caption": "2018-01-06 中山金杯",
+      "raceName": "中山金杯",
       "photoDate": "2018-01-06",
       "issueDate": "2017-12-28",
       "sourceOrder": 1,
-      "comment": "数字以上にスッキリとして見える造り。3歳春まではシャープすぎる印象もあったくらいなので、腹袋が気持ちふっくらとして見えるこの仕上がりは悪くない状態といえるだろう。トモの筋肉はもう少し容量が増えてきて欲しいところではあるが、胸前はがっしりとして成長も感じられる。冬場の牝馬ながら毛艶も良好で、体調面で問題はなさそう。",
+      "comment": "とにかく肉付きの良い馬で、筋肉量の多さでは今回のメンバー中でも1、2を争う。3歳春は全体的に緩さを残していたが、3歳秋から一気にムダ肉が削げて筋肉が彫刻のように浮き上がって見えるようになってきた。肉量が多い分、距離には限界が出てきそうだが、コーナー4つで息の入れやすい中山なら2000ｍでも問題ないだろう。馬体の張り、毛艶ともに申し分のない状態で、まさに絶好調といった雰囲気。勝ち負けが期待できる。",
       "publishedDate": "2017-12-28",
-      "raceKey": "2018:京都金杯",
-      "raceDate": "2018-01-06",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_5297",
-      "key": "horse_2621|keibalab|235|https://www-f.keibalab.jp/img/upload/focus/201712/171228_kluger.jpg?1514453048",
-      "horseId": "horse_2621",
-      "source": "keibalab",
-      "sourceId": "235",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/235/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201712/171228_kluger.jpg?1514453048",
-      "localImagePath": "",
-      "caption": "2018-01-06 京都金杯",
-      "raceName": "京都金杯",
-      "photoDate": "2018-01-06",
-      "issueDate": "2017-12-28",
-      "sourceOrder": 1,
-      "comment": "キングカメハメハ産駒らしく筋肉量が多い、胴もコロンとして詰まり気味でいかにもマイラー、といった印象。丸みのあるトモの筋肉からは優れた瞬発力を生み出す。明け6歳となるが馬体の張りは使う度に良くなってきており、状態の良さが伝わってくる。毛艶も良く体調は問題なし。本番までにしっかりと仕上がってくるだろう。掲載しているメンバーの中では一番良く見えた。",
-      "publishedDate": "2017-12-28",
-      "raceKey": "2018:京都金杯",
-      "raceDate": "2018-01-06",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_5298",
-      "key": "horse_2622|keibalab|235|https://www-f.keibalab.jp/img/upload/focus/201712/171228_rabbitrun.jpg?1514453058",
-      "horseId": "horse_2622",
-      "source": "keibalab",
-      "sourceId": "235",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/235/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201712/171228_rabbitrun.jpg?1514453058",
-      "localImagePath": "",
-      "caption": "2018-01-06 京都金杯",
-      "raceName": "京都金杯",
-      "photoDate": "2018-01-06",
-      "issueDate": "2017-12-28",
-      "sourceOrder": 1,
-      "comment": "蹄が小さく薄いため、血統はダートでも馬体の造りは芝向き。胸前、トモを見てもらうとわかるように相当な筋肉量がある。ダート血統の豊富な筋肉量を父から受け継ぎつつ、牝馬らしい柔軟性もある。胴が詰まり気味なのでやはりマイルがベストだろう。まだ腰高な面が残っており、もう少し背が伸びれば更なる活躍が望めそう。レース数を使っているため大きな上積みはないが、引き続き好勝負できそうだ。",
-      "publishedDate": "2017-12-28",
-      "raceKey": "2018:京都金杯",
-      "raceDate": "2018-01-06",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_5299",
-      "key": "horse_2623|keibalab|235|https://www-f.keibalab.jp/img/upload/focus/201712/171228_redenciel.jpg?1514453074",
-      "horseId": "horse_2623",
-      "source": "keibalab",
-      "sourceId": "235",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/235/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201712/171228_redenciel.jpg?1514453074",
-      "localImagePath": "",
-      "caption": "2018-01-06 京都金杯",
-      "raceName": "京都金杯",
-      "photoDate": "2018-01-06",
-      "issueDate": "2017-12-28",
-      "sourceOrder": 1,
-      "comment": "マンハッタンカフェ産駒ではあるが脚が短めで胴も詰まっていることからも、距離はマイルくらいまでだろう。全体的に3歳時はやや頼りなかった印象があったものの、4歳となって胸前や腹回りのボリュームがでて、逞しくなってきた。とはいえまだ成長途上にあり、キ甲もまだ抜けていないように今後の成長が楽しみな1頭。馬体の張り、毛艶も冬場ということを考えれば上々。上位争いを期待。",
-      "publishedDate": "2017-12-28",
-      "raceKey": "2018:京都金杯",
+      "raceKey": "2018:中山金杯",
       "raceDate": "2018-01-06",
       "raceDateSource": "override"
     },
@@ -223341,26 +222414,6 @@
       "raceDateSource": "override"
     },
     {
-      "id": "photo_5636",
-      "key": "horse_1954|keibalab|174|https://www-f.keibalab.jp/img/upload/focus/201706/170603_fluky.jpg?1496567714",
-      "horseId": "horse_1954",
-      "source": "keibalab",
-      "sourceId": "174",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/174/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201706/170603_fluky.jpg?1496567714",
-      "localImagePath": "",
-      "caption": "2017-06-11 エプソムC",
-      "raceName": "エプソムC",
-      "photoDate": "2017-06-11",
-      "issueDate": "2017-06-04",
-      "sourceOrder": 1,
-      "comment": "昨年のこのレース以来の立ち写真。7歳馬だが馬体の張りはしっかりと維持しており、極端な衰えは感じない。ただ、トモの筋肉量は徐々に減少しつつあり、ピークという雰囲気ではないだろう。肋骨が薄っすらと浮いて見え、太め感はない。毛艶も良い状態なので、現状この馬のベストの仕上がりと言って良いのでは。高速決着は厳しいので、できれば時計がかかって欲しいが。",
-      "publishedDate": "2017-06-04",
-      "raceKey": "2017:エプソムC",
-      "raceDate": "2017-06-11",
-      "raceDateSource": "override"
-    },
-    {
       "id": "photo_5637",
       "key": "horse_1955|keibalab|174|https://www-f.keibalab.jp/img/upload/focus/201706/170603_biche.jpg?1496567740",
       "horseId": "horse_1955",
@@ -223377,6 +222430,26 @@
       "comment": "400キロちょっとしか馬体重がなく、3歳時は頼りない印象があった。前走の中山牝馬Sでも同様の造りだったが、ここに来て腹回りがボリュームアップ。幅も少しずつ出てきており、ひ弱さを感じさせなくなってきた。元々、体の増えにくいタイプであるため、このくらい余裕ある状態のほうが良い。毛艶も良化してきて、状態が上向いてきていることが伝わってくる。上位争いを期待したい1頭。",
       "publishedDate": "2017-06-04",
       "raceKey": "2017:マーメイドS",
+      "raceDate": "2017-06-11",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_5636",
+      "key": "horse_1954|keibalab|174|https://www-f.keibalab.jp/img/upload/focus/201706/170603_fluky.jpg?1496567714",
+      "horseId": "horse_2222",
+      "source": "keibalab",
+      "sourceId": "174",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/174/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201706/170603_fluky.jpg?1496567714",
+      "localImagePath": "",
+      "caption": "2017-06-11 エプソムC",
+      "raceName": "エプソムC",
+      "photoDate": "2017-06-11",
+      "issueDate": "2017-06-04",
+      "sourceOrder": 1,
+      "comment": "昨年のこのレース以来の立ち写真。7歳馬だが馬体の張りはしっかりと維持しており、極端な衰えは感じない。ただ、トモの筋肉量は徐々に減少しつつあり、ピークという雰囲気ではないだろう。肋骨が薄っすらと浮いて見え、太め感はない。毛艶も良い状態なので、現状この馬のベストの仕上がりと言って良いのでは。高速決着は厳しいので、できれば時計がかかって欲しいが。",
+      "publishedDate": "2017-06-04",
+      "raceKey": "2017:エプソムC",
       "raceDate": "2017-06-11",
       "raceDateSource": "override"
     },
@@ -228441,20 +227514,80 @@
       "raceDateSource": "override"
     },
     {
-      "id": "photo_5883",
-      "key": "horse_2018|keibalab|129|https://www-f.keibalab.jp/img/upload/focus/201612/161226_danonmajor.jpg?1482717688",
-      "horseId": "horse_2018",
+      "id": "photo_5892",
+      "key": "horse_2627|keibalab|129|https://www-f.keibalab.jp/img/upload/focus/201612/161226_strongtitan.jpg?1482717688",
+      "horseId": "horse_1568",
       "source": "keibalab",
       "sourceId": "129",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/129/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201612/161226_danonmajor.jpg?1482717688",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201612/161226_strongtitan.jpg?1482717688",
       "localImagePath": "",
       "caption": "2017-01-05 中山金杯",
       "raceName": "中山金杯",
       "photoDate": "2017-01-05",
       "issueDate": "2016-12-26",
       "sourceOrder": 1,
-      "comment": "ダイワメジャー産駒らしい肉付きの良いシルエット。胴と脚の長さを見ても、いかにもマイラー体型で今回に関しては若干距離が長い印象。斜尻直飛でトモの造りは理想的。馬体の張りも上々で、毛艶も綺麗に見せている。背中に銭型も浮いて体調は良好だ。この馬の場合、競馬に行って気分良く走ることができるかが重要。楽な逃げをうつことができれば、上位好走もある。",
+      "comment": "父系はフォーティナイナーの流れで、ダート色の強い血統だけにどっしりとした体型をしている。まだ腰高で、各パーツの繋ぎも緩さを残す。筋肉量はあるものの、柔軟性はサンデー系と比較してやや劣るため、瞬発力勝負では分が悪い。先行力もあり、小回りも向く。パワー型なので、坂のある中山も苦にしないはず。毛艶も季節を考えれば悪くはない。完成度はまだまだ低いので、馬体がしっかりしてきたら楽しみだ。",
+      "publishedDate": "2016-12-26",
+      "raceKey": "2017:中山金杯",
+      "raceDate": "2017-01-05",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_5891",
+      "key": "horse_2626|keibalab|129|https://www-f.keibalab.jp/img/upload/focus/201612/161226_meinerfrost.jpg?1482717683",
+      "horseId": "horse_1746",
+      "source": "keibalab",
+      "sourceId": "129",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/129/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201612/161226_meinerfrost.jpg?1482717683",
+      "localImagePath": "",
+      "caption": "2017-01-05 中山金杯",
+      "raceName": "中山金杯",
+      "photoDate": "2017-01-05",
+      "issueDate": "2016-12-26",
+      "sourceOrder": 1,
+      "comment": "背中と胴回りが平行、同じくらいの長さで、平均的に脚を使うタイプ。蹄が立っており、道悪でも能力発揮に大きな影響はない。腹回りが立派なのは母父のグラスワンダーが出たか。直飛で、ロスなくエネルギーを使えるのだが、前述のように背中が長い馬なので、伸縮性にはやや欠ける。極端な瞬発力勝負はマイナスだ。冬場ということもあり、冬毛が伸びてきてあまり見栄えはしない。毛艶も芦毛とはいえ、目を見張るようなものではない。近走の成績を見ていても、推しづらい面がある。",
+      "publishedDate": "2016-12-26",
+      "raceKey": "2017:中山金杯",
+      "raceDate": "2017-01-05",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_5890",
+      "key": "horse_2625|keibalab|129|https://www-f.keibalab.jp/img/upload/focus/201612/161226_tsukubaazumao.jpg?1482717688",
+      "horseId": "horse_1894",
+      "source": "keibalab",
+      "sourceId": "129",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/129/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201612/161226_tsukubaazumao.jpg?1482717688",
+      "localImagePath": "",
+      "caption": "2017-01-05 中山金杯",
+      "raceName": "中山金杯",
+      "photoDate": "2017-01-05",
+      "issueDate": "2016-12-26",
+      "sourceOrder": 1,
+      "comment": "＜今週のイチオシ＞\n父の産駒らしく、コンパクトながらしっかりとまとまった馬体。後駆の筋肉量はなかなかのもの。飛節の角度も良く、しっかりとトモの力を推進力に変えることができそうだ。ベタ蹄だが、小さい蹄なので道悪も苦にしないだろう。冬場ながら冬毛を全く伸ばすことなく、抜群の毛艶。馬体の張りも申し分ない状態で、今がまさに成長のピークといったところだ。背中に銭型が浮いているように代謝も良い。勝ち負け必至のいい仕上がりでレースを迎えることができそうだ。",
+      "publishedDate": "2016-12-26",
+      "raceKey": "2017:中山金杯",
+      "raceDate": "2017-01-05",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_5889",
+      "key": "horse_2624|keibalab|129|https://www-f.keibalab.jp/img/upload/focus/201612/161226_claritysky.jpg?1482717683",
+      "horseId": "horse_1951",
+      "source": "keibalab",
+      "sourceId": "129",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/129/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201612/161226_claritysky.jpg?1482717683",
+      "localImagePath": "",
+      "caption": "2017-01-05 中山金杯",
+      "raceName": "中山金杯",
+      "photoDate": "2017-01-05",
+      "issueDate": "2016-12-26",
+      "sourceOrder": 1,
+      "comment": "3歳秋の写真と比較すると背が伸び、馬体はほぼ完成。横幅も出てきて、たくましくなってきた。筋肉の引き締まり方は近走でも一番。あばらも薄っすらと浮いてムダ肉のない状態。2走前のアイルランドTで3着した際、鞍上が「太かった」というコメントをしていたが、今回は絞れて出てくることができるはず。状態面で不安はないのだが、近走でパンチの効かなさも露呈しているため、2～3着はあっても勝ち切るまではどうか。",
       "publishedDate": "2016-12-26",
       "raceKey": "2017:中山金杯",
       "raceDate": "2017-01-05",
@@ -228541,6 +227674,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_5883",
+      "key": "horse_2018|keibalab|129|https://www-f.keibalab.jp/img/upload/focus/201612/161226_danonmajor.jpg?1482717688",
+      "horseId": "horse_2263",
+      "source": "keibalab",
+      "sourceId": "129",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/129/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201612/161226_danonmajor.jpg?1482717688",
+      "localImagePath": "",
+      "caption": "2017-01-05 中山金杯",
+      "raceName": "中山金杯",
+      "photoDate": "2017-01-05",
+      "issueDate": "2016-12-26",
+      "sourceOrder": 1,
+      "comment": "ダイワメジャー産駒らしい肉付きの良いシルエット。胴と脚の長さを見ても、いかにもマイラー体型で今回に関しては若干距離が長い印象。斜尻直飛でトモの造りは理想的。馬体の張りも上々で、毛艶も綺麗に見せている。背中に銭型も浮いて体調は良好だ。この馬の場合、競馬に行って気分良く走ることができるかが重要。楽な逃げをうつことができれば、上位好走もある。",
+      "publishedDate": "2016-12-26",
+      "raceKey": "2017:中山金杯",
+      "raceDate": "2017-01-05",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_5888",
       "key": "horse_2509|keibalab|129|https://www-f.keibalab.jp/img/upload/focus/201612/161226_astraemblem.jpg?1482717688",
       "horseId": "horse_2509",
@@ -228557,86 +227710,6 @@
       "comment": "ダイワメジャー産駒の割に脚が長く、一見距離が持ちそうな造り。スラッそして見えるが、胸前やトモにはしっかりとした筋肉が付いている。全体に素軽いシルエットで、スピードに秀でたタイプ。新潟や東京など、広くノビノビと走ることのできるコースで良績を残しているのも頷ける。馬体の張り、毛艶共に冴えており、体調面は良好だ。エアスピネルに次ぐ2番手評価はこの馬。",
       "publishedDate": "2016-12-26",
       "raceKey": "2017:京都金杯",
-      "raceDate": "2017-01-05",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_5889",
-      "key": "horse_2624|keibalab|129|https://www-f.keibalab.jp/img/upload/focus/201612/161226_claritysky.jpg?1482717683",
-      "horseId": "horse_2624",
-      "source": "keibalab",
-      "sourceId": "129",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/129/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201612/161226_claritysky.jpg?1482717683",
-      "localImagePath": "",
-      "caption": "2017-01-05 中山金杯",
-      "raceName": "中山金杯",
-      "photoDate": "2017-01-05",
-      "issueDate": "2016-12-26",
-      "sourceOrder": 1,
-      "comment": "3歳秋の写真と比較すると背が伸び、馬体はほぼ完成。横幅も出てきて、たくましくなってきた。筋肉の引き締まり方は近走でも一番。あばらも薄っすらと浮いてムダ肉のない状態。2走前のアイルランドTで3着した際、鞍上が「太かった」というコメントをしていたが、今回は絞れて出てくることができるはず。状態面で不安はないのだが、近走でパンチの効かなさも露呈しているため、2～3着はあっても勝ち切るまではどうか。",
-      "publishedDate": "2016-12-26",
-      "raceKey": "2017:中山金杯",
-      "raceDate": "2017-01-05",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_5890",
-      "key": "horse_2625|keibalab|129|https://www-f.keibalab.jp/img/upload/focus/201612/161226_tsukubaazumao.jpg?1482717688",
-      "horseId": "horse_2625",
-      "source": "keibalab",
-      "sourceId": "129",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/129/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201612/161226_tsukubaazumao.jpg?1482717688",
-      "localImagePath": "",
-      "caption": "2017-01-05 中山金杯",
-      "raceName": "中山金杯",
-      "photoDate": "2017-01-05",
-      "issueDate": "2016-12-26",
-      "sourceOrder": 1,
-      "comment": "＜今週のイチオシ＞\n父の産駒らしく、コンパクトながらしっかりとまとまった馬体。後駆の筋肉量はなかなかのもの。飛節の角度も良く、しっかりとトモの力を推進力に変えることができそうだ。ベタ蹄だが、小さい蹄なので道悪も苦にしないだろう。冬場ながら冬毛を全く伸ばすことなく、抜群の毛艶。馬体の張りも申し分ない状態で、今がまさに成長のピークといったところだ。背中に銭型が浮いているように代謝も良い。勝ち負け必至のいい仕上がりでレースを迎えることができそうだ。",
-      "publishedDate": "2016-12-26",
-      "raceKey": "2017:中山金杯",
-      "raceDate": "2017-01-05",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_5891",
-      "key": "horse_2626|keibalab|129|https://www-f.keibalab.jp/img/upload/focus/201612/161226_meinerfrost.jpg?1482717683",
-      "horseId": "horse_2626",
-      "source": "keibalab",
-      "sourceId": "129",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/129/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201612/161226_meinerfrost.jpg?1482717683",
-      "localImagePath": "",
-      "caption": "2017-01-05 中山金杯",
-      "raceName": "中山金杯",
-      "photoDate": "2017-01-05",
-      "issueDate": "2016-12-26",
-      "sourceOrder": 1,
-      "comment": "背中と胴回りが平行、同じくらいの長さで、平均的に脚を使うタイプ。蹄が立っており、道悪でも能力発揮に大きな影響はない。腹回りが立派なのは母父のグラスワンダーが出たか。直飛で、ロスなくエネルギーを使えるのだが、前述のように背中が長い馬なので、伸縮性にはやや欠ける。極端な瞬発力勝負はマイナスだ。冬場ということもあり、冬毛が伸びてきてあまり見栄えはしない。毛艶も芦毛とはいえ、目を見張るようなものではない。近走の成績を見ていても、推しづらい面がある。",
-      "publishedDate": "2016-12-26",
-      "raceKey": "2017:中山金杯",
-      "raceDate": "2017-01-05",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_5892",
-      "key": "horse_2627|keibalab|129|https://www-f.keibalab.jp/img/upload/focus/201612/161226_strongtitan.jpg?1482717688",
-      "horseId": "horse_2627",
-      "source": "keibalab",
-      "sourceId": "129",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/129/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201612/161226_strongtitan.jpg?1482717688",
-      "localImagePath": "",
-      "caption": "2017-01-05 中山金杯",
-      "raceName": "中山金杯",
-      "photoDate": "2017-01-05",
-      "issueDate": "2016-12-26",
-      "sourceOrder": 1,
-      "comment": "父系はフォーティナイナーの流れで、ダート色の強い血統だけにどっしりとした体型をしている。まだ腰高で、各パーツの繋ぎも緩さを残す。筋肉量はあるものの、柔軟性はサンデー系と比較してやや劣るため、瞬発力勝負では分が悪い。先行力もあり、小回りも向く。パワー型なので、坂のある中山も苦にしないはず。毛艶も季節を考えれば悪くはない。完成度はまだまだ低いので、馬体がしっかりしてきたら楽しみだ。",
-      "publishedDate": "2016-12-26",
-      "raceKey": "2017:中山金杯",
       "raceDate": "2017-01-05",
       "raceDateSource": "override"
     },
@@ -233263,7 +232336,7 @@
     {
       "id": "photo_6124",
       "key": "horse_2088|keibalab|83|https://www-f.keibalab.jp/img/upload/focus/201607/160724_flamehalo.jpg?1469347156",
-      "horseId": "horse_2088",
+      "horseId": "horse_2585",
       "source": "keibalab",
       "sourceId": "83",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/83/",
@@ -234101,26 +233174,6 @@
       "raceDateSource": "override"
     },
     {
-      "id": "photo_6166",
-      "key": "horse_1954|keibalab|71|https://www-f.keibalab.jp/img/upload/focus/201606/160604_fluky.jpg?1465026611",
-      "horseId": "horse_1954",
-      "source": "keibalab",
-      "sourceId": "71",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/71/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201606/160604_fluky.jpg?1465026611",
-      "localImagePath": "",
-      "caption": "2016-06-12 エプソムC",
-      "raceName": "エプソムC",
-      "photoDate": "2016-06-12",
-      "issueDate": "2016-06-05",
-      "sourceOrder": 1,
-      "comment": "デインヒル系の産駒らしい筋肉量に富んだ全体的にカチッとした造り。前駆に比べて後駆が緩く見えるのはこの系統の特徴なので気にしなくていい。デインヒルは比較的硬めの筋肉で、直飛に出ることが多いのだが、この馬に関しては曲飛寄りに出て、それが瞬発力に繋がっている。脚は長めで、一瞬の加速力より、持続させて末脚を使ったほうが良さそうで、その点からも広いコース向き。仕上りに関しては、馬体の張り良く、あばらは浮いて見えるが細いわけではない。レースでしっかり力は発揮できる状態にある。",
-      "publishedDate": "2016-06-05",
-      "raceKey": "2016:エプソムC",
-      "raceDate": "2016-06-12",
-      "raceDateSource": "override"
-    },
-    {
       "id": "photo_6167",
       "key": "horse_2040|keibalab|71|https://www-f.keibalab.jp/img/upload/focus/201606/160604_sundarbans.jpg?1465026612",
       "horseId": "horse_2040",
@@ -234257,6 +233310,26 @@
       "comment": "ダンスインザダーク産駒の牝馬はゴロっとした馬体で、割合的に短距離で活躍する馬のほうが多いのだが、この馬は胴周りがゆったりとした造り。スラっと見せ、長めの距離が合っている印象。脚が長く直飛で、瞬発力には劣るがワンペースの持続力、といった観点からは良い物を持っていそう。見栄えのするタイプでは無いのだが、ムダ肉のなさと心肺機能は高いものを持っていると推測。仕上がりは至って問題無く順調に来ている。馬体の張りも良く、毛艶良く体調は上向きだろう。展開次第で狙ってみたい。",
       "publishedDate": "2016-06-05",
       "raceKey": "2016:マーメイドS",
+      "raceDate": "2016-06-12",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_6166",
+      "key": "horse_1954|keibalab|71|https://www-f.keibalab.jp/img/upload/focus/201606/160604_fluky.jpg?1465026611",
+      "horseId": "horse_2222",
+      "source": "keibalab",
+      "sourceId": "71",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/71/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201606/160604_fluky.jpg?1465026611",
+      "localImagePath": "",
+      "caption": "2016-06-12 エプソムC",
+      "raceName": "エプソムC",
+      "photoDate": "2016-06-12",
+      "issueDate": "2016-06-05",
+      "sourceOrder": 1,
+      "comment": "デインヒル系の産駒らしい筋肉量に富んだ全体的にカチッとした造り。前駆に比べて後駆が緩く見えるのはこの系統の特徴なので気にしなくていい。デインヒルは比較的硬めの筋肉で、直飛に出ることが多いのだが、この馬に関しては曲飛寄りに出て、それが瞬発力に繋がっている。脚は長めで、一瞬の加速力より、持続させて末脚を使ったほうが良さそうで、その点からも広いコース向き。仕上りに関しては、馬体の張り良く、あばらは浮いて見えるが細いわけではない。レースでしっかり力は発揮できる状態にある。",
+      "publishedDate": "2016-06-05",
+      "raceKey": "2016:エプソムC",
       "raceDate": "2016-06-12",
       "raceDateSource": "override"
     },
@@ -237581,26 +236654,6 @@
       "raceDateSource": "override"
     },
     {
-      "id": "photo_6336",
-      "key": "horse_1954|keibalab|42|https://www-f.keibalab.jp/img/upload/focus/201602/160220_fluky.jpg?1457762349",
-      "horseId": "horse_1954",
-      "source": "keibalab",
-      "sourceId": "42",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/42/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201602/160220_fluky.jpg?1457762349",
-      "localImagePath": "",
-      "caption": "2016-02-28 中山記念",
-      "raceName": "中山記念",
-      "photoDate": "2016-02-28",
-      "issueDate": "2016-02-21",
-      "sourceOrder": 1,
-      "comment": "年末～年明けと使っており、外見上大きな変化は見られない。豪州トップサイアーの父の産駒らしく、ボリューム満点の迫力あるボディ。毛ヅヤも良好で、活気も十分。高いレベルで好調をキープ。",
-      "publishedDate": "2016-02-21",
-      "raceKey": "2016:中山記念",
-      "raceDate": "2016-02-28",
-      "raceDateSource": "override"
-    },
-    {
       "id": "photo_6337",
       "key": "horse_1956|keibalab|42|https://www-f.keibalab.jp/img/upload/focus/201602/160220_logotype.jpg?1457762350",
       "horseId": "horse_1956",
@@ -237675,6 +236728,26 @@
       "issueDate": "2016-02-21",
       "sourceOrder": 1,
       "comment": "やや毛ヅヤが地味に映るのは、時期的なものもあり許容範囲内。体高が伸びた為か、全体的にスリムで華奢なフォルム。ダービー以来のブランク明け、筋肉が戻り切れていないよりも、太目残りのない点を評価すべきか。",
+      "publishedDate": "2016-02-21",
+      "raceKey": "2016:中山記念",
+      "raceDate": "2016-02-28",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_6336",
+      "key": "horse_1954|keibalab|42|https://www-f.keibalab.jp/img/upload/focus/201602/160220_fluky.jpg?1457762349",
+      "horseId": "horse_2222",
+      "source": "keibalab",
+      "sourceId": "42",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/42/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201602/160220_fluky.jpg?1457762349",
+      "localImagePath": "",
+      "caption": "2016-02-28 中山記念",
+      "raceName": "中山記念",
+      "photoDate": "2016-02-28",
+      "issueDate": "2016-02-21",
+      "sourceOrder": 1,
+      "comment": "年末～年明けと使っており、外見上大きな変化は見られない。豪州トップサイアーの父の産駒らしく、ボリューム満点の迫力あるボディ。毛ヅヤも良好で、活気も十分。高いレベルで好調をキープ。",
       "publishedDate": "2016-02-21",
       "raceKey": "2016:中山記念",
       "raceDate": "2016-02-28",
@@ -238981,129 +238054,9 @@
       "raceDateSource": "override"
     },
     {
-      "id": "photo_6419",
-      "key": "horse_2166|keibalab|27|https://www-f.keibalab.jp/img/upload/focus/201512/151227_tosenstardom.jpg?1457762357",
-      "horseId": "horse_2166",
-      "source": "keibalab",
-      "sourceId": "27",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/27/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201512/151227_tosenstardom.jpg?1457762357",
-      "localImagePath": "",
-      "caption": "2016-01-05 京都金杯",
-      "raceName": "京都金杯",
-      "photoDate": "2016-01-05",
-      "issueDate": "2015-12-28",
-      "sourceOrder": 1,
-      "comment": "大柄なディープ産駒だが、各パーツの大きさと配置バランスが良く、重さを感じさせない好馬体。たし、今回は腹目に若干の余裕。毛ヅヤは抜群、直前強めの追い切りが必須か。",
-      "publishedDate": "2015-12-28",
-      "raceKey": "2016:京都金杯",
-      "raceDate": "2016-01-05",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_6420",
-      "key": "horse_2561|keibalab|27|https://www-f.keibalab.jp/img/upload/focus/201512/151227_majestyhearts.jpg?1457762355",
-      "horseId": "horse_2561",
-      "source": "keibalab",
-      "sourceId": "27",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/27/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201512/151227_majestyhearts.jpg?1457762355",
-      "localImagePath": "",
-      "caption": "2016-01-05 京都金杯",
-      "raceName": "京都金杯",
-      "photoDate": "2016-01-05",
-      "issueDate": "2015-12-28",
-      "sourceOrder": 1,
-      "comment": "毛ヅヤが地味なのは時期的なものも影響してか。体のハリが物足りなく映り、馬体全体からは覇気も感じられない。良化スローで割引き。",
-      "publishedDate": "2015-12-28",
-      "raceKey": "2016:京都金杯",
-      "raceDate": "2016-01-05",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_6421",
-      "key": "horse_2575|keibalab|27|https://www-f.keibalab.jp/img/upload/focus/201512/151227_fraangelico.jpg?1457762356",
-      "horseId": "horse_2575",
-      "source": "keibalab",
-      "sourceId": "27",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/27/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201512/151227_fraangelico.jpg?1457762356",
-      "localImagePath": "",
-      "caption": "2016-01-05 中山金杯",
-      "raceName": "中山金杯",
-      "photoDate": "2016-01-05",
-      "issueDate": "2015-12-28",
-      "sourceOrder": 1,
-      "comment": "元々馬っぷりの目立つ方ではないが、明け8歳でも馬体に傷みはなく、ムダ肉の少ない好バランスを維持。強調できる見栄えではないが、減点材料は少ない。",
-      "publishedDate": "2015-12-28",
-      "raceKey": "2016:中山金杯",
-      "raceDate": "2016-01-05",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_6422",
-      "key": "horse_2628|keibalab|27|https://www-f.keibalab.jp/img/upload/focus/201512/151227_brightemblem.jpg?1457762356",
-      "horseId": "horse_2628",
-      "source": "keibalab",
-      "sourceId": "27",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/27/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201512/151227_brightemblem.jpg?1457762356",
-      "localImagePath": "",
-      "caption": "2016-01-05 中山金杯",
-      "raceName": "中山金杯",
-      "photoDate": "2016-01-05",
-      "issueDate": "2015-12-28",
-      "sourceOrder": 1,
-      "comment": "この時期だけに毛ヅヤこそ地味だがハリは良く、以前に比べてしなやかさが増した印象。ゴツゴツした面がなくなり、全体的に大人びた雰囲気。成長感じさせる造り。",
-      "publishedDate": "2015-12-28",
-      "raceKey": "2016:中山金杯",
-      "raceDate": "2016-01-05",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_6423",
-      "key": "horse_2629|keibalab|27|https://www-f.keibalab.jp/img/upload/focus/201512/151227_fluky.jpg?1457762356",
-      "horseId": "horse_2629",
-      "source": "keibalab",
-      "sourceId": "27",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/27/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201512/151227_fluky.jpg?1457762356",
-      "localImagePath": "",
-      "caption": "2016-01-05 中山金杯",
-      "raceName": "中山金杯",
-      "photoDate": "2016-01-05",
-      "issueDate": "2015-12-28",
-      "sourceOrder": 1,
-      "comment": "毛ヅヤはピカピカ、アバラがうっすら浮いて、ムダ肉の一切ないフォルム。前走重賞勝ちの反動は微塵も感じない。トモの筋肉はハリとボリューム満点。",
-      "publishedDate": "2015-12-28",
-      "raceKey": "2016:中山金杯",
-      "raceDate": "2016-01-05",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_6424",
-      "key": "horse_2630|keibalab|27|https://www-f.keibalab.jp/img/upload/focus/201512/151227_beruf.jpg?1457762357",
-      "horseId": "horse_2630",
-      "source": "keibalab",
-      "sourceId": "27",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/27/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201512/151227_beruf.jpg?1457762357",
-      "localImagePath": "",
-      "caption": "2016-01-05 中山金杯",
-      "raceName": "中山金杯",
-      "photoDate": "2016-01-05",
-      "issueDate": "2015-12-28",
-      "sourceOrder": 1,
-      "comment": "ハービンジャー産駒らしいボリューミーな馬体だが、四肢は長めでサイズもあるので、バランスの悪さは感じさせない。毛ヅヤ、ハリともに良好、体調面に不安なし。",
-      "publishedDate": "2015-12-28",
-      "raceKey": "2016:中山金杯",
-      "raceDate": "2016-01-05",
-      "raceDateSource": "override"
-    },
-    {
       "id": "photo_6425",
       "key": "horse_2631|keibalab|27|https://www-f.keibalab.jp/img/upload/focus/201512/151227_yamakatsuace.jpg?1457762356",
-      "horseId": "horse_2631",
+      "horseId": "horse_1792",
       "source": "keibalab",
       "sourceId": "27",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/27/",
@@ -239121,49 +238074,29 @@
       "raceDateSource": "override"
     },
     {
-      "id": "photo_6426",
-      "key": "horse_2632|keibalab|27|https://www-f.keibalab.jp/img/upload/focus/201512/151227_risetofame.jpg?1457762355",
-      "horseId": "horse_2632",
+      "id": "photo_6424",
+      "key": "horse_2630|keibalab|27|https://www-f.keibalab.jp/img/upload/focus/201512/151227_beruf.jpg?1457762357",
+      "horseId": "horse_1831",
       "source": "keibalab",
       "sourceId": "27",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/27/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201512/151227_risetofame.jpg?1457762355",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201512/151227_beruf.jpg?1457762357",
       "localImagePath": "",
       "caption": "2016-01-05 中山金杯",
       "raceName": "中山金杯",
       "photoDate": "2016-01-05",
       "issueDate": "2015-12-28",
       "sourceOrder": 1,
-      "comment": "特筆すべき点こそないが、馬体に一切窮屈がない流麗なフォルム。要所要所にメリハリが効いており、代謝の良さを窺わせる銭型もうっすら。好ムード。",
+      "comment": "ハービンジャー産駒らしいボリューミーな馬体だが、四肢は長めでサイズもあるので、バランスの悪さは感じさせない。毛ヅヤ、ハリともに良好、体調面に不安なし。",
       "publishedDate": "2015-12-28",
       "raceKey": "2016:中山金杯",
       "raceDate": "2016-01-05",
       "raceDateSource": "override"
     },
     {
-      "id": "photo_6427",
-      "key": "horse_2633|keibalab|27|https://www-f.keibalab.jp/img/upload/focus/201512/151227_extraend.jpg?1457762356",
-      "horseId": "horse_2633",
-      "source": "keibalab",
-      "sourceId": "27",
-      "sourcePageUrl": "https://www.keibalab.jp/column/focus/27/",
-      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201512/151227_extraend.jpg?1457762356",
-      "localImagePath": "",
-      "caption": "2016-01-05 京都金杯",
-      "raceName": "京都金杯",
-      "photoDate": "2016-01-05",
-      "issueDate": "2015-12-28",
-      "sourceOrder": 1,
-      "comment": "ディープ産駒のわりにはコロンとした体型。メリハリのある体つきで、毛ヅヤも良い部類だが、若干緩さも感じさせる。最終追いでどこまで心身がピリッとするか。",
-      "publishedDate": "2015-12-28",
-      "raceKey": "2016:京都金杯",
-      "raceDate": "2016-01-05",
-      "raceDateSource": "override"
-    },
-    {
       "id": "photo_6428",
       "key": "horse_2634|keibalab|27|https://www-f.keibalab.jp/img/upload/focus/201512/151227_ashinbullseye.jpg?1457762357",
-      "horseId": "horse_2634",
+      "horseId": "horse_1911",
       "source": "keibalab",
       "sourceId": "27",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/27/",
@@ -239183,7 +238116,7 @@
     {
       "id": "photo_6429",
       "key": "horse_2635|keibalab|27|https://www-f.keibalab.jp/img/upload/focus/201512/151227_mikkilovesong.jpg?1457762357",
-      "horseId": "horse_2635",
+      "horseId": "horse_1912",
       "source": "keibalab",
       "sourceId": "27",
       "sourcePageUrl": "https://www.keibalab.jp/column/focus/27/",
@@ -239197,6 +238130,146 @@
       "comment": "キンカメ産駒らしいバランスの良い馬体。骨格と各パーツのボリュームが絶妙で、毛ヅヤと馬体のハリも文句なし。中型サイズ以上の迫力もあり、充実ぶり顕著。",
       "publishedDate": "2015-12-28",
       "raceKey": "2016:京都金杯",
+      "raceDate": "2016-01-05",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_6427",
+      "key": "horse_2633|keibalab|27|https://www-f.keibalab.jp/img/upload/focus/201512/151227_extraend.jpg?1457762356",
+      "horseId": "horse_2062",
+      "source": "keibalab",
+      "sourceId": "27",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/27/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201512/151227_extraend.jpg?1457762356",
+      "localImagePath": "",
+      "caption": "2016-01-05 京都金杯",
+      "raceName": "京都金杯",
+      "photoDate": "2016-01-05",
+      "issueDate": "2015-12-28",
+      "sourceOrder": 1,
+      "comment": "ディープ産駒のわりにはコロンとした体型。メリハリのある体つきで、毛ヅヤも良い部類だが、若干緩さも感じさせる。最終追いでどこまで心身がピリッとするか。",
+      "publishedDate": "2015-12-28",
+      "raceKey": "2016:京都金杯",
+      "raceDate": "2016-01-05",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_6422",
+      "key": "horse_2628|keibalab|27|https://www-f.keibalab.jp/img/upload/focus/201512/151227_brightemblem.jpg?1457762356",
+      "horseId": "horse_2194",
+      "source": "keibalab",
+      "sourceId": "27",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/27/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201512/151227_brightemblem.jpg?1457762356",
+      "localImagePath": "",
+      "caption": "2016-01-05 中山金杯",
+      "raceName": "中山金杯",
+      "photoDate": "2016-01-05",
+      "issueDate": "2015-12-28",
+      "sourceOrder": 1,
+      "comment": "この時期だけに毛ヅヤこそ地味だがハリは良く、以前に比べてしなやかさが増した印象。ゴツゴツした面がなくなり、全体的に大人びた雰囲気。成長感じさせる造り。",
+      "publishedDate": "2015-12-28",
+      "raceKey": "2016:中山金杯",
+      "raceDate": "2016-01-05",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_6419",
+      "key": "horse_2166|keibalab|27|https://www-f.keibalab.jp/img/upload/focus/201512/151227_tosenstardom.jpg?1457762357",
+      "horseId": "horse_2210",
+      "source": "keibalab",
+      "sourceId": "27",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/27/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201512/151227_tosenstardom.jpg?1457762357",
+      "localImagePath": "",
+      "caption": "2016-01-05 京都金杯",
+      "raceName": "京都金杯",
+      "photoDate": "2016-01-05",
+      "issueDate": "2015-12-28",
+      "sourceOrder": 1,
+      "comment": "大柄なディープ産駒だが、各パーツの大きさと配置バランスが良く、重さを感じさせない好馬体。たし、今回は腹目に若干の余裕。毛ヅヤは抜群、直前強めの追い切りが必須か。",
+      "publishedDate": "2015-12-28",
+      "raceKey": "2016:京都金杯",
+      "raceDate": "2016-01-05",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_6423",
+      "key": "horse_2629|keibalab|27|https://www-f.keibalab.jp/img/upload/focus/201512/151227_fluky.jpg?1457762356",
+      "horseId": "horse_2222",
+      "source": "keibalab",
+      "sourceId": "27",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/27/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201512/151227_fluky.jpg?1457762356",
+      "localImagePath": "",
+      "caption": "2016-01-05 中山金杯",
+      "raceName": "中山金杯",
+      "photoDate": "2016-01-05",
+      "issueDate": "2015-12-28",
+      "sourceOrder": 1,
+      "comment": "毛ヅヤはピカピカ、アバラがうっすら浮いて、ムダ肉の一切ないフォルム。前走重賞勝ちの反動は微塵も感じない。トモの筋肉はハリとボリューム満点。",
+      "publishedDate": "2015-12-28",
+      "raceKey": "2016:中山金杯",
+      "raceDate": "2016-01-05",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_6421",
+      "key": "horse_2575|keibalab|27|https://www-f.keibalab.jp/img/upload/focus/201512/151227_fraangelico.jpg?1457762356",
+      "horseId": "horse_2271",
+      "source": "keibalab",
+      "sourceId": "27",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/27/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201512/151227_fraangelico.jpg?1457762356",
+      "localImagePath": "",
+      "caption": "2016-01-05 中山金杯",
+      "raceName": "中山金杯",
+      "photoDate": "2016-01-05",
+      "issueDate": "2015-12-28",
+      "sourceOrder": 1,
+      "comment": "元々馬っぷりの目立つ方ではないが、明け8歳でも馬体に傷みはなく、ムダ肉の少ない好バランスを維持。強調できる見栄えではないが、減点材料は少ない。",
+      "publishedDate": "2015-12-28",
+      "raceKey": "2016:中山金杯",
+      "raceDate": "2016-01-05",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_6420",
+      "key": "horse_2561|keibalab|27|https://www-f.keibalab.jp/img/upload/focus/201512/151227_majestyhearts.jpg?1457762355",
+      "horseId": "horse_2539",
+      "source": "keibalab",
+      "sourceId": "27",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/27/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201512/151227_majestyhearts.jpg?1457762355",
+      "localImagePath": "",
+      "caption": "2016-01-05 京都金杯",
+      "raceName": "京都金杯",
+      "photoDate": "2016-01-05",
+      "issueDate": "2015-12-28",
+      "sourceOrder": 1,
+      "comment": "毛ヅヤが地味なのは時期的なものも影響してか。体のハリが物足りなく映り、馬体全体からは覇気も感じられない。良化スローで割引き。",
+      "publishedDate": "2015-12-28",
+      "raceKey": "2016:京都金杯",
+      "raceDate": "2016-01-05",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_6426",
+      "key": "horse_2632|keibalab|27|https://www-f.keibalab.jp/img/upload/focus/201512/151227_risetofame.jpg?1457762355",
+      "horseId": "horse_2540",
+      "source": "keibalab",
+      "sourceId": "27",
+      "sourcePageUrl": "https://www.keibalab.jp/column/focus/27/",
+      "imageUrl": "https://www-f.keibalab.jp/img/upload/focus/201512/151227_risetofame.jpg?1457762355",
+      "localImagePath": "",
+      "caption": "2016-01-05 中山金杯",
+      "raceName": "中山金杯",
+      "photoDate": "2016-01-05",
+      "issueDate": "2015-12-28",
+      "sourceOrder": 1,
+      "comment": "特筆すべき点こそないが、馬体に一切窮屈がない流麗なフォルム。要所要所にメリハリが効いており、代謝の良さを窺わせる銭型もうっすら。好ムード。",
+      "publishedDate": "2015-12-28",
+      "raceKey": "2016:中山金杯",
       "raceDate": "2016-01-05",
       "raceDateSource": "override"
     },
@@ -242461,6 +241534,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_6613",
+      "key": "horse_2142|keibabook|150914|http://old.keibado.ne.jp/keibabook/150914/images/pp07.jpg",
+      "horseId": "horse_2139",
+      "source": "keibabook",
+      "sourceId": "150914",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150914/photo07.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/150914/images/pp07.jpg",
+      "localImagePath": "images/keibabook/150914/アルビアーノ-7.jpg",
+      "caption": "2015-09-13 京成杯AH",
+      "raceName": "京成杯AH",
+      "photoDate": "2015-09-13",
+      "issueDate": "2015-09-14",
+      "sourceOrder": 7,
+      "comment": "少し立派な可能性はあるが、後肢の筋肉は春とは見違えるほど発達。全体を見ても、非常に逞しくなり、ひと夏を越して成長の跡はハッキリ。毛ヅヤもピカピカで本格化なのかも。",
+      "publishedDate": "2015-09-02",
+      "raceKey": "2015:京成杯AH",
+      "raceDate": "2015-09-13",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_6612",
       "key": "horse_2140|keibabook|150914|http://old.keibado.ne.jp/keibabook/150914/images/pp01.jpg",
       "horseId": "horse_2140",
@@ -242477,26 +241570,6 @@
       "comment": "久々でも太目感はなく、腹回りはフックラとして好仕上がり。充実したトモ回りをはじめ、全体的な厚みも春から何ら変わりがない。いきなり力を出し切れる態勢で臨めそうだ。",
       "publishedDate": "2015-09-02",
       "raceKey": "2015:セントウルS",
-      "raceDate": "2015-09-13",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_6613",
-      "key": "horse_2142|keibabook|150914|http://old.keibado.ne.jp/keibabook/150914/images/pp07.jpg",
-      "horseId": "horse_2142",
-      "source": "keibabook",
-      "sourceId": "150914",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150914/photo07.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/150914/images/pp07.jpg",
-      "localImagePath": "images/keibabook/150914/アルビアーノ-7.jpg",
-      "caption": "2015-09-13 京成杯AH",
-      "raceName": "京成杯AH",
-      "photoDate": "2015-09-13",
-      "issueDate": "2015-09-14",
-      "sourceOrder": 7,
-      "comment": "少し立派な可能性はあるが、後肢の筋肉は春とは見違えるほど発達。全体を見ても、非常に逞しくなり、ひと夏を越して成長の跡はハッキリ。毛ヅヤもピカピカで本格化なのかも。",
-      "publishedDate": "2015-09-02",
-      "raceKey": "2015:京成杯AH",
       "raceDate": "2015-09-13",
       "raceDateSource": "override"
     },
@@ -242903,7 +241976,7 @@
     {
       "id": "photo_6617",
       "key": "horse_2155|keibabook|150831|http://old.keibado.ne.jp/keibabook/150831/images/pp03.jpg",
-      "horseId": "horse_2155",
+      "horseId": "horse_1947",
       "source": "keibabook",
       "sourceId": "150831",
       "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150831/photo03.html",
@@ -244441,6 +243514,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_6709",
+      "key": "horse_2538|keibabook|150713|http://old.keibado.ne.jp/keibabook/150713/images/pp06.jpg",
+      "horseId": "horse_1811",
+      "source": "keibabook",
+      "sourceId": "150713",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150713/photo06.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/150713/images/pp06.jpg",
+      "localImagePath": "images/keibabook/150713/ベストウォーリア-6.jpg",
+      "caption": "2015-07-12 プロキオンS",
+      "raceName": "プロキオンS",
+      "photoDate": "2015-07-12",
+      "issueDate": "2015-07-13",
+      "sourceOrder": 6,
+      "comment": "再度間隔が開いているが、大型でも久々を苦にしないタイプで概ねいつもと変わりないアウトライン。筋肉量もまったく落ちず、衰え知らずの肉体美。今回も力を発揮できそう。",
+      "publishedDate": "2015-07-02",
+      "raceKey": "2015:プロキオンS",
+      "raceDate": "2015-07-12",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_6705",
       "key": "horse_1877|keibabook|150713|http://old.keibado.ne.jp/keibabook/150713/images/pp11.jpg",
       "horseId": "horse_1877",
@@ -244535,26 +243628,6 @@
       "issueDate": "2015-07-13",
       "sourceOrder": 1,
       "comment": "半兄カレンブラックヒルより胴が詰まって筋肉が盛り上がりパワーを感じる。尾毛は短いが流線形のしなやかなアウトライン。毛ヅヤがピカピカだし、最近は落ち着きがありメンタル面でも成長。",
-      "publishedDate": "2015-07-02",
-      "raceKey": "2015:プロキオンS",
-      "raceDate": "2015-07-12",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_6709",
-      "key": "horse_2538|keibabook|150713|http://old.keibado.ne.jp/keibabook/150713/images/pp06.jpg",
-      "horseId": "horse_2538",
-      "source": "keibabook",
-      "sourceId": "150713",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150713/photo06.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/150713/images/pp06.jpg",
-      "localImagePath": "images/keibabook/150713/ベストウォーリア-6.jpg",
-      "caption": "2015-07-12 プロキオンS",
-      "raceName": "プロキオンS",
-      "photoDate": "2015-07-12",
-      "issueDate": "2015-07-13",
-      "sourceOrder": 6,
-      "comment": "再度間隔が開いているが、大型でも久々を苦にしないタイプで概ねいつもと変わりないアウトライン。筋肉量もまったく落ちず、衰え知らずの肉体美。今回も力を発揮できそう。",
       "publishedDate": "2015-07-02",
       "raceKey": "2015:プロキオンS",
       "raceDate": "2015-07-12",
@@ -244681,6 +243754,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_6717",
+      "key": "horse_2203|keibabook|150706|http://old.keibado.ne.jp/keibabook/150706/images/pp09.jpg",
+      "horseId": "horse_1701",
+      "source": "keibabook",
+      "sourceId": "150706",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150706/photo09.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/150706/images/pp09.jpg",
+      "localImagePath": "images/keibabook/150706/キャンベルジュニア-9.jpg",
+      "caption": "2015-07-05 ラジオNIKKEI賞",
+      "raceName": "ラジオNIKKEI賞",
+      "photoDate": "2015-07-05",
+      "issueDate": "2015-07-06",
+      "sourceOrder": 9,
+      "comment": "スプリンターズＳ勝ちのウルトラファンタジーと同じ父だが、輪郭はあまり似ていないか。バランスは良く、こちらは中距離向きかも。南半球産で幼さは残るが、毛ヅヤは冴えて好気配。",
+      "publishedDate": "2015-06-25",
+      "raceKey": "2015:ラジオNIKKEI賞",
+      "raceDate": "2015-07-05",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_6721",
       "key": "horse_1957|keibabook|150706|http://old.keibado.ne.jp/keibabook/150706/images/pp08.jpg",
       "horseId": "horse_1957",
@@ -244756,26 +243849,6 @@
       "sourceOrder": 7,
       "comment": "著しく隆起した臀部を中心に抜群の張り。毛色も手伝って艶やかさも際立ってデキはかなり良さそう。少し胴が長い分、この母系にしては伸びやかな走り。軌道に乗ればかなり出世しそう。",
       "publishedDate": "2015-06-24",
-      "raceKey": "2015:ラジオNIKKEI賞",
-      "raceDate": "2015-07-05",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_6717",
-      "key": "horse_2203|keibabook|150706|http://old.keibado.ne.jp/keibabook/150706/images/pp09.jpg",
-      "horseId": "horse_2203",
-      "source": "keibabook",
-      "sourceId": "150706",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150706/photo09.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/150706/images/pp09.jpg",
-      "localImagePath": "images/keibabook/150706/キャンベルジュニア-9.jpg",
-      "caption": "2015-07-05 ラジオNIKKEI賞",
-      "raceName": "ラジオNIKKEI賞",
-      "photoDate": "2015-07-05",
-      "issueDate": "2015-07-06",
-      "sourceOrder": 9,
-      "comment": "スプリンターズＳ勝ちのウルトラファンタジーと同じ父だが、輪郭はあまり似ていないか。バランスは良く、こちらは中距離向きかも。南半球産で幼さは残るが、毛ヅヤは冴えて好気配。",
-      "publishedDate": "2015-06-25",
       "raceKey": "2015:ラジオNIKKEI賞",
       "raceDate": "2015-07-05",
       "raceDateSource": "override"
@@ -244921,6 +243994,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_6746",
+      "key": "horse_2583|keibabook|150629|http://old.keibado.ne.jp/keibabook/150629/images/pp01.jpg",
+      "horseId": "horse_1776",
+      "source": "keibabook",
+      "sourceId": "150629",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150629/photo01.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/150629/images/pp01.jpg",
+      "localImagePath": "images/keibabook/150629/カレンミロティック-1.jpg",
+      "caption": "2015-06-28 宝塚記念",
+      "raceName": "宝塚記念",
+      "photoDate": "2015-06-28",
+      "issueDate": "2015-06-29",
+      "sourceOrder": 1,
+      "comment": "腹袋のある体形だが、前走時より引き締まっており、メリハリの利いた全体像。前後躯の筋肉量も申し分ない。表情から落ち着きも窺え、心身とも充実ぶりが見て取れる立ち姿。",
+      "publishedDate": "2015-06-17",
+      "raceKey": "2015:宝塚記念",
+      "raceDate": "2015-06-28",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_6736",
       "key": "horse_1799|keibabook|150629|http://old.keibado.ne.jp/keibabook/150629/images/pp05.jpg",
       "horseId": "horse_1799",
@@ -244935,6 +244028,26 @@
       "issueDate": "2015-06-29",
       "sourceOrder": 5,
       "comment": "あまり写真映りはいい方ではないが、今回は丸みが戻って、肌艶が良くなっている。三角筋、肩筋などは滑らかさがあり、暖かくなって硬さがなくなってきた。状態は確実に上がっている。",
+      "publishedDate": "2015-06-17",
+      "raceKey": "2015:宝塚記念",
+      "raceDate": "2015-06-28",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_6743",
+      "key": "horse_2211|keibabook|150629|http://old.keibado.ne.jp/keibabook/150629/images/pp11.jpg",
+      "horseId": "horse_1868",
+      "source": "keibabook",
+      "sourceId": "150629",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150629/photo11.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/150629/images/pp11.jpg",
+      "localImagePath": "images/keibabook/150629/ワンアンドオンリー-11.jpg",
+      "caption": "2015-06-28 宝塚記念",
+      "raceName": "宝塚記念",
+      "photoDate": "2015-06-28",
+      "issueDate": "2015-06-29",
+      "sourceOrder": 11,
+      "comment": "ドバイ遠征以来。多少余裕がある程度で重目感は感じられず、毛ヅヤも良く体調は良さそう。トモがもう少し張り出してくれば更にいいが、当日までには力を出せる体制になりそうだ。",
       "publishedDate": "2015-06-17",
       "raceKey": "2015:宝塚記念",
       "raceDate": "2015-06-28",
@@ -245061,26 +244174,6 @@
       "raceDateSource": "override"
     },
     {
-      "id": "photo_6743",
-      "key": "horse_2211|keibabook|150629|http://old.keibado.ne.jp/keibabook/150629/images/pp11.jpg",
-      "horseId": "horse_2211",
-      "source": "keibabook",
-      "sourceId": "150629",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150629/photo11.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/150629/images/pp11.jpg",
-      "localImagePath": "images/keibabook/150629/ワンアンドオンリー-11.jpg",
-      "caption": "2015-06-28 宝塚記念",
-      "raceName": "宝塚記念",
-      "photoDate": "2015-06-28",
-      "issueDate": "2015-06-29",
-      "sourceOrder": 11,
-      "comment": "ドバイ遠征以来。多少余裕がある程度で重目感は感じられず、毛ヅヤも良く体調は良さそう。トモがもう少し張り出してくれば更にいいが、当日までには力を出せる体制になりそうだ。",
-      "publishedDate": "2015-06-17",
-      "raceKey": "2015:宝塚記念",
-      "raceDate": "2015-06-28",
-      "raceDateSource": "override"
-    },
-    {
       "id": "photo_6744",
       "key": "horse_2541|keibabook|150629|http://old.keibado.ne.jp/keibabook/150629/images/pp09.jpg",
       "horseId": "horse_2541",
@@ -245115,26 +244208,6 @@
       "issueDate": "2015-06-29",
       "sourceOrder": 2,
       "comment": "前走時から引き続きシャープな輪郭を保っている。胸前が厚く、トモの筋肉量も非常に多く、張りはまったく落ちていない。眼光にも力があり、気力体力とも充実している。",
-      "publishedDate": "2015-06-17",
-      "raceKey": "2015:宝塚記念",
-      "raceDate": "2015-06-28",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_6746",
-      "key": "horse_2583|keibabook|150629|http://old.keibado.ne.jp/keibabook/150629/images/pp01.jpg",
-      "horseId": "horse_2583",
-      "source": "keibabook",
-      "sourceId": "150629",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150629/photo01.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/150629/images/pp01.jpg",
-      "localImagePath": "images/keibabook/150629/カレンミロティック-1.jpg",
-      "caption": "2015-06-28 宝塚記念",
-      "raceName": "宝塚記念",
-      "photoDate": "2015-06-28",
-      "issueDate": "2015-06-29",
-      "sourceOrder": 1,
-      "comment": "腹袋のある体形だが、前走時より引き締まっており、メリハリの利いた全体像。前後躯の筋肉量も申し分ない。表情から落ち着きも窺え、心身とも充実ぶりが見て取れる立ち姿。",
       "publishedDate": "2015-06-17",
       "raceKey": "2015:宝塚記念",
       "raceDate": "2015-06-28",
@@ -245901,6 +244974,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_6798",
+      "key": "horse_2228|keibabook|150601|http://old.keibado.ne.jp/keibabook/150601/images/pp07.jpg",
+      "horseId": "horse_1680",
+      "source": "keibabook",
+      "sourceId": "150601",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150601/photo07.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/150601/images/pp07.jpg",
+      "localImagePath": "images/keibabook/150601/サトノクラウン-7.jpg",
+      "caption": "2015-05-31 日本ダービー",
+      "raceName": "日本ダービー",
+      "photoDate": "2015-05-31",
+      "issueDate": "2015-06-01",
+      "sourceOrder": 7,
+      "comment": "ピカピカの毛ヅヤで、全体にフックラと見せるようになった。かつてないほどの重厚感で、繊細さよりも逞しい印象が強くなった。前走時の気配も良かったが、それを上回る充実ぶり。",
+      "publishedDate": "2015-05-20",
+      "raceKey": "2015:日本ダービー",
+      "raceDate": "2015-05-31",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_6789",
       "key": "horse_1766|keibabook|150601|http://old.keibado.ne.jp/keibabook/150601/images/pp04.jpg",
       "horseId": "horse_1766",
@@ -246075,26 +245168,6 @@
       "issueDate": "2015-06-01",
       "sourceOrder": 6,
       "comment": "骨量豊富で肉厚。馬体重通りにドッシリと見せている。弥生賞時の写真よりもトモに筋肉がついて徐々にパワーアップした。父の産駒らしく胴がゆったりと長く、距離延長は良さそう。",
-      "publishedDate": "2015-05-20",
-      "raceKey": "2015:日本ダービー",
-      "raceDate": "2015-05-31",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_6798",
-      "key": "horse_2228|keibabook|150601|http://old.keibado.ne.jp/keibabook/150601/images/pp07.jpg",
-      "horseId": "horse_2228",
-      "source": "keibabook",
-      "sourceId": "150601",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150601/photo07.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/150601/images/pp07.jpg",
-      "localImagePath": "images/keibabook/150601/サトノクラウン-7.jpg",
-      "caption": "2015-05-31 日本ダービー",
-      "raceName": "日本ダービー",
-      "photoDate": "2015-05-31",
-      "issueDate": "2015-06-01",
-      "sourceOrder": 7,
-      "comment": "ピカピカの毛ヅヤで、全体にフックラと見せるようになった。かつてないほどの重厚感で、繊細さよりも逞しい印象が強くなった。前走時の気配も良かったが、それを上回る充実ぶり。",
       "publishedDate": "2015-05-20",
       "raceKey": "2015:日本ダービー",
       "raceDate": "2015-05-31",
@@ -246723,7 +245796,7 @@
     {
       "id": "photo_6819",
       "key": "horse_2142|keibabook|150511|http://old.keibado.ne.jp/keibabook/150511/images/pp08.jpg",
-      "horseId": "horse_2142",
+      "horseId": "horse_2139",
       "source": "keibabook",
       "sourceId": "150511",
       "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150511/photo08.html",
@@ -246836,6 +245909,26 @@
       "sourceOrder": 7,
       "comment": "１度使われたことによって腹回りが引き締まり、菊花賞２着当時に近いシャープな輪郭に。それでいて肩周辺や臀部の筋肉量が増えて成長も窺える。順当に上昇カーブを描いて本番へ。",
       "publishedDate": "2015-04-23",
+      "raceKey": "2015:天皇賞・春",
+      "raceDate": "2015-05-03",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_6835",
+      "key": "horse_2583|keibabook|150504|http://old.keibado.ne.jp/keibabook/150504/images/pp08.jpg",
+      "horseId": "horse_1776",
+      "source": "keibabook",
+      "sourceId": "150504",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150504/photo08.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/150504/images/pp08.jpg",
+      "localImagePath": "images/keibabook/150504/カレンミロティック-8.jpg",
+      "caption": "2015-05-03 天皇賞・春",
+      "raceName": "天皇賞・春",
+      "photoDate": "2015-05-03",
+      "issueDate": "2015-05-04",
+      "sourceOrder": 8,
+      "comment": "よほど食いがいいのか、ひと叩きされた今回の方が少し太く見えるが、張りツヤのいい馬体はキープしている。筋肉質で更なる距離延長がプラスではないだろうが、絞れれば悪くないだろう。",
+      "publishedDate": "2015-04-22",
       "raceKey": "2015:天皇賞・春",
       "raceDate": "2015-05-03",
       "raceDateSource": "override"
@@ -247035,26 +246128,6 @@
       "issueDate": "2015-05-04",
       "sourceOrder": 4,
       "comment": "前回に比べると明らかに腹構えがシャープになり、立ち姿もキリッとしている。無駄肉がそぎ落とされ、とても体が軽そう。この感じなら、時計の速い京都の馬場でも対応できそうだが。",
-      "publishedDate": "2015-04-22",
-      "raceKey": "2015:天皇賞・春",
-      "raceDate": "2015-05-03",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_6835",
-      "key": "horse_2583|keibabook|150504|http://old.keibado.ne.jp/keibabook/150504/images/pp08.jpg",
-      "horseId": "horse_2583",
-      "source": "keibabook",
-      "sourceId": "150504",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150504/photo08.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/150504/images/pp08.jpg",
-      "localImagePath": "images/keibabook/150504/カレンミロティック-8.jpg",
-      "caption": "2015-05-03 天皇賞・春",
-      "raceName": "天皇賞・春",
-      "photoDate": "2015-05-03",
-      "issueDate": "2015-05-04",
-      "sourceOrder": 8,
-      "comment": "よほど食いがいいのか、ひと叩きされた今回の方が少し太く見えるが、張りツヤのいい馬体はキープしている。筋肉質で更なる距離延長がプラスではないだろうが、絞れれば悪くないだろう。",
       "publishedDate": "2015-04-22",
       "raceKey": "2015:天皇賞・春",
       "raceDate": "2015-05-03",
@@ -247281,6 +246354,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_6858",
+      "key": "horse_2228|keibabook|150420|http://old.keibado.ne.jp/keibabook/150420/images/pp01.jpg",
+      "horseId": "horse_1680",
+      "source": "keibabook",
+      "sourceId": "150420",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150420/photo01.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/150420/images/pp01.jpg",
+      "localImagePath": "images/keibabook/150420/サトノクラウン-1.jpg",
+      "caption": "2015-04-19 皐月賞",
+      "raceName": "皐月賞",
+      "photoDate": "2015-04-19",
+      "issueDate": "2015-04-20",
+      "sourceOrder": 1,
+      "comment": "繊細な印象さえあるが、実際には480キロもある立派な馬体。腹袋がしっかりとして全体に厚みがあり、バランスの良さは特筆モノと言っていい。この翌日に追い切られて、仕上がりも万全だ。",
+      "publishedDate": "2015-04-08",
+      "raceKey": "2015:皐月賞",
+      "raceDate": "2015-04-19",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_6852",
       "key": "horse_1766|keibabook|150420|http://old.keibado.ne.jp/keibabook/150420/images/pp02.jpg",
       "horseId": "horse_1766",
@@ -247455,26 +246548,6 @@
       "issueDate": "2015-04-20",
       "sourceOrder": 5,
       "comment": "ひと叩きされたことで、体の張りは更に良くなってきた。ドッシリとして、重厚感を感じさせるようになり、短い期間でも確実に成長の跡が窺える。身のこなしも素軽く、態勢もほぼ万全。",
-      "publishedDate": "2015-04-08",
-      "raceKey": "2015:皐月賞",
-      "raceDate": "2015-04-19",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_6858",
-      "key": "horse_2228|keibabook|150420|http://old.keibado.ne.jp/keibabook/150420/images/pp01.jpg",
-      "horseId": "horse_2228",
-      "source": "keibabook",
-      "sourceId": "150420",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150420/photo01.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/150420/images/pp01.jpg",
-      "localImagePath": "images/keibabook/150420/サトノクラウン-1.jpg",
-      "caption": "2015-04-19 皐月賞",
-      "raceName": "皐月賞",
-      "photoDate": "2015-04-19",
-      "issueDate": "2015-04-20",
-      "sourceOrder": 1,
-      "comment": "繊細な印象さえあるが、実際には480キロもある立派な馬体。腹袋がしっかりとして全体に厚みがあり、バランスの良さは特筆モノと言っていい。この翌日に追い切られて、仕上がりも万全だ。",
       "publishedDate": "2015-04-08",
       "raceKey": "2015:皐月賞",
       "raceDate": "2015-04-19",
@@ -248181,6 +247254,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_6902",
+      "key": "horse_2583|keibabook|150323|http://old.keibado.ne.jp/keibabook/150323/images/pp12.jpg",
+      "horseId": "horse_1776",
+      "source": "keibabook",
+      "sourceId": "150323",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150323/photo12.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/150323/images/pp12.jpg",
+      "localImagePath": "images/keibabook/150323/カレンミロティック-12.jpg",
+      "caption": "2015-03-22 阪神大賞典",
+      "raceName": "阪神大賞典",
+      "photoDate": "2015-03-22",
+      "issueDate": "2015-03-23",
+      "sourceOrder": 12,
+      "comment": "暮れの香港以来だが、アバラが浮いて太目感はない。筋肉が落ちた様子も見られず、春が浅い割に肌艶も上々。ドッシリとしてステイヤー系ではないが、緒戦から力を発揮し切れそうだ。",
+      "publishedDate": "2015-03-11",
+      "raceKey": "2015:阪神大賞典",
+      "raceDate": "2015-03-22",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_6894",
       "key": "horse_1799|keibabook|150323|http://old.keibado.ne.jp/keibabook/150323/images/pp09.jpg",
       "horseId": "horse_1799",
@@ -248375,26 +247468,6 @@
       "issueDate": "2015-03-23",
       "sourceOrder": 8,
       "comment": "年齢を重ね、馬体は更に白くなった感。その分もあるのかもしれないが、輪郭のシャープさが今ひとつ。前走はデビュー以来で最高体重の516キロ。いくらか絞れる余地も残している。",
-      "publishedDate": "2015-03-11",
-      "raceKey": "2015:阪神大賞典",
-      "raceDate": "2015-03-22",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_6902",
-      "key": "horse_2583|keibabook|150323|http://old.keibado.ne.jp/keibabook/150323/images/pp12.jpg",
-      "horseId": "horse_2583",
-      "source": "keibabook",
-      "sourceId": "150323",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150323/photo12.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/150323/images/pp12.jpg",
-      "localImagePath": "images/keibabook/150323/カレンミロティック-12.jpg",
-      "caption": "2015-03-22 阪神大賞典",
-      "raceName": "阪神大賞典",
-      "photoDate": "2015-03-22",
-      "issueDate": "2015-03-23",
-      "sourceOrder": 12,
-      "comment": "暮れの香港以来だが、アバラが浮いて太目感はない。筋肉が落ちた様子も見られず、春が浅い割に肌艶も上々。ドッシリとしてステイヤー系ではないが、緒戦から力を発揮し切れそうだ。",
       "publishedDate": "2015-03-11",
       "raceKey": "2015:阪神大賞典",
       "raceDate": "2015-03-22",
@@ -248681,6 +247754,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_6924",
+      "key": "horse_2228|keibabook|150309|http://old.keibado.ne.jp/keibabook/150309/images/pp02.jpg",
+      "horseId": "horse_1680",
+      "source": "keibabook",
+      "sourceId": "150309",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150309/photo02.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/150309/images/pp02.jpg",
+      "localImagePath": "images/keibabook/150309/サトノクラウン-2.jpg",
+      "caption": "2015-03-08 弥生賞",
+      "raceName": "弥生賞",
+      "photoDate": "2015-03-08",
+      "issueDate": "2015-03-09",
+      "sourceOrder": 2,
+      "comment": "余裕残しの印象はあるが、このあとに１週前の追い切りを消化。レースまでには態勢は整いそうだ。脚は細く、ゆったりとした体形で、長い距離の方が持ち味が生きるのではないか。",
+      "publishedDate": "2015-02-25",
+      "raceKey": "2015:弥生賞",
+      "raceDate": "2015-03-08",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_6918",
       "key": "horse_1793|keibabook|150309|http://old.keibado.ne.jp/keibabook/150309/images/pp04.jpg",
       "horseId": "horse_1793",
@@ -248775,26 +247868,6 @@
       "issueDate": "2015-03-09",
       "sourceOrder": 7,
       "comment": "胴がゆったりとしていて父や母父の影響を強く感じ、中長距離が適していそう。トモがもうひと回り大きくなれば更に良くなりそうだが、前躯は非常に力強い。太目感もなく、力を出せるデキ。",
-      "publishedDate": "2015-02-25",
-      "raceKey": "2015:弥生賞",
-      "raceDate": "2015-03-08",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_6924",
-      "key": "horse_2228|keibabook|150309|http://old.keibado.ne.jp/keibabook/150309/images/pp02.jpg",
-      "horseId": "horse_2228",
-      "source": "keibabook",
-      "sourceId": "150309",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150309/photo02.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/150309/images/pp02.jpg",
-      "localImagePath": "images/keibabook/150309/サトノクラウン-2.jpg",
-      "caption": "2015-03-08 弥生賞",
-      "raceName": "弥生賞",
-      "photoDate": "2015-03-08",
-      "issueDate": "2015-03-09",
-      "sourceOrder": 2,
-      "comment": "余裕残しの印象はあるが、このあとに１週前の追い切りを消化。レースまでには態勢は整いそうだ。脚は細く、ゆったりとした体形で、長い距離の方が持ち味が生きるのではないか。",
       "publishedDate": "2015-02-25",
       "raceKey": "2015:弥生賞",
       "raceDate": "2015-03-08",
@@ -249161,6 +248234,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_6946",
+      "key": "horse_2538|keibabook|150223|http://old.keibado.ne.jp/keibabook/150223/images/pp09.jpg",
+      "horseId": "horse_1811",
+      "source": "keibabook",
+      "sourceId": "150223",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150223/photo09.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/150223/images/pp09.jpg",
+      "localImagePath": "images/keibabook/150223/ベストウォーリア-9.jpg",
+      "caption": "2015-02-22 フェブラリーS",
+      "raceName": "フェブラリーS",
+      "photoDate": "2015-02-22",
+      "issueDate": "2015-02-23",
+      "sourceOrder": 9,
+      "comment": "前回に比べると、馬体が随分シャープに映る。それでもまったく細化したわけではなく、筋肉の盛り上がりは、むしろ今回の方がいいくらい。体形的に距離短縮も好材料。期待できそう。",
+      "publishedDate": "2015-02-11",
+      "raceKey": "2015:フェブラリーS",
+      "raceDate": "2015-02-22",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_6941",
       "key": "horse_1866|keibabook|150223|http://old.keibado.ne.jp/keibabook/150223/images/pp01.jpg",
       "horseId": "horse_1866",
@@ -249255,26 +248348,6 @@
       "issueDate": "2015-02-23",
       "sourceOrder": 11,
       "comment": "厚みのあるトモ、胸前も深く、毛ヅヤもいい。前走時と同じく好馬体。ただ、寸詰まりで筋肉質の典型的なスプリント体形。実績が示す通り、１ハロン延長がプラスに働くとは言いづらい。",
-      "publishedDate": "2015-02-11",
-      "raceKey": "2015:フェブラリーS",
-      "raceDate": "2015-02-22",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_6946",
-      "key": "horse_2538|keibabook|150223|http://old.keibado.ne.jp/keibabook/150223/images/pp09.jpg",
-      "horseId": "horse_2538",
-      "source": "keibabook",
-      "sourceId": "150223",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150223/photo09.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/150223/images/pp09.jpg",
-      "localImagePath": "images/keibabook/150223/ベストウォーリア-9.jpg",
-      "caption": "2015-02-22 フェブラリーS",
-      "raceName": "フェブラリーS",
-      "photoDate": "2015-02-22",
-      "issueDate": "2015-02-23",
-      "sourceOrder": 9,
-      "comment": "前回に比べると、馬体が随分シャープに映る。それでもまったく細化したわけではなく、筋肉の盛り上がりは、むしろ今回の方がいいくらい。体形的に距離短縮も好材料。期待できそう。",
       "publishedDate": "2015-02-11",
       "raceKey": "2015:フェブラリーS",
       "raceDate": "2015-02-22",
@@ -249861,6 +248934,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_6982",
+      "key": "horse_2268|keibabook|150202|http://old.keibado.ne.jp/keibabook/150202/images/pp07.jpg",
+      "horseId": "horse_1911",
+      "source": "keibabook",
+      "sourceId": "150202",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150202/photo07.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/150202/images/pp07.jpg",
+      "localImagePath": "images/keibabook/150202/エイシンブルズアイ-7.jpg",
+      "caption": "2015-02-01 シルクロードステークス",
+      "raceName": "シルクロードステークス",
+      "photoDate": "2015-02-01",
+      "issueDate": "2015-02-02",
+      "sourceOrder": 7,
+      "comment": "そんなに馬格がある方ではないが、前走後も細化なくしっかりとした体つきを維持。寒いこの時季にしては皮膚が薄く、毛ヅヤもいい。繋は立ち気味だが蹄底は浅め。良馬場がベターか。",
+      "publishedDate": "2015-01-21",
+      "raceKey": "2015:シルクロードステークス",
+      "raceDate": "2015-02-01",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_6977",
       "key": "horse_1956|keibabook|150202|http://old.keibado.ne.jp/keibabook/150202/images/pp04.jpg",
       "horseId": "horse_1956",
@@ -249957,26 +249050,6 @@
       "comment": "明けて９歳。時季的なものか、年齢的なものか若干筋肉の張りは落ちたが、依然直飛で四肢は力強い。磨き込んで毛ヅヤがピカピカだし、いつも以上に落ち着きもあり、悪くはない。",
       "publishedDate": "2015-01-21",
       "raceKey": "2015:根岸S",
-      "raceDate": "2015-02-01",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_6982",
-      "key": "horse_2268|keibabook|150202|http://old.keibado.ne.jp/keibabook/150202/images/pp07.jpg",
-      "horseId": "horse_2268",
-      "source": "keibabook",
-      "sourceId": "150202",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150202/photo07.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/150202/images/pp07.jpg",
-      "localImagePath": "images/keibabook/150202/エイシンブルズアイ-7.jpg",
-      "caption": "2015-02-01 シルクロードステークス",
-      "raceName": "シルクロードステークス",
-      "photoDate": "2015-02-01",
-      "issueDate": "2015-02-02",
-      "sourceOrder": 7,
-      "comment": "そんなに馬格がある方ではないが、前走後も細化なくしっかりとした体つきを維持。寒いこの時季にしては皮膚が薄く、毛ヅヤもいい。繋は立ち気味だが蹄底は浅め。良馬場がベターか。",
-      "publishedDate": "2015-01-21",
-      "raceKey": "2015:シルクロードステークス",
       "raceDate": "2015-02-01",
       "raceDateSource": "override"
     },
@@ -250721,6 +249794,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_6414",
+      "key": "horse_2291|keibabook|150113|http://old.keibado.ne.jp/keibabook/150113/images/pp01.jpg",
+      "horseId": "horse_1782",
+      "source": "keibabook",
+      "sourceId": "150113",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150113/photo01.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/150113/images/pp01.jpg",
+      "localImagePath": "images/keibabook/150113/ダッシングブレイズ-1.jpg",
+      "caption": "2015-01-11 シンザン記念",
+      "raceName": "シンザン記念",
+      "photoDate": "2015-01-11",
+      "issueDate": "2015-01-13",
+      "sourceOrder": 1,
+      "comment": "寒い時季にもかかわらず、毛ヅヤが抜群。ガチッとした逞しい馬体はいかにも米国産といった感。発達した後躯が目を引き、馬力も兼ね備えていそう。芝の道悪や、ダートもこなすのでは。",
+      "publishedDate": "2015-12-31",
+      "raceKey": "2015:シンザン記念",
+      "raceDate": "2015-01-11",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_6411",
       "key": "horse_2204|keibabook|150113|http://old.keibado.ne.jp/keibabook/150113/images/pp02.jpg",
       "horseId": "horse_2204",
@@ -250735,26 +249828,6 @@
       "issueDate": "2015-01-13",
       "sourceOrder": 2,
       "comment": "前回に比べると少しスリムに映るが、細化したというほどではないので大丈夫。引き続き毛ヅヤは上々で、デキ落ちを心配する必要はない。蹄の形状からも、前走は馬場が応えたのだろう。",
-      "publishedDate": "2015-12-31",
-      "raceKey": "2015:シンザン記念",
-      "raceDate": "2015-01-11",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_6414",
-      "key": "horse_2291|keibabook|150113|http://old.keibado.ne.jp/keibabook/150113/images/pp01.jpg",
-      "horseId": "horse_2291",
-      "source": "keibabook",
-      "sourceId": "150113",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/150113/photo01.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/150113/images/pp01.jpg",
-      "localImagePath": "images/keibabook/150113/ダッシングブレイズ-1.jpg",
-      "caption": "2015-01-11 シンザン記念",
-      "raceName": "シンザン記念",
-      "photoDate": "2015-01-11",
-      "issueDate": "2015-01-13",
-      "sourceOrder": 1,
-      "comment": "寒い時季にもかかわらず、毛ヅヤが抜群。ガチッとした逞しい馬体はいかにも米国産といった感。発達した後躯が目を引き、馬力も兼ね備えていそう。芝の道悪や、ダートもこなすのでは。",
       "publishedDate": "2015-12-31",
       "raceKey": "2015:シンザン記念",
       "raceDate": "2015-01-11",
@@ -251741,6 +250814,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_7055",
+      "key": "horse_2538|keibabook|141208|http://old.keibado.ne.jp/keibabook/141208/images/pp09.jpg",
+      "horseId": "horse_1811",
+      "source": "keibabook",
+      "sourceId": "141208",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/141208/photo09.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/141208/images/pp09.jpg",
+      "localImagePath": "images/keibabook/141208/ベストウォーリア-9.jpg",
+      "caption": "2014-12-07 チャンピオンズカップ",
+      "raceName": "チャンピオンズカップ",
+      "photoDate": "2014-12-07",
+      "issueDate": "2014-12-08",
+      "sourceOrder": 9,
+      "comment": "迫力満点のゴツい馬体。いかにもパワーがありそうだが、重馬場で２勝、レコード勝ちも１度あり、スピード決着にも対応できるのが強み。ただ、体形的にはマイラーか。あと１ハロンが鍵に。",
+      "publishedDate": "2014-11-26",
+      "raceKey": "2014:チャンピオンズカップ",
+      "raceDate": "2014-12-07",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_7047",
       "key": "horse_1866|keibabook|141208|http://old.keibado.ne.jp/keibabook/141208/images/pp10.jpg",
       "horseId": "horse_1866",
@@ -251856,26 +250949,6 @@
       "sourceOrder": 11,
       "comment": "少し腹構えに余裕はあるが、ドシッとした力強い立ち姿だし、毛ヅヤも良好。胴長というほどではないものの、手足はスラリと伸びている。ある程度ゆったり流れる距離が合っていそう。",
       "publishedDate": "2014-11-27",
-      "raceKey": "2014:チャンピオンズカップ",
-      "raceDate": "2014-12-07",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_7055",
-      "key": "horse_2538|keibabook|141208|http://old.keibado.ne.jp/keibabook/141208/images/pp09.jpg",
-      "horseId": "horse_2538",
-      "source": "keibabook",
-      "sourceId": "141208",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/141208/photo09.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/141208/images/pp09.jpg",
-      "localImagePath": "images/keibabook/141208/ベストウォーリア-9.jpg",
-      "caption": "2014-12-07 チャンピオンズカップ",
-      "raceName": "チャンピオンズカップ",
-      "photoDate": "2014-12-07",
-      "issueDate": "2014-12-08",
-      "sourceOrder": 9,
-      "comment": "迫力満点のゴツい馬体。いかにもパワーがありそうだが、重馬場で２勝、レコード勝ちも１度あり、スピード決着にも対応できるのが強み。ただ、体形的にはマイラーか。あと１ハロンが鍵に。",
-      "publishedDate": "2014-11-26",
       "raceKey": "2014:チャンピオンズカップ",
       "raceDate": "2014-12-07",
       "raceDateSource": "override"
@@ -254341,6 +253414,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_7161",
+      "key": "horse_2306|keibabook|140922|http://old.keibado.ne.jp/keibabook/140922/images/pp01.jpg",
+      "horseId": "horse_2181",
+      "source": "keibabook",
+      "sourceId": "140922",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/140922/photo01.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/140922/images/pp01.jpg",
+      "localImagePath": "images/keibabook/140922/レッドリヴェール-1.jpg",
+      "caption": "2014-09-21 ローズS",
+      "raceName": "ローズS",
+      "photoDate": "2014-09-21",
+      "issueDate": "2014-09-22",
+      "sourceOrder": 1,
+      "comment": "目に見えて馬体が成長したという印象はないものの、小柄なりにフックラとしているし、臀部や上腕の筋肉の盛り上がり具合は久々を感じさせない。繋が立っている分、渋い馬場も大丈夫。",
+      "publishedDate": "2014-09-22",
+      "raceKey": "2014:ローズS",
+      "raceDate": "2014-09-21",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_7179",
       "key": "horse_2279|keibabook|140922|http://old.keibado.ne.jp/keibabook/140922/images/pp09.jpg",
       "horseId": "horse_2279",
@@ -254416,26 +253509,6 @@
       "sourceOrder": 4,
       "comment": "毛ヅヤに若干ムラがあるのは、洗った直後の撮影になった分。春に比べると少し背が伸びて、スラッとした体形に。それでも腹構えはしっかりしており、か細い印象は皆無。仕上がり良好。",
       "publishedDate": "2014-09-10",
-      "raceKey": "2014:ローズS",
-      "raceDate": "2014-09-21",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_7161",
-      "key": "horse_2306|keibabook|140922|http://old.keibado.ne.jp/keibabook/140922/images/pp01.jpg",
-      "horseId": "horse_2306",
-      "source": "keibabook",
-      "sourceId": "140922",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/140922/photo01.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/140922/images/pp01.jpg",
-      "localImagePath": "images/keibabook/140922/レッドリヴェール-1.jpg",
-      "caption": "2014-09-21 ローズS",
-      "raceName": "ローズS",
-      "photoDate": "2014-09-21",
-      "issueDate": "2014-09-22",
-      "sourceOrder": 1,
-      "comment": "目に見えて馬体が成長したという印象はないものの、小柄なりにフックラとしているし、臀部や上腕の筋肉の盛り上がり具合は久々を感じさせない。繋が立っている分、渋い馬場も大丈夫。",
-      "publishedDate": "2014-09-22",
       "raceKey": "2014:ローズS",
       "raceDate": "2014-09-21",
       "raceDateSource": "override"
@@ -255781,26 +254854,6 @@
       "raceDateSource": "override"
     },
     {
-      "id": "photo_7257",
-      "key": "horse_2330|keibabook|140811|http://old.keibado.ne.jp/keibabook/140811/images/pp08.jpg",
-      "horseId": "horse_2330",
-      "source": "keibabook",
-      "sourceId": "140811",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/140811/photo08.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/140811/images/pp08.jpg",
-      "localImagePath": "images/keibabook/140811/アジアエクスプレス-8.jpg",
-      "caption": "2014-08-10 レパードS",
-      "raceName": "レパードS",
-      "photoDate": "2014-08-10",
-      "issueDate": "2014-08-11",
-      "sourceOrder": 8,
-      "comment": "厚みを感じさせる体つきで、全体的に逞しさが溢れている。暑くなってきたせいか、毛ヅヤはうんと良くなり、引き締まってきた印象。気配は間違いなく前走時より上向いている。",
-      "publishedDate": "2014-07-30",
-      "raceKey": "2014:レパードS",
-      "raceDate": "2014-08-10",
-      "raceDateSource": "override"
-    },
-    {
       "id": "photo_7258",
       "key": "horse_2331|keibabook|140811|http://old.keibado.ne.jp/keibabook/140811/images/pp09.jpg",
       "horseId": "horse_2331",
@@ -255835,6 +254888,26 @@
       "issueDate": "2014-08-11",
       "sourceOrder": 12,
       "comment": "背と胴の比率が理想的で好バランス。サンデー系らしくダート馬にしてはスラッとした骨格だが、肉づきが良く、特に大腿から後膝にかけては上々の張り。尾離れがいいのも好印象。",
+      "publishedDate": "2014-07-30",
+      "raceKey": "2014:レパードS",
+      "raceDate": "2014-08-10",
+      "raceDateSource": "override"
+    },
+    {
+      "id": "photo_7257",
+      "key": "horse_2330|keibabook|140811|http://old.keibado.ne.jp/keibabook/140811/images/pp08.jpg",
+      "horseId": "horse_2356",
+      "source": "keibabook",
+      "sourceId": "140811",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/140811/photo08.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/140811/images/pp08.jpg",
+      "localImagePath": "images/keibabook/140811/アジアエクスプレス-8.jpg",
+      "caption": "2014-08-10 レパードS",
+      "raceName": "レパードS",
+      "photoDate": "2014-08-10",
+      "issueDate": "2014-08-11",
+      "sourceOrder": 8,
+      "comment": "厚みを感じさせる体つきで、全体的に逞しさが溢れている。暑くなってきたせいか、毛ヅヤはうんと良くなり、引き締まってきた印象。気配は間違いなく前走時より上向いている。",
       "publishedDate": "2014-07-30",
       "raceKey": "2014:レパードS",
       "raceDate": "2014-08-10",
@@ -256621,6 +255694,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_7303",
+      "key": "horse_2538|keibabook|140714|http://old.keibado.ne.jp/keibabook/140714/images/pp01.jpg",
+      "horseId": "horse_1811",
+      "source": "keibabook",
+      "sourceId": "140714",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/140714/photo01.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/140714/images/pp01.jpg",
+      "localImagePath": "images/keibabook/140714/ベストウォーリア-1.jpg",
+      "caption": "2014-07-13 プロキオンS",
+      "raceName": "プロキオンS",
+      "photoDate": "2014-07-13",
+      "issueDate": "2014-07-14",
+      "sourceOrder": 1,
+      "comment": "半腱半摸様筋が著しく隆起し、上腕もはち切れんばかり。前回撮影時から大きな変化はなく、筋骨逞しい好馬体。こちらを睨むような目つきで闘争心の強さを窺わせ、気迫十分の立ち姿。",
+      "publishedDate": "2014-07-02",
+      "raceKey": "2014:プロキオンS",
+      "raceDate": "2014-07-13",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_7292",
       "key": "horse_2009|keibabook|140714|http://old.keibado.ne.jp/keibabook/140714/images/pp11.jpg",
       "horseId": "horse_2009",
@@ -256841,26 +255934,6 @@
       "raceDateSource": "override"
     },
     {
-      "id": "photo_7303",
-      "key": "horse_2538|keibabook|140714|http://old.keibado.ne.jp/keibabook/140714/images/pp01.jpg",
-      "horseId": "horse_2538",
-      "source": "keibabook",
-      "sourceId": "140714",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/140714/photo01.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/140714/images/pp01.jpg",
-      "localImagePath": "images/keibabook/140714/ベストウォーリア-1.jpg",
-      "caption": "2014-07-13 プロキオンS",
-      "raceName": "プロキオンS",
-      "photoDate": "2014-07-13",
-      "issueDate": "2014-07-14",
-      "sourceOrder": 1,
-      "comment": "半腱半摸様筋が著しく隆起し、上腕もはち切れんばかり。前回撮影時から大きな変化はなく、筋骨逞しい好馬体。こちらを睨むような目つきで闘争心の強さを窺わせ、気迫十分の立ち姿。",
-      "publishedDate": "2014-07-02",
-      "raceKey": "2014:プロキオンS",
-      "raceDate": "2014-07-13",
-      "raceDateSource": "override"
-    },
-    {
       "id": "photo_7304",
       "key": "horse_1914|keibabook|140707|http://old.keibado.ne.jp/keibabook/140707/images/pp09.jpg",
       "horseId": "horse_1914",
@@ -257061,6 +256134,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_7329",
+      "key": "horse_2583|keibabook|140630|http://old.keibado.ne.jp/keibabook/140630/images/pp04.jpg",
+      "horseId": "horse_1776",
+      "source": "keibabook",
+      "sourceId": "140630",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/140630/photo04.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/140630/images/pp04.jpg",
+      "localImagePath": "images/keibabook/140630/カレンミロティック-4.jpg",
+      "caption": "2014-06-29 宝塚記念",
+      "raceName": "宝塚記念",
+      "photoDate": "2014-06-29",
+      "issueDate": "2014-06-30",
+      "sourceOrder": 4,
+      "comment": "他の有力馬に比べてレース間隔は狭いが、よほど食いがいいのかやや太く映るくらい。前腕、上腕が隆起してトモのボリュームも上々。肌艶もいい。これで腹が締まれば言うことなし。",
+      "publishedDate": "2014-06-18",
+      "raceKey": "2014:宝塚記念",
+      "raceDate": "2014-06-29",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_7322",
       "key": "horse_1799|keibabook|140630|http://old.keibado.ne.jp/keibabook/140630/images/pp08.jpg",
       "horseId": "horse_1799",
@@ -257255,26 +256348,6 @@
       "issueDate": "2014-06-30",
       "sourceOrder": 1,
       "comment": "撮影日にＣＷで長目追い。強い負荷をかけられていることもあり、前走時と変わりない輪郭で中７週でも鈍重な印象はない。ガムチェーンを着けていても表情はリラックス。好気配。",
-      "publishedDate": "2014-06-18",
-      "raceKey": "2014:宝塚記念",
-      "raceDate": "2014-06-29",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_7329",
-      "key": "horse_2583|keibabook|140630|http://old.keibado.ne.jp/keibabook/140630/images/pp04.jpg",
-      "horseId": "horse_2583",
-      "source": "keibabook",
-      "sourceId": "140630",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/140630/photo04.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/140630/images/pp04.jpg",
-      "localImagePath": "images/keibabook/140630/カレンミロティック-4.jpg",
-      "caption": "2014-06-29 宝塚記念",
-      "raceName": "宝塚記念",
-      "photoDate": "2014-06-29",
-      "issueDate": "2014-06-30",
-      "sourceOrder": 4,
-      "comment": "他の有力馬に比べてレース間隔は狭いが、よほど食いがいいのかやや太く映るくらい。前腕、上腕が隆起してトモのボリュームも上々。肌艶もいい。これで腹が締まれば言うことなし。",
       "publishedDate": "2014-06-18",
       "raceKey": "2014:宝塚記念",
       "raceDate": "2014-06-29",
@@ -258601,6 +257674,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_7384",
+      "key": "horse_2268|keibabook|140512|http://old.keibado.ne.jp/keibabook/140512/images/pp03.jpg",
+      "horseId": "horse_1911",
+      "source": "keibabook",
+      "sourceId": "140512",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/140512/photo03.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/140512/images/pp03.jpg",
+      "localImagePath": "images/keibabook/140512/エイシンブルズアイ-3.jpg",
+      "caption": "2014-05-11 NHKマイルカップ",
+      "raceName": "NHKマイルカップ",
+      "photoDate": "2014-05-11",
+      "issueDate": "2014-05-12",
+      "sourceOrder": 3,
+      "comment": "飛節の位置が理想的で、球節にかけてもほぼ直線。良質のバネがあるため肩が立ち気味でもトビは大きい。牡馬にしては軽量だが、筋肉質で数字の印象以上に大きく見せる。好調。",
+      "publishedDate": "2014-04-30",
+      "raceKey": "2014:NHKマイルカップ",
+      "raceDate": "2014-05-11",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_7380",
       "key": "horse_1993|keibabook|140512|http://old.keibado.ne.jp/keibabook/140512/images/pp11.jpg",
       "horseId": "horse_1993",
@@ -258676,26 +257769,6 @@
       "sourceOrder": 6,
       "comment": "この時点では若干、立派なのかもしれないが、もともと腹袋がしっかりとして少し太目に見える体形。直前の追い切りでキッチリ態勢は整いそうだ。毛ヅヤは良く、好調持続と見ていい。",
       "publishedDate": "2014-05-01",
-      "raceKey": "2014:NHKマイルカップ",
-      "raceDate": "2014-05-11",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_7384",
-      "key": "horse_2268|keibabook|140512|http://old.keibado.ne.jp/keibabook/140512/images/pp03.jpg",
-      "horseId": "horse_2268",
-      "source": "keibabook",
-      "sourceId": "140512",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/140512/photo03.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/140512/images/pp03.jpg",
-      "localImagePath": "images/keibabook/140512/エイシンブルズアイ-3.jpg",
-      "caption": "2014-05-11 NHKマイルカップ",
-      "raceName": "NHKマイルカップ",
-      "photoDate": "2014-05-11",
-      "issueDate": "2014-05-12",
-      "sourceOrder": 3,
-      "comment": "飛節の位置が理想的で、球節にかけてもほぼ直線。良質のバネがあるため肩が立ち気味でもトビは大きい。牡馬にしては軽量だが、筋肉質で数字の印象以上に大きく見せる。好調。",
-      "publishedDate": "2014-04-30",
       "raceKey": "2014:NHKマイルカップ",
       "raceDate": "2014-05-11",
       "raceDateSource": "override"
@@ -259701,6 +258774,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_7453",
+      "key": "horse_2583|keibabook|140407|http://old.keibado.ne.jp/keibabook/140407/images/pp04.jpg",
+      "horseId": "horse_1776",
+      "source": "keibabook",
+      "sourceId": "140407",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/140407/photo04.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/140407/images/pp04.jpg",
+      "localImagePath": "images/keibabook/140407/カレンミロティック-4.jpg",
+      "caption": "2014-04-06 大阪杯",
+      "raceName": "大阪杯",
+      "photoDate": "2014-04-06",
+      "issueDate": "2014-04-07",
+      "sourceOrder": 4,
+      "comment": "ボリューム感に溢れ肌艶も上々。前走で452キロだが数字よりも大きく見せる。この表情からは落ち着きが窺え、心身充実。腹構えに少し余裕を感じるので当週の追い切りに注目したい。",
+      "publishedDate": "2014-03-27",
+      "raceKey": "2014:大阪杯",
+      "raceDate": "2014-04-06",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_7447",
       "key": "horse_2083|keibabook|140407|http://old.keibado.ne.jp/keibabook/140407/images/pp10.jpg",
       "horseId": "horse_2083",
@@ -259821,6 +258914,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_7456",
+      "key": "horse_2384|keibabook|140407|http://old.keibado.ne.jp/keibabook/140407/images/pp08.jpg",
+      "horseId": "horse_2347",
+      "source": "keibabook",
+      "sourceId": "140407",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/140407/photo08.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/140407/images/pp08.jpg",
+      "localImagePath": "images/keibabook/140407/ダイワファルコン-8.jpg",
+      "caption": "2014-04-06 ダービー卿CT",
+      "raceName": "ダービー卿CT",
+      "photoDate": "2014-04-06",
+      "issueDate": "2014-04-07",
+      "sourceOrder": 8,
+      "comment": "年齢的なものか輪郭がハッキリしてきたような気もするが、体の張りは相変わらず良く、アバラを見せているように緩さもない。叩き一変といった雰囲気ではないが、気配は悪くない。",
+      "publishedDate": "2014-03-26",
+      "raceKey": "2014:ダービー卿CT",
+      "raceDate": "2014-04-06",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_7451",
       "key": "horse_2363|keibabook|140407|http://old.keibado.ne.jp/keibabook/140407/images/pp03.jpg",
       "horseId": "horse_2363",
@@ -259855,26 +258968,6 @@
       "issueDate": "2014-04-07",
       "sourceOrder": 7,
       "comment": "前回同様に発達した筋肉が目立ち、うっすらと光沢のある素晴らしい馬体。全体の輪郭からはマイラー色が強くなってきた印象もある。それにしても活気が溢れ出すような姿。気配は抜群。",
-      "publishedDate": "2014-03-26",
-      "raceKey": "2014:ダービー卿CT",
-      "raceDate": "2014-04-06",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_7456",
-      "key": "horse_2384|keibabook|140407|http://old.keibado.ne.jp/keibabook/140407/images/pp08.jpg",
-      "horseId": "horse_2384",
-      "source": "keibabook",
-      "sourceId": "140407",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/140407/photo08.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/140407/images/pp08.jpg",
-      "localImagePath": "images/keibabook/140407/ダイワファルコン-8.jpg",
-      "caption": "2014-04-06 ダービー卿CT",
-      "raceName": "ダービー卿CT",
-      "photoDate": "2014-04-06",
-      "issueDate": "2014-04-07",
-      "sourceOrder": 8,
-      "comment": "年齢的なものか輪郭がハッキリしてきたような気もするが、体の張りは相変わらず良く、アバラを見せているように緩さもない。叩き一変といった雰囲気ではないが、気配は悪くない。",
       "publishedDate": "2014-03-26",
       "raceKey": "2014:ダービー卿CT",
       "raceDate": "2014-04-06",
@@ -259917,26 +259010,6 @@
       "comment": "腿に筋肉がついて後躯が伸びてキ甲と尻上が同じ高さになり、バランスが良くなった。この時季にしては毛ヅヤがいいし、体はひと回りパワーアップ。あとは当日リラックスしているなら。",
       "publishedDate": "2014-03-27",
       "raceKey": "2014:ダービー卿CT",
-      "raceDate": "2014-04-06",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_7453",
-      "key": "horse_2583|keibabook|140407|http://old.keibado.ne.jp/keibabook/140407/images/pp04.jpg",
-      "horseId": "horse_2583",
-      "source": "keibabook",
-      "sourceId": "140407",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/140407/photo04.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/140407/images/pp04.jpg",
-      "localImagePath": "images/keibabook/140407/カレンミロティック-4.jpg",
-      "caption": "2014-04-06 大阪杯",
-      "raceName": "大阪杯",
-      "photoDate": "2014-04-06",
-      "issueDate": "2014-04-07",
-      "sourceOrder": 4,
-      "comment": "ボリューム感に溢れ肌艶も上々。前走で452キロだが数字よりも大きく見せる。この表情からは落ち着きが窺え、心身充実。腹構えに少し余裕を感じるので当週の追い切りに注目したい。",
-      "publishedDate": "2014-03-27",
-      "raceKey": "2014:大阪杯",
       "raceDate": "2014-04-06",
       "raceDateSource": "override"
     },
@@ -261261,6 +260334,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_7532",
+      "key": "horse_2538|keibabook|140224|http://old.keibado.ne.jp/keibabook/140224/images/pp11.jpg",
+      "horseId": "horse_1811",
+      "source": "keibabook",
+      "sourceId": "140224",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/140224/photo11.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/140224/images/pp11.jpg",
+      "localImagePath": "images/keibabook/140224/ベストウォーリア-11.jpg",
+      "caption": "2014-02-23 フェブラリーS",
+      "raceName": "フェブラリーS",
+      "photoDate": "2014-02-23",
+      "issueDate": "2014-02-24",
+      "sourceOrder": 11,
+      "comment": "骨量、筋肉量とも豊富。特に上腕部が逞しくビルドアップされ、後躯の推進力を強力に補助。武蔵野Ｓでは不利な態勢からファイトバックしたが、その闘争心が目つきによく出ている。",
+      "publishedDate": "2014-02-12",
+      "raceKey": "2014:フェブラリーS",
+      "raceDate": "2014-02-23",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_7524",
       "key": "horse_2033|keibabook|140224|http://old.keibado.ne.jp/keibabook/140224/images/pp01.jpg",
       "horseId": "horse_2033",
@@ -261415,26 +260508,6 @@
       "issueDate": "2014-02-24",
       "sourceOrder": 5,
       "comment": "大型でもバランスがとれており、まったく重苦しさがない。当欄登場は昨年の夏以来となるが、むしろ冬場の今の方がキリッと引き締まっている。体形的には１ハロンの距離延長も良さそう。",
-      "publishedDate": "2014-02-12",
-      "raceKey": "2014:フェブラリーS",
-      "raceDate": "2014-02-23",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_7532",
-      "key": "horse_2538|keibabook|140224|http://old.keibado.ne.jp/keibabook/140224/images/pp11.jpg",
-      "horseId": "horse_2538",
-      "source": "keibabook",
-      "sourceId": "140224",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/140224/photo11.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/140224/images/pp11.jpg",
-      "localImagePath": "images/keibabook/140224/ベストウォーリア-11.jpg",
-      "caption": "2014-02-23 フェブラリーS",
-      "raceName": "フェブラリーS",
-      "photoDate": "2014-02-23",
-      "issueDate": "2014-02-24",
-      "sourceOrder": 11,
-      "comment": "骨量、筋肉量とも豊富。特に上腕部が逞しくビルドアップされ、後躯の推進力を強力に補助。武蔵野Ｓでは不利な態勢からファイトバックしたが、その闘争心が目つきによく出ている。",
       "publishedDate": "2014-02-12",
       "raceKey": "2014:フェブラリーS",
       "raceDate": "2014-02-23",
@@ -262941,6 +262014,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_7630",
+      "key": "horse_2583|keibabook|131224|http://old.keibado.ne.jp/keibabook/131224/images/pp05.jpg",
+      "horseId": "horse_1776",
+      "source": "keibabook",
+      "sourceId": "131224",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/131224/photo05.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/131224/images/pp05.jpg",
+      "localImagePath": "images/keibabook/131224/カレンミロティック-5.jpg",
+      "caption": "2013-12-22 有馬記念",
+      "raceName": "有馬記念",
+      "photoDate": "2013-12-22",
+      "issueDate": "2013-12-24",
+      "sourceOrder": 5,
+      "comment": "中２週の詰まった間隔になるが、腹構えもしっかりとしており、ガタッときたような印象は皆無。前々走は折り合いを欠いて大敗しただけに、ドッシリ構えている点には好感が持てる。",
+      "publishedDate": "2013-12-11",
+      "raceKey": "2013:有馬記念",
+      "raceDate": "2013-12-22",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_7619",
       "key": "horse_2106|keibabook|131224|http://old.keibado.ne.jp/keibabook/131224/images/pp12.jpg",
       "horseId": "horse_2106",
@@ -263155,26 +262248,6 @@
       "issueDate": "2013-12-24",
       "sourceOrder": 3,
       "comment": "体に関しては締まりが出ていた。前回とほとんど変わらずメリハリがある。馬体云々よりも、気持ちの面が重要。アオられて、馬に前向きさが感じられなかった１週前の動きには少々不満が残った。",
-      "publishedDate": "2013-12-11",
-      "raceKey": "2013:有馬記念",
-      "raceDate": "2013-12-22",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_7630",
-      "key": "horse_2583|keibabook|131224|http://old.keibado.ne.jp/keibabook/131224/images/pp05.jpg",
-      "horseId": "horse_2583",
-      "source": "keibabook",
-      "sourceId": "131224",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/131224/photo05.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/131224/images/pp05.jpg",
-      "localImagePath": "images/keibabook/131224/カレンミロティック-5.jpg",
-      "caption": "2013-12-22 有馬記念",
-      "raceName": "有馬記念",
-      "photoDate": "2013-12-22",
-      "issueDate": "2013-12-24",
-      "sourceOrder": 5,
-      "comment": "中２週の詰まった間隔になるが、腹構えもしっかりとしており、ガタッときたような印象は皆無。前々走は折り合いを欠いて大敗しただけに、ドッシリ構えている点には好感が持てる。",
       "publishedDate": "2013-12-11",
       "raceKey": "2013:有馬記念",
       "raceDate": "2013-12-22",
@@ -273221,6 +272294,26 @@
       "raceDateSource": "override"
     },
     {
+      "id": "photo_8197",
+      "key": "horse_2735|keibabook|130128|http://old.keibado.ne.jp/keibabook/130128/images/pp07.jpg",
+      "horseId": "horse_2406",
+      "source": "keibabook",
+      "sourceId": "130128",
+      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130128/photo07.html",
+      "imageUrl": "http://old.keibado.ne.jp/keibabook/130128/images/pp07.jpg",
+      "localImagePath": "images/keibabook/130128/アフォード-7.jpg",
+      "caption": "2013-01-27 シルクロードステークス",
+      "raceName": "シルクロードステークス",
+      "photoDate": "2013-01-27",
+      "issueDate": "2013-01-28",
+      "sourceOrder": 7,
+      "comment": "肌艶にムラがあるが、これは体を洗った直後の撮影となったため。それほど寸詰まりという感じはないが、少し腰の位置が高くて、ガッチリした馬体。やはり短距離系の印象を受ける。",
+      "publishedDate": "2013-01-16",
+      "raceKey": "2013:シルクロードステークス",
+      "raceDate": "2013-01-27",
+      "raceDateSource": "override"
+    },
+    {
       "id": "photo_8200",
       "key": "horse_2409|keibabook|130128|http://old.keibado.ne.jp/keibabook/130128/images/pp10.jpg",
       "horseId": "horse_2409",
@@ -273377,26 +272470,6 @@
       "comment": "牝馬にしては骨太で肉づきもしっかり。どちらかというと父似の体形か。この時季にしては毛ヅヤが良く、アバラこそ浮いていないが、太い感じもしない。力は出せる状態と見ていい。",
       "publishedDate": "2013-01-16",
       "raceKey": "2013:根岸S",
-      "raceDate": "2013-01-27",
-      "raceDateSource": "override"
-    },
-    {
-      "id": "photo_8197",
-      "key": "horse_2735|keibabook|130128|http://old.keibado.ne.jp/keibabook/130128/images/pp07.jpg",
-      "horseId": "horse_2735",
-      "source": "keibabook",
-      "sourceId": "130128",
-      "sourcePageUrl": "http://old.keibado.ne.jp/keibabook/130128/photo07.html",
-      "imageUrl": "http://old.keibado.ne.jp/keibabook/130128/images/pp07.jpg",
-      "localImagePath": "images/keibabook/130128/アフォード-7.jpg",
-      "caption": "2013-01-27 シルクロードステークス",
-      "raceName": "シルクロードステークス",
-      "photoDate": "2013-01-27",
-      "issueDate": "2013-01-28",
-      "sourceOrder": 7,
-      "comment": "肌艶にムラがあるが、これは体を洗った直後の撮影となったため。それほど寸詰まりという感じはないが、少し腰の位置が高くて、ガッチリした馬体。やはり短距離系の印象を受ける。",
-      "publishedDate": "2013-01-16",
-      "raceKey": "2013:シルクロードステークス",
       "raceDate": "2013-01-27",
       "raceDateSource": "override"
     },
