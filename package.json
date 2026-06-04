@@ -14,6 +14,7 @@
     "backfill:birth-years": "node scripts/backfill-birth-years.mjs",
     "backfill:birth-years:restricted": "node scripts/backfill-birth-years-from-restricted-races.mjs",
     "import:birth-years:csv": "node scripts/import-birth-years-from-csv.mjs",
+    "apply:birth-year-overrides": "node scripts/apply-birth-year-overrides.mjs",
     "correct:horses": "node scripts/apply-reviewed-horse-corrections.mjs",
     "merge:duplicate-horses": "node scripts/merge-duplicate-horses.mjs",
     "repair:photo-ids": "node scripts/repair-photo-ids.mjs",

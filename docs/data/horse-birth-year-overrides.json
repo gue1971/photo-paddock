@@ -1,187 +1,135 @@
 {
-  "horse_4627": {
-    "name": "アイティースワロー",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
+  "horse_2333": {
+    "name": "アンゲネーム",
+    "birthYear": 2008,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "サクラバクシンオー",
+    "dam": "エミナ"
   },
-  "horse_4157": {
-    "name": "アクティブバイオ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
+  "horse_2582": {
+    "name": "オメガヴェンデッタ",
+    "birthYear": 2011,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "ゼンノロブロイ",
+    "dam": "ビハインドザマスク"
   },
-  "horse_3710": {
-    "name": "アグネスアーク",
+  "horse_2584": {
+    "name": "デウスウルト",
+    "birthYear": 2008,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "キングカメハメハ",
+    "dam": "バプティスタ"
+  },
+  "horse_2588": {
+    "name": "ライドオンウインド",
+    "birthYear": 2012,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "アグネスデジタル",
+    "dam": "サンシャインバレイ"
+  },
+  "horse_2653": {
+    "name": "マックスドリーム",
+    "birthYear": 2007,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "アドマイヤマックス",
+    "dam": "ドリーミングレイナ"
+  },
+  "horse_2662": {
+    "name": "ムクドク",
+    "birthYear": 2006,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "マンハッタンカフェ",
+    "dam": "フリーダムトレイル"
+  },
+  "horse_2796": {
+    "name": "トランスワープ",
+    "birthYear": 2005,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "ファルブラヴ",
+    "dam": "ボンヌシャンス"
+  },
+  "horse_2825": {
+    "name": "レッドデイヴィス",
+    "birthYear": 2008,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "アグネスタキオン",
+    "dam": "ディクシージャズ"
+  },
+  "horse_2890": {
+    "name": "リッツィースター",
+    "birthYear": 2007,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "スターオブコジーン",
+    "dam": "キョウエイミヤビ"
+  },
+  "horse_2926": {
+    "name": "グリーンバーディー",
     "birthYear": 2003,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "キャットバード",
+    "dam": "ミセススクイリオネア"
   },
-  "horse_4060": {
-    "name": "アグネスシラヌイ",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
+  "horse_2928": {
+    "name": "ラッキーナイン",
+    "birthYear": 2007,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "ドバウィ",
+    "dam": "ビールジャント"
   },
-  "horse_4477": {
-    "name": "アグネススペシャル",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
+  "horse_2929": {
+    "name": "ロケットマン",
+    "birthYear": 2005,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "ヴァイカウント",
+    "dam": "マクローザ"
   },
-  "horse_3679": {
-    "name": "アグネスラズベリ",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3700": {
-    "name": "アサカディフィート",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3829": {
-    "name": "アジュディミツオー",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3528": {
-    "name": "アドマイヤジュピタ",
-    "birthYear": 2003,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3793": {
-    "name": "アドマイヤタイトル",
-    "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3775": {
-    "name": "アドマイヤホクト",
+  "horse_2957": {
+    "name": "ヘッドライナー",
     "birthYear": 2004,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "サクラバクシンオー",
+    "dam": "ヘバ"
   },
-  "horse_4596": {
-    "name": "アドマイヤロード",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
+  "horse_2975": {
+    "name": "ジェイケイセラヴィ",
+    "birthYear": 2004,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "スクワートルスクワート",
+    "dam": "ジェイケイコマンダ"
   },
-  "horse_3916": {
-    "name": "アルビレオ",
+  "horse_3055": {
+    "name": "ライブコンサート",
+    "birthYear": 2004,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "シングスピール",
+    "dam": "ダンスライヴリー"
+  },
+  "horse_3125": {
+    "name": "スピリタス",
+    "birthYear": 2005,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "タニノギムレット",
+    "dam": "ピノシェット"
+  },
+  "horse_3223": {
+    "name": "ゴールデンメイン",
     "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4000": {
-    "name": "アンドゥオール",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3776": {
-    "name": "アンバージャック",
-    "birthYear": 2003,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4143": {
-    "name": "アンフィトリオン",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3826": {
-    "name": "イースター",
-    "birthYear": 2003,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4299": {
-    "name": "イエローボイス",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4309": {
-    "name": "イサオヒート",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4117": {
-    "name": "イシノミューズ",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4478": {
-    "name": "イブキガバメント",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4411": {
-    "name": "イングランディーレ",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3737": {
-    "name": "インセンティブガイ",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4234": {
-    "name": "インタータイヨウ",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4610": {
-    "name": "ウイングアロー",
-    "birthYear": 1995,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4076": {
-    "name": "ウイングランツ",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4099": {
-    "name": "ウインジェネラーレ",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4387": {
-    "name": "ウインブレイズ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4531": {
-    "name": "ウインマーベラス",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4011": {
-    "name": "ウインラディウス",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3945": {
-    "name": "ウインレジェンド",
-    "birthYear": 2003,
     "source": "hokanyou.csv",
     "matchedBy": "name+sire+dam"
   },
@@ -191,917 +139,21 @@
     "source": "hokanyou.csv",
     "matchedBy": "name+sire+dam"
   },
-  "horse_4482": {
-    "name": "エアシャカール",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3845": {
-    "name": "エアセレソン",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4428": {
-    "name": "エアトゥーレ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4587": {
-    "name": "エアピエール",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4207": {
-    "name": "エイシンハリマオー",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4530": {
-    "name": "エイシンワンシャン",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4392": {
-    "name": "エーピーグリード",
-    "birthYear": 1995,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4369": {
-    "name": "エスジービーム",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3596": {
-    "name": "エムオーウイナー",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4279": {
-    "name": "エリモシャルマン",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3590": {
-    "name": "エリモハリアー",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4597": {
-    "name": "エリモブライアン",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4061": {
-    "name": "エリモマキシム",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4321": {
-    "name": "エルカミーノ",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4003": {
-    "name": "エルノヴァ",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3847": {
-    "name": "エンシェントヒル",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3480": {
-    "name": "オースミグラスワン",
-    "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3736": {
-    "name": "オレハマッテルゼ",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4228": {
-    "name": "カゼニフカレテ",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3930": {
-    "name": "カネツテンビー",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4447": {
-    "name": "カネツフルーヴ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3601": {
-    "name": "カネトシツヨシオー",
-    "birthYear": 2003,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4137": {
-    "name": "カリプソパンチ",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4046": {
-    "name": "カルストンライトオ",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3633": {
-    "name": "キクノアロー",
-    "birthYear": 2003,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4563": {
-    "name": "キタサンチャンネル",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3854": {
-    "name": "キネティクス",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4379": {
-    "name": "ギャンブルローズ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4458": {
-    "name": "キングオブサンデー",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3795": {
-    "name": "クーリンガー",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3675": {
-    "name": "クールシャローン",
+  "horse_3372": {
+    "name": "ビービーファルコン",
     "birthYear": 2004,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "メジロライアン",
+    "dam": "スイートバミューダ"
   },
-  "horse_4388": {
-    "name": "クラフトマンシップ",
-    "birthYear": 1995,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4536": {
-    "name": "クラレットパンチ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4538": {
-    "name": "グランドシンザン",
-    "birthYear": 1994,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4552": {
-    "name": "グランパドドゥ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3994": {
-    "name": "グランリーオ",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4214": {
-    "name": "グリーンプレジャー",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4047": {
-    "name": "コイントス",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4372": {
-    "name": "ゴーステディ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3223": {
-    "name": "ゴールデンメイン",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4084": {
-    "name": "ゴールデンロドリゴ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4413": {
-    "name": "ゴールドアリュール",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4209": {
-    "name": "コスモラブシック",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4380": {
-    "name": "コスモリバーサル",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4508": {
-    "name": "サイキョウサンデー",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3918": {
-    "name": "サイドワインダー",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4095": {
-    "name": "サイレンスボーイ",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4043": {
-    "name": "サクラセンチュリー",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3927": {
-    "name": "サザンツイスター",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3745": {
-    "name": "サチノスイーティー",
-    "birthYear": 2003,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4114": {
-    "name": "サミーミラクル",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3729": {
-    "name": "サンアディユ",
+  "horse_3390": {
+    "name": "オフィサー",
     "birthYear": 2002,
     "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4416": {
-    "name": "サンエムノヴァ",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3689": {
-    "name": "サンバレンティン",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3769": {
-    "name": "サンライズキング",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4353": {
-    "name": "サンライズシャーク",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4008": {
-    "name": "サンライズペガサス",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3588": {
-    "name": "サンレイジャスパー",
-    "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4485": {
-    "name": "ジェミードレス",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4295": {
-    "name": "シャドウスケイプ",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4480": {
-    "name": "ジャングルポケット",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3767": {
-    "name": "ジョイフルハート",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4567": {
-    "name": "ジョウテンブレーヴ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4426": {
-    "name": "ショウナンカンプ",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4045": {
-    "name": "シルキーラグーン",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3942": {
-    "name": "シルクフェイマス",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4494": {
-    "name": "シルクプリマドンナ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4308": {
-    "name": "シロキタゴッドラン",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3783": {
-    "name": "シンボリエスケープ",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3540": {
-    "name": "スウィフトカレント",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4495": {
-    "name": "スエヒロコマンダー",
-    "birthYear": 1995,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3489": {
-    "name": "スズカフェニックス",
-    "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4297": {
-    "name": "スターリングローズ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4593": {
-    "name": "スティンガー",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3882": {
-    "name": "ストラタジェム",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4153": {
-    "name": "ストロングブラッド",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4077": {
-    "name": "スプリングシオン",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3712": {
-    "name": "スプリングドリュー",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4414": {
-    "name": "スマートボーイ",
-    "birthYear": 1995,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4620": {
-    "name": "セイコーサンデー",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4052": {
-    "name": "セフティーエンペラ",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4389": {
-    "name": "ゼンノショウグン",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3599": {
-    "name": "ゼンノパルテノン",
-    "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3413": {
-    "name": "ダークメッセージ",
-    "birthYear": 2003,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4223": {
-    "name": "ダービーレグノ",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3565": {
-    "name": "ダイシングロウ",
-    "birthYear": 2004,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3683": {
-    "name": "タイセイアトム",
-    "birthYear": 2003,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4028": {
-    "name": "ダイタクバートラム",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4572": {
-    "name": "ダイタクリーヴァ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3864": {
-    "name": "タイムパラドックス",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4336": {
-    "name": "ダイヤモンドビコー",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3931": {
-    "name": "ダイワメンフィス",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4063": {
-    "name": "ダイワレイダース",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4210": {
-    "name": "タカオルビー",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3986": {
-    "name": "タガノゲルニカ",
-    "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3929": {
-    "name": "タガノデンジャラス",
-    "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4314": {
-    "name": "タガノマイバッハ",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4144": {
-    "name": "タニノエタニティ",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4401": {
-    "name": "タニノゴードン",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4553": {
-    "name": "タフネススター",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4452": {
-    "name": "ダンツキャスト",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4118": {
-    "name": "ダンツジャッジ",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4399": {
-    "name": "ダンツフレーム",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4343": {
-    "name": "ダンツランニング",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4208": {
-    "name": "チアズブライトリー",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3857": {
-    "name": "チアフルスマイル",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3870": {
-    "name": "チェストウイング",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4529": {
-    "name": "チョウカイリョウガ",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3644": {
-    "name": "チョウサン",
-    "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4200": {
-    "name": "チリエージェ",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3905": {
-    "name": "ツルガオカハヤテ",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4090": {
-    "name": "ツルマルファイター",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4166": {
-    "name": "ツルマルボーイ",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3928": {
-    "name": "ツルマルヨカニセ",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3751": {
-    "name": "ディアチャンス",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4092": {
-    "name": "テイエムアクション",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4377": {
-    "name": "テイエムオーシャン",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4327": {
-    "name": "テイエムサンデー",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3932": {
-    "name": "テイエムチュラサン",
-    "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4025": {
-    "name": "デュランダル",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4506": {
-    "name": "テンザンセイザ",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4277": {
-    "name": "テンシノキセキ",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4519": {
-    "name": "トウカイパルサー",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4445": {
-    "name": "トウカイポイント",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3672": {
-    "name": "トウカイワイルド",
-    "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4607": {
-    "name": "トゥザヴィクトリー",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3566": {
-    "name": "トウショウヴォイス",
-    "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3684": {
-    "name": "トウショウギア",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3631": {
-    "name": "トウショウナイト",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4612": {
-    "name": "トーシンブリザード",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4080": {
-    "name": "トーセンダンディ",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3794": {
-    "name": "トーセンブライト",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4613": {
-    "name": "トーホウエンペラー",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4222": {
-    "name": "トーホウシデン",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4518": {
-    "name": "トーホウドリーム",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3906": {
-    "name": "トールハンマー",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4337": {
-    "name": "トーワトレジャー",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4351": {
-    "name": "トシザブイ",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3581": {
-    "name": "トップオブツヨシ",
-    "birthYear": 2003,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4155": {
-    "name": "トップオブワールド",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4412": {
-    "name": "トップコマンダー",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4517": {
-    "name": "トッププロテクター",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4312": {
-    "name": "トライワンズラック",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3687": {
-    "name": "ドラゴンファイヤー",
-    "birthYear": 2004,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4591": {
-    "name": "トラストファイヤー",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4167": {
-    "name": "ドリームカムカム",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4352": {
-    "name": "トレジャー",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4507": {
-    "name": "トロットスター",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3770": {
-    "name": "ドンクール",
-    "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3582": {
-    "name": "ナカヤマパラダイス",
-    "birthYear": 2003,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3634": {
-    "name": "ナナヨーヒマワリ",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4164": {
-    "name": "ナリタセンチュリー",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
+    "matchedBy": "unique-name",
+    "csvSire": "Fusaichi Pegasus",
+    "csvDam": "サークリング"
   },
   "horse_3391": {
     "name": "ナンヨーヒルトップ",
@@ -1109,303 +161,33 @@
     "source": "hokanyou.csv",
     "matchedBy": "name+sire+dam"
   },
-  "horse_3947": {
-    "name": "ニシノデュー",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4468": {
-    "name": "ニチドウマジック",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3763": {
-    "name": "ニホンピロキース",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4094": {
-    "name": "ニホンピロサート",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4534": {
-    "name": "ニホンピロニール",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4451": {
-    "name": "ニホンピロハーレー",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3919": {
-    "name": "ニューベリー",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3764": {
-    "name": "ニルヴァーナ",
-    "birthYear": 2003,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4378": {
-    "name": "ノブレスオブリッジ",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4537": {
-    "name": "パープルエビス",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4548": {
-    "name": "バイラリーナ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4113": {
-    "name": "ハギノハイグレイド",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4306": {
-    "name": "ハッピーパス",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4180": {
-    "name": "ハッピールック",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4361": {
-    "name": "ハレルヤサンデー",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3747": {
-    "name": "ビーナスライン",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3496": {
-    "name": "ビエンナーレ",
-    "birthYear": 2003,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3810": {
-    "name": "ピカレスクコート",
-    "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3963": {
-    "name": "ヒシアトラス",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4278": {
-    "name": "ヒシブリザード",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4026": {
-    "name": "ビッグゴールド",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4224": {
-    "name": "ヒマラヤンブルー",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4357": {
-    "name": "ビリーヴ",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4233": {
-    "name": "ビワシンセイキ",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3911": {
-    "name": "ファストタテヤマ",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3668": {
-    "name": "フィールドルージュ",
-    "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4300": {
-    "name": "フェリシタル",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4554": {
-    "name": "フサイチユーキャン",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3920": {
-    "name": "フジサイレンス",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3617": {
-    "name": "ブライトトゥモロー",
-    "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3673": {
-    "name": "ブラックアルタイル",
-    "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4450": {
-    "name": "プリエミネンス",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3703": {
-    "name": "プリサイスマシーン",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3613": {
-    "name": "ブリトマルティス",
+  "horse_3393": {
+    "name": "ビクトリーテツニー",
     "birthYear": 2004,
     "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
+    "matchedBy": "unique-name",
+    "csvSire": "Gone West",
+    "csvDam": "Radu Cool"
   },
-  "horse_3828": {
-    "name": "ブルーショットガン",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
+  "horse_3402": {
+    "name": "プリンセストロイ",
+    "birthYear": 2004,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "ダンスインザダーク",
+    "dam": "グロリオーサ"
   },
-  "horse_3910": {
-    "name": "ブルートルネード",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
+  "horse_3407": {
+    "name": "ドットコム",
+    "birthYear": 2005,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "ブライアンズタイム",
+    "dam": "ビューチフルドラマ"
   },
-  "horse_3491": {
-    "name": "ブルーメンブラット",
+  "horse_3413": {
+    "name": "ダークメッセージ",
     "birthYear": 2003,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4220": {
-    "name": "ブレイクタイム",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4044": {
-    "name": "プレシャスカフェ",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4621": {
-    "name": "ペインテドブラック",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4010": {
-    "name": "ヘヴンリーロマンス",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3843": {
-    "name": "ボードスウィーパー",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4041": {
-    "name": "ボーンキング",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3809": {
-    "name": "ホッコーソレソレー",
-    "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4342": {
-    "name": "ホットシークレット",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4191": {
-    "name": "マーベラスダンス",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3813": {
-    "name": "マイソールサウンド",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3996": {
-    "name": "マイティスプリング",
-    "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3816": {
-    "name": "マイネサマンサ",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4211": {
-    "name": "マイネルアムンゼン",
-    "birthYear": 1999,
     "source": "hokanyou.csv",
     "matchedBy": "name+sire+dam"
   },
@@ -1415,285 +197,57 @@
     "source": "hokanyou.csv",
     "matchedBy": "name+sire+dam"
   },
-  "horse_4199": {
-    "name": "マイネルジャパン",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4140": {
-    "name": "マイネルセレクト",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4310": {
-    "name": "マイネルブライアン",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3998": {
-    "name": "マイネルボウノット",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
   "horse_3420": {
     "name": "マキハタサイボーグ",
     "birthYear": 2002,
     "source": "hokanyou.csv",
     "matchedBy": "name+sire+dam"
   },
-  "horse_3766": {
-    "name": "マチカネキララ",
+  "horse_3448": {
+    "name": "ヤマニンエマイユ",
+    "birthYear": 2003,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "ホワイトマズル",
+    "dam": "ヤマニンザナドゥ"
+  },
+  "horse_3475": {
+    "name": "ボンネビルレコード",
+    "birthYear": 2002,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "アサティス",
+    "dam": "ダイワスタン"
+  },
+  "horse_3480": {
+    "name": "オースミグラスワン",
     "birthYear": 2002,
     "source": "hokanyou.csv",
     "matchedBy": "name+sire+dam"
   },
-  "horse_4067": {
-    "name": "マチカネメニモミヨ",
-    "birthYear": 1999,
+  "horse_3484": {
+    "name": "エイシンドーバー",
+    "birthYear": 2002,
     "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
+    "matchedBy": "unique-name",
+    "csvSire": "Victory Gallop",
+    "csvDam": "Eishin Georgia"
   },
-  "horse_4535": {
-    "name": "マティーニ",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3817": {
-    "name": "マドモアゼルドパリ",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4360": {
-    "name": "マヤノアブソルート",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3892": {
-    "name": "マルカキセキ",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3999": {
-    "name": "マルブツトップ",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4427": {
-    "name": "マンデームスメ",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4640": {
-    "name": "ミスキャスト",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4371": {
-    "name": "ミデオンビット",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4333": {
-    "name": "ミレニアムバイオ",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3827": {
-    "name": "メイショウオウテ",
+  "horse_3489": {
+    "name": "スズカフェニックス",
     "birthYear": 2002,
     "source": "hokanyou.csv",
     "matchedBy": "name+sire+dam"
   },
-  "horse_3765": {
-    "name": "メイショウカイドウ",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4273": {
-    "name": "メイショウキオウ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3771": {
-    "name": "メイショウサライ",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3755": {
-    "name": "メイショウトッパー",
+  "horse_3491": {
+    "name": "ブルーメンブラット",
     "birthYear": 2003,
     "source": "hokanyou.csv",
     "matchedBy": "name+sire+dam"
   },
-  "horse_4479": {
-    "name": "メイショウラムセス",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4555": {
-    "name": "メジロサンドラ",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4004": {
-    "name": "メジロマントル",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4341": {
-    "name": "メジロランバート",
-    "birthYear": 1995,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3909": {
-    "name": "モノポール",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4541": {
-    "name": "ヤマカツスズラン",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3699": {
-    "name": "ヤマノルドルフ",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4561": {
-    "name": "ユーワファルコン",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4376": {
-    "name": "ユウワンプラテクト",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4079": {
-    "name": "ユキノサンロイヤル",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3749": {
-    "name": "ユメノシルシ",
-    "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3837": {
-    "name": "ラヴァリージェニオ",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4446": {
-    "name": "ラスカルスズカ",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3716": {
-    "name": "リキアイサイレンス",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3871": {
-    "name": "ルーベンスメモリー",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3933": {
-    "name": "レイズアンドコール",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4448": {
-    "name": "レギュラーメンバー",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4334": {
-    "name": "レディパステル",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4251": {
-    "name": "ロイヤルキャンサー",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4282": {
-    "name": "ローズバド",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4556": {
-    "name": "ロードクロノス",
-    "birthYear": 1995,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_4344": {
-    "name": "ロサード",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3752": {
-    "name": "ロフティーエイム",
-    "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3636": {
-    "name": "ロングプライド",
-    "birthYear": 2004,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3921": {
-    "name": "ワディラム",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "name+sire+dam"
-  },
-  "horse_3589": {
-    "name": "ワンモアチャッター",
-    "birthYear": 2000,
+  "horse_3496": {
+    "name": "ビエンナーレ",
+    "birthYear": 2003,
     "source": "hokanyou.csv",
     "matchedBy": "name+sire+dam"
   },
@@ -1705,405 +259,81 @@
     "csvSire": "サツカーボーイ",
     "csvDam": "サンデーアイ"
   },
-  "horse_4154": {
-    "name": "アグネスウイング",
-    "birthYear": 2000,
+  "horse_3528": {
+    "name": "アドマイヤジュピタ",
+    "birthYear": 2003,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "End Sweep",
-    "csvDam": "Tuesday Edition"
+    "matchedBy": "name+sire+dam"
   },
-  "horse_4325": {
-    "name": "アグネスデジタル",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Crafty Prospector",
-    "csvDam": "Chancey Squaw"
-  },
-  "horse_3856": {
-    "name": "アサクサデンエン",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Singspiel",
-    "csvDam": "Whitewater Affair"
-  },
-  "horse_4291": {
-    "name": "アタゴタイショウ",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Silver Deputy",
-    "csvDam": "Soaring Sultana"
-  },
-  "horse_4493": {
-    "name": "アドマイヤコジーン",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Cozzene",
-    "csvDam": "アドマイヤマカディ"
-  },
-  "horse_4497": {
-    "name": "アメリカンボス",
-    "birthYear": 1995,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Kingmambo",
-    "csvDam": "Redeemer"
-  },
-  "horse_4381": {
-    "name": "アラタマインディ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "A.P. Indy",
-    "csvDam": "アセルティンズエンジェルス"
-  },
-  "horse_4424": {
-    "name": "アンクルスーパー",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "デインヒル",
-    "csvDam": "サークルシヨウワ"
-  },
-  "horse_4324": {
-    "name": "イーグルカフェ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Gulch",
-    "csvDam": "Net Dancer"
-  },
-  "horse_4354": {
-    "name": "イルバチオ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "ロイヤルアカデミー2",
-    "csvDam": "サーファーガール"
-  },
-  "horse_3738": {
-    "name": "ヴリル",
+  "horse_3540": {
+    "name": "スウィフトカレント",
     "birthYear": 2001,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Sunday Silence",
-    "csvDam": "Phantom Creek"
+    "matchedBy": "name+sire+dam"
   },
-  "horse_4358": {
-    "name": "エアエミネム",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Danehill",
-    "csvDam": "Kissagram"
+  "horse_3564": {
+    "name": "キャッチータイトル",
+    "birthYear": 2003,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "オペラハウス",
+    "dam": "タイトルド"
   },
-  "horse_4510": {
-    "name": "エアスマップ",
-    "birthYear": 1995,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Danehill",
-    "csvDam": "Subtle Change"
-  },
-  "horse_3621": {
-    "name": "エイジアンウインズ",
+  "horse_3565": {
+    "name": "ダイシングロウ",
     "birthYear": 2004,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "フジキセキ",
-    "csvDam": "サクラサク2"
+    "matchedBy": "name+sire+dam"
   },
-  "horse_4459": {
-    "name": "エイシンエーケン",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Boundary",
-    "csvDam": "Math"
-  },
-  "horse_4667": {
-    "name": "エイシンコジーン",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Cozzene",
-    "csvDam": "Rain Symphony"
-  },
-  "horse_4206": {
-    "name": "エイシンスペンサー",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Hennessy",
-    "csvDam": "Cherry a La Mode"
-  },
-  "horse_3484": {
-    "name": "エイシンドーバー",
+  "horse_3566": {
+    "name": "トウショウヴォイス",
     "birthYear": 2002,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Victory Gallop",
-    "csvDam": "Eishin Georgia"
+    "matchedBy": "name+sire+dam"
   },
-  "horse_4093": {
-    "name": "エイシンハンプトン",
-    "birthYear": 2000,
+  "horse_3581": {
+    "name": "トップオブツヨシ",
+    "birthYear": 2003,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Dynaformer",
-    "csvDam": "Sedona Berry"
+    "matchedBy": "name+sire+dam"
   },
-  "horse_4345": {
-    "name": "エイシンプレストン",
-    "birthYear": 1997,
+  "horse_3582": {
+    "name": "ナカヤマパラダイス",
+    "birthYear": 2003,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Green Dancer",
-    "csvDam": "Warranty Applied"
+    "matchedBy": "name+sire+dam"
   },
-  "horse_4678": {
-    "name": "エイシンルーデンス",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "サンデーサイレンス",
-    "csvDam": "エイシングレシャス"
-  },
-  "horse_4156": {
-    "name": "エリモピクシー",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "ダンシングブレーヴ",
-    "csvDam": "エリモシユーテング"
-  },
-  "horse_4469": {
-    "name": "エンドレスデザート",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "End Sweep",
-    "csvDam": "Sweet Nena"
-  },
-  "horse_4564": {
-    "name": "オーシャンアクロス",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Salt Lake",
-    "csvDam": "Believe It Beloved"
-  },
-  "horse_3390": {
-    "name": "オフィサー",
+  "horse_3588": {
+    "name": "サンレイジャスパー",
     "birthYear": 2002,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Fusaichi Pegasus",
-    "csvDam": "サークリング"
+    "matchedBy": "name+sire+dam"
   },
-  "horse_3934": {
-    "name": "カイトヒルウインド",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Saint Ballado",
-    "csvDam": "Sloane Street"
-  },
-  "horse_4557": {
-    "name": "カチドキリュウ",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "アンバーシヤダイ",
-    "csvDam": "トウシヨウフオモサ"
-  },
-  "horse_3936": {
-    "name": "カナハラドラゴン",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "アンバーシヤダイ",
-    "csvDam": "ミナガワローマン"
-  },
-  "horse_3848": {
-    "name": "カフェオリンポス",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Grand Slam",
-    "csvDam": "Cognac Lady"
-  },
-  "horse_3643": {
-    "name": "カンファーベスト",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "アンバーシヤダイ",
-    "csvDam": "カタリナラビット"
-  },
-  "horse_4355": {
-    "name": "キーゴールド",
-    "birthYear": 1995,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "アンシエントタイム",
-    "csvDam": "キーフラワー"
-  },
-  "horse_4405": {
-    "name": "キスミーテンダー",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "サンデーサイレンス",
-    "csvDam": "レツツキツス"
-  },
-  "horse_4496": {
-    "name": "キングザファクト",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Known Fact",
-    "csvDam": "Koluctoo's Robin"
-  },
-  "horse_4370": {
-    "name": "キングフィデリア",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Kingmambo",
-    "csvDam": "フィデリア"
-  },
-  "horse_4190": {
-    "name": "グラスエイコウオー",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "French Deputy",
-    "csvDam": "Explosive Girl"
-  },
-  "horse_3833": {
-    "name": "グラスポジション",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "リアルシヤダイ",
-    "csvDam": "アンソレイユ"
-  },
-  "horse_3603": {
-    "name": "グラスボンバー",
+  "horse_3589": {
+    "name": "ワンモアチャッター",
     "birthYear": 2000,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Machiavellian",
-    "csvDam": "ブルーラスター"
+    "matchedBy": "name+sire+dam"
   },
-  "horse_4408": {
-    "name": "グラスワールド",
-    "birthYear": 1996,
+  "horse_3590": {
+    "name": "エリモハリアー",
+    "birthYear": 2000,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Rahy",
-    "csvDam": "A Chance of Storm"
+    "matchedBy": "name+sire+dam"
   },
-  "horse_4566": {
-    "name": "ゲイリーエクシード",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Rubiano",
-    "csvDam": "Gaily Sheena"
-  },
-  "horse_4595": {
-    "name": "ゲイリーフラッシュ",
-    "birthYear": 1993,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Danehill",
-    "csvDam": "Go Honey Go"
-  },
-  "horse_4611": {
-    "name": "ゴールドティアラ",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Seeking the Gold",
-    "csvDam": "Bright Tiara"
-  },
-  "horse_3777": {
-    "name": "コスモシンドラー",
+  "horse_3592": {
+    "name": "センカク",
     "birthYear": 2002,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Green Desert",
-    "csvDam": "Anniegetyourgun"
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "マーベラスサンデー",
+    "dam": "セイメイ"
   },
-  "horse_4373": {
-    "name": "ゴッドオブチャンス",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Cozzene",
-    "csvDam": "チームカラーズ"
-  },
-  "horse_4402": {
-    "name": "サンキンヘイロー",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "ジョリーズヘイロー",
-    "csvDam": "クリプテイツク"
-  },
-  "horse_4565": {
-    "name": "サンフォードシチー",
-    "birthYear": 1995,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "ヤマニンゼファー",
-    "csvDam": "テイムズシチー"
-  },
-  "horse_4350": {
-    "name": "サンライズジェガー",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "リアルシヤダイ",
-    "csvDam": "ヤマノトウショウ"
-  },
-  "horse_3831": {
-    "name": "シーキングザベスト",
+  "horse_3596": {
+    "name": "エムオーウイナー",
     "birthYear": 2001,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Seeking the Gold",
-    "csvDam": "Mackie"
-  },
-  "horse_4186": {
-    "name": "シェルゲーム",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Swain",
-    "csvDam": "Chancey Squaw"
-  },
-  "horse_4196": {
-    "name": "シベリアンホーク",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Spinning World",
-    "csvDam": "Misty Silver"
-  },
-  "horse_4390": {
-    "name": "ショコット",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "デインヒル",
-    "csvDam": "ショーガール2"
+    "matchedBy": "name+sire+dam"
   },
   "horse_3598": {
     "name": "シルクビッグタイム",
@@ -2113,381 +343,39 @@
     "csvSire": "Deputy Minister",
     "csvDam": "Hello Rachel"
   },
-  "horse_4158": {
-    "name": "ジンクライシス",
-    "birthYear": 2001,
+  "horse_3599": {
+    "name": "ゼンノパルテノン",
+    "birthYear": 2002,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Subordination",
-    "csvDam": "Daring Verse"
+    "matchedBy": "name+sire+dam"
   },
-  "horse_4664": {
-    "name": "シンコウカリド",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Silver Hawk",
-    "csvDam": "ハイドロカリド"
-  },
-  "horse_4562": {
-    "name": "シンコウスプレンダ",
-    "birthYear": 1994,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Dayjur",
-    "csvDam": "Over Your Shoulder"
-  },
-  "horse_4182": {
-    "name": "スーパージーン",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "サツカーボーイ",
-    "csvDam": "メイタイザン"
-  },
-  "horse_3983": {
-    "name": "スターキングマン",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Kingmambo",
-    "csvDam": "Princesse Timide"
-  },
-  "horse_3935": {
-    "name": "ステンカラージン",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Pulpit",
-    "csvDam": "Marshesseaux"
-  },
-  "horse_4605": {
-    "name": "スパークホーク",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Silver Hawk",
-    "csvDam": "All My Memories"
-  },
-  "horse_3834": {
-    "name": "セレスステーラー",
+  "horse_3601": {
+    "name": "カネトシツヨシオー",
     "birthYear": 2003,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "グラスワンダー",
-    "csvDam": "シルヴアード"
+    "matchedBy": "name+sire+dam"
   },
-  "horse_4571": {
-    "name": "ゼンノエルシド",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Caerleon",
-    "csvDam": "Embla"
-  },
-  "horse_3984": {
-    "name": "タイキエニグマ",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Rubiano",
-    "csvDam": "Certain Secret"
-  },
-  "horse_4375": {
-    "name": "タイキトレジャー",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Miswaki",
-    "csvDam": "Royal Bride"
-  },
-  "horse_4679": {
-    "name": "タイキポーラ",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "トウカイテイオー",
-    "csvDam": "スターオブザノース"
-  },
-  "horse_4586": {
-    "name": "タガノフォーティ",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "フォーティナイナー",
-    "csvDam": "スパート2"
-  },
-  "horse_4241": {
-    "name": "タケハナオペラ",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "サツカーボーイ",
-    "csvDam": "タケハナホープ"
-  },
-  "horse_4007": {
-    "name": "タップダンスシチー",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Pleasant Tap",
-    "csvDam": "All Dance"
-  },
-  "horse_4492": {
-    "name": "ダブルハピネス",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "ロイヤルアカデミー2",
-    "csvDam": "エンジェルクロス"
-  },
-  "horse_4212": {
-    "name": "タマモヒビキ",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "コマンダーインチーフ",
-    "csvDam": "タマモハツピー"
-  },
-  "horse_4644": {
-    "name": "タマモルビーキング",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "デインヒル",
-    "csvDam": "タマモルビー"
-  },
-  "horse_4374": {
-    "name": "ティエッチグレース",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Capote",
-    "csvDam": "Confirmed Dancer"
-  },
-  "horse_4660": {
-    "name": "テイエムオペラオー",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "オペラハウス",
-    "csvDam": "ワンスウエド"
-  },
-  "horse_3883": {
-    "name": "テイクオーバーターゲット",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Celtic Swing",
-    "csvDam": "Shady Stream"
-  },
-  "horse_4539": {
-    "name": "ティコティコタック",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "サツカーボーイ",
-    "csvDam": "ワンアイドバンブー"
-  },
-  "horse_4304": {
-    "name": "ディバインシルバー",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Silver Deputy",
-    "csvDam": "Be My Baby"
-  },
-  "horse_4189": {
-    "name": "トウカイオーザ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "サンデーサイレンス",
-    "csvDam": "トウカイナチユラル"
-  },
-  "horse_3645": {
-    "name": "ドラゴンウェルズ",
-    "birthYear": 2003,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Dynaformer",
-    "csvDam": "Poolesta"
-  },
-  "horse_3873": {
-    "name": "トリリオンカット",
+  "horse_3603": {
+    "name": "グラスボンバー",
     "birthYear": 2000,
     "source": "hokanyou.csv",
     "matchedBy": "unique-name",
-    "csvSire": "Swain",
-    "csvDam": "Sabeline"
+    "csvSire": "Machiavellian",
+    "csvDam": "ブルーラスター"
   },
-  "horse_4292": {
-    "name": "ドローアウター",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Distorted Humor",
-    "csvDam": "Glamorous Habit"
+  "horse_3604": {
+    "name": "ナリタプレリュード",
+    "birthYear": 2002,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "フジキセキ",
+    "dam": "ロングディライト"
   },
-  "horse_3698": {
-    "name": "トロピカルライト",
+  "horse_3613": {
+    "name": "ブリトマルティス",
     "birthYear": 2004,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Mizzen Mast",
-    "csvDam": "Tropico Cielo"
-  },
-  "horse_4053": {
-    "name": "ナイキアヘッド",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Boston Harbor",
-    "csvDam": "Bay Barrister"
-  },
-  "horse_4628": {
-    "name": "ナムラマイカ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "サクラバクシンオー",
-    "csvDam": "サクラマツリ"
-  },
-  "horse_4481": {
-    "name": "ナリタトップロード",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "サツカーボーイ",
-    "csvDam": "フローラルマジック"
-  },
-  "horse_4328": {
-    "name": "ニシノムーンライト",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Diesis",
-    "csvDam": "リメンバーミッドナイト"
-  },
-  "horse_4264": {
-    "name": "ネイチャーヒーラー",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Valiant Nature",
-    "csvDam": "Mintullah"
-  },
-  "horse_3890": {
-    "name": "ネイティヴハート",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "スターオブコジーン",
-    "csvDam": "ポトマツクチエリー"
-  },
-  "horse_4294": {
-    "name": "ノボジャック",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "French Deputy",
-    "csvDam": "Flight of Angels"
-  },
-  "horse_4139": {
-    "name": "ノボトゥルー",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Broad Brush",
-    "csvDam": "Nastique"
-  },
-  "horse_4630": {
-    "name": "ノボリユキオー",
-    "birthYear": 1996,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "トニービン",
-    "csvDam": "フアーストラブ"
-  },
-  "horse_4023": {
-    "name": "パーソナルラッシュ",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Wild Rush",
-    "csvDam": "Personally"
-  },
-  "horse_3865": {
-    "name": "ハードクリスタル",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "クリスタルグリツターズ",
-    "csvDam": "スイートミルド"
-  },
-  "horse_4515": {
-    "name": "パイアン",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Cozzene",
-    "csvDam": "ウッドマンズシック"
-  },
-  "horse_3970": {
-    "name": "ハイフレンドトライ",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "リアルシヤダイ",
-    "csvDam": "ハイフレンドバード"
-  },
-  "horse_3836": {
-    "name": "バイロイト",
-    "birthYear": 2001,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Singspiel",
-    "csvDam": "Dancerette"
-  },
-  "horse_4243": {
-    "name": "ハスラー",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "サンデーサイレンス",
-    "csvDam": "セブンレツトウ"
-  },
-  "horse_4472": {
-    "name": "ビーマイナカヤマ",
-    "birthYear": 1994,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "エブロス",
-    "csvDam": "ビーマイフアイア"
-  },
-  "horse_3393": {
-    "name": "ビクトリーテツニー",
-    "birthYear": 2004,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Gone West",
-    "csvDam": "Radu Cool"
-  },
-  "horse_4107": {
-    "name": "ヒシミラクル",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "サツカーボーイ",
-    "csvDam": "シュンサクヨシコ"
-  },
-  "horse_4159": {
-    "name": "ピットファイター",
-    "birthYear": 1999,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Pulpit",
-    "csvDam": "デアリングダンジグ"
+    "matchedBy": "name+sire+dam"
   },
   "horse_3616": {
     "name": "ファストロック",
@@ -2497,6 +385,38 @@
     "csvSire": "Rock of Gibraltar",
     "csvDam": "Alisidora"
   },
+  "horse_3617": {
+    "name": "ブライトトゥモロー",
+    "birthYear": 2002,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3621": {
+    "name": "エイジアンウインズ",
+    "birthYear": 2004,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "フジキセキ",
+    "csvDam": "サクラサク2"
+  },
+  "horse_3631": {
+    "name": "トウショウナイト",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3633": {
+    "name": "キクノアロー",
+    "birthYear": 2003,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3634": {
+    "name": "ナナヨーヒマワリ",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
   "horse_3635": {
     "name": "フィフティーワナー",
     "birthYear": 2002,
@@ -2505,13 +425,203 @@
     "csvSire": "Fusaichi Pegasus",
     "csvDam": "Heraklia"
   },
-  "horse_4668": {
-    "name": "フサイチオーレ",
-    "birthYear": 1998,
+  "horse_3636": {
+    "name": "ロングプライド",
+    "birthYear": 2004,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3643": {
+    "name": "カンファーベスト",
+    "birthYear": 1999,
     "source": "hokanyou.csv",
     "matchedBy": "unique-name",
-    "csvSire": "サンデーサイレンス",
-    "csvDam": "トリプルワウ"
+    "csvSire": "アンバーシヤダイ",
+    "csvDam": "カタリナラビット"
+  },
+  "horse_3644": {
+    "name": "チョウサン",
+    "birthYear": 2002,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3645": {
+    "name": "ドラゴンウェルズ",
+    "birthYear": 2003,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Dynaformer",
+    "csvDam": "Poolesta"
+  },
+  "horse_3668": {
+    "name": "フィールドルージュ",
+    "birthYear": 2002,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3672": {
+    "name": "トウカイワイルド",
+    "birthYear": 2002,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3673": {
+    "name": "ブラックアルタイル",
+    "birthYear": 2002,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3675": {
+    "name": "クールシャローン",
+    "birthYear": 2004,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3679": {
+    "name": "アグネスラズベリ",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3683": {
+    "name": "タイセイアトム",
+    "birthYear": 2003,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3684": {
+    "name": "トウショウギア",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3687": {
+    "name": "ドラゴンファイヤー",
+    "birthYear": 2004,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3689": {
+    "name": "サンバレンティン",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3698": {
+    "name": "トロピカルライト",
+    "birthYear": 2004,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Mizzen Mast",
+    "csvDam": "Tropico Cielo"
+  },
+  "horse_3699": {
+    "name": "ヤマノルドルフ",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3700": {
+    "name": "アサカディフィート",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3703": {
+    "name": "プリサイスマシーン",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3710": {
+    "name": "アグネスアーク",
+    "birthYear": 2003,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3712": {
+    "name": "スプリングドリュー",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3715": {
+    "name": "ゴーウィズウィンド",
+    "birthYear": 1999,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "フレイズ",
+    "dam": "アイレテスコ"
+  },
+  "horse_3716": {
+    "name": "リキアイサイレンス",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3727": {
+    "name": "トウカイカムカム",
+    "birthYear": 2001,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "トウカイテイオー",
+    "dam": "トウカイパステル"
+  },
+  "horse_3729": {
+    "name": "サンアディユ",
+    "birthYear": 2002,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3736": {
+    "name": "オレハマッテルゼ",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3737": {
+    "name": "インセンティブガイ",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3738": {
+    "name": "ヴリル",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Sunday Silence",
+    "csvDam": "Phantom Creek"
+  },
+  "horse_3745": {
+    "name": "サチノスイーティー",
+    "birthYear": 2003,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3747": {
+    "name": "ビーナスライン",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3749": {
+    "name": "ユメノシルシ",
+    "birthYear": 2002,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3751": {
+    "name": "ディアチャンス",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3752": {
+    "name": "ロフティーエイム",
+    "birthYear": 2002,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
   },
   "horse_3754": {
     "name": "フサイチホクトセイ",
@@ -2521,181 +631,339 @@
     "csvSire": "Machiavellian",
     "csvDam": "Brocatelle"
   },
-  "horse_4386": {
-    "name": "ブラザータイクーン",
-    "birthYear": 1996,
+  "horse_3755": {
+    "name": "メイショウトッパー",
+    "birthYear": 2003,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "トニービン",
-    "csvDam": "ビユーパーダンス"
+    "matchedBy": "name+sire+dam"
   },
-  "horse_4551": {
-    "name": "ブリリアントロード",
-    "birthYear": 1995,
+  "horse_3763": {
+    "name": "ニホンピロキース",
+    "birthYear": 2001,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "ブライアンズタイム",
-    "csvDam": "マリーテイステイ"
+    "matchedBy": "name+sire+dam"
   },
-  "horse_4648": {
-    "name": "ホシオー",
-    "birthYear": 1996,
+  "horse_3764": {
+    "name": "ニルヴァーナ",
+    "birthYear": 2003,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "エルハーブ",
-    "csvDam": "キリプリンセス"
+    "matchedBy": "name+sire+dam"
   },
-  "horse_4272": {
-    "name": "マイネアイル",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Candy Stripes",
-    "csvDam": "Ocean Bay"
-  },
-  "horse_4425": {
-    "name": "マイネルブラウ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "アンバーシヤダイ",
-    "csvDam": "オカノブルー"
-  },
-  "horse_4109": {
-    "name": "マカイビーディーヴァ",
+  "horse_3765": {
+    "name": "メイショウカイドウ",
     "birthYear": 1999,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Desert King",
-    "csvDam": "Tugela"
+    "matchedBy": "name+sire+dam"
   },
-  "horse_4274": {
-    "name": "マグナーテン",
-    "birthYear": 1996,
+  "horse_3766": {
+    "name": "マチカネキララ",
+    "birthYear": 2002,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3767": {
+    "name": "ジョイフルハート",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3769": {
+    "name": "サンライズキング",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3770": {
+    "name": "ドンクール",
+    "birthYear": 2002,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3771": {
+    "name": "メイショウサライ",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3775": {
+    "name": "アドマイヤホクト",
+    "birthYear": 2004,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3776": {
+    "name": "アンバージャック",
+    "birthYear": 2003,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3777": {
+    "name": "コスモシンドラー",
+    "birthYear": 2002,
     "source": "hokanyou.csv",
     "matchedBy": "unique-name",
-    "csvSire": "Danzig",
-    "csvDam": "Magic Night"
+    "csvSire": "Green Desert",
+    "csvDam": "Anniegetyourgun"
   },
-  "horse_4533": {
-    "name": "マチカネキンノホシ",
-    "birthYear": 1996,
+  "horse_3783": {
+    "name": "シンボリエスケープ",
+    "birthYear": 2001,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Seattle Slew",
-    "csvDam": "Alysbelle"
+    "matchedBy": "name+sire+dam"
   },
-  "horse_4662": {
-    "name": "マンハッタンカフェ",
-    "birthYear": 1998,
+  "horse_3793": {
+    "name": "アドマイヤタイトル",
+    "birthYear": 2002,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "サンデーサイレンス",
-    "csvDam": "サトルチェンジ"
+    "matchedBy": "name+sire+dam"
   },
-  "horse_4584": {
-    "name": "マンボツイスト",
-    "birthYear": 1995,
+  "horse_3794": {
+    "name": "トーセンブライト",
+    "birthYear": 2001,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Kingmambo",
-    "csvDam": "Lotka"
+    "matchedBy": "name+sire+dam"
   },
-  "horse_4083": {
-    "name": "ミスパスカリ",
+  "horse_3795": {
+    "name": "クーリンガー",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3796": {
+    "name": "マンオブパーサー",
+    "birthYear": 2003,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "タヤスツヨシ",
+    "dam": "タップユアトウズ"
+  },
+  "horse_3809": {
+    "name": "ホッコーソレソレー",
+    "birthYear": 2002,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3810": {
+    "name": "ピカレスクコート",
+    "birthYear": 2002,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3813": {
+    "name": "マイソールサウンド",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3816": {
+    "name": "マイネサマンサ",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3817": {
+    "name": "マドモアゼルドパリ",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3826": {
+    "name": "イースター",
+    "birthYear": 2003,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3827": {
+    "name": "メイショウオウテ",
+    "birthYear": 2002,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3828": {
+    "name": "ブルーショットガン",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3829": {
+    "name": "アジュディミツオー",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3831": {
+    "name": "シーキングザベスト",
     "birthYear": 2001,
     "source": "hokanyou.csv",
     "matchedBy": "unique-name",
-    "csvSire": "Mr. Greeley",
-    "csvDam": "ブルーアヴェニュー"
+    "csvSire": "Seeking the Gold",
+    "csvDam": "Mackie"
   },
-  "horse_4298": {
-    "name": "ミッキーベル",
-    "birthYear": 2000,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "サクラローレル",
-    "csvDam": "エイシンゴーデイー"
-  },
-  "horse_4151": {
-    "name": "ミッドタウン",
+  "horse_3833": {
+    "name": "グラスポジション",
     "birthYear": 1999,
     "source": "hokanyou.csv",
     "matchedBy": "unique-name",
-    "csvSire": "Danehill",
-    "csvDam": "Soie de Rose"
+    "csvSire": "リアルシヤダイ",
+    "csvDam": "アンソレイユ"
   },
-  "horse_4661": {
-    "name": "メイショウドトウ",
-    "birthYear": 1996,
+  "horse_3834": {
+    "name": "セレスステーラー",
+    "birthYear": 2003,
     "source": "hokanyou.csv",
     "matchedBy": "unique-name",
-    "csvSire": "Bigstone",
-    "csvDam": "Princess Reema"
+    "csvSire": "グラスワンダー",
+    "csvDam": "シルヴアード"
   },
-  "horse_4505": {
-    "name": "ヤマニンリスペクト",
-    "birthYear": 1997,
+  "horse_3836": {
+    "name": "バイロイト",
+    "birthYear": 2001,
     "source": "hokanyou.csv",
     "matchedBy": "unique-name",
-    "csvSire": "サンデーサイレンス",
-    "csvDam": "ヤマニンシヤレード"
+    "csvSire": "Singspiel",
+    "csvDam": "Dancerette"
   },
-  "horse_4449": {
-    "name": "リージェントブラフ",
-    "birthYear": 1996,
+  "horse_3837": {
+    "name": "ラヴァリージェニオ",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3842": {
+    "name": "サイキョウワールド",
+    "birthYear": 2002,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "パントレセレブル",
+    "dam": "サイキョウザクラ"
+  },
+  "horse_3843": {
+    "name": "ボードスウィーパー",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3845": {
+    "name": "エアセレソン",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3847": {
+    "name": "エンシェントヒル",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3848": {
+    "name": "カフェオリンポス",
+    "birthYear": 2001,
     "source": "hokanyou.csv",
     "matchedBy": "unique-name",
-    "csvSire": "パークリージエント",
-    "csvDam": "サリーベル"
+    "csvSire": "Grand Slam",
+    "csvDam": "Cognac Lady"
   },
-  "horse_4252": {
-    "name": "リキアイタイカン",
+  "horse_3854": {
+    "name": "キネティクス",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3856": {
+    "name": "アサクサデンエン",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Singspiel",
+    "csvDam": "Whitewater Affair"
+  },
+  "horse_3857": {
+    "name": "チアフルスマイル",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3864": {
+    "name": "タイムパラドックス",
     "birthYear": 1998,
     "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "アフリート",
-    "csvDam": "ノーノーネヴアー"
+    "matchedBy": "name+sire+dam"
   },
-  "horse_4307": {
-    "name": "ルゼル",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Zafonic",
-    "csvDam": "Schezerade"
-  },
-  "horse_4643": {
-    "name": "ロードフォレスター",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Charnwood Forest",
-    "csvDam": "La Vigie"
-  },
-  "horse_4226": {
-    "name": "ロードフラッグ",
-    "birthYear": 1997,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "デインヒル",
-    "csvDam": "ダイナフラツグ"
-  },
-  "horse_4470": {
-    "name": "ロッキーアピール",
-    "birthYear": 1998,
-    "source": "hokanyou.csv",
-    "matchedBy": "unique-name",
-    "csvSire": "Valid Appeal",
-    "csvDam": "Dame's Rocket"
-  },
-  "horse_4242": {
-    "name": "ワールドスケール",
+  "horse_3865": {
+    "name": "ハードクリスタル",
     "birthYear": 2000,
     "source": "hokanyou.csv",
     "matchedBy": "unique-name",
-    "csvSire": "Spinning World",
-    "csvDam": "Savannah Song"
+    "csvSire": "クリスタルグリツターズ",
+    "csvDam": "スイートミルド"
+  },
+  "horse_3870": {
+    "name": "チェストウイング",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3871": {
+    "name": "ルーベンスメモリー",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3873": {
+    "name": "トリリオンカット",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Swain",
+    "csvDam": "Sabeline"
+  },
+  "horse_3882": {
+    "name": "ストラタジェム",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3883": {
+    "name": "テイクオーバーターゲット",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Celtic Swing",
+    "csvDam": "Shady Stream"
+  },
+  "horse_3890": {
+    "name": "ネイティヴハート",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "スターオブコジーン",
+    "csvDam": "ポトマツクチエリー"
+  },
+  "horse_3892": {
+    "name": "マルカキセキ",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3893": {
+    "name": "スクールボーイ",
+    "birthYear": 2000,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "フサイチコンコルド",
+    "dam": "ユートガビー"
+  },
+  "horse_3905": {
+    "name": "ツルガオカハヤテ",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3906": {
+    "name": "トールハンマー",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
   },
   "horse_3907": {
     "name": "ワイルドシャウト",
@@ -2705,6 +973,1376 @@
     "csvSire": "Rahy",
     "csvDam": "Head East"
   },
+  "horse_3909": {
+    "name": "モノポール",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3910": {
+    "name": "ブルートルネード",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3911": {
+    "name": "ファストタテヤマ",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3916": {
+    "name": "アルビレオ",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3918": {
+    "name": "サイドワインダー",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3919": {
+    "name": "ニューベリー",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3920": {
+    "name": "フジサイレンス",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3921": {
+    "name": "ワディラム",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3927": {
+    "name": "サザンツイスター",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3928": {
+    "name": "ツルマルヨカニセ",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3929": {
+    "name": "タガノデンジャラス",
+    "birthYear": 2002,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3930": {
+    "name": "カネツテンビー",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3931": {
+    "name": "ダイワメンフィス",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3932": {
+    "name": "テイエムチュラサン",
+    "birthYear": 2002,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3933": {
+    "name": "レイズアンドコール",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3934": {
+    "name": "カイトヒルウインド",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Saint Ballado",
+    "csvDam": "Sloane Street"
+  },
+  "horse_3935": {
+    "name": "ステンカラージン",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Pulpit",
+    "csvDam": "Marshesseaux"
+  },
+  "horse_3936": {
+    "name": "カナハラドラゴン",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "アンバーシヤダイ",
+    "csvDam": "ミナガワローマン"
+  },
+  "horse_3942": {
+    "name": "シルクフェイマス",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3945": {
+    "name": "ウインレジェンド",
+    "birthYear": 2003,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3947": {
+    "name": "ニシノデュー",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3963": {
+    "name": "ヒシアトラス",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3964": {
+    "name": "プライドキム",
+    "birthYear": 2002,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "アフリート",
+    "dam": "ステファーナ"
+  },
+  "horse_3970": {
+    "name": "ハイフレンドトライ",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "リアルシヤダイ",
+    "csvDam": "ハイフレンドバード"
+  },
+  "horse_3983": {
+    "name": "スターキングマン",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Kingmambo",
+    "csvDam": "Princesse Timide"
+  },
+  "horse_3984": {
+    "name": "タイキエニグマ",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Rubiano",
+    "csvDam": "Certain Secret"
+  },
+  "horse_3986": {
+    "name": "タガノゲルニカ",
+    "birthYear": 2002,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3993": {
+    "name": "エイシンヘーベ",
+    "birthYear": 2001,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "エイシンワシントン",
+    "dam": "エイシンオープン"
+  },
+  "horse_3994": {
+    "name": "グランリーオ",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3996": {
+    "name": "マイティスプリング",
+    "birthYear": 2002,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3998": {
+    "name": "マイネルボウノット",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_3999": {
+    "name": "マルブツトップ",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4000": {
+    "name": "アンドゥオール",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4003": {
+    "name": "エルノヴァ",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4004": {
+    "name": "メジロマントル",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4006": {
+    "name": "マイネソーサリス",
+    "birthYear": 2001,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "ブライアンズタイム",
+    "dam": "マイネマジック"
+  },
+  "horse_4007": {
+    "name": "タップダンスシチー",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Pleasant Tap",
+    "csvDam": "All Dance"
+  },
+  "horse_4008": {
+    "name": "サンライズペガサス",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4010": {
+    "name": "ヘヴンリーロマンス",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4011": {
+    "name": "ウインラディウス",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4023": {
+    "name": "パーソナルラッシュ",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Wild Rush",
+    "csvDam": "Personally"
+  },
+  "horse_4025": {
+    "name": "デュランダル",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4026": {
+    "name": "ビッグゴールド",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4028": {
+    "name": "ダイタクバートラム",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4041": {
+    "name": "ボーンキング",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4043": {
+    "name": "サクラセンチュリー",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4044": {
+    "name": "プレシャスカフェ",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4045": {
+    "name": "シルキーラグーン",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4046": {
+    "name": "カルストンライトオ",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4047": {
+    "name": "コイントス",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4052": {
+    "name": "セフティーエンペラ",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4053": {
+    "name": "ナイキアヘッド",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Boston Harbor",
+    "csvDam": "Bay Barrister"
+  },
+  "horse_4060": {
+    "name": "アグネスシラヌイ",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4061": {
+    "name": "エリモマキシム",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4063": {
+    "name": "ダイワレイダース",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4065": {
+    "name": "マルターズホーク",
+    "birthYear": 1997,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "サザンヘイロー",
+    "dam": "ミスティシルヴァー"
+  },
+  "horse_4067": {
+    "name": "マチカネメニモミヨ",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4076": {
+    "name": "ウイングランツ",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4077": {
+    "name": "スプリングシオン",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4079": {
+    "name": "ユキノサンロイヤル",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4080": {
+    "name": "トーセンダンディ",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4083": {
+    "name": "ミスパスカリ",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Mr. Greeley",
+    "csvDam": "ブルーアヴェニュー"
+  },
+  "horse_4084": {
+    "name": "ゴールデンロドリゴ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4090": {
+    "name": "ツルマルファイター",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4091": {
+    "name": "スリージェム",
+    "birthYear": 2001,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "フォーティナイナー",
+    "dam": "ダイヤモンドスノー"
+  },
+  "horse_4092": {
+    "name": "テイエムアクション",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4093": {
+    "name": "エイシンハンプトン",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Dynaformer",
+    "csvDam": "Sedona Berry"
+  },
+  "horse_4094": {
+    "name": "ニホンピロサート",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4095": {
+    "name": "サイレンスボーイ",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4099": {
+    "name": "ウインジェネラーレ",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4107": {
+    "name": "ヒシミラクル",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "サツカーボーイ",
+    "csvDam": "シュンサクヨシコ"
+  },
+  "horse_4109": {
+    "name": "マカイビーディーヴァ",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Desert King",
+    "csvDam": "Tugela"
+  },
+  "horse_4113": {
+    "name": "ハギノハイグレイド",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4114": {
+    "name": "サミーミラクル",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4117": {
+    "name": "イシノミューズ",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4118": {
+    "name": "ダンツジャッジ",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4137": {
+    "name": "カリプソパンチ",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4138": {
+    "name": "アルスブランカ",
+    "birthYear": 1999,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "ラストタイクーン",
+    "dam": "チカリー"
+  },
+  "horse_4139": {
+    "name": "ノボトゥルー",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Broad Brush",
+    "csvDam": "Nastique"
+  },
+  "horse_4140": {
+    "name": "マイネルセレクト",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4143": {
+    "name": "アンフィトリオン",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4144": {
+    "name": "タニノエタニティ",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4151": {
+    "name": "ミッドタウン",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Danehill",
+    "csvDam": "Soie de Rose"
+  },
+  "horse_4152": {
+    "name": "スパイキュール",
+    "birthYear": 2000,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "サンデーサイレンス",
+    "dam": "クラフティワイフ"
+  },
+  "horse_4153": {
+    "name": "ストロングブラッド",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4154": {
+    "name": "アグネスウイング",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "End Sweep",
+    "csvDam": "Tuesday Edition"
+  },
+  "horse_4155": {
+    "name": "トップオブワールド",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4156": {
+    "name": "エリモピクシー",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "ダンシングブレーヴ",
+    "csvDam": "エリモシユーテング"
+  },
+  "horse_4157": {
+    "name": "アクティブバイオ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4158": {
+    "name": "ジンクライシス",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Subordination",
+    "csvDam": "Daring Verse"
+  },
+  "horse_4159": {
+    "name": "ピットファイター",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Pulpit",
+    "csvDam": "デアリングダンジグ"
+  },
+  "horse_4164": {
+    "name": "ナリタセンチュリー",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4166": {
+    "name": "ツルマルボーイ",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4167": {
+    "name": "ドリームカムカム",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4180": {
+    "name": "ハッピールック",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4182": {
+    "name": "スーパージーン",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "サツカーボーイ",
+    "csvDam": "メイタイザン"
+  },
+  "horse_4186": {
+    "name": "シェルゲーム",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Swain",
+    "csvDam": "Chancey Squaw"
+  },
+  "horse_4189": {
+    "name": "トウカイオーザ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "サンデーサイレンス",
+    "csvDam": "トウカイナチユラル"
+  },
+  "horse_4190": {
+    "name": "グラスエイコウオー",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "French Deputy",
+    "csvDam": "Explosive Girl"
+  },
+  "horse_4191": {
+    "name": "マーベラスダンス",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4196": {
+    "name": "シベリアンホーク",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Spinning World",
+    "csvDam": "Misty Silver"
+  },
+  "horse_4199": {
+    "name": "マイネルジャパン",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4200": {
+    "name": "チリエージェ",
+    "birthYear": 2001,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4206": {
+    "name": "エイシンスペンサー",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Hennessy",
+    "csvDam": "Cherry a La Mode"
+  },
+  "horse_4207": {
+    "name": "エイシンハリマオー",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4208": {
+    "name": "チアズブライトリー",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4209": {
+    "name": "コスモラブシック",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4210": {
+    "name": "タカオルビー",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4211": {
+    "name": "マイネルアムンゼン",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4212": {
+    "name": "タマモヒビキ",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "コマンダーインチーフ",
+    "csvDam": "タマモハツピー"
+  },
+  "horse_4213": {
+    "name": "マヤノモーリス",
+    "birthYear": 1998,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "エルグランセニョール",
+    "dam": "カライスカットアップ"
+  },
+  "horse_4214": {
+    "name": "グリーンプレジャー",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4220": {
+    "name": "ブレイクタイム",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4221": {
+    "name": "オーゴンサンデー",
+    "birthYear": 1999,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "マーベラスサンデー",
+    "dam": "ピサノダイヤ"
+  },
+  "horse_4222": {
+    "name": "トーホウシデン",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4223": {
+    "name": "ダービーレグノ",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4224": {
+    "name": "ヒマラヤンブルー",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4226": {
+    "name": "ロードフラッグ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "デインヒル",
+    "csvDam": "ダイナフラツグ"
+  },
+  "horse_4228": {
+    "name": "カゼニフカレテ",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4233": {
+    "name": "ビワシンセイキ",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4234": {
+    "name": "インタータイヨウ",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4241": {
+    "name": "タケハナオペラ",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "サツカーボーイ",
+    "csvDam": "タケハナホープ"
+  },
+  "horse_4242": {
+    "name": "ワールドスケール",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Spinning World",
+    "csvDam": "Savannah Song"
+  },
+  "horse_4243": {
+    "name": "ハスラー",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "サンデーサイレンス",
+    "csvDam": "セブンレツトウ"
+  },
+  "horse_4251": {
+    "name": "ロイヤルキャンサー",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4252": {
+    "name": "リキアイタイカン",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "アフリート",
+    "csvDam": "ノーノーネヴアー"
+  },
+  "horse_4264": {
+    "name": "ネイチャーヒーラー",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Valiant Nature",
+    "csvDam": "Mintullah"
+  },
+  "horse_4272": {
+    "name": "マイネアイル",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Candy Stripes",
+    "csvDam": "Ocean Bay"
+  },
+  "horse_4273": {
+    "name": "メイショウキオウ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4274": {
+    "name": "マグナーテン",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Danzig",
+    "csvDam": "Magic Night"
+  },
+  "horse_4277": {
+    "name": "テンシノキセキ",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4278": {
+    "name": "ヒシブリザード",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4279": {
+    "name": "エリモシャルマン",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4282": {
+    "name": "ローズバド",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4291": {
+    "name": "アタゴタイショウ",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Silver Deputy",
+    "csvDam": "Soaring Sultana"
+  },
+  "horse_4292": {
+    "name": "ドローアウター",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Distorted Humor",
+    "csvDam": "Glamorous Habit"
+  },
+  "horse_4294": {
+    "name": "ノボジャック",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "French Deputy",
+    "csvDam": "Flight of Angels"
+  },
+  "horse_4295": {
+    "name": "シャドウスケイプ",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4297": {
+    "name": "スターリングローズ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4298": {
+    "name": "ミッキーベル",
+    "birthYear": 2000,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "サクラローレル",
+    "csvDam": "エイシンゴーデイー"
+  },
+  "horse_4299": {
+    "name": "イエローボイス",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4300": {
+    "name": "フェリシタル",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4304": {
+    "name": "ディバインシルバー",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Silver Deputy",
+    "csvDam": "Be My Baby"
+  },
+  "horse_4306": {
+    "name": "ハッピーパス",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4307": {
+    "name": "ルゼル",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Zafonic",
+    "csvDam": "Schezerade"
+  },
+  "horse_4308": {
+    "name": "シロキタゴッドラン",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4309": {
+    "name": "イサオヒート",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4310": {
+    "name": "マイネルブライアン",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4311": {
+    "name": "ホーマンベルウィン",
+    "birthYear": 1997,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "コマンダーインチーフ",
+    "dam": "ラシアンパーティ"
+  },
+  "horse_4312": {
+    "name": "トライワンズラック",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4314": {
+    "name": "タガノマイバッハ",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4318": {
+    "name": "スピニングアロー",
+    "birthYear": 1998,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "アフリート",
+    "dam": "ツバキヒメ"
+  },
+  "horse_4321": {
+    "name": "エルカミーノ",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4324": {
+    "name": "イーグルカフェ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Gulch",
+    "csvDam": "Net Dancer"
+  },
+  "horse_4325": {
+    "name": "アグネスデジタル",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Crafty Prospector",
+    "csvDam": "Chancey Squaw"
+  },
+  "horse_4327": {
+    "name": "テイエムサンデー",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4328": {
+    "name": "ニシノムーンライト",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Diesis",
+    "csvDam": "リメンバーミッドナイト"
+  },
+  "horse_4333": {
+    "name": "ミレニアムバイオ",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4334": {
+    "name": "レディパステル",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4336": {
+    "name": "ダイヤモンドビコー",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4337": {
+    "name": "トーワトレジャー",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4341": {
+    "name": "メジロランバート",
+    "birthYear": 1995,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4342": {
+    "name": "ホットシークレット",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4343": {
+    "name": "ダンツランニング",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4344": {
+    "name": "ロサード",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4345": {
+    "name": "エイシンプレストン",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Green Dancer",
+    "csvDam": "Warranty Applied"
+  },
+  "horse_4350": {
+    "name": "サンライズジェガー",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "リアルシヤダイ",
+    "csvDam": "ヤマノトウショウ"
+  },
+  "horse_4351": {
+    "name": "トシザブイ",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4352": {
+    "name": "トレジャー",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4353": {
+    "name": "サンライズシャーク",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4354": {
+    "name": "イルバチオ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "ロイヤルアカデミー2",
+    "csvDam": "サーファーガール"
+  },
+  "horse_4355": {
+    "name": "キーゴールド",
+    "birthYear": 1995,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "アンシエントタイム",
+    "csvDam": "キーフラワー"
+  },
+  "horse_4357": {
+    "name": "ビリーヴ",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4358": {
+    "name": "エアエミネム",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Danehill",
+    "csvDam": "Kissagram"
+  },
+  "horse_4360": {
+    "name": "マヤノアブソルート",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4361": {
+    "name": "ハレルヤサンデー",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4369": {
+    "name": "エスジービーム",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4370": {
+    "name": "キングフィデリア",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Kingmambo",
+    "csvDam": "フィデリア"
+  },
+  "horse_4371": {
+    "name": "ミデオンビット",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4372": {
+    "name": "ゴーステディ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4373": {
+    "name": "ゴッドオブチャンス",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Cozzene",
+    "csvDam": "チームカラーズ"
+  },
+  "horse_4374": {
+    "name": "ティエッチグレース",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Capote",
+    "csvDam": "Confirmed Dancer"
+  },
+  "horse_4375": {
+    "name": "タイキトレジャー",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Miswaki",
+    "csvDam": "Royal Bride"
+  },
+  "horse_4376": {
+    "name": "ユウワンプラテクト",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4377": {
+    "name": "テイエムオーシャン",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4378": {
+    "name": "ノブレスオブリッジ",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4379": {
+    "name": "ギャンブルローズ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4380": {
+    "name": "コスモリバーサル",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4381": {
+    "name": "アラタマインディ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "A.P. Indy",
+    "csvDam": "アセルティンズエンジェルス"
+  },
+  "horse_4386": {
+    "name": "ブラザータイクーン",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "トニービン",
+    "csvDam": "ビユーパーダンス"
+  },
+  "horse_4387": {
+    "name": "ウインブレイズ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4388": {
+    "name": "クラフトマンシップ",
+    "birthYear": 1995,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4389": {
+    "name": "ゼンノショウグン",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4390": {
+    "name": "ショコット",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "デインヒル",
+    "csvDam": "ショーガール2"
+  },
+  "horse_4392": {
+    "name": "エーピーグリード",
+    "birthYear": 1995,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4399": {
+    "name": "ダンツフレーム",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4400": {
+    "name": "タマモスオード",
+    "birthYear": 1997,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "アサティス",
+    "dam": "クラウンセーブル"
+  },
+  "horse_4401": {
+    "name": "タニノゴードン",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4402": {
+    "name": "サンキンヘイロー",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "ジョリーズヘイロー",
+    "csvDam": "クリプテイツク"
+  },
+  "horse_4405": {
+    "name": "キスミーテンダー",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "サンデーサイレンス",
+    "csvDam": "レツツキツス"
+  },
+  "horse_4408": {
+    "name": "グラスワールド",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Rahy",
+    "csvDam": "A Chance of Storm"
+  },
+  "horse_4411": {
+    "name": "イングランディーレ",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4412": {
+    "name": "トップコマンダー",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4413": {
+    "name": "ゴールドアリュール",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4414": {
+    "name": "スマートボーイ",
+    "birthYear": 1995,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
   "horse_4415": {
     "name": "ワンモアマイライン",
     "birthYear": 1998,
@@ -2712,5 +2350,831 @@
     "matchedBy": "unique-name",
     "csvSire": "サツカーボーイ",
     "csvDam": "ロイヤルタイム"
+  },
+  "horse_4416": {
+    "name": "サンエムノヴァ",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4424": {
+    "name": "アンクルスーパー",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "デインヒル",
+    "csvDam": "サークルシヨウワ"
+  },
+  "horse_4425": {
+    "name": "マイネルブラウ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "アンバーシヤダイ",
+    "csvDam": "オカノブルー"
+  },
+  "horse_4426": {
+    "name": "ショウナンカンプ",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4427": {
+    "name": "マンデームスメ",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4428": {
+    "name": "エアトゥーレ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4445": {
+    "name": "トウカイポイント",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4446": {
+    "name": "ラスカルスズカ",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4447": {
+    "name": "カネツフルーヴ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4448": {
+    "name": "レギュラーメンバー",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4449": {
+    "name": "リージェントブラフ",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "パークリージエント",
+    "csvDam": "サリーベル"
+  },
+  "horse_4450": {
+    "name": "プリエミネンス",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4451": {
+    "name": "ニホンピロハーレー",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4452": {
+    "name": "ダンツキャスト",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4458": {
+    "name": "キングオブサンデー",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4459": {
+    "name": "エイシンエーケン",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Boundary",
+    "csvDam": "Math"
+  },
+  "horse_4463": {
+    "name": "クロノスシチー",
+    "birthYear": 1998,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "フォーントリック",
+    "dam": "タシャラニー"
+  },
+  "horse_4468": {
+    "name": "ニチドウマジック",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4469": {
+    "name": "エンドレスデザート",
+    "birthYear": 1999,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "End Sweep",
+    "csvDam": "Sweet Nena"
+  },
+  "horse_4470": {
+    "name": "ロッキーアピール",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Valid Appeal",
+    "csvDam": "Dame's Rocket"
+  },
+  "horse_4471": {
+    "name": "シベリアンメドウ",
+    "birthYear": 1999,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "メドウレイク",
+    "dam": "タシュジール"
+  },
+  "horse_4472": {
+    "name": "ビーマイナカヤマ",
+    "birthYear": 1994,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "エブロス",
+    "csvDam": "ビーマイフアイア"
+  },
+  "horse_4477": {
+    "name": "アグネススペシャル",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4478": {
+    "name": "イブキガバメント",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4479": {
+    "name": "メイショウラムセス",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4480": {
+    "name": "ジャングルポケット",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4481": {
+    "name": "ナリタトップロード",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "サツカーボーイ",
+    "csvDam": "フローラルマジック"
+  },
+  "horse_4482": {
+    "name": "エアシャカール",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4484": {
+    "name": "バイオマスター",
+    "birthYear": 1996,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "ストローリングアロング",
+    "dam": "ウェルシュガーデン"
+  },
+  "horse_4485": {
+    "name": "ジェミードレス",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4487": {
+    "name": "ポンデローザ",
+    "birthYear": 1997,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "サンデーサイレンス",
+    "dam": "ゲイアティーガール"
+  },
+  "horse_4492": {
+    "name": "ダブルハピネス",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "ロイヤルアカデミー2",
+    "csvDam": "エンジェルクロス"
+  },
+  "horse_4493": {
+    "name": "アドマイヤコジーン",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Cozzene",
+    "csvDam": "アドマイヤマカディ"
+  },
+  "horse_4494": {
+    "name": "シルクプリマドンナ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4495": {
+    "name": "スエヒロコマンダー",
+    "birthYear": 1995,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4496": {
+    "name": "キングザファクト",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Known Fact",
+    "csvDam": "Koluctoo's Robin"
+  },
+  "horse_4497": {
+    "name": "アメリカンボス",
+    "birthYear": 1995,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Kingmambo",
+    "csvDam": "Redeemer"
+  },
+  "horse_4505": {
+    "name": "ヤマニンリスペクト",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "サンデーサイレンス",
+    "csvDam": "ヤマニンシヤレード"
+  },
+  "horse_4506": {
+    "name": "テンザンセイザ",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4507": {
+    "name": "トロットスター",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4508": {
+    "name": "サイキョウサンデー",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4510": {
+    "name": "エアスマップ",
+    "birthYear": 1995,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Danehill",
+    "csvDam": "Subtle Change"
+  },
+  "horse_4515": {
+    "name": "パイアン",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Cozzene",
+    "csvDam": "ウッドマンズシック"
+  },
+  "horse_4517": {
+    "name": "トッププロテクター",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4518": {
+    "name": "トーホウドリーム",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4519": {
+    "name": "トウカイパルサー",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4520": {
+    "name": "オースミブライト",
+    "birthYear": 1996,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "ラストタイクーン",
+    "dam": "タイセイカグラ"
+  },
+  "horse_4529": {
+    "name": "チョウカイリョウガ",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4530": {
+    "name": "エイシンワンシャン",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4531": {
+    "name": "ウインマーベラス",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4532": {
+    "name": "タイキブライドル",
+    "birthYear": 1995,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "スリルショー",
+    "dam": "サブミッション"
+  },
+  "horse_4533": {
+    "name": "マチカネキンノホシ",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Seattle Slew",
+    "csvDam": "Alysbelle"
+  },
+  "horse_4534": {
+    "name": "ニホンピロニール",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4535": {
+    "name": "マティーニ",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4536": {
+    "name": "クラレットパンチ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4537": {
+    "name": "パープルエビス",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4538": {
+    "name": "グランドシンザン",
+    "birthYear": 1994,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4539": {
+    "name": "ティコティコタック",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "サツカーボーイ",
+    "csvDam": "ワンアイドバンブー"
+  },
+  "horse_4540": {
+    "name": "カリスマサンオペラ",
+    "birthYear": 1997,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "オペラハウス",
+    "dam": "ミホクイーン"
+  },
+  "horse_4541": {
+    "name": "ヤマカツスズラン",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4547": {
+    "name": "ダイワジアン",
+    "birthYear": 1996,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "ノーザンテースト",
+    "dam": "ナショナルフラッグ"
+  },
+  "horse_4548": {
+    "name": "バイラリーナ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4549": {
+    "name": "スカイアンドリュウ",
+    "birthYear": 1997,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "ポリッシュパトリオット",
+    "dam": "エナジートウショウ"
+  },
+  "horse_4550": {
+    "name": "エアギャングスター",
+    "birthYear": 1996,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "サンデーサイレンス",
+    "dam": "ダンシングキイ"
+  },
+  "horse_4551": {
+    "name": "ブリリアントロード",
+    "birthYear": 1995,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "ブライアンズタイム",
+    "csvDam": "マリーテイステイ"
+  },
+  "horse_4552": {
+    "name": "グランパドドゥ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4553": {
+    "name": "タフネススター",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4554": {
+    "name": "フサイチユーキャン",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4555": {
+    "name": "メジロサンドラ",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4556": {
+    "name": "ロードクロノス",
+    "birthYear": 1995,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4557": {
+    "name": "カチドキリュウ",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "アンバーシヤダイ",
+    "csvDam": "トウシヨウフオモサ"
+  },
+  "horse_4561": {
+    "name": "ユーワファルコン",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4562": {
+    "name": "シンコウスプレンダ",
+    "birthYear": 1994,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Dayjur",
+    "csvDam": "Over Your Shoulder"
+  },
+  "horse_4563": {
+    "name": "キタサンチャンネル",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4564": {
+    "name": "オーシャンアクロス",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Salt Lake",
+    "csvDam": "Believe It Beloved"
+  },
+  "horse_4565": {
+    "name": "サンフォードシチー",
+    "birthYear": 1995,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "ヤマニンゼファー",
+    "csvDam": "テイムズシチー"
+  },
+  "horse_4566": {
+    "name": "ゲイリーエクシード",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Rubiano",
+    "csvDam": "Gaily Sheena"
+  },
+  "horse_4567": {
+    "name": "ジョウテンブレーヴ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4571": {
+    "name": "ゼンノエルシド",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Caerleon",
+    "csvDam": "Embla"
+  },
+  "horse_4572": {
+    "name": "ダイタクリーヴァ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4584": {
+    "name": "マンボツイスト",
+    "birthYear": 1995,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Kingmambo",
+    "csvDam": "Lotka"
+  },
+  "horse_4585": {
+    "name": "カネトシオペラクン",
+    "birthYear": 1997,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "オペラハウス",
+    "dam": "ミルセイウン"
+  },
+  "horse_4586": {
+    "name": "タガノフォーティ",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "フォーティナイナー",
+    "csvDam": "スパート2"
+  },
+  "horse_4587": {
+    "name": "エアピエール",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4591": {
+    "name": "トラストファイヤー",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4592": {
+    "name": "エイシンルバーン",
+    "birthYear": 1996,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "ミシエロ",
+    "dam": "ミセスマグナム"
+  },
+  "horse_4593": {
+    "name": "スティンガー",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4594": {
+    "name": "メジロダーリング",
+    "birthYear": 1996,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "グリーンデザート",
+    "dam": "アイルオブグラス"
+  },
+  "horse_4595": {
+    "name": "ゲイリーフラッシュ",
+    "birthYear": 1993,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Danehill",
+    "csvDam": "Go Honey Go"
+  },
+  "horse_4596": {
+    "name": "アドマイヤロード",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4597": {
+    "name": "エリモブライアン",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4605": {
+    "name": "スパークホーク",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Silver Hawk",
+    "csvDam": "All My Memories"
+  },
+  "horse_4606": {
+    "name": "クルーピアスター",
+    "birthYear": 1996,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "サンデーサイレンス",
+    "dam": "クルーピアレディー"
+  },
+  "horse_4607": {
+    "name": "トゥザヴィクトリー",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4610": {
+    "name": "ウイングアロー",
+    "birthYear": 1995,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4611": {
+    "name": "ゴールドティアラ",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Seeking the Gold",
+    "csvDam": "Bright Tiara"
+  },
+  "horse_4612": {
+    "name": "トーシンブリザード",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4613": {
+    "name": "トーホウエンペラー",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4620": {
+    "name": "セイコーサンデー",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4621": {
+    "name": "ペインテドブラック",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4627": {
+    "name": "アイティースワロー",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4628": {
+    "name": "ナムラマイカ",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "サクラバクシンオー",
+    "csvDam": "サクラマツリ"
+  },
+  "horse_4630": {
+    "name": "ノボリユキオー",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "トニービン",
+    "csvDam": "フアーストラブ"
+  },
+  "horse_4640": {
+    "name": "ミスキャスト",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "name+sire+dam"
+  },
+  "horse_4643": {
+    "name": "ロードフォレスター",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Charnwood Forest",
+    "csvDam": "La Vigie"
+  },
+  "horse_4644": {
+    "name": "タマモルビーキング",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "デインヒル",
+    "csvDam": "タマモルビー"
+  },
+  "horse_4645": {
+    "name": "ホクセツキング",
+    "birthYear": 1996,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "モガンボ",
+    "dam": "Nijinsky\nSovereign"
+  },
+  "horse_4648": {
+    "name": "ホシオー",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "エルハーブ",
+    "csvDam": "キリプリンセス"
+  },
+  "horse_4657": {
+    "name": "アグネスゴールド",
+    "birthYear": 1998,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "サンデーサイレンス",
+    "dam": "Northern Dancer\nLady Victoria"
+  },
+  "horse_4660": {
+    "name": "テイエムオペラオー",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "オペラハウス",
+    "csvDam": "ワンスウエド"
+  },
+  "horse_4661": {
+    "name": "メイショウドトウ",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Bigstone",
+    "csvDam": "Princess Reema"
+  },
+  "horse_4662": {
+    "name": "マンハッタンカフェ",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "サンデーサイレンス",
+    "csvDam": "サトルチェンジ"
+  },
+  "horse_4664": {
+    "name": "シンコウカリド",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Silver Hawk",
+    "csvDam": "ハイドロカリド"
+  },
+  "horse_4666": {
+    "name": "メイショウオウドウ",
+    "birthYear": 1995,
+    "source": "manual-confirmed-remaining-unknowns",
+    "matchedBy": "horse-id+name+sire+dam",
+    "sire": "サンデーサイレンス",
+    "dam": "Northern Dancer\nGoofed"
+  },
+  "horse_4667": {
+    "name": "エイシンコジーン",
+    "birthYear": 1997,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "Cozzene",
+    "csvDam": "Rain Symphony"
+  },
+  "horse_4668": {
+    "name": "フサイチオーレ",
+    "birthYear": 1998,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "サンデーサイレンス",
+    "csvDam": "トリプルワウ"
+  },
+  "horse_4678": {
+    "name": "エイシンルーデンス",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "サンデーサイレンス",
+    "csvDam": "エイシングレシャス"
+  },
+  "horse_4679": {
+    "name": "タイキポーラ",
+    "birthYear": 1996,
+    "source": "hokanyou.csv",
+    "matchedBy": "unique-name",
+    "csvSire": "トウカイテイオー",
+    "csvDam": "スターオブザノース"
   }
 }
