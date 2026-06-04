@@ -706,6 +706,18 @@ function renderGlobalSearchList() {
       openRace(button.dataset.raceKey);
     });
   });
+  itemList.querySelectorAll("button[data-open-offspring-id]").forEach((button) => {
+    button.addEventListener("click", () => {
+      closeSidebarAfterListTap();
+      openOffspring(button.dataset.openOffspringId);
+    });
+  });
+  itemList.querySelectorAll("button[data-open-offspring-name]").forEach((button) => {
+    button.addEventListener("click", () => {
+      closeSidebarAfterListTap();
+      openOffspringByName(button.dataset.openOffspringName);
+    });
+  });
   itemList.querySelectorAll("button[data-jump-photo-key]").forEach((button) => {
     button.addEventListener("click", (event) => {
       const horseLink = event.target.closest("[data-open-horse-id]");
