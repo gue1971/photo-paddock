@@ -108,12 +108,14 @@ search.addEventListener("input", () => {
   if (state.query) state.sidebarOpen = true;
   if (state.mode === "horse") clearOffspringSelection();
   if (state.mode === "horse") {
-    const exact = state.db.horses.find((horse) => horse.name === state.query);
-    if (exact) {
-      state.selectedHorseId = exact.id;
+    const exactMatches = state.db.horses.filter((horse) => horse.name === state.query).sort(birthYearSort);
+    if (exactMatches.length) {
+      state.selectedHorseId = exactMatches[0].id;
       state.filters.horseTouch = "";
-      state.query = "";
-      search.value = "";
+      if (exactMatches.length === 1) {
+        state.query = "";
+        search.value = "";
+      }
     }
   }
   render();

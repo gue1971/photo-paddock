@@ -123,7 +123,7 @@ export function parsePhotoPage(html, pageUrl, issue, raceName, fallbackName) {
   const sexAge = profile.match(/([牡牝セ])\s*(\d+)/);
   const photoDate = normalizeJapaneseDate(profile.match(/[（(]([^）)]+撮影)[）)]/)?.[1] ?? "", issue);
   const image = html.match(/<img\s+src=["']([^"']*(?:(?:pp|p_photo)(\d+)|photo_(\d+))\.jpg)["'][^>]*>/i);
-  const comment = stripTags(html.match(/<table width="310"[\s\S]*?<font[^>]*>([\s\S]*?)<\/font>[\s\S]*?<\/table>/i)?.[1] ?? "");
+  const comment = extractComment(html, image);
   const pedigree = [...html.matchAll(/<font size="2" color="#000000">([\s\S]*?)<\/font>/gi)].map((match) => stripTags(match[1])).filter(Boolean);
   const sire = pedigree[0] ?? "";
   const dam = pedigree[5] ?? "";
@@ -149,6 +149,17 @@ export function parsePhotoPage(html, pageUrl, issue, raceName, fallbackName) {
       comment
     }
   };
+}
+
+function extractComment(html, imageMatch) {
+  if (!imageMatch) return "";
+  const afterImage = html.slice((imageMatch.index ?? 0) + imageMatch[0].length);
+  const beforePedigree = afterImage.split(/<table[^>]+width=["']?350["']?[^>]+border=["']?1["']?/i)[0] ?? afterImage;
+  const fontTexts = [...beforePedigree.matchAll(/<font\b[^>]*size=["']?2["']?[^>]*>([\s\S]*?)<\/font>/gi)]
+    .map((match) => stripTags(match[1]))
+    .map((text) => text.replace(/\s+/g, " ").trim())
+    .filter(Boolean);
+  return fontTexts.sort((a, b) => b.length - a.length)[0] ?? "";
 }
 
 function issueToDate(issue) {
