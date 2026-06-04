@@ -18,6 +18,7 @@ const state = {
   commentFontSize: loadCommentFontSize(),
   sidebarOpen: false,
   filterOpen: false,
+  storageOpen: false,
   openRaceYears: new Set(),
   favorites: new Set(loadFavoriteIds()),
   representatives: loadRepresentatives(),
@@ -142,9 +143,11 @@ toggleSidebar?.addEventListener("click", () => {
 });
 toggleStorage?.addEventListener("click", () => {
   const open = storageMenu?.hidden;
-  if (storageMenu) storageMenu.hidden = !open;
-  toggleStorage.classList.toggle("active", Boolean(open));
-  if (open) renderSettingsMenu();
+  state.storageOpen = Boolean(open);
+  if (state.storageOpen) {
+    state.filterOpen = false;
+  }
+  render();
 });
 exportStorage?.addEventListener("click", exportStorageData);
 importStorage?.addEventListener("change", importStorageData);
@@ -273,6 +276,7 @@ async function importStorageData() {
 }
 
 function closeStorageMenu() {
+  state.storageOpen = false;
   if (storageMenu) storageMenu.hidden = true;
   toggleStorage?.classList.remove("active");
 }
@@ -561,6 +565,7 @@ function render() {
   document.body.dataset.hasQuery = state.query || hasActiveFilters() ? "true" : "false";
   document.body.dataset.filterOpen = state.filterOpen ? "true" : "false";
   document.body.dataset.sidebarOpen = state.sidebarOpen ? "true" : "false";
+  document.body.dataset.storageOpen = state.storageOpen ? "true" : "false";
   document.body.dataset.viewMode = state.viewMode;
   document.body.dataset.commentFont = state.commentFontSize;
   modeHorse.classList.toggle("active", state.mode === "horse");
@@ -584,6 +589,8 @@ function render() {
     toggleSidebar.setAttribute("aria-label", toggleSidebar.title);
   }
   renderSettingsMenu();
+  if (storageMenu) storageMenu.hidden = !state.storageOpen;
+  toggleStorage?.classList.toggle("active", state.storageOpen);
   renderFilterControls();
 
   if (state.query) renderGlobalSearchList();

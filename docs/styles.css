@@ -681,13 +681,22 @@ body[data-comment-font="large"] .comment {
   }
 
   body[data-filter-open="true"] .sidebar,
+  body[data-storage-open="true"] .sidebar,
   body[data-sidebar-open="true"] .sidebar,
   body[data-mode="horse"][data-filter-open="true"] .sidebar {
     max-height: 62vh;
     max-height: 62dvh;
   }
 
+  body[data-storage-open="true"] .sidebar {
+    overflow: visible;
+  }
+
   body[data-sidebar-open="false"][data-has-query="false"][data-filter-open="false"] #itemList {
+    display: none;
+  }
+
+  body[data-storage-open="true"] #itemList {
     display: none;
   }
 
