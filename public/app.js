@@ -107,17 +107,6 @@ search.addEventListener("input", () => {
   state.query = search.value.trim();
   if (state.query) state.sidebarOpen = true;
   if (state.mode === "horse") clearOffspringSelection();
-  if (state.mode === "horse") {
-    const exactMatches = state.db.horses.filter((horse) => horse.name === state.query).sort(birthYearSort);
-    if (exactMatches.length) {
-      state.selectedHorseId = exactMatches[0].id;
-      state.filters.horseTouch = "";
-      if (exactMatches.length === 1) {
-        state.query = "";
-        search.value = "";
-      }
-    }
-  }
   render();
 });
 
@@ -421,10 +410,8 @@ function setMode(mode) {
   state.mode = mode;
   if (mode !== "horse") clearOffspringSelection();
   if (changed) {
-    state.query = "";
-    search.value = "";
     state.filterOpen = false;
-    state.sidebarOpen = false;
+    state.sidebarOpen = Boolean(state.query);
     if (mode === "horse" && !state.selectedHorseId) {
       state.selectedHorseId = firstFavoriteHorseId() || "";
     }
@@ -499,6 +486,7 @@ function openHorse(horseId) {
   state.mode = "horse";
   state.selectedHorseId = horseId;
   clearOffspringSelection();
+  clearQuery();
   state.filterOpen = false;
   state.filters.horseTouch = "";
   if (previousMode === "favorites") state.filters.favoriteTouch = "";
@@ -531,6 +519,7 @@ function openRace(raceKey) {
   state.mode = "race";
   clearOffspringSelection();
   state.selectedRaceKey = raceKey;
+  clearQuery();
   state.filterOpen = false;
   state.filters.horseTouch = "";
   state.filters.favoriteTouch = "";
@@ -542,6 +531,11 @@ function openRace(raceKey) {
   render();
 }
 
+function clearQuery() {
+  state.query = "";
+  search.value = "";
+}
+
 function searchHorseByPedigreeName(name) {
   if (!name) return;
   state.mode = "horse";
@@ -550,7 +544,7 @@ function searchHorseByPedigreeName(name) {
   state.filters.horseTouch = "";
   state.filterOpen = false;
   state.sidebarOpen = true;
-  search.value = "";
+  search.value = name;
   const exact = state.db.horses.find((horse) => normalizeTouchText(horse.name) === normalizeTouchText(name));
   if (exact) state.selectedHorseId = exact.id;
   render();
@@ -592,7 +586,8 @@ function render() {
   renderSettingsMenu();
   renderFilterControls();
 
-  if (state.mode === "race") renderRaceList();
+  if (state.query) renderGlobalSearchList();
+  else if (state.mode === "race") renderRaceList();
   else if (state.mode === "favorites") renderFavoriteList();
   else renderHorseList();
 
@@ -684,6 +679,50 @@ function raceFilterHtml() {
 
 function filterChip(action, value, label, active = false, className = "filter-chip") {
   return `<button type="button" class="${className} ${active ? "active" : ""}" data-filter-action="${action}" data-value="${escapeHtml(value)}">${escapeHtml(label)}</button>`;
+}
+
+function renderGlobalSearchList() {
+  const sections = globalSearchSections(state.query);
+  itemList.innerHTML = sections.map((section) => `
+    <section class="year-group search-group">
+      ${sectionHeader(section)}
+      ${section.items.map((item) => {
+        if (section.type === "race") return raceButton(item);
+        if (section.type === "favorite") return favoritePhotoButton(item);
+        return horseButton(item);
+      }).join("")}
+    </section>
+  `).join("") || `<div class="empty small">該当する候補がありません。</div>`;
+
+  itemList.querySelectorAll("button[data-horse-id]").forEach((button) => {
+    button.addEventListener("click", () => {
+      closeSidebarAfterListTap();
+      openHorse(button.dataset.horseId);
+    });
+  });
+  itemList.querySelectorAll("button[data-race-key]").forEach((button) => {
+    button.addEventListener("click", () => {
+      closeSidebarAfterListTap();
+      openRace(button.dataset.raceKey);
+    });
+  });
+  itemList.querySelectorAll("button[data-jump-photo-key]").forEach((button) => {
+    button.addEventListener("click", (event) => {
+      const horseLink = event.target.closest("[data-open-horse-id]");
+      if (horseLink) {
+        event.stopPropagation();
+        closeSidebarAfterListTap();
+        openHorse(horseLink.dataset.openHorseId);
+        return;
+      }
+      state.mode = "favorites";
+      clearQuery();
+      state.filterOpen = false;
+      closeSidebarAfterListTap();
+      render();
+      renderFavoriteDetail(button.dataset.jumpPhotoKey);
+    });
+  });
 }
 
 function renderHorseList() {
@@ -800,17 +839,7 @@ function renderFavoriteList() {
   const photos = filteredFavoritePhotos();
   itemList.innerHTML = `
     <section class="year-group">
-      ${photos.map((photo) => {
-        const horse = horseById(photo.horseId);
-        return `
-          <button type="button" class="horse-button" data-jump-photo-key="${escapeHtml(photo.key)}">
-            <span class="horse-name">
-              <span class="inline-link" data-open-horse-id="${escapeHtml(photo.horseId)}">${escapeHtml(horse?.name || "-")}</span>
-            </span>
-            <span class="horse-meta">${escapeHtml(photo.caption || "")}</span>
-          </button>
-        `;
-      }).join("") || `<div class="empty small">お気に入りはまだありません。</div>`}
+      ${photos.map(favoritePhotoButton).join("") || `<div class="empty small">お気に入りはまだありません。</div>`}
     </section>
   `;
   itemList.querySelectorAll("button[data-jump-photo-key]").forEach((button) => {
@@ -828,6 +857,18 @@ function renderFavoriteList() {
       render();
     });
   });
+}
+
+function favoritePhotoButton(photo) {
+  const horse = horseById(photo.horseId);
+  return `
+    <button type="button" class="horse-button" data-jump-photo-key="${escapeHtml(photo.key)}">
+      <span class="horse-name">
+        <span class="inline-link" data-open-horse-id="${escapeHtml(photo.horseId)}">${escapeHtml(horse?.name || "-")}</span>
+      </span>
+      <span class="horse-meta">${escapeHtml(photo.caption || "")}</span>
+    </button>
+  `;
 }
 
 function horseButton(horse) {
@@ -1005,8 +1046,7 @@ function photoCard(photo, options = {}) {
   `;
 }
 
-function horseSearchResult() {
-  const query = state.query || state.filters.horseTouch;
+function horseSearchResult(query = state.query || state.filters.horseTouch) {
   const horses = state.db.horses;
   if (!query) {
     const all = [...horses].sort(birthYearSort);
@@ -1039,6 +1079,47 @@ function horseSearchResult() {
     .sort(birthYearSort));
 
   return { all: sections.flatMap((section) => section.items), sections };
+}
+
+function globalSearchSections(query) {
+  const horseSections = horseSearchResult(query).sections.map((section) => ({ ...section, type: "horse" }));
+  const raceSection = {
+    title: "レース",
+    type: "race",
+    items: raceMatches(query)
+  };
+  const favoriteSection = {
+    title: "お気に入り",
+    type: "favorite",
+    items: favoritePhotoMatches(query)
+  };
+  const blocks = state.mode === "favorites"
+    ? [favoriteSection, ...horseSections, raceSection]
+    : state.mode === "race"
+      ? [raceSection, ...horseSections, favoriteSection]
+      : [...horseSections, raceSection, favoriteSection];
+
+  return blocks.filter((section) => section.items.length);
+}
+
+function raceMatches(query) {
+  const normalizedQuery = normalizeTouchText(query);
+  return races().filter((race) => {
+    const values = [race.name, race.date].filter(Boolean);
+    return values.some((value) => normalizeTouchText(value).includes(normalizedQuery));
+  });
+}
+
+function favoritePhotoMatches(query) {
+  const normalizedQuery = normalizeTouchText(query);
+  return state.db.photos
+    .filter((photo) => state.favorites.has(photo.key))
+    .filter((photo) => {
+      const horse = horseById(photo.horseId);
+      return [horse?.name, photo.raceName, photo.raceDate, photo.caption]
+        .some((value) => normalizeTouchText(value || "").includes(normalizedQuery));
+    })
+    .sort(favoritePhotoSort);
 }
 
 function bodyTagChips(horse) {
