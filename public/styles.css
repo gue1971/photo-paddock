@@ -692,6 +692,12 @@ body[data-comment-font="large"] .comment {
     overflow: visible;
   }
 
+  body[data-storage-open="true"][data-sidebar-open="false"][data-has-query="false"][data-filter-open="false"] .sidebar {
+    max-height: 62vh;
+    max-height: 62dvh;
+    overflow: visible;
+  }
+
   body[data-sidebar-open="false"][data-has-query="false"][data-filter-open="false"] #itemList {
     display: none;
   }

@@ -88,6 +88,7 @@ const toggleSidebar = document.querySelector("#toggleSidebar");
 const toggleStorage = document.querySelector("#toggleStorage");
 const storageMenu = document.querySelector("#storageMenu");
 const storageInfo = document.querySelector("#storageInfo");
+const storageMenuHome = document.querySelector(".sidebar-controls");
 const exportStorage = document.querySelector("#exportStorage");
 const importStorage = document.querySelector("#importStorage");
 const toast = document.querySelector("#toast");
@@ -589,6 +590,7 @@ function render() {
     toggleSidebar.setAttribute("aria-label", toggleSidebar.title);
   }
   renderSettingsMenu();
+  syncStorageMenuHost();
   if (storageMenu) storageMenu.hidden = !state.storageOpen;
   toggleStorage?.classList.toggle("active", state.storageOpen);
   renderFilterControls();
@@ -989,6 +991,18 @@ function renderSettingsMenu() {
   storageMenu.querySelectorAll("button[data-comment-font-size]").forEach((button) => {
     button.classList.toggle("active", button.dataset.commentFontSize === state.commentFontSize);
   });
+}
+
+function syncStorageMenuHost() {
+  if (!storageMenu || !storageMenuHome) return;
+  const shouldFloat = window.matchMedia("(max-width: 820px)").matches;
+  if (shouldFloat && storageMenu.parentElement !== document.body) {
+    document.body.append(storageMenu);
+    return;
+  }
+  if (!shouldFloat && storageMenu.parentElement === document.body) {
+    storageMenuHome.insertBefore(storageMenu, filterControls);
+  }
 }
 
 function closeSidebarAfterListTap() {
