@@ -6,6 +6,7 @@
   "scripts": {
     "import:keibalab": "node scripts/import-keibalab.mjs",
     "import:keibabook": "node scripts/import-keibabook.mjs",
+    "add:manual:sodashi": "node scripts/add-manual-sodashi-photos.mjs",
     "update": "node scripts/update.mjs",
     "audit:data": "node scripts/audit-data.mjs",
     "cleanup:keibalab": "node scripts/cleanup-keibalab-comparison-photos.mjs",
