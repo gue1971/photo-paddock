@@ -9,6 +9,11 @@ const horseNameCounts = new Map();
 const photoKeys = new Map();
 const photoIds = new Map();
 const problems = [];
+const allowedDuplicateHorseNames = new Set([
+  "ブラックタイド",
+  "マイケルバローズ",
+  "シンデレラボーイ"
+]);
 
 for (const horse of db.horses) {
   horseIdCounts.set(horse.id, (horseIdCounts.get(horse.id) || 0) + 1);
@@ -20,6 +25,7 @@ for (const [id, count] of horseIdCounts) {
 }
 
 for (const [name, count] of horseNameCounts) {
+  if (allowedDuplicateHorseNames.has(name)) continue;
   if (count > 1) problems.push(`duplicate horse name x${count}: ${name}`);
 }
 

@@ -7,11 +7,14 @@ const cacheDir = "/private/tmp/jra-jyusyo";
 const overridesPath = path.join(dataDir, "race-date-overrides.json");
 const manualOverridesPath = path.join(dataDir, "race-date-manual-overrides.json");
 const aliases = await loadRaceAliases();
-const overrides = {};
+const args = parseArgs(process.argv.slice(2));
+const fromYear = Number(args.from ?? 2015);
+const toYear = Number(args.to ?? 2026);
+const overrides = await loadExistingOverrides();
 const manualOverrides = await loadManualOverrides();
 const unmatched = new Set();
 
-for (let year = 2015; year <= 2026; year += 1) {
+for (let year = fromYear; year <= toYear; year += 1) {
   const html = new TextDecoder("shift_jis").decode(await readFile(path.join(cacheDir, `${year}.html`)));
   for (const row of extractRaceRows(html)) {
     const date = normalizeDate(year, row.date);
@@ -61,6 +64,7 @@ function normalizeOfficialRaceName(name, aliases) {
     ["NHKマイルC", /NHKマイル/],
     ["アメリカJCC", /アメリカジョッキー|アメリカJCC/],
     ["アルゼンチン共和国杯", /アルゼンチン共和国/],
+    ["アイビスサマーダッシュ", /アイビスサマー|アイビスSD/],
     ["ヴィクトリアマイル", /ヴィクトリア/],
     ["エプソムC", /エプソム/],
     ["キーンランドC", /キーンランド/],
@@ -79,12 +83,15 @@ function normalizeOfficialRaceName(name, aliases) {
     ["朝日杯FS", /朝日杯フューチュリティ/],
     ["天皇賞・春", /天皇賞.*春/],
     ["天皇賞・秋", /天皇賞.*秋/],
+    ["ジャパンカップダート", /ジャパン.*ダート/],
     ["ジャパンカップ", /ジャパン/],
     ["ホープフルS", /ホープフル/],
     ["京成杯AH", /京成杯オータム/],
+    ["京王杯SC", /京王杯スプリング/],
+    ["朝日チャレンジC", /朝日チャレンジ|朝日CC/],
+    ["ラジオNIKKEI賞", /ラジオたんぱ|ラジオNIKKEI/],
     ["中山牝馬S", /中山牝馬/],
     ["函館スプリントS", /函館スプリント/],
-    ["アイビスサマーダッシュ", /アイビス/],
     ["小倉2歳S", /小倉2歳/],
     ["札幌2歳S", /札幌2歳/],
     ["新潟2歳S", /新潟2歳/],
@@ -108,7 +115,7 @@ function extractRaceRows(html) {
     }
 
     const oldCells = [...row.matchAll(/<td\b[^>]*>([\s\S]*?)<\/td>/gi)].map((cell) => stripTags(cell[1])).filter(Boolean);
-    const oldDateIndex = oldCells.findIndex((cell) => /\d+月\d+日/.test(cell));
+    const oldDateIndex = oldCells.findIndex((cell) => /\d+月\d+日|\d+\/\d+/.test(cell));
     if (oldDateIndex >= 0 && oldCells[oldDateIndex + 1]) {
       rows.push({
         date: oldCells[oldDateIndex],
@@ -120,7 +127,7 @@ function extractRaceRows(html) {
 }
 
 function normalizeDate(year, text) {
-  const match = text.match(/(\d+)月(\d+)日/);
+  const match = text.match(/(\d+)月(\d+)日/) ?? text.match(/(\d+)\/(\d+)/);
   if (!match) return "";
   return `${year}-${match[1].padStart(2, "0")}-${match[2].padStart(2, "0")}`;
 }
@@ -140,4 +147,29 @@ async function loadManualOverrides() {
     if (error.code !== "ENOENT") throw error;
     return { "2018:凱旋門賞": "2018-10-07" };
   }
+}
+
+async function loadExistingOverrides() {
+  try {
+    return JSON.parse(await readFile(overridesPath, "utf8"));
+  } catch (error) {
+    if (error.code !== "ENOENT") throw error;
+    return {};
+  }
+}
+
+function parseArgs(items) {
+  const parsed = {};
+  for (let index = 0; index < items.length; index += 1) {
+    const item = items[index];
+    if (!item.startsWith("--")) continue;
+    const key = item.slice(2);
+    const next = items[index + 1];
+    if (!next || next.startsWith("--")) parsed[key] = true;
+    else {
+      parsed[key] = next;
+      index += 1;
+    }
+  }
+  return parsed;
 }

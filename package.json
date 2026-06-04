@@ -12,6 +12,8 @@
     "repair:keibalab-races": "node scripts/repair-keibalab-single-race-captions.mjs",
     "prune:orphans": "node scripts/prune-orphan-horses.mjs",
     "backfill:birth-years": "node scripts/backfill-birth-years.mjs",
+    "backfill:birth-years:restricted": "node scripts/backfill-birth-years-from-restricted-races.mjs",
+    "correct:horses": "node scripts/apply-reviewed-horse-corrections.mjs",
     "merge:duplicate-horses": "node scripts/merge-duplicate-horses.mjs",
     "repair:photo-ids": "node scripts/repair-photo-ids.mjs",
     "repair:image-urls": "node scripts/repair-image-urls.mjs",
