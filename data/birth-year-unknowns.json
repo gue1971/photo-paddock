@@ -1,18 +1,5 @@
 [
   {
-    "id": "horse_2586",
-    "name": "ミトラ",
-    "sire": "シンボリクリスエス",
-    "dam": "エイグレット",
-    "damsire": "サンデーサイレンス",
-    "photos": 2,
-    "latestPhoto": {
-      "date": "2015-09-27",
-      "raceName": "オールカマー",
-      "caption": "2015-09-27 オールカマー"
-    }
-  },
-  {
     "id": "horse_2582",
     "name": "オメガヴェンデッタ",
     "sire": "ゼンノロブロイ",
@@ -2085,7 +2072,7 @@
     "sire": "セイントバラード",
     "dam": "スローンストリート",
     "damsire": "トップサイダー",
-    "photos": 4,
+    "photos": 3,
     "latestPhoto": {
       "date": "2006-07-09",
       "raceName": "プロキオンS",
@@ -2904,7 +2891,7 @@
     "sire": "ブロードブラッシュ",
     "dam": "ナスティク",
     "damsire": "Naskra",
-    "photos": 7,
+    "photos": 6,
     "latestPhoto": {
       "date": "2005-02-13",
       "raceName": "フェブラリーS",
@@ -3164,7 +3151,7 @@
     "sire": "サンデーサイレンス",
     "dam": "トウカイナチュラル",
     "damsire": "ナイスダンサー",
-    "photos": 7,
+    "photos": 6,
     "latestPhoto": {
       "date": "2004-09-26",
       "raceName": "オールカマー",
@@ -3684,7 +3671,7 @@
     "sire": "フレンチデピュティ",
     "dam": "フライトオブエンジェルス",
     "damsire": "アフリート",
-    "photos": 4,
+    "photos": 3,
     "latestPhoto": {
       "date": "2004-02-22",
       "raceName": "フェブラリーS",
@@ -4698,7 +4685,7 @@
     "sire": "パークリージェント",
     "dam": "サリーベル",
     "damsire": "グッドリー",
-    "photos": 3,
+    "photos": 2,
     "latestPhoto": {
       "date": "2003-02-23",
       "raceName": "フェブラリーS",
@@ -5803,7 +5790,7 @@
     "sire": "サンデーサイレンス",
     "dam": "フェアリードール",
     "damsire": "Nureyev",
-    "photos": 3,
+    "photos": 2,
     "latestPhoto": {
       "date": "2002-02-17",
       "raceName": "フェブラリーS",

@@ -92,7 +92,7 @@ function nextHorseId(db) {
 
 export function upsertPhoto(db, photo) {
   const key = photoKey(photo);
-  const existing = db.photos.find((item) => item.key === key);
+  const existing = db.photos.find((item) => item.key === key) ?? findExistingPhotoBySourceOrder(db, photo);
   if (existing) {
     Object.assign(existing, compact(photo), { key });
     return existing;
@@ -104,6 +104,15 @@ export function upsertPhoto(db, photo) {
   };
   db.photos.push(created);
   return created;
+}
+
+function findExistingPhotoBySourceOrder(db, photo) {
+  if (photo.source !== "keibabook" || !photo.sourceId || !photo.sourceOrder) return null;
+  return db.photos.find((item) => {
+    return item.source === photo.source
+      && item.sourceId === photo.sourceId
+      && Number(item.sourceOrder) === Number(photo.sourceOrder);
+  }) ?? null;
 }
 
 function nextPhotoId(db) {
