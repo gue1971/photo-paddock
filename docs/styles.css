@@ -519,10 +519,32 @@ body[data-filter-open="true"] .race-year-group summary {
   margin-top: 8px;
 }
 
+.detail-title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.detail-title-row h2 {
+  margin: 0;
+}
+
 .detail-filters .filter-select,
 .detail-filters .filter-chip {
   height: 32px;
   font-size: 13px;
+}
+
+.detail-filters .favorite-sire-select {
+  min-width: 190px;
+  max-width: min(320px, 100%);
+}
+
+.offspring-favorite-toggle {
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
+  font-size: 18px;
 }
 
 .caption-row {

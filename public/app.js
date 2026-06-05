@@ -945,10 +945,10 @@ function renderOffspringDetail() {
   detail.innerHTML = `
     <div class="horse-head">
       <div>
-        <h2>${escapeHtml(baseName)}産駒一覧</h2>
-        <div class="detail-filters">
-          <button type="button" class="filter-chip ${state.filters.offspringFavoritesOnly ? "active" : ""}" data-toggle-offspring-favorites>
-            ${state.filters.offspringFavoritesOnly ? "★のみ" : "全て"}
+        <div class="detail-title-row">
+          <h2>${escapeHtml(baseName)}産駒一覧（${offspring.length}）</h2>
+          <button type="button" class="icon-button offspring-favorite-toggle ${state.filters.offspringFavoritesOnly ? "active" : ""}" data-toggle-offspring-favorites title="${state.filters.offspringFavoritesOnly ? "お気に入りのみ" : "全馬"}" aria-label="${state.filters.offspringFavoritesOnly ? "お気に入りのみ" : "全馬"}">
+            <span aria-hidden="true">${state.filters.offspringFavoritesOnly ? "★" : "☆"}</span>
           </button>
         </div>
       </div>
@@ -1052,18 +1052,20 @@ function renderRaceDetail() {
 function favoriteDetailFiltersHtml() {
   const photos = favoritePhotos();
   if (!photos.length) return "";
-  const horses = photos.map((photo) => horseById(photo.horseId)).filter(Boolean);
-  const sires = [...new Set(horses.map((horse) => horse.sire).filter(Boolean))].sort((a, b) => a.localeCompare(b, "ja"));
-  const birthYears = [...new Set(horses.map((horse) => horse.birthYear).filter(Boolean))].sort((a, b) => Number(b) - Number(a));
+  const horses = uniqueHorses(photos.map((photo) => horseById(photo.horseId)).filter(Boolean));
+  const yearScopedHorses = state.filters.favoriteSire ? horses.filter((horse) => horse.sire === state.filters.favoriteSire) : horses;
+  const sireScopedHorses = state.filters.favoriteBirthYear ? horses.filter((horse) => String(horse.birthYear || "") === state.filters.favoriteBirthYear) : horses;
+  const sires = [...new Set(sireScopedHorses.map((horse) => horse.sire).filter(Boolean))].sort((a, b) => a.localeCompare(b, "ja"));
+  const birthYears = [...new Set(yearScopedHorses.map((horse) => horse.birthYear).filter(Boolean))].sort((a, b) => Number(b) - Number(a));
   return `
     <div class="detail-filters">
-      <select class="filter-select" data-favorite-filter="sire" aria-label="種牡馬">
-        <option value="">全種牡馬</option>
-        ${sires.map((sire) => `<option value="${escapeHtml(sire)}" ${state.filters.favoriteSire === sire ? "selected" : ""}>${escapeHtml(sire)}</option>`).join("")}
-      </select>
       <select class="filter-select" data-favorite-filter="birthYear" aria-label="生年">
-        <option value="">全生年</option>
-        ${birthYears.map((year) => `<option value="${escapeHtml(year)}" ${state.filters.favoriteBirthYear === String(year) ? "selected" : ""}>${escapeHtml(year)}年産</option>`).join("")}
+        <option value="">全生年（${yearScopedHorses.length}）</option>
+        ${birthYears.map((year) => `<option value="${escapeHtml(year)}" ${state.filters.favoriteBirthYear === String(year) ? "selected" : ""}>${escapeHtml(year)}年産（${yearScopedHorses.filter((horse) => horse.birthYear === year).length}）</option>`).join("")}
+      </select>
+      <select class="filter-select favorite-sire-select" data-favorite-filter="sire" aria-label="種牡馬">
+        <option value="">全種牡馬（${sireScopedHorses.length}）</option>
+        ${sires.map((sire) => `<option value="${escapeHtml(sire)}" ${state.filters.favoriteSire === sire ? "selected" : ""}>${escapeHtml(sire)}（${sireScopedHorses.filter((horse) => horse.sire === sire).length}）</option>`).join("")}
       </select>
     </div>
   `;
@@ -1301,6 +1303,15 @@ function filteredFavoritePhotos() {
 
 function favoritePhotos() {
   return state.db.photos.filter((photo) => state.favorites.has(photo.key));
+}
+
+function uniqueHorses(horses) {
+  const seen = new Set();
+  return horses.filter((horse) => {
+    if (!horse || seen.has(horse.id)) return false;
+    seen.add(horse.id);
+    return true;
+  });
 }
 
 function filteredHorses() {
