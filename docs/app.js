@@ -30,6 +30,8 @@ const state = {
     favoriteTouch: "",
     favoriteSire: "",
     favoriteBirthYear: "",
+    recentFavoriteSire: "",
+    recentFavoriteBirthYear: "",
     offspringFavoritesOnly: false
   },
   undoFavorite: null,
@@ -102,6 +104,7 @@ const dataUrl = appUrl.pathname.includes("/public/")
   : new URL("./data/photo-paddock.json", appUrl);
 const response = await fetch(dataUrl);
 state.db = await response.json();
+normalizePhotoStatusState();
 registerServiceWorker();
 
 summary.textContent = `${state.db.horses.length}頭 / ${state.db.photos.length}枚 / ${races().length}レース / 取得ページ ${state.db.pages.length}件`;
@@ -169,15 +172,9 @@ detail.addEventListener("click", (event) => {
     return;
   }
 
-  const button = event.target.closest("button[data-favorite-photo-id]");
-  if (button) {
-    toggleFavorite(button.dataset.favoritePhotoId);
-    return;
-  }
-
-  const representativeButton = event.target.closest("button[data-representative-photo-id]");
-  if (representativeButton) {
-    setRepresentative(representativeButton.dataset.representativePhotoId);
+  const statusButton = event.target.closest("button[data-photo-status-id]");
+  if (statusButton) {
+    togglePhotoStatus(statusButton.dataset.photoStatusId);
     return;
   }
 
@@ -214,8 +211,7 @@ detail.addEventListener("click", (event) => {
 detail.addEventListener("change", (event) => {
   const select = event.target.closest("select[data-favorite-filter]");
   if (!select) return;
-  if (select.dataset.favoriteFilter === "sire") state.filters.favoriteSire = select.value;
-  if (select.dataset.favoriteFilter === "birthYear") state.filters.favoriteBirthYear = select.value;
+  setFavoriteDetailFilter(select.dataset.favoriteFilter, select.value);
   render();
 });
 
@@ -223,8 +219,9 @@ toast.addEventListener("click", (event) => {
   const button = event.target.closest("button[data-undo-favorite]");
   if (!button || !state.undoFavorite) return;
   const photo = state.db.photos.find((item) => item.key === state.undoFavorite.photoKey);
-  state.favorites.add(state.undoFavorite.photoKey);
   if (photo) {
+    clearFavoritesForHorse(photo.horseId);
+    state.favorites.add(photo.key);
     state.representatives[photo.horseId] = photo.key;
     saveRepresentatives();
   }
@@ -282,6 +279,7 @@ async function importStorageData() {
       localStorage.setItem(VIEW_MODE_KEY, state.viewMode);
     }
     if (COMMENT_FONT_SIZES.includes(data.commentFontSize)) setCommentFontSize(data.commentFontSize, false);
+    normalizePhotoStatusState();
     saveFavorites();
     saveRepresentatives();
     clearUndoFavorite();
@@ -364,39 +362,71 @@ function registerServiceWorker() {
   });
 }
 
-function toggleFavorite(photoKey) {
-  if (!photoKey) return;
+function togglePhotoStatus(photoKey) {
   const photo = state.db.photos.find((item) => item.key === photoKey);
-  if (state.favorites.has(photoKey)) {
-    state.favorites.delete(photoKey);
-    if (photo && state.representatives[photo.horseId] === photo.key) {
-      const nextFavorite = favoritePhotosForHorse(photo.horseId).find((item) => item.key !== photo.key);
-      if (nextFavorite) state.representatives[photo.horseId] = nextFavorite.key;
-      else delete state.representatives[photo.horseId];
-      saveRepresentatives();
-    }
-    saveFavorites();
-    showUndoFavorite(photoKey);
-  } else {
-    state.favorites.add(photoKey);
-    if (photo) {
-      state.representatives[photo.horseId] = photo.key;
-      saveRepresentatives();
-    }
-    saveFavorites();
-    clearUndoFavorite();
-  }
+  if (!photo) return;
+  const status = photoStatus(photo);
+  clearFavoritesForHorse(photo.horseId);
+  state.representatives[photo.horseId] = photo.key;
+  if (status === "representative") state.favorites.add(photo.key);
+  saveRepresentatives();
+  saveFavorites();
+  clearUndoFavorite();
   render();
 }
 
-function setRepresentative(photoKey) {
-  const photo = state.db.photos.find((item) => item.key === photoKey);
-  if (!photo) return;
-  const hasFavorites = favoritePhotosForHorse(photo.horseId).length > 0;
-  if (hasFavorites && !state.favorites.has(photo.key)) return;
-  state.representatives[photo.horseId] = photo.key;
-  saveRepresentatives();
-  render();
+function clearFavoritesForHorse(horseId) {
+  photosForHorse(horseId).forEach((photo) => state.favorites.delete(photo.key));
+}
+
+function photoStatus(photo) {
+  if (state.favorites.has(photo.key)) return "favorite";
+  if (representativePhotoForHorse(photo.horseId)?.key === photo.key) return "representative";
+  return "none";
+}
+
+function photoStatusIcon(status) {
+  if (status === "favorite") return "★";
+  if (status === "representative") return "◆";
+  return "◇";
+}
+
+function photoStatusLabel(status) {
+  if (status === "favorite") return "お気に入り";
+  if (status === "representative") return "代表写真";
+  return "未選択";
+}
+
+function normalizePhotoStatusState() {
+  if (!state.db) return;
+  let changed = false;
+  for (const horse of state.db.horses) {
+    const photos = photosForHorse(horse.id);
+    if (!photos.length) continue;
+    const favoritePhotos = photos.filter((photo) => state.favorites.has(photo.key));
+    if (favoritePhotos.length) {
+      const keep = favoritePhotos.find((photo) => photo.key === state.representatives[horse.id]) || favoritePhotos[0];
+      for (const photo of favoritePhotos) {
+        if (photo.key !== keep.key) {
+          state.favorites.delete(photo.key);
+          changed = true;
+        }
+      }
+      if (state.representatives[horse.id] !== keep.key) {
+        state.representatives[horse.id] = keep.key;
+        changed = true;
+      }
+      continue;
+    }
+    if (state.representatives[horse.id] && !photos.some((photo) => photo.key === state.representatives[horse.id])) {
+      delete state.representatives[horse.id];
+      changed = true;
+    }
+  }
+  if (changed) {
+    saveFavorites();
+    saveRepresentatives();
+  }
 }
 
 function showUndoFavorite(photoKey) {
@@ -432,6 +462,7 @@ function setMode(mode) {
   const changed = state.mode !== mode;
   state.mode = mode;
   if (mode !== "horse") clearOffspringSelection();
+  if (mode !== "favorites") resetFavoriteDetailFilters();
   if (changed) {
     state.filterOpen = false;
     state.sidebarOpen = Boolean(state.query);
@@ -507,6 +538,7 @@ function applyFilterAction(action, value) {
 function openHorse(horseId) {
   const previousMode = state.mode;
   state.mode = "horse";
+  resetFavoriteDetailFilters();
   state.selectedHorseId = horseId;
   clearOffspringSelection();
   clearQuery();
@@ -518,6 +550,7 @@ function openHorse(horseId) {
 
 function openOffspring(horseId) {
   state.mode = "horse";
+  resetFavoriteDetailFilters();
   state.selectedHorseId = horseId;
   state.offspringHorseId = horseId;
   state.offspringHorseName = "";
@@ -529,6 +562,7 @@ function openOffspring(horseId) {
 
 function openOffspringByName(name) {
   state.mode = "horse";
+  resetFavoriteDetailFilters();
   state.offspringHorseId = "";
   state.offspringHorseName = name;
   state.query = "";
@@ -540,6 +574,7 @@ function openOffspringByName(name) {
 
 function openRace(raceKey) {
   state.mode = "race";
+  resetFavoriteDetailFilters();
   clearOffspringSelection();
   state.selectedRaceKey = raceKey;
   clearQuery();
@@ -559,9 +594,28 @@ function clearQuery() {
   search.value = "";
 }
 
+function setFavoriteDetailFilter(kind, value) {
+  if (kind === "sire") {
+    state.filters.favoriteSire = value;
+    if (value) state.filters.recentFavoriteSire = value;
+  }
+  if (kind === "birthYear") {
+    state.filters.favoriteBirthYear = value;
+    if (value) state.filters.recentFavoriteBirthYear = value;
+  }
+}
+
+function resetFavoriteDetailFilters() {
+  if (state.filters.favoriteSire) state.filters.recentFavoriteSire = state.filters.favoriteSire;
+  if (state.filters.favoriteBirthYear) state.filters.recentFavoriteBirthYear = state.filters.favoriteBirthYear;
+  state.filters.favoriteSire = "";
+  state.filters.favoriteBirthYear = "";
+}
+
 function searchHorseByPedigreeName(name) {
   if (!name) return;
   state.mode = "horse";
+  resetFavoriteDetailFilters();
   clearOffspringSelection();
   state.query = name;
   state.filters.horseTouch = "";
@@ -946,7 +1000,7 @@ function renderOffspringDetail() {
     <div class="horse-head">
       <div>
         <div class="detail-title-row">
-          <h2>${escapeHtml(baseName)}産駒一覧（${offspring.length}）</h2>
+          <h2>${escapeHtml(baseName)}産駒（${offspring.length}）</h2>
           <button type="button" class="icon-button offspring-favorite-toggle ${state.filters.offspringFavoritesOnly ? "active" : ""}" data-toggle-offspring-favorites title="${state.filters.offspringFavoritesOnly ? "お気に入りのみ" : "全馬"}" aria-label="${state.filters.offspringFavoritesOnly ? "お気に入りのみ" : "全馬"}">
             <span aria-hidden="true">${state.filters.offspringFavoritesOnly ? "★" : "☆"}</span>
           </button>
@@ -1056,16 +1110,18 @@ function favoriteDetailFiltersHtml() {
   const yearScopedHorses = state.filters.favoriteSire ? horses.filter((horse) => horse.sire === state.filters.favoriteSire) : horses;
   const sireScopedHorses = state.filters.favoriteBirthYear ? horses.filter((horse) => String(horse.birthYear || "") === state.filters.favoriteBirthYear) : horses;
   const sires = [...new Set(sireScopedHorses.map((horse) => horse.sire).filter(Boolean))].sort((a, b) => a.localeCompare(b, "ja"));
-  const birthYears = [...new Set(yearScopedHorses.map((horse) => horse.birthYear).filter(Boolean))].sort((a, b) => Number(b) - Number(a));
+  const birthYears = [...new Set(yearScopedHorses.map((horse) => String(horse.birthYear || "")).filter(Boolean))].sort((a, b) => Number(b) - Number(a));
+  const orderedBirthYears = prioritizeFavoriteOptions(birthYears, state.filters.recentFavoriteBirthYear);
+  const orderedSires = prioritizeFavoriteOptions(sires, state.filters.recentFavoriteSire);
   return `
     <div class="detail-filters">
-      <select class="filter-select" data-favorite-filter="birthYear" aria-label="生年">
+      <select class="filter-select favorite-year-select" data-favorite-filter="birthYear" aria-label="生年">
         <option value="">全生年（${yearScopedHorses.length}）</option>
-        ${birthYears.map((year) => `<option value="${escapeHtml(year)}" ${state.filters.favoriteBirthYear === String(year) ? "selected" : ""}>${escapeHtml(year)}年産（${yearScopedHorses.filter((horse) => horse.birthYear === year).length}）</option>`).join("")}
+        ${orderedBirthYears.map((year) => `<option value="${escapeHtml(year)}" ${state.filters.favoriteBirthYear === year ? "selected" : ""}>${escapeHtml(year)}年産（${yearScopedHorses.filter((horse) => String(horse.birthYear || "") === year).length}）</option>`).join("")}
       </select>
       <select class="filter-select favorite-sire-select" data-favorite-filter="sire" aria-label="種牡馬">
         <option value="">全種牡馬（${sireScopedHorses.length}）</option>
-        ${sires.map((sire) => `<option value="${escapeHtml(sire)}" ${state.filters.favoriteSire === sire ? "selected" : ""}>${escapeHtml(sire)}（${sireScopedHorses.filter((horse) => horse.sire === sire).length}）</option>`).join("")}
+        ${orderedSires.map((sire) => `<option value="${escapeHtml(sire)}" ${state.filters.favoriteSire === sire ? "selected" : ""}>${escapeHtml(sire)}（${sireScopedHorses.filter((horse) => horse.sire === sire).length}）</option>`).join("")}
       </select>
     </div>
   `;
@@ -1102,9 +1158,7 @@ function photoCard(photo, options = {}) {
     : context === "horse" && photo.raceKey
       ? `<button type="button" class="caption-link" data-open-race-key="${escapeHtml(photo.raceKey)}">${escapeHtml(caption || photo.source)}</button>`
       : `<span>${escapeHtml(caption || photo.source)}</span>`;
-  const favorite = state.favorites.has(photo.key);
-  const representative = representativePhotoForHorse(photo.horseId)?.key === photo.key;
-  const representativeDisabled = favoritePhotosForHorse(photo.horseId).length > 0 && !favorite;
+  const status = photoStatus(photo);
   return `
     <article class="photo-card ${focused ? "focused" : ""}" data-photo-card-key="${escapeHtml(photo.key)}">
       ${src ? `<img src="${src}" alt="${escapeHtml(caption)}" loading="lazy">` : ""}
@@ -1112,8 +1166,7 @@ function photoCard(photo, options = {}) {
         <div class="caption-row">
           <p class="caption">${captionButton}</p>
           <div class="photo-actions">
-            <button type="button" class="representative-button ${representative ? "active" : ""}" data-representative-photo-id="${escapeHtml(photo.key)}" title="代表写真" ${representativeDisabled ? "disabled" : ""}>${representative ? "◆" : "◇"}</button>
-            <button type="button" class="favorite-button ${favorite ? "active" : ""}" data-favorite-photo-id="${escapeHtml(photo.key)}" title="お気に入り">${favorite ? "★" : "☆"}</button>
+            <button type="button" class="photo-status-button ${escapeHtml(status)}" data-photo-status-id="${escapeHtml(photo.key)}" title="${escapeHtml(photoStatusLabel(status))}" aria-label="${escapeHtml(photoStatusLabel(status))}">${photoStatusIcon(status)}</button>
           </div>
         </div>
         ${subMeta ? `<p class="photo-meta pedigree-meta">${escapeHtml(subMeta)}</p>` : ""}
@@ -1312,6 +1365,11 @@ function uniqueHorses(horses) {
     seen.add(horse.id);
     return true;
   });
+}
+
+function prioritizeFavoriteOptions(values, recentValue) {
+  if (!recentValue || !values.includes(recentValue)) return values;
+  return [recentValue, ...values.filter((value) => value !== recentValue)];
 }
 
 function filteredHorses() {

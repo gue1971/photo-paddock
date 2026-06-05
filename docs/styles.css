@@ -504,7 +504,7 @@ body[data-filter-open="true"] .race-year-group summary {
   display: block;
   width: 100%;
   aspect-ratio: 4 / 3;
-  object-fit: contain;
+  object-fit: cover;
   background: #eef0ea;
 }
 
@@ -538,6 +538,10 @@ body[data-filter-open="true"] .race-year-group summary {
 .detail-filters .favorite-sire-select {
   min-width: 190px;
   max-width: min(320px, 100%);
+}
+
+.detail-filters .favorite-year-select {
+  min-width: 152px;
 }
 
 .offspring-favorite-toggle {
@@ -592,8 +596,7 @@ body[data-filter-open="true"] .race-year-group summary {
   gap: 2px;
 }
 
-.favorite-button,
-.representative-button {
+.photo-status-button {
   width: 28px;
   height: 28px;
   padding: 0;
@@ -604,21 +607,20 @@ body[data-filter-open="true"] .race-year-group summary {
   color: var(--muted);
 }
 
-.favorite-button:hover,
-.representative-button:hover {
+.photo-status-button:hover {
   background: transparent;
   opacity: 0.72;
 }
 
-.favorite-button.active,
-.favorite-button.active:hover {
+.photo-status-button.favorite,
+.photo-status-button.favorite:hover {
   border: 0;
   background: transparent;
   color: var(--accent-2);
 }
 
-.representative-button.active,
-.representative-button.active:hover {
+.photo-status-button.representative,
+.photo-status-button.representative:hover {
   border: 0;
   background: transparent;
   color: var(--accent);
@@ -898,8 +900,7 @@ body[data-comment-font="large"] .comment {
     line-height: 1.85;
   }
 
-  body[data-view-mode="two"] .favorite-button,
-  body[data-view-mode="two"] .representative-button {
+  body[data-view-mode="two"] .photo-status-button {
     width: 22px;
     height: 22px;
     font-size: 15px;
