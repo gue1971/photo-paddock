@@ -512,6 +512,19 @@ body[data-filter-open="true"] .race-year-group summary {
   padding: 12px;
 }
 
+.detail-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.detail-filters .filter-select,
+.detail-filters .filter-chip {
+  height: 32px;
+  font-size: 13px;
+}
+
 .caption-row {
   display: grid;
   grid-template-columns: 1fr auto;

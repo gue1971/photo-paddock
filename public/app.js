@@ -27,7 +27,10 @@ const state = {
     raceG1Only: false,
     raceYear: "",
     raceName: "",
-    favoriteTouch: ""
+    favoriteTouch: "",
+    favoriteSire: "",
+    favoriteBirthYear: "",
+    offspringFavoritesOnly: false
   },
   undoFavorite: null,
   undoTimer: 0
@@ -159,6 +162,13 @@ storageMenu?.addEventListener("click", (event) => {
 });
 
 detail.addEventListener("click", (event) => {
+  const offspringFavoriteButton = event.target.closest("button[data-toggle-offspring-favorites]");
+  if (offspringFavoriteButton) {
+    state.filters.offspringFavoritesOnly = !state.filters.offspringFavoritesOnly;
+    render();
+    return;
+  }
+
   const button = event.target.closest("button[data-favorite-photo-id]");
   if (button) {
     toggleFavorite(button.dataset.favoritePhotoId);
@@ -199,6 +209,14 @@ detail.addEventListener("click", (event) => {
   if (pedigreeSearchLink) {
     searchHorseByPedigreeName(pedigreeSearchLink.dataset.searchPedigree);
   }
+});
+
+detail.addEventListener("change", (event) => {
+  const select = event.target.closest("select[data-favorite-filter]");
+  if (!select) return;
+  if (select.dataset.favoriteFilter === "sire") state.filters.favoriteSire = select.value;
+  if (select.dataset.favoriteFilter === "birthYear") state.filters.favoriteBirthYear = select.value;
+  render();
 });
 
 toast.addEventListener("click", (event) => {
@@ -922,11 +940,17 @@ function renderOffspringDetail() {
     detail.innerHTML = `<div class="empty">馬を選択してください。</div>`;
     return;
   }
-  const offspring = offspringForName(baseName).sort(favoriteBirthYearSort);
+  const allOffspring = offspringForName(baseName).sort(favoriteBirthYearSort);
+  const offspring = state.filters.offspringFavoritesOnly ? allOffspring.filter((horse) => hasFavoriteHorse(horse.id)) : allOffspring;
   detail.innerHTML = `
     <div class="horse-head">
       <div>
         <h2>${escapeHtml(baseName)}産駒一覧</h2>
+        <div class="detail-filters">
+          <button type="button" class="filter-chip ${state.filters.offspringFavoritesOnly ? "active" : ""}" data-toggle-offspring-favorites>
+            ${state.filters.offspringFavoritesOnly ? "★のみ" : "全て"}
+          </button>
+        </div>
       </div>
     </div>
     <div class="photos">
@@ -1025,12 +1049,33 @@ function renderRaceDetail() {
   `;
 }
 
+function favoriteDetailFiltersHtml() {
+  const photos = favoritePhotos();
+  if (!photos.length) return "";
+  const horses = photos.map((photo) => horseById(photo.horseId)).filter(Boolean);
+  const sires = [...new Set(horses.map((horse) => horse.sire).filter(Boolean))].sort((a, b) => a.localeCompare(b, "ja"));
+  const birthYears = [...new Set(horses.map((horse) => horse.birthYear).filter(Boolean))].sort((a, b) => Number(b) - Number(a));
+  return `
+    <div class="detail-filters">
+      <select class="filter-select" data-favorite-filter="sire" aria-label="種牡馬">
+        <option value="">全種牡馬</option>
+        ${sires.map((sire) => `<option value="${escapeHtml(sire)}" ${state.filters.favoriteSire === sire ? "selected" : ""}>${escapeHtml(sire)}</option>`).join("")}
+      </select>
+      <select class="filter-select" data-favorite-filter="birthYear" aria-label="生年">
+        <option value="">全生年</option>
+        ${birthYears.map((year) => `<option value="${escapeHtml(year)}" ${state.filters.favoriteBirthYear === String(year) ? "selected" : ""}>${escapeHtml(year)}年産</option>`).join("")}
+      </select>
+    </div>
+  `;
+}
+
 function renderFavoriteDetail(focusPhotoKey = "") {
   const photos = filteredFavoritePhotos();
   detail.innerHTML = `
     <div class="horse-head">
       <div>
         <h2>お気に入り（${photos.length}）</h2>
+        ${favoriteDetailFiltersHtml()}
       </div>
     </div>
     <div class="photos">
@@ -1048,7 +1093,7 @@ function photoCard(photo, options = {}) {
   const caption = context === "race" || context === "favorite" || context === "offspring"
     ? horse?.name || ""
     : raceCaption || photo.caption || "";
-  const meta = context === "favorite" || context === "offspring" ? raceCaption : "";
+  const meta = (context === "favorite" || context === "offspring") && state.viewMode === "oneComments" ? raceCaption : "";
   const subMeta = photoCardSubMeta({ context, horse, baseName });
   const captionButton = context === "race" || context === "favorite" || context === "offspring"
     ? `<button type="button" class="caption-link" data-open-horse-id="${escapeHtml(photo.horseId)}">${escapeHtml(caption || photo.source)}</button>`
@@ -1242,15 +1287,20 @@ function filteredRaces() {
 
 function filteredFavoritePhotos() {
   const query = state.query;
-  return state.db.photos
-    .filter((photo) => state.favorites.has(photo.key))
+  return favoritePhotos()
     .filter((photo) => {
       const horse = horseById(photo.horseId);
       if (state.filters.favoriteTouch && !normalizeTouchText(horse?.name || "").includes(state.filters.favoriteTouch)) return false;
+      if (state.filters.favoriteSire && horse?.sire !== state.filters.favoriteSire) return false;
+      if (state.filters.favoriteBirthYear && String(horse?.birthYear || "") !== state.filters.favoriteBirthYear) return false;
       if (!query) return true;
       return [horse?.name, photo.raceName, photo.raceDate, photo.caption].some((value) => value?.includes(query));
     })
     .sort(favoritePhotoSort);
+}
+
+function favoritePhotos() {
+  return state.db.photos.filter((photo) => state.favorites.has(photo.key));
 }
 
 function filteredHorses() {
