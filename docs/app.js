@@ -231,7 +231,7 @@ function exportStorageData() {
   const link = document.createElement("a");
   const date = new Date().toISOString().slice(0, 10).replaceAll("-", "");
   link.href = url;
-  link.download = `photo-paddock-storage-${date}.json`;
+  link.download = `photo-paddock-${state.favorites.size}-${date}.json`;
   document.body.append(link);
   link.click();
   link.remove();
@@ -604,11 +604,7 @@ function render() {
 }
 
 function syncSearchControl() {
-  search.placeholder = state.mode === "race"
-    ? "レース名を入力検索"
-    : state.mode === "favorites"
-      ? "お気に入りを入力検索"
-      : "馬名・父・母を入力検索";
+  search.placeholder = "検索";
   search.removeAttribute("list");
 }
 
@@ -936,7 +932,7 @@ function renderOffspringDetail() {
     <div class="photos">
       ${offspring.map((horse) => {
         const photo = representativePhotoForHorse(horse.id);
-        return photo ? photoCard(photo, { context: "offspring" }) : "";
+        return photo ? photoCard(photo, { context: "offspring", baseName }) : "";
       }).join("") || `<div class="empty">産駒の写真がありません。</div>`}
     </div>
   `;
@@ -1045,7 +1041,7 @@ function renderFavoriteDetail(focusPhotoKey = "") {
 }
 
 function photoCard(photo, options = {}) {
-  const { context = "horse", focused = false } = options;
+  const { context = "horse", focused = false, baseName = "" } = options;
   const src = photo.localImagePath ? `data/${photo.localImagePath}` : photo.imageUrl;
   const horse = horseById(photo.horseId);
   const raceCaption = [photo.raceDate || photo.photoDate, photo.raceName].filter(Boolean).join(" ");
@@ -1053,6 +1049,7 @@ function photoCard(photo, options = {}) {
     ? horse?.name || ""
     : raceCaption || photo.caption || "";
   const meta = context === "favorite" || context === "offspring" ? raceCaption : "";
+  const subMeta = photoCardSubMeta({ context, horse, baseName });
   const captionButton = context === "race" || context === "favorite" || context === "offspring"
     ? `<button type="button" class="caption-link" data-open-horse-id="${escapeHtml(photo.horseId)}">${escapeHtml(caption || photo.source)}</button>`
     : context === "horse" && photo.raceKey
@@ -1072,11 +1069,24 @@ function photoCard(photo, options = {}) {
             <button type="button" class="favorite-button ${favorite ? "active" : ""}" data-favorite-photo-id="${escapeHtml(photo.key)}" title="お気に入り">${favorite ? "★" : "☆"}</button>
           </div>
         </div>
+        ${subMeta ? `<p class="photo-meta pedigree-meta">${escapeHtml(subMeta)}</p>` : ""}
         ${meta ? `<p class="photo-meta">${escapeHtml(meta)}</p>` : ""}
         ${state.viewMode === "oneComments" && photo.comment ? `<p class="comment">${escapeHtml(photo.comment)}</p>` : ""}
       </div>
     </article>
   `;
+}
+
+function photoCardSubMeta({ context, horse, baseName }) {
+  if (!horse) return "";
+  if (context === "favorite" || context === "race") {
+    return horse.sire ? `父 ${horse.sire}` : "";
+  }
+  if (context === "offspring") {
+    if (baseName && horse.sire === baseName) return horse.damsire ? `母父 ${horse.damsire}` : "";
+    if (baseName && horse.dam === baseName) return horse.sire ? `父 ${horse.sire}` : "";
+  }
+  return "";
 }
 
 function horseSearchResult(query = state.query || state.filters.horseTouch) {
