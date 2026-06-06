@@ -1293,8 +1293,9 @@ function photoCard(photo, options = {}) {
         <div class="caption-row">
           <p class="caption">${captionButton}</p>
           <div class="photo-actions">
-            ${finish ? `<span class="finish-label">${escapeHtml(finish)}</span>` : ""}
-            <button type="button" class="photo-adjust-toggle ${adjustmentOpen ? "active" : ""}" data-photo-adjust-id="${escapeHtml(photo.key)}" data-photo-adjust-action="toggle" title="写真位置調整" aria-label="写真位置調整">□</button>
+            ${finish
+              ? `<button type="button" class="finish-label ${adjustmentOpen ? "active" : ""}" data-photo-adjust-id="${escapeHtml(photo.key)}" data-photo-adjust-action="toggle" title="写真位置調整" aria-label="写真位置調整">${escapeHtml(finish)}</button>`
+              : `<button type="button" class="photo-adjust-toggle ${adjustmentOpen ? "active" : ""}" data-photo-adjust-id="${escapeHtml(photo.key)}" data-photo-adjust-action="toggle" title="写真位置調整" aria-label="写真位置調整">調整</button>`}
             <button type="button" class="photo-status-button ${escapeHtml(status)}" data-photo-status-id="${escapeHtml(photo.key)}" title="${escapeHtml(photoStatusLabel(status))}" aria-label="${escapeHtml(photoStatusLabel(status))}">${photoStatusIcon(status)}</button>
           </div>
         </div>

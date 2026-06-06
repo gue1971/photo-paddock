@@ -612,12 +612,27 @@ body[data-filter-open="true"] .race-year-group summary {
 }
 
 .finish-label {
-  min-width: 34px;
+  width: auto;
+  min-width: 30px;
+  height: 28px;
+  padding: 0;
+  border: 0;
+  background: transparent;
   color: var(--text);
   font-size: 12px;
   font-weight: 700;
   text-align: right;
   white-space: nowrap;
+}
+
+.finish-label:hover {
+  background: transparent;
+  opacity: 0.72;
+}
+
+.finish-label.active,
+.finish-label.active:hover {
+  color: var(--accent);
 }
 
 .photo-adjust-toggle,
@@ -630,6 +645,13 @@ body[data-filter-open="true"] .race-year-group summary {
   font-size: 18px;
   line-height: 1;
   color: var(--muted);
+}
+
+.photo-adjust-toggle {
+  width: auto;
+  min-width: 28px;
+  padding: 0 2px;
+  font-size: 11px;
 }
 
 .photo-adjust-toggle:hover,
@@ -969,11 +991,22 @@ body[data-comment-font="large"] .comment {
     line-height: 1.85;
   }
 
+  body[data-view-mode="two"] .finish-label,
   body[data-view-mode="two"] .photo-adjust-toggle,
   body[data-view-mode="two"] .photo-status-button {
     width: 22px;
     height: 22px;
     font-size: 15px;
+  }
+
+  body[data-view-mode="two"] .finish-label,
+  body[data-view-mode="two"] .photo-adjust-toggle {
+    width: auto;
+    min-width: 22px;
+  }
+
+  body[data-view-mode="two"] .photo-adjust-toggle {
+    font-size: 10px;
   }
 
   body[data-view-mode="two"] .photo-adjust-controls {
