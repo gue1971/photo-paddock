@@ -607,7 +607,17 @@ body[data-filter-open="true"] .race-year-group summary {
 
 .photo-actions {
   display: flex;
+  align-items: center;
   gap: 2px;
+}
+
+.finish-label {
+  min-width: 34px;
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
 }
 
 .photo-adjust-toggle,
@@ -676,6 +686,19 @@ body[data-filter-open="true"] .race-year-group summary {
   margin: 0 0 8px;
   color: var(--muted);
   font-size: 12px;
+}
+
+.pedigree-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.pedigree-meta span:last-child {
+  margin-left: auto;
+  color: var(--text);
+  font-weight: 700;
+  white-space: nowrap;
 }
 
 .comment {

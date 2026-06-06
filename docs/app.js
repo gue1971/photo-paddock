@@ -9,6 +9,7 @@ const COMMENT_FONT_SIZES = ["normal", "large"];
 
 const state = {
   db: null,
+  raceResults: { version: 1, races: {} },
   mode: "favorites",
   selectedHorseId: "",
   selectedRaceKey: "",
@@ -105,8 +106,12 @@ const appUrl = new URL(import.meta.url);
 const dataUrl = appUrl.pathname.includes("/public/")
   ? new URL("../data/photo-paddock.json", appUrl)
   : new URL("./data/photo-paddock.json", appUrl);
+const raceResultsUrl = appUrl.pathname.includes("/public/")
+  ? new URL("../data/race-results.json", appUrl)
+  : new URL("./data/race-results.json", appUrl);
 const response = await fetch(dataUrl);
 state.db = await response.json();
+state.raceResults = await loadRaceResults();
 normalizePhotoStatusState();
 registerServiceWorker();
 
@@ -387,6 +392,21 @@ function registerServiceWorker() {
   window.addEventListener("load", () => {
     navigator.serviceWorker.register(swUrl).catch(() => {});
   });
+}
+
+async function loadRaceResults() {
+  try {
+    const response = await fetch(raceResultsUrl);
+    if (!response.ok) return { version: 1, races: {} };
+    const data = await response.json();
+    return {
+      version: 1,
+      races: {},
+      ...data
+    };
+  } catch {
+    return { version: 1, races: {} };
+  }
 }
 
 function togglePhotoStatus(photoKey) {
@@ -1247,6 +1267,9 @@ function photoCard(photo, options = {}) {
   const horse = horseById(photo.horseId);
   const adjustment = photoAdjustment(photo.key);
   const adjustmentOpen = state.activePhotoAdjustment === photo.key;
+  const result = raceResultForPhoto(photo);
+  const finish = resultFinishLabel(result);
+  const bodyWeight = resultBodyWeightLabel(result);
   const raceCaption = [photo.raceDate || photo.photoDate, photo.raceName].filter(Boolean).join(" ");
   const caption = context === "race" || context === "favorite" || context === "offspring"
     ? horse?.name || ""
@@ -1270,12 +1293,13 @@ function photoCard(photo, options = {}) {
         <div class="caption-row">
           <p class="caption">${captionButton}</p>
           <div class="photo-actions">
+            ${finish ? `<span class="finish-label">${escapeHtml(finish)}</span>` : ""}
             <button type="button" class="photo-adjust-toggle ${adjustmentOpen ? "active" : ""}" data-photo-adjust-id="${escapeHtml(photo.key)}" data-photo-adjust-action="toggle" title="写真位置調整" aria-label="写真位置調整">□</button>
             <button type="button" class="photo-status-button ${escapeHtml(status)}" data-photo-status-id="${escapeHtml(photo.key)}" title="${escapeHtml(photoStatusLabel(status))}" aria-label="${escapeHtml(photoStatusLabel(status))}">${photoStatusIcon(status)}</button>
           </div>
         </div>
         ${adjustmentOpen ? photoAdjustmentControls(photo.key, adjustment) : ""}
-        ${subMeta ? `<p class="photo-meta pedigree-meta">${escapeHtml(subMeta)}</p>` : ""}
+        ${subMeta || bodyWeight ? `<p class="photo-meta pedigree-meta"><span>${escapeHtml(subMeta)}</span><span>${escapeHtml(bodyWeight)}</span></p>` : ""}
         ${meta ? `<p class="photo-meta">${escapeHtml(meta)}</p>` : ""}
         ${state.viewMode === "oneComments" && photo.comment ? `<p class="comment">${escapeHtml(photo.comment)}</p>` : ""}
       </div>
@@ -1296,6 +1320,29 @@ function photoAdjustmentControls(photoKey, adjustment) {
       <button type="button" data-photo-adjust-id="${escapeHtml(photoKey)}" data-photo-adjust-action="reset" title="リセット">リセット</button>
     </div>
   `;
+}
+
+function raceResultForPhoto(photo) {
+  if (!photo?.raceKey) return null;
+  const horse = horseById(photo.horseId);
+  const raceResult = state.raceResults?.races?.[photo.raceKey];
+  if (!horse || !raceResult) return null;
+  return raceResult.entriesByHorseId?.[photo.horseId] || raceResult.entries?.[horse.name] || null;
+}
+
+function resultFinishLabel(result) {
+  if (!result) return "";
+  if (result.status && result.status !== "started") return "---";
+  if (result.finish === undefined || result.finish === null || result.finish === "") return "";
+  const finish = String(result.finish);
+  return /着|同着|中止|取消|除外/.test(finish) ? finish : `${finish}着`;
+}
+
+function resultBodyWeightLabel(result) {
+  if (!result) return "";
+  if (result.status && result.status !== "started") return "出走回避";
+  if (result.bodyWeight === undefined || result.bodyWeight === null || result.bodyWeight === "") return "";
+  return `${result.bodyWeight}kg`;
 }
 
 function photoCardSubMeta({ context, horse, baseName }) {
