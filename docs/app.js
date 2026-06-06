@@ -1332,7 +1332,9 @@ function raceResultForPhoto(photo) {
 
 function resultFinishLabel(result) {
   if (!result) return "";
-  if (result.status && result.status !== "started") return "---";
+  if (result.status === "scratched") return "取消";
+  if (result.status === "stopped") return "中止";
+  if (result.status === "excluded") return "除外";
   if (result.finish === undefined || result.finish === null || result.finish === "") return "";
   const finish = String(result.finish);
   return /着|同着|中止|取消|除外/.test(finish) ? finish : `${finish}着`;
@@ -1340,9 +1342,9 @@ function resultFinishLabel(result) {
 
 function resultBodyWeightLabel(result) {
   if (!result) return "";
-  if (result.status && result.status !== "started") return "出走回避";
-  if (result.bodyWeight === undefined || result.bodyWeight === null || result.bodyWeight === "") return "";
-  return `${result.bodyWeight}kg`;
+  if (result.bodyWeight !== undefined && result.bodyWeight !== null && result.bodyWeight !== "") return `${result.bodyWeight}kg`;
+  if (result.status === "scratched" || result.status === "excluded") return "出走回避";
+  return "";
 }
 
 function photoCardSubMeta({ context, horse, baseName }) {

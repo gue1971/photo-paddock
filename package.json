@@ -25,6 +25,7 @@
     "update:race-dates:jra": "node scripts/update-race-dates-from-jra.mjs",
     "review:race-dates": "node scripts/report-race-date-review.mjs",
     "review:race-results": "node scripts/report-race-result-candidates.mjs",
+    "import:race-results:csv": "node scripts/import-race-results-from-csv.mjs",
     "apply:race-date-review": "node scripts/apply-race-date-review.mjs && node scripts/annotate-races.mjs",
     "fix:specific-races": "node scripts/apply-specific-race-corrections.mjs",
     "build:pages": "node scripts/build-pages.mjs",
