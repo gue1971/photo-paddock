@@ -1,5 +1,6 @@
 const FAVORITES_KEY = "photo-paddock:favorites:v3";
 const REPRESENTATIVES_KEY = "photo-paddock:representatives:v1";
+const PHOTO_ADJUSTMENTS_KEY = "photo-paddock:photo-adjustments:v1";
 const VIEW_MODE_KEY = "photo-paddock:view-mode";
 const COMMENT_FONT_KEY = "photo-paddock:comment-font-size";
 const STORAGE_EXPORT_VERSION = 1;
@@ -22,6 +23,8 @@ const state = {
   openRaceYears: new Set(),
   favorites: new Set(loadFavoriteIds()),
   representatives: loadRepresentatives(),
+  photoAdjustments: loadPhotoAdjustments(),
+  activePhotoAdjustment: "",
   filters: {
     horseTouch: "",
     raceG1Only: false,
@@ -172,6 +175,12 @@ detail.addEventListener("click", (event) => {
     return;
   }
 
+  const photoAdjustButton = event.target.closest("button[data-photo-adjust-id]");
+  if (photoAdjustButton) {
+    handlePhotoAdjustment(photoAdjustButton.dataset.photoAdjustId, photoAdjustButton.dataset.photoAdjustAction);
+    return;
+  }
+
   const statusButton = event.target.closest("button[data-photo-status-id]");
   if (statusButton) {
     togglePhotoStatus(statusButton.dataset.photoStatusId);
@@ -192,13 +201,13 @@ detail.addEventListener("click", (event) => {
 
   const offspringLink = event.target.closest("button[data-open-offspring-id]");
   if (offspringLink) {
-    openOffspring(offspringLink.dataset.openOffspringId);
+    openOffspring(offspringLink.dataset.openOffspringId, offspringLink.dataset.openOffspringMode);
     return;
   }
 
   const offspringNameLink = event.target.closest("button[data-open-offspring-name]");
   if (offspringNameLink) {
-    openOffspringByName(offspringNameLink.dataset.openOffspringName);
+    openOffspringByName(offspringNameLink.dataset.openOffspringName, offspringNameLink.dataset.openOffspringMode);
     return;
   }
 
@@ -238,6 +247,7 @@ function exportStorageData() {
     origin: location.origin,
     favorites: [...state.favorites],
     representatives: state.representatives,
+    photoAdjustments: state.photoAdjustments,
     viewMode: state.viewMode,
     commentFontSize: state.commentFontSize
   };
@@ -271,6 +281,9 @@ async function importStorageData() {
     if (data.representatives && typeof data.representatives === "object" && !Array.isArray(data.representatives)) {
       state.representatives = { ...state.representatives, ...data.representatives };
     }
+    if (data.photoAdjustments && typeof data.photoAdjustments === "object" && !Array.isArray(data.photoAdjustments)) {
+      state.photoAdjustments = { ...state.photoAdjustments, ...data.photoAdjustments };
+    }
     if (VIEW_MODES.includes(data.viewMode)) {
       state.viewMode = data.viewMode;
       localStorage.setItem(VIEW_MODE_KEY, state.viewMode);
@@ -282,6 +295,7 @@ async function importStorageData() {
     normalizePhotoStatusState();
     saveFavorites();
     saveRepresentatives();
+    savePhotoAdjustments();
     clearUndoFavorite();
     render();
     closeStorageMenu();
@@ -322,6 +336,19 @@ function loadRepresentatives() {
 
 function saveRepresentatives() {
   localStorage.setItem(REPRESENTATIVES_KEY, JSON.stringify(state.representatives));
+}
+
+function loadPhotoAdjustments() {
+  try {
+    const value = JSON.parse(localStorage.getItem(PHOTO_ADJUSTMENTS_KEY) || "{}");
+    return value && typeof value === "object" && !Array.isArray(value) ? value : {};
+  } catch {
+    return {};
+  }
+}
+
+function savePhotoAdjustments() {
+  localStorage.setItem(PHOTO_ADJUSTMENTS_KEY, JSON.stringify(state.photoAdjustments));
 }
 
 function loadViewMode() {
@@ -395,6 +422,45 @@ function photoStatusLabel(status) {
   if (status === "favorite") return "お気に入り";
   if (status === "representative") return "代表写真";
   return "未選択";
+}
+
+function handlePhotoAdjustment(photoKey, action) {
+  if (!photoKey) return;
+  if (!action || action === "toggle") {
+    state.activePhotoAdjustment = state.activePhotoAdjustment === photoKey ? "" : photoKey;
+    render();
+    return;
+  }
+  const current = photoAdjustment(photoKey);
+  if (action === "reset") {
+    delete state.photoAdjustments[photoKey];
+  } else {
+    const next = { ...current };
+    if (action === "zoomIn") next.scale = clamp(Number((next.scale + 0.05).toFixed(2)), 1, 1.5);
+    if (action === "zoomOut") next.scale = clamp(Number((next.scale - 0.05).toFixed(2)), 1, 1.5);
+    if (action === "left") next.x = clamp(next.x - 5, 0, 100);
+    if (action === "right") next.x = clamp(next.x + 5, 0, 100);
+    if (action === "up") next.y = clamp(next.y - 5, 0, 100);
+    if (action === "down") next.y = clamp(next.y + 5, 0, 100);
+    if (next.scale === 1 && next.x === 50 && next.y === 50) delete state.photoAdjustments[photoKey];
+    else state.photoAdjustments[photoKey] = next;
+  }
+  state.activePhotoAdjustment = photoKey;
+  savePhotoAdjustments();
+  render();
+}
+
+function photoAdjustment(photoKey) {
+  const saved = state.photoAdjustments[photoKey] || {};
+  return {
+    scale: clamp(Number(saved.scale) || 1, 1, 1.5),
+    x: clamp(Number(saved.x) || 50, 0, 100),
+    y: clamp(Number(saved.y) || 50, 0, 100)
+  };
+}
+
+function clamp(value, min, max) {
+  return Math.min(max, Math.max(min, value));
 }
 
 function normalizePhotoStatusState() {
@@ -548,28 +614,35 @@ function openHorse(horseId) {
   render();
 }
 
-function openOffspring(horseId) {
+function openOffspring(horseId, mode = "") {
   state.mode = "horse";
   resetFavoriteDetailFilters();
   state.selectedHorseId = horseId;
   state.offspringHorseId = horseId;
   state.offspringHorseName = "";
+  setOffspringListMode(mode);
   state.query = "";
   state.filterOpen = false;
   search.value = "";
   render();
 }
 
-function openOffspringByName(name) {
+function openOffspringByName(name, mode = "") {
   state.mode = "horse";
   resetFavoriteDetailFilters();
   state.offspringHorseId = "";
   state.offspringHorseName = name;
+  setOffspringListMode(mode);
   state.query = "";
   state.filterOpen = false;
   state.filters.horseTouch = "";
   search.value = "";
   render();
+}
+
+function setOffspringListMode(mode) {
+  if (mode === "favorites") state.filters.offspringFavoritesOnly = true;
+  if (mode === "all") state.filters.offspringFavoritesOnly = false;
 }
 
 function openRace(raceKey) {
@@ -786,13 +859,13 @@ function renderGlobalSearchList() {
   itemList.querySelectorAll("button[data-open-offspring-id]").forEach((button) => {
     button.addEventListener("click", () => {
       closeSidebarAfterListTap();
-      openOffspring(button.dataset.openOffspringId);
+      openOffspring(button.dataset.openOffspringId, button.dataset.openOffspringMode);
     });
   });
   itemList.querySelectorAll("button[data-open-offspring-name]").forEach((button) => {
     button.addEventListener("click", () => {
       closeSidebarAfterListTap();
-      openOffspringByName(button.dataset.openOffspringName);
+      openOffspringByName(button.dataset.openOffspringName, button.dataset.openOffspringMode);
     });
   });
   itemList.querySelectorAll("button[data-jump-photo-key]").forEach((button) => {
@@ -859,13 +932,13 @@ function renderHorseList() {
   itemList.querySelectorAll("button[data-open-offspring-id]").forEach((button) => {
     button.addEventListener("click", () => {
       closeSidebarAfterListTap();
-      openOffspring(button.dataset.openOffspringId);
+      openOffspring(button.dataset.openOffspringId, button.dataset.openOffspringMode);
     });
   });
   itemList.querySelectorAll("button[data-open-offspring-name]").forEach((button) => {
     button.addEventListener("click", () => {
       closeSidebarAfterListTap();
-      openOffspringByName(button.dataset.openOffspringName);
+      openOffspringByName(button.dataset.openOffspringName, button.dataset.openOffspringMode);
     });
   });
 }
@@ -873,9 +946,19 @@ function renderHorseList() {
 function sectionHeader(section) {
   if (!section.title) return "";
   const offspringAction = section.offspringHorseId
-    ? `<button type="button" class="section-action" data-open-offspring-id="${escapeHtml(section.offspringHorseId)}">一覧</button>`
+    ? `
+      <div class="section-actions">
+        <button type="button" class="section-action" data-open-offspring-id="${escapeHtml(section.offspringHorseId)}" data-open-offspring-mode="favorites">★一覧</button>
+        <button type="button" class="section-action" data-open-offspring-id="${escapeHtml(section.offspringHorseId)}" data-open-offspring-mode="all">全一覧</button>
+      </div>
+    `
     : section.offspringHorseName
-      ? `<button type="button" class="section-action" data-open-offspring-name="${escapeHtml(section.offspringHorseName)}">一覧</button>`
+      ? `
+        <div class="section-actions">
+          <button type="button" class="section-action" data-open-offspring-name="${escapeHtml(section.offspringHorseName)}" data-open-offspring-mode="favorites">★一覧</button>
+          <button type="button" class="section-action" data-open-offspring-name="${escapeHtml(section.offspringHorseName)}" data-open-offspring-mode="all">全一覧</button>
+        </div>
+      `
       : "";
   return `
     <div class="section-title">
@@ -1111,20 +1194,35 @@ function favoriteDetailFiltersHtml() {
   const sireScopedHorses = state.filters.favoriteBirthYear ? horses.filter((horse) => String(horse.birthYear || "") === state.filters.favoriteBirthYear) : horses;
   const sires = [...new Set(sireScopedHorses.map((horse) => horse.sire).filter(Boolean))].sort((a, b) => a.localeCompare(b, "ja"));
   const birthYears = [...new Set(yearScopedHorses.map((horse) => String(horse.birthYear || "")).filter(Boolean))].sort((a, b) => Number(b) - Number(a));
-  const orderedBirthYears = prioritizeFavoriteOptions(birthYears, state.filters.recentFavoriteBirthYear);
-  const orderedSires = prioritizeFavoriteOptions(sires, state.filters.recentFavoriteSire);
   return `
     <div class="detail-filters">
       <select class="filter-select favorite-year-select" data-favorite-filter="birthYear" aria-label="生年">
         <option value="">全生年（${yearScopedHorses.length}）</option>
-        ${orderedBirthYears.map((year) => `<option value="${escapeHtml(year)}" ${state.filters.favoriteBirthYear === year ? "selected" : ""}>${escapeHtml(year)}年産（${yearScopedHorses.filter((horse) => String(horse.birthYear || "") === year).length}）</option>`).join("")}
+        ${favoriteHistoryOptionsHtml({
+          values: birthYears,
+          recentValue: state.filters.recentFavoriteBirthYear,
+          selectedValue: state.filters.favoriteBirthYear,
+          label: (year) => `${year}年産（${yearScopedHorses.filter((horse) => String(horse.birthYear || "") === year).length}）`
+        })}
       </select>
       <select class="filter-select favorite-sire-select" data-favorite-filter="sire" aria-label="種牡馬">
         <option value="">全種牡馬（${sireScopedHorses.length}）</option>
-        ${orderedSires.map((sire) => `<option value="${escapeHtml(sire)}" ${state.filters.favoriteSire === sire ? "selected" : ""}>${escapeHtml(sire)}（${sireScopedHorses.filter((horse) => horse.sire === sire).length}）</option>`).join("")}
+        ${favoriteHistoryOptionsHtml({
+          values: sires,
+          recentValue: state.filters.recentFavoriteSire,
+          selectedValue: state.filters.favoriteSire,
+          label: (sire) => `${sire}（${sireScopedHorses.filter((horse) => horse.sire === sire).length}）`
+        })}
       </select>
     </div>
   `;
+}
+
+function favoriteHistoryOptionsHtml({ values, recentValue, selectedValue, label }) {
+  const recent = recentValue && values.includes(recentValue)
+    ? `<option value="${escapeHtml(recentValue)}" ${selectedValue === recentValue ? "selected" : ""}>${escapeHtml(label(recentValue))}</option><option disabled>────────</option>`
+    : "";
+  return `${recent}${values.map((value) => `<option value="${escapeHtml(value)}" ${selectedValue === value ? "selected" : ""}>${escapeHtml(label(value))}</option>`).join("")}`;
 }
 
 function renderFavoriteDetail(focusPhotoKey = "") {
@@ -1147,6 +1245,8 @@ function photoCard(photo, options = {}) {
   const { context = "horse", focused = false, baseName = "" } = options;
   const src = photo.localImagePath ? `data/${photo.localImagePath}` : photo.imageUrl;
   const horse = horseById(photo.horseId);
+  const adjustment = photoAdjustment(photo.key);
+  const adjustmentOpen = state.activePhotoAdjustment === photo.key;
   const raceCaption = [photo.raceDate || photo.photoDate, photo.raceName].filter(Boolean).join(" ");
   const caption = context === "race" || context === "favorite" || context === "offspring"
     ? horse?.name || ""
@@ -1161,19 +1261,40 @@ function photoCard(photo, options = {}) {
   const status = photoStatus(photo);
   return `
     <article class="photo-card ${focused ? "focused" : ""}" data-photo-card-key="${escapeHtml(photo.key)}">
-      ${src ? `<img src="${src}" alt="${escapeHtml(caption)}" loading="lazy">` : ""}
+      ${src ? `
+        <div class="photo-image-frame" style="--photo-scale: ${adjustment.scale}; --photo-x: ${adjustment.x}%; --photo-y: ${adjustment.y}%;">
+          <img src="${src}" alt="${escapeHtml(caption)}" loading="lazy">
+        </div>
+      ` : ""}
       <div class="photo-body">
         <div class="caption-row">
           <p class="caption">${captionButton}</p>
           <div class="photo-actions">
+            <button type="button" class="photo-adjust-toggle ${adjustmentOpen ? "active" : ""}" data-photo-adjust-id="${escapeHtml(photo.key)}" data-photo-adjust-action="toggle" title="写真位置調整" aria-label="写真位置調整">□</button>
             <button type="button" class="photo-status-button ${escapeHtml(status)}" data-photo-status-id="${escapeHtml(photo.key)}" title="${escapeHtml(photoStatusLabel(status))}" aria-label="${escapeHtml(photoStatusLabel(status))}">${photoStatusIcon(status)}</button>
           </div>
         </div>
+        ${adjustmentOpen ? photoAdjustmentControls(photo.key, adjustment) : ""}
         ${subMeta ? `<p class="photo-meta pedigree-meta">${escapeHtml(subMeta)}</p>` : ""}
         ${meta ? `<p class="photo-meta">${escapeHtml(meta)}</p>` : ""}
         ${state.viewMode === "oneComments" && photo.comment ? `<p class="comment">${escapeHtml(photo.comment)}</p>` : ""}
       </div>
     </article>
+  `;
+}
+
+function photoAdjustmentControls(photoKey, adjustment) {
+  return `
+    <div class="photo-adjust-controls">
+      <button type="button" data-photo-adjust-id="${escapeHtml(photoKey)}" data-photo-adjust-action="zoomOut" title="縮小">−</button>
+      <span>${Math.round(adjustment.scale * 100)}%</span>
+      <button type="button" data-photo-adjust-id="${escapeHtml(photoKey)}" data-photo-adjust-action="zoomIn" title="拡大">＋</button>
+      <button type="button" data-photo-adjust-id="${escapeHtml(photoKey)}" data-photo-adjust-action="left" title="左へ">←</button>
+      <button type="button" data-photo-adjust-id="${escapeHtml(photoKey)}" data-photo-adjust-action="right" title="右へ">→</button>
+      <button type="button" data-photo-adjust-id="${escapeHtml(photoKey)}" data-photo-adjust-action="up" title="上へ">↑</button>
+      <button type="button" data-photo-adjust-id="${escapeHtml(photoKey)}" data-photo-adjust-action="down" title="下へ">↓</button>
+      <button type="button" data-photo-adjust-id="${escapeHtml(photoKey)}" data-photo-adjust-action="reset" title="リセット">リセット</button>
+    </div>
   `;
 }
 
@@ -1365,11 +1486,6 @@ function uniqueHorses(horses) {
     seen.add(horse.id);
     return true;
   });
-}
-
-function prioritizeFavoriteOptions(values, recentValue) {
-  if (!recentValue || !values.includes(recentValue)) return values;
-  return [recentValue, ...values.filter((value) => value !== recentValue)];
 }
 
 function filteredHorses() {

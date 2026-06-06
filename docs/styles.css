@@ -314,6 +314,12 @@ button:disabled {
   margin: 0;
 }
 
+.section-actions {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+}
+
 .section-action {
   width: auto;
   height: 28px;
@@ -500,12 +506,20 @@ body[data-filter-open="true"] .race-year-group summary {
   outline: 3px solid rgba(15, 107, 79, 0.28);
 }
 
+.photo-image-frame {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #eef0ea;
+}
+
 .photo-card img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  height: 100%;
   object-fit: cover;
-  background: #eef0ea;
+  object-position: var(--photo-x, 50%) var(--photo-y, 50%);
+  transform: scale(var(--photo-scale, 1));
+  transform-origin: var(--photo-x, 50%) var(--photo-y, 50%);
 }
 
 .photo-body {
@@ -596,6 +610,7 @@ body[data-filter-open="true"] .race-year-group summary {
   gap: 2px;
 }
 
+.photo-adjust-toggle,
 .photo-status-button {
   width: 28px;
   height: 28px;
@@ -607,9 +622,17 @@ body[data-filter-open="true"] .race-year-group summary {
   color: var(--muted);
 }
 
+.photo-adjust-toggle:hover,
 .photo-status-button:hover {
   background: transparent;
   opacity: 0.72;
+}
+
+.photo-adjust-toggle.active,
+.photo-adjust-toggle.active:hover {
+  border: 0;
+  background: transparent;
+  color: var(--accent);
 }
 
 .photo-status-button.favorite,
@@ -624,6 +647,29 @@ body[data-filter-open="true"] .race-year-group summary {
   border: 0;
   background: transparent;
   color: var(--accent);
+}
+
+.photo-adjust-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  margin: 0 0 8px;
+}
+
+.photo-adjust-controls button {
+  width: auto;
+  height: 26px;
+  min-width: 28px;
+  padding: 0 7px;
+  font-size: 12px;
+}
+
+.photo-adjust-controls span {
+  min-width: 38px;
+  color: var(--muted);
+  font-size: 12px;
+  text-align: center;
 }
 
 .photo-meta {
@@ -900,10 +946,22 @@ body[data-comment-font="large"] .comment {
     line-height: 1.85;
   }
 
+  body[data-view-mode="two"] .photo-adjust-toggle,
   body[data-view-mode="two"] .photo-status-button {
     width: 22px;
     height: 22px;
     font-size: 15px;
+  }
+
+  body[data-view-mode="two"] .photo-adjust-controls {
+    gap: 3px;
+  }
+
+  body[data-view-mode="two"] .photo-adjust-controls button {
+    height: 24px;
+    min-width: 26px;
+    padding: 0 5px;
+    font-size: 11px;
   }
 
   body[data-mode="race"] .horse-button,
