@@ -296,6 +296,7 @@ function normalizeFinish(value) {
   if (normalized === "消") return { finish: "", status: "scratched" };
   if (normalized === "外") return { finish: "", status: "excluded" };
   if (normalized === "止") return { finish: "", status: "stopped" };
+  if (normalized === "回" || normalized === "回避" || normalized === "出走回避") return { finish: "", status: "withdrawn" };
   return { finish: normalizeNumber(normalized), status: "started" };
 }
 

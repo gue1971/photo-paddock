@@ -13,6 +13,7 @@ const state = {
   mode: "favorites",
   selectedHorseId: "",
   selectedRaceKey: "",
+  raceHistoryMode: "",
   offspringHorseId: "",
   offspringHorseName: "",
   query: "",
@@ -28,7 +29,7 @@ const state = {
   activePhotoAdjustment: "",
   filters: {
     horseTouch: "",
-    raceG1Only: false,
+    raceGrade: "",
     raceYear: "",
     raceName: "",
     favoriteTouch: "",
@@ -68,6 +69,37 @@ const G1_RACES = [
   "ホープフルS",
   "有馬記念"
 ];
+
+const GRADE_RACES = {
+  G1: [
+    ...G1_RACES,
+    "ジャパンカップダート",
+    "マイルCS南部杯",
+    "JBCクラシック",
+    "JBCスプリント",
+    "JBCレディスクラシック"
+  ],
+  G2: [
+    "日経新春杯", "アメリカJCC", "東海S", "京都記念", "中山記念", "チューリップ賞", "弥生賞",
+    "フィリーズレビュー", "金鯱賞", "スプリングS", "阪神大賞典", "日経賞", "ニュージーランドT",
+    "阪神牝馬S", "フローラS", "マイラーズC", "青葉賞", "京都新聞杯", "京王杯SC", "目黒記念",
+    "札幌記念", "セントウルS", "ローズS", "セントライト記念", "神戸新聞杯", "オールカマー",
+    "毎日王冠", "京都大賞典", "府中牝馬S", "富士S", "スワンS", "京王杯2歳S", "デイリー杯2歳S",
+    "東京スポーツ杯2歳S", "アルゼンチン共和国杯", "ステイヤーズS", "阪神カップ"
+  ],
+  G3: [
+    "中山金杯", "京都金杯", "フェアリーS", "シンザン記念", "京成杯", "根岸S", "シルクロードS",
+    "東京新聞杯", "きさらぎ賞", "クイーンC", "共同通信杯", "ダイヤモンドS", "小倉大賞典",
+    "アーリントンC", "阪急杯", "オーシャンS", "中山牝馬S", "ファルコンS", "フラワーC",
+    "毎日杯", "マーチS", "ダービー卿CT", "アンタレスS", "福島牝馬S", "新潟大賞典", "平安S",
+    "鳴尾記念", "エプソムC", "函館スプリントS", "マーメイドS", "ユニコーンS", "ラジオNIKKEI賞",
+    "函館記念", "中京記念", "アイビスサマーダッシュ", "クイーンS", "レパードS", "エルムS",
+    "関屋記念", "小倉記念", "北九州記念", "CBC賞", "新潟2歳S", "キーンランドカップ",
+    "札幌2歳S", "小倉2歳S", "新潟記念", "紫苑S", "京成杯AH", "シリウスS",
+    "サウジアラビアRC", "アルテミスS", "ファンタジーS", "みやこS", "武蔵野S", "福島記念",
+    "京都2歳S", "京阪杯", "チャレンジC", "中日新聞杯", "カペラS", "ターコイズS"
+  ]
+};
 
 const HORSE_TOUCH_LIMIT = 42;
 const KANA_PAD_ROWS = [
@@ -173,6 +205,13 @@ storageMenu?.addEventListener("click", (event) => {
 });
 
 detail.addEventListener("click", (event) => {
+  const raceHistoryButton = event.target.closest("button[data-race-history-mode]");
+  if (raceHistoryButton) {
+    state.raceHistoryMode = state.raceHistoryMode === raceHistoryButton.dataset.raceHistoryMode ? "" : raceHistoryButton.dataset.raceHistoryMode;
+    render();
+    return;
+  }
+
   const offspringFavoriteButton = event.target.closest("button[data-toggle-offspring-favorites]");
   if (offspringFavoriteButton) {
     state.filters.offspringFavoritesOnly = !state.filters.offspringFavoritesOnly;
@@ -597,27 +636,32 @@ function applyFilterAction(action, value) {
     return;
   }
   if (action === "race:class") {
-    state.filters.raceG1Only = value === "G1" ? !state.filters.raceG1Only : false;
+    state.filters.raceGrade = value && state.filters.raceGrade !== value ? value : "";
     state.filters.raceName = "";
     state.selectedRaceKey = "";
+    state.raceHistoryMode = "";
     return;
   }
   if (action === "race:clear") {
     state.query = "";
     search.value = "";
-    state.filters.raceG1Only = false;
+    state.filters.raceGrade = "";
     state.filters.raceYear = "";
     state.filters.raceName = "";
+    state.selectedRaceKey = "";
+    state.raceHistoryMode = "";
     return;
   }
   if (action === "race:year") {
     state.filters.raceYear = value;
     state.selectedRaceKey = "";
+    state.raceHistoryMode = "";
     return;
   }
   if (action === "race:name") {
     state.filters.raceName = state.filters.raceName === value ? "" : value;
     state.selectedRaceKey = "";
+    state.raceHistoryMode = "";
   }
 }
 
@@ -670,11 +714,12 @@ function openRace(raceKey) {
   resetFavoriteDetailFilters();
   clearOffspringSelection();
   state.selectedRaceKey = raceKey;
+  state.raceHistoryMode = "";
   clearQuery();
   state.filterOpen = false;
   state.filters.horseTouch = "";
   state.filters.favoriteTouch = "";
-  state.filters.raceG1Only = false;
+  state.filters.raceGrade = "";
   state.filters.raceYear = "";
   state.filters.raceName = "";
   const year = raceKey.split(":")[0];
@@ -821,14 +866,14 @@ function kanaPadHtml(kind, candidates) {
 }
 
 function raceFilterHtml() {
-  const baseRaces = races().filter((race) => !state.filters.raceG1Only || isG1Race(race.name));
+  const baseRaces = races().filter((race) => !state.filters.raceGrade || raceGrade(race) === state.filters.raceGrade);
   const yearOptions = [...new Set(baseRaces.map((race) => race.date?.slice(0, 4)).filter(Boolean))].sort((a, b) => b.localeCompare(a));
   const availableRaceNames = new Set(baseRaces
     .filter((race) => !state.filters.raceYear || race.date?.startsWith(state.filters.raceYear))
     .filter((race) => !state.query || race.name.includes(state.query))
     .map((race) => race.name)
   );
-  const g1Options = G1_RACES.filter((name) => availableRaceNames.has(name));
+  const raceNameOptions = raceNameFilterOptions(baseRaces, availableRaceNames);
 
   return `
     <div class="race-filter">
@@ -837,11 +882,12 @@ function raceFilterHtml() {
           <option value="">すべての年</option>
           ${yearOptions.map((year) => `<option value="${escapeHtml(year)}" ${state.filters.raceYear === year ? "selected" : ""}>${escapeHtml(year)}年</option>`).join("")}
         </select>
-        ${filterChip("race:class", "G1", state.filters.raceG1Only ? "G1" : "全レース", false)}
+        ${filterChip("race:class", "", "全レース", !state.filters.raceGrade)}
+        ${["G1", "G2", "G3"].map((grade) => filterChip("race:class", grade, grade, state.filters.raceGrade === grade)).join("")}
         <button type="button" class="filter-clear race-reset" data-filter-action="race:clear">クリア</button>
       </div>
       <div class="chip-row race-name-chips">
-        ${g1Options.map((name) => filterChip("race:name", name, name, state.filters.raceName === name)).join("")}
+        ${raceNameOptions.map((name) => filterChip("race:name", name, name, state.filters.raceName === name)).join("")}
       </div>
     </div>
   `;
@@ -990,7 +1036,10 @@ function sectionHeader(section) {
 
 function renderRaceList() {
   const items = filteredRaces();
-  if (!items.some((race) => race.key === state.selectedRaceKey)) state.selectedRaceKey = items[0]?.key || "";
+  if (!items.some((race) => race.key === state.selectedRaceKey)) {
+    state.selectedRaceKey = items[0]?.key || "";
+    state.raceHistoryMode = "";
+  }
   const grouped = Map.groupBy(items, (race) => race.date?.slice(0, 4) || race.key.split(":")[0] || "年不明");
   const years = [...grouped.keys()].sort((a, b) => b.localeCompare(a));
   const latestYear = years[0];
@@ -1016,6 +1065,7 @@ function renderRaceList() {
   itemList.querySelectorAll("button[data-race-key]").forEach((button) => {
     button.addEventListener("click", () => {
       state.selectedRaceKey = button.dataset.raceKey;
+      state.raceHistoryMode = "";
       state.filterOpen = false;
       closeSidebarAfterListTap();
       render();
@@ -1194,16 +1244,50 @@ function renderRaceDetail() {
     detail.innerHTML = `<div class="empty">レースを選択してください。</div>`;
     return;
   }
+  const historyPhotos = state.raceHistoryMode ? historicalRacePhotos(race, state.raceHistoryMode) : [];
+  const photos = state.raceHistoryMode ? historyPhotos : race.photos;
   detail.innerHTML = `
     <div class="horse-head">
       <div>
-        <h2>${escapeHtml([race.date, race.name].filter(Boolean).join(" "))}</h2>
+        <div class="detail-title-row race-title-row">
+          <h2>${escapeHtml([race.date, race.name].filter(Boolean).join(" "))}</h2>
+          <div class="detail-actions">
+            <button type="button" class="filter-chip ${state.raceHistoryMode === "winners" ? "active" : ""}" data-race-history-mode="winners">優勝馬</button>
+            <button type="button" class="filter-chip ${state.raceHistoryMode === "top3" ? "active" : ""}" data-race-history-mode="top3">好走馬</button>
+          </div>
+        </div>
       </div>
     </div>
     <div class="photos">
-      ${race.photos.map((photo) => photoCard(photo, { context: "race" })).join("")}
+      ${photos.map((photo) => photoCard(photo, { context: state.raceHistoryMode ? "raceHistory" : "race" })).join("") || `<div class="empty">${state.raceHistoryMode ? "該当する過去カードがありません。" : "写真がありません。"}</div>`}
     </div>
   `;
+}
+
+function historicalRacePhotos(race, mode) {
+  const family = raceFamilyName(race.name);
+  return races()
+    .filter((item) => item.key !== race.key && raceFamilyName(item.name) === family)
+    .flatMap((item) => item.photos.map((photo) => ({ photo, result: raceResultForPhoto(photo) })))
+    .filter(({ result }) => {
+      const finish = Number(result?.finish);
+      if (!Number.isFinite(finish)) return false;
+      return mode === "winners" ? finish === 1 : finish >= 1 && finish <= 3;
+    })
+    .sort((a, b) => {
+      const dateCompare = (b.photo.raceDate || b.photo.photoDate || "").localeCompare(a.photo.raceDate || a.photo.photoDate || "");
+      if (dateCompare) return dateCompare;
+      return Number(a.result?.finish || 99) - Number(b.result?.finish || 99);
+    })
+    .map(({ photo }) => photo);
+}
+
+function raceFamilyName(name) {
+  const normalized = normalizeResultRaceName(name);
+  const aliases = {
+    "ジャパンカップダート": "チャンピオンズカップ"
+  };
+  return aliases[normalized] || normalized;
 }
 
 function favoriteDetailFiltersHtml() {
@@ -1271,12 +1355,14 @@ function photoCard(photo, options = {}) {
   const finish = resultFinishLabel(result);
   const bodyWeight = resultBodyWeightLabel(result);
   const raceCaption = [photo.raceDate || photo.photoDate, photo.raceName].filter(Boolean).join(" ");
-  const caption = context === "race" || context === "favorite" || context === "offspring"
+  const caption = context === "race" || context === "raceHistory" || context === "favorite" || context === "offspring"
     ? horse?.name || ""
     : raceCaption || photo.caption || "";
-  const meta = (context === "favorite" || context === "offspring") && state.viewMode === "oneComments" ? raceCaption : "";
+  const meta = context === "raceHistory"
+    ? raceCaption
+    : (context === "favorite" || context === "offspring") && state.viewMode === "oneComments" ? raceCaption : "";
   const subMeta = photoCardSubMeta({ context, horse, baseName });
-  const captionButton = context === "race" || context === "favorite" || context === "offspring"
+  const captionButton = context === "race" || context === "raceHistory" || context === "favorite" || context === "offspring"
     ? `<button type="button" class="caption-link" data-open-horse-id="${escapeHtml(photo.horseId)}">${escapeHtml(caption || photo.source)}</button>`
     : context === "horse" && photo.raceKey
       ? `<button type="button" class="caption-link" data-open-race-key="${escapeHtml(photo.raceKey)}">${escapeHtml(caption || photo.source)}</button>`
@@ -1295,7 +1381,7 @@ function photoCard(photo, options = {}) {
           <div class="photo-actions">
             ${finish
               ? `<button type="button" class="finish-label ${adjustmentOpen ? "active" : ""}" data-photo-adjust-id="${escapeHtml(photo.key)}" data-photo-adjust-action="toggle" title="写真位置調整" aria-label="写真位置調整">${escapeHtml(finish)}</button>`
-              : `<button type="button" class="photo-adjust-toggle ${adjustmentOpen ? "active" : ""}" data-photo-adjust-id="${escapeHtml(photo.key)}" data-photo-adjust-action="toggle" title="写真位置調整" aria-label="写真位置調整">調整</button>`}
+              : `<button type="button" class="photo-adjust-toggle empty ${adjustmentOpen ? "active" : ""}" data-photo-adjust-id="${escapeHtml(photo.key)}" data-photo-adjust-action="toggle" title="写真位置調整" aria-label="写真位置調整">&nbsp;&nbsp;</button>`}
             <button type="button" class="photo-status-button ${escapeHtml(status)}" data-photo-status-id="${escapeHtml(photo.key)}" title="${escapeHtml(photoStatusLabel(status))}" aria-label="${escapeHtml(photoStatusLabel(status))}">${photoStatusIcon(status)}</button>
           </div>
         </div>
@@ -1352,6 +1438,7 @@ function normalizeResultRaceName(name = "") {
 
 function resultFinishLabel(result) {
   if (!result) return "";
+  if (result.status === "withdrawn") return "回避";
   if (result.status === "scratched") return "取消";
   if (result.status === "stopped") return "中止";
   if (result.status === "excluded") return "除外";
@@ -1363,13 +1450,12 @@ function resultFinishLabel(result) {
 function resultBodyWeightLabel(result) {
   if (!result) return "";
   if (result.bodyWeight !== undefined && result.bodyWeight !== null && result.bodyWeight !== "") return `${result.bodyWeight}kg`;
-  if (result.status === "scratched" || result.status === "excluded") return "出走回避";
   return "";
 }
 
 function photoCardSubMeta({ context, horse, baseName }) {
   if (!horse) return "";
-  if (context === "favorite" || context === "race") {
+  if (context === "favorite" || context === "race" || context === "raceHistory") {
     return horse.sire ? `父 ${horse.sire}` : "";
   }
   if (context === "offspring") {
@@ -1523,7 +1609,7 @@ function filteredRaces() {
   const query = state.query;
   return races().filter((race) => {
     if (query && !race.name.includes(query)) return false;
-    if (state.filters.raceG1Only && !isG1Race(race.name)) return false;
+    if (state.filters.raceGrade && raceGrade(race) !== state.filters.raceGrade) return false;
     if (state.filters.raceYear && !race.date?.startsWith(state.filters.raceYear)) return false;
     if (state.filters.raceName && race.name !== state.filters.raceName) return false;
     return true;
@@ -1646,7 +1732,7 @@ function hasHorseFilters() {
 }
 
 function hasRaceFilters() {
-  return Boolean(state.filters.raceG1Only || state.filters.raceYear || state.filters.raceName);
+  return Boolean(state.filters.raceGrade || state.filters.raceYear || state.filters.raceName);
 }
 
 function hasFavoriteFilters() {
@@ -1655,6 +1741,54 @@ function hasFavoriteFilters() {
 
 function isG1Race(name = "") {
   return G1_RACES.includes(String(name));
+}
+
+function raceNameFilterOptions(baseRaces, availableRaceNames) {
+  if (!state.filters.raceGrade) {
+    return G1_RACES.filter((name) => availableRaceNames.has(name));
+  }
+  const names = [...new Set(baseRaces
+    .filter((race) => availableRaceNames.has(race.name))
+    .map((race) => race.name)
+  )];
+  const preferred = GRADE_RACES[state.filters.raceGrade] || [];
+  return names.sort((a, b) => {
+    const ai = preferred.indexOf(a);
+    const bi = preferred.indexOf(b);
+    if (ai >= 0 && bi >= 0) return ai - bi;
+    if (ai >= 0) return -1;
+    if (bi >= 0) return 1;
+    return latestRaceDateForName(b).localeCompare(latestRaceDateForName(a)) || a.localeCompare(b, "ja");
+  });
+}
+
+function latestRaceDateForName(name) {
+  return races()
+    .filter((race) => race.name === name)
+    .map((race) => race.date || "")
+    .sort((a, b) => b.localeCompare(a))[0] || "";
+}
+
+function raceGrade(race) {
+  const resultRace = resultRaceForRace(race);
+  if (resultRace?.grade) return resultRace.grade;
+  return gradeByRaceName(race.name);
+}
+
+function resultRaceForRace(race) {
+  if (!race) return null;
+  const direct = state.raceResults?.races?.[race.key];
+  if (direct) return direct;
+  const year = String(race.key || "").split(":")[0] || (race.date || "").slice(0, 4);
+  const normalizedKey = year && race.name ? `${year}:${normalizeResultRaceName(race.name)}` : "";
+  return normalizedKey ? state.raceResults?.races?.[normalizedKey] || null : null;
+}
+
+function gradeByRaceName(name = "") {
+  for (const [grade, names] of Object.entries(GRADE_RACES)) {
+    if (names.includes(String(name))) return grade;
+  }
+  return "";
 }
 
 function horseTouchCandidates() {

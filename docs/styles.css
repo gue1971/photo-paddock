@@ -539,8 +539,17 @@ body[data-filter-open="true"] .race-year-group summary {
   gap: 8px;
 }
 
+.race-title-row {
+  flex-wrap: wrap;
+}
+
 .detail-title-row h2 {
   margin: 0;
+}
+
+.detail-actions {
+  display: flex;
+  gap: 6px;
 }
 
 .detail-filters .filter-select,
@@ -652,6 +661,10 @@ body[data-filter-open="true"] .race-year-group summary {
   min-width: 28px;
   padding: 0 2px;
   font-size: 11px;
+}
+
+.photo-adjust-toggle.empty {
+  color: transparent;
 }
 
 .photo-adjust-toggle:hover,
