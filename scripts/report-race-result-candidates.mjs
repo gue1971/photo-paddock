@@ -9,8 +9,8 @@ const limit = Number(process.argv.find((arg) => arg.startsWith("--limit="))?.spl
 const db = await loadStore();
 const results = await loadResults();
 const races = raceSummaries(db);
-const withResults = races.filter((race) => results.races?.[race.key]);
-const withoutResults = races.filter((race) => !results.races?.[race.key]);
+const withResults = races.filter((race) => raceResultForSummary(race));
+const withoutResults = races.filter((race) => !raceResultForSummary(race));
 const past = withoutResults.filter((race) => race.date && race.date <= today);
 const upcoming = withoutResults.filter((race) => race.date && race.date > today);
 const undated = withoutResults.filter((race) => !race.date);
@@ -24,6 +24,29 @@ console.log("");
 console.log(`next missing candidates (today=${today}, limit=${limit}):`);
 for (const race of past.slice(0, limit)) {
   console.log(`- ${race.date} ${race.name} (${race.key}) ${race.horseCount}頭`);
+}
+
+function raceResultForSummary(race) {
+  return results.races?.[race.key] || results.races?.[normalizedResultRaceKey(race)];
+}
+
+function normalizedResultRaceKey(race) {
+  const year = String(race.key || "").split(":")[0] || String(race.date || "").slice(0, 4);
+  return year && race.name ? `${year}:${normalizeResultRaceName(race.name)}` : "";
+}
+
+function normalizeResultRaceName(name = "") {
+  const normalized = String(name).normalize("NFKC").replace(/\s+/g, "");
+  const aliases = {
+    "東京優駿": "日本ダービー",
+    "優駿牝馬": "オークス",
+    "天皇賞春": "天皇賞・春",
+    "天皇賞秋": "天皇賞・秋",
+    "マイルチャンピオンS": "マイルCS",
+    "マイラーズカップ": "マイラーズC",
+    "産経大阪杯": "大阪杯"
+  };
+  return aliases[normalized] || normalized;
 }
 if (upcoming.length) {
   console.log("");

@@ -1326,9 +1326,28 @@ function photoAdjustmentControls(photoKey, adjustment) {
 function raceResultForPhoto(photo) {
   if (!photo?.raceKey) return null;
   const horse = horseById(photo.horseId);
-  const raceResult = state.raceResults?.races?.[photo.raceKey];
+  const raceResult = state.raceResults?.races?.[photo.raceKey] || state.raceResults?.races?.[normalizedResultRaceKey(photo)];
   if (!horse || !raceResult) return null;
   return raceResult.entriesByHorseId?.[photo.horseId] || raceResult.entries?.[horse.name] || null;
+}
+
+function normalizedResultRaceKey(photo) {
+  const year = String(photo.raceKey || "").split(":")[0] || (photo.raceDate || photo.photoDate || "").slice(0, 4);
+  return year && photo.raceName ? `${year}:${normalizeResultRaceName(photo.raceName)}` : "";
+}
+
+function normalizeResultRaceName(name = "") {
+  const normalized = String(name).normalize("NFKC").replace(/\s+/g, "");
+  const aliases = {
+    "東京優駿": "日本ダービー",
+    "優駿牝馬": "オークス",
+    "天皇賞春": "天皇賞・春",
+    "天皇賞秋": "天皇賞・秋",
+    "マイルチャンピオンS": "マイルCS",
+    "マイラーズカップ": "マイラーズC",
+    "産経大阪杯": "大阪杯"
+  };
+  return aliases[normalized] || normalized;
 }
 
 function resultFinishLabel(result) {
