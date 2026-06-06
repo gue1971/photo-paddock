@@ -616,8 +616,10 @@ body[data-filter-open="true"] .race-year-group summary {
 
 .photo-actions {
   display: flex;
+  align-self: start;
   align-items: center;
   gap: 2px;
+  height: 28px;
 }
 
 .finish-label {
@@ -663,10 +665,6 @@ body[data-filter-open="true"] .race-year-group summary {
   font-size: 11px;
 }
 
-.photo-adjust-toggle.empty {
-  color: transparent;
-}
-
 .photo-adjust-toggle:hover,
 .photo-status-button:hover {
   background: transparent;
@@ -678,6 +676,13 @@ body[data-filter-open="true"] .race-year-group summary {
   border: 0;
   background: transparent;
   color: var(--accent);
+}
+
+.photo-adjust-toggle.empty,
+.photo-adjust-toggle.empty:hover,
+.photo-adjust-toggle.empty.active,
+.photo-adjust-toggle.empty.active:hover {
+  color: transparent;
 }
 
 .photo-status-button.favorite,
@@ -981,6 +986,7 @@ body[data-comment-font="large"] .comment {
 
   body[data-view-mode="two"] .photo-actions {
     justify-content: flex-end;
+    height: 22px;
   }
 
   body[data-view-mode="two"] .caption,

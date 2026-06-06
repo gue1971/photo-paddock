@@ -133,6 +133,7 @@ const storageMenuHome = document.querySelector(".sidebar-controls");
 const exportStorage = document.querySelector("#exportStorage");
 const importStorage = document.querySelector("#importStorage");
 const toast = document.querySelector("#toast");
+let racesCache = null;
 
 const appUrl = new URL(import.meta.url);
 const dataUrl = appUrl.pathname.includes("/public/")
@@ -1381,7 +1382,7 @@ function photoCard(photo, options = {}) {
           <div class="photo-actions">
             ${finish
               ? `<button type="button" class="finish-label ${adjustmentOpen ? "active" : ""}" data-photo-adjust-id="${escapeHtml(photo.key)}" data-photo-adjust-action="toggle" title="写真位置調整" aria-label="写真位置調整">${escapeHtml(finish)}</button>`
-              : `<button type="button" class="photo-adjust-toggle empty ${adjustmentOpen ? "active" : ""}" data-photo-adjust-id="${escapeHtml(photo.key)}" data-photo-adjust-action="toggle" title="写真位置調整" aria-label="写真位置調整">&nbsp;&nbsp;</button>`}
+              : `<button type="button" class="photo-adjust-toggle empty ${adjustmentOpen ? "active" : ""}" data-photo-adjust-id="${escapeHtml(photo.key)}" data-photo-adjust-action="toggle" title="写真位置調整" aria-label="写真位置調整">調整</button>`}
             <button type="button" class="photo-status-button ${escapeHtml(status)}" data-photo-status-id="${escapeHtml(photo.key)}" title="${escapeHtml(photoStatusLabel(status))}" aria-label="${escapeHtml(photoStatusLabel(status))}">${photoStatusIcon(status)}</button>
           </div>
         </div>
@@ -1423,14 +1424,31 @@ function normalizedResultRaceKey(photo) {
 }
 
 function normalizeResultRaceName(name = "") {
-  const normalized = String(name).normalize("NFKC").replace(/\s+/g, "");
+  const normalized = String(name)
+    .normalize("NFKC")
+    .replace(/[（）]/g, (char) => ({ "（": "(", "）": ")" })[char])
+    .replace(/\s+/g, "");
   const aliases = {
+    "AR共和国杯": "アルゼンチン共和国杯",
     "東京優駿": "日本ダービー",
+    "ダービー": "日本ダービー",
     "優駿牝馬": "オークス",
+    "NHKマイルC": "NHKマイルカップ",
     "天皇賞春": "天皇賞・春",
     "天皇賞秋": "天皇賞・秋",
+    "天皇賞(春)": "天皇賞・春",
+    "天皇賞(秋)": "天皇賞・秋",
     "マイルチャンピオンS": "マイルCS",
+    "マイルチャンピオンシップ": "マイルCS",
+    "ジャパンC": "ジャパンカップ",
+    "ジャパンカップ(芝)": "ジャパンカップ",
+    "ジャパンCダート": "ジャパンカップダート",
+    "JCダート": "ジャパンカップダート",
+    "ジャパンカップ(ダート)": "ジャパンカップダート",
     "マイラーズカップ": "マイラーズC",
+    "クイーンカップ": "クイーンC",
+    "阪神ジュべナイルフィリーズ": "阪神ジュベナイルF",
+    "阪神ジュベナイルフィリーズ": "阪神ジュベナイルF",
     "産経大阪杯": "大阪杯"
   };
   return aliases[normalized] || normalized;
@@ -1650,6 +1668,7 @@ function filteredHorses() {
 }
 
 function races() {
+  if (racesCache) return racesCache;
   const grouped = new Map();
   for (const photo of state.db.photos) {
     const key = photo.raceKey || [photo.raceDate || photo.photoDate || "", photo.raceName || ""].join(":");
@@ -1664,9 +1683,10 @@ function races() {
     }
     grouped.get(key).photos.push(photo);
   }
-  return [...grouped.values()]
+  racesCache = [...grouped.values()]
     .map((race) => ({ ...race, photos: race.photos.sort(photoSort) }))
     .sort((a, b) => (b.date || "").localeCompare(a.date || "") || a.name.localeCompare(b.name, "ja"));
+  return racesCache;
 }
 
 function photosForHorse(horseId) {
