@@ -1388,6 +1388,7 @@ function photoCard(photo, options = {}) {
         </div>
         ${adjustmentOpen ? photoAdjustmentControls(photo.key, adjustment) : ""}
         ${subMeta || bodyWeight ? `<p class="photo-meta pedigree-meta"><span>${escapeHtml(subMeta)}</span><span>${escapeHtml(bodyWeight)}</span></p>` : ""}
+        ${photoCardBodyTags(context, horse)}
         ${meta ? `<p class="photo-meta">${escapeHtml(meta)}</p>` : ""}
         ${state.viewMode === "oneComments" && photo.comment ? `<p class="comment">${escapeHtml(photo.comment)}</p>` : ""}
       </div>
@@ -1481,6 +1482,12 @@ function photoCardSubMeta({ context, horse, baseName }) {
     if (baseName && horse.dam === baseName) return horse.sire ? `父 ${horse.sire}` : "";
   }
   return "";
+}
+
+function photoCardBodyTags(context, horse) {
+  if (!horse || !["race", "raceHistory", "favorite"].includes(context)) return "";
+  const html = bodyTagChips(horse);
+  return html ? `<div class="photo-card-tags">${html}</div>` : "";
 }
 
 function horseSearchResult(query = state.query || state.filters.horseTouch) {

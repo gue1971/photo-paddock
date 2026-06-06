@@ -741,6 +741,20 @@ body[data-filter-open="true"] .race-year-group summary {
   white-space: nowrap;
 }
 
+.photo-card-tags {
+  margin: -3px 0 8px;
+}
+
+.photo-card-tags .body-tags {
+  gap: 3px;
+}
+
+.photo-card-tags .body-tag {
+  padding: 1px 6px;
+  font-size: 10px;
+  line-height: 1.45;
+}
+
 .comment {
   margin: 0;
   color: var(--muted);
