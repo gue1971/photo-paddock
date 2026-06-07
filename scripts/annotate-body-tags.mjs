@@ -79,9 +79,8 @@ function tagSortKey(item) {
 
 function resolveLongShortBody(tags) {
   const longShort = tags.get("長躯短背");
-  if (!longShort) return;
 
-  if (longShort.confidence === "confirmed") {
+  if (longShort?.confidence === "confirmed") {
     tags.delete("胴長");
     tags.delete("胴詰まり");
     tags.delete("短背");
@@ -91,12 +90,36 @@ function resolveLongShortBody(tags) {
   const compact = tags.get("胴詰まり");
   if (compact?.confidence === "confirmed") {
     tags.delete("長躯短背");
+    tags.delete("胴長");
     return;
   }
 
-  tags.delete("胴長");
-  tags.delete("胴詰まり");
-  tags.delete("短背");
+  if (longShort) {
+    tags.delete("胴長");
+    tags.delete("胴詰まり");
+    tags.delete("短背");
+    return;
+  }
+
+  if (tags.has("短背") && tags.has("胴長")) {
+    tags.set("長躯短背", combinedLongShortTag(tags.get("短背"), tags.get("胴長")));
+    tags.delete("胴長");
+    tags.delete("胴詰まり");
+    tags.delete("短背");
+  }
+}
+
+function combinedLongShortTag(shortBack, longBody) {
+  const evidence = [...(shortBack.evidence || []), ...(longBody.evidence || [])]
+    .sort((a, b) => (b.raceDate || "").localeCompare(a.raceDate || ""))
+    .slice(0, 5);
+  return {
+    tag: "長躯短背",
+    category: "体型",
+    confidence: "suggested",
+    evidenceCount: Math.max(shortBack.evidenceCount || 0, longBody.evidenceCount || 0),
+    evidence
+  };
 }
 
 function resolveTagConflict(tags, a, b) {

@@ -142,7 +142,7 @@ function splitSentences(text) {
 }
 
 function isNegated(sentence) {
-  return /(?:ではない|でない|見せない|感じない|目立たない|欠ける|乏しい|短く見せず)/.test(sentence);
+  return /(?:ではない|でない|見せない|感じない|目立たない|欠ける|乏しい|短く見せず|長くなく|長くない|短くなく|短くない)/.test(sentence);
 }
 
 function isComparativeOtherSide(sentence, matchIndex) {
