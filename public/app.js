@@ -1573,11 +1573,21 @@ function bodyTagChips(horse) {
     <div class="body-tags">
       ${tags.map((item) => `
         <span class="body-tag ${item.confidence === "confirmed" ? "confirmed" : "suggested"}" title="${escapeHtml(bodyTagTitle(item))}">
-          ${escapeHtml(item.tag)}
+          ${escapeHtml(bodyTagLabel(item.tag))}
         </span>
       `).join("")}
     </div>
   `;
+}
+
+function bodyTagLabel(tag) {
+  const labels = {
+    "繋ぎ立ち": "立繋",
+    "胴詰まり": "胴詰",
+    "繋ぎ柔らか": "柔繋",
+    "肩立ち": "肩立"
+  };
+  return labels[tag] || tag;
 }
 
 function bodyTagTitle(item) {

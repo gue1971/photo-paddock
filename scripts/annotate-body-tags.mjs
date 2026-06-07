@@ -39,7 +39,11 @@ for (const horse of db.horses) {
   if (horseTags.has("長躯短背")) {
     horseTags.delete("胴長");
     horseTags.delete("胴詰まり");
+    horseTags.delete("短背");
   }
+  resolveTagConflict(horseTags, "胴長", "胴詰まり");
+  resolveTagConflict(horseTags, "首長", "首短");
+  resolveTagConflict(horseTags, "直飛", "曲飛");
   const nextTags = [...horseTags.values()]
     .sort((a, b) => tagSortKey(a).localeCompare(tagSortKey(b), "ja"))
     .map((tag) => ({
@@ -75,4 +79,21 @@ function tagSortKey(item) {
   const categoryOrder = item.category === "体型" ? "0" : "1";
   const confidenceOrder = item.confidence === "confirmed" ? "0" : "1";
   return `${categoryOrder}:${confidenceOrder}:${item.tag}`;
+}
+
+function resolveTagConflict(tags, a, b) {
+  if (!tags.has(a) || !tags.has(b)) return;
+  const aScore = tagReliabilityScore(tags.get(a));
+  const bScore = tagReliabilityScore(tags.get(b));
+  if (aScore > bScore) tags.delete(b);
+  else if (bScore > aScore) tags.delete(a);
+  else {
+    tags.delete(a);
+    tags.delete(b);
+  }
+}
+
+function tagReliabilityScore(tag) {
+  const confidence = tag.confidence === "confirmed" ? 100 : 0;
+  return confidence + (tag.evidenceCount || 0);
 }
