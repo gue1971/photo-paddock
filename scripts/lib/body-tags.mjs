@@ -8,19 +8,19 @@ export const bodyTagDefinitions = [
   {
     tag: "胴長",
     category: "体型",
-    confirmed: [/胴長/, /背中[^。]*長/, /胴[^。]*長/],
+    confirmed: [/胴長/, /背中[^。]*(?:長い|長め|長く|長さ|伸び)/, /胴[^。]*(?:長い|長め|長く|長さ)/],
     suggested: [/胴[^。]*伸び/, /伸び(?:やか|のある)[^。]*(?:馬体|体型|フォルム)/]
   },
   {
     tag: "胴詰まり",
     category: "体型",
-    confirmed: [/胴詰まり/, /寸(?:の)?詰まり/, /詰まった体型/, /詰まった馬体/],
+    confirmed: [/胴詰まり/, /寸(?:の)?詰まり/, /胴[^。]*詰ま/, /詰ま(?:った|り気味)[^。]*(?:体型|馬体|フォルム|バランス)/, /前後[^。]*詰ま/],
     suggested: [/コンパクト[^。]*(?:まとま|体型|馬体)/, /背中[^。]*短[^。]*(?:腹|胴)[^。]*短/]
   },
   {
     tag: "脚長",
     category: "体型",
-    confirmed: [/脚長/, /四肢[^。]*長/, /手脚[^。]*長/, /前肢[^。]*長/, /脚[^。]*長/],
+    confirmed: [/脚長/, /四肢[^。]*(?:長い|長め|長く|長さ)/, /手脚[^。]*(?:長い|長め|長く|長さ)/, /前肢[^。]*(?:長い|長め|長く|長さ)/, /脚[^。]*(?:長い|長め|長く|長さ)/],
     suggested: [/四肢[^。]*長く見せ/, /跳び[^。]*大き/]
   },
   {
@@ -118,8 +118,14 @@ export function extractBodyTags(comment = "") {
 function findEvidence(sentences, patterns) {
   return sentences.filter((sentence) => {
     if (isNegated(sentence)) return false;
-    return patterns.some((pattern) => pattern.test(sentence));
+    return patterns.some((pattern) => isEvidenceMatch(sentence, pattern));
   }).slice(0, 3);
+}
+
+function isEvidenceMatch(sentence, pattern) {
+  const match = sentence.match(pattern);
+  if (!match) return false;
+  return !isComparativeOtherSide(sentence, match.index || 0);
 }
 
 function splitSentences(text) {
@@ -131,4 +137,14 @@ function splitSentences(text) {
 
 function isNegated(sentence) {
   return /(?:ではない|でない|見せない|感じない|目立たない|欠ける|乏しい|短く見せず)/.test(sentence);
+}
+
+function isComparativeOtherSide(sentence, matchIndex) {
+  const comparative = sentence.match(/(?:とは異なり|とはあまり似ていない|とは似ていない|と比較すると|に比べ(?:ると)?|と違って|とは違って|とは違い|と対照的)/);
+  if (!comparative) return false;
+  const comparativeIndex = comparative.index || 0;
+  if (matchIndex > comparativeIndex) return false;
+  const before = sentence.slice(0, comparativeIndex);
+  const after = sentence.slice(comparativeIndex);
+  return /(?:父|母|兄|姉|半兄|半姉|きょうだい|産駒)/.test(before) && /(?:本馬|この馬|馬は|馬も|馬体|フォルム|体型|前肢|四肢|背中|トモ|骨格|筋肉)/.test(after);
 }
