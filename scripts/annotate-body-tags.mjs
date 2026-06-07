@@ -36,11 +36,7 @@ let taggedHorses = 0;
 let changed = 0;
 for (const horse of db.horses) {
   const horseTags = byHorse.get(horse.id) || new Map();
-  if (horseTags.has("長躯短背")) {
-    horseTags.delete("胴長");
-    horseTags.delete("胴詰まり");
-    horseTags.delete("短背");
-  }
+  resolveLongShortBody(horseTags);
   resolveTagConflict(horseTags, "胴長", "胴詰まり");
   resolveTagConflict(horseTags, "首長", "首短");
   resolveTagConflict(horseTags, "直飛", "曲飛");
@@ -79,6 +75,28 @@ function tagSortKey(item) {
   const categoryOrder = item.category === "体型" ? "0" : "1";
   const confidenceOrder = item.confidence === "confirmed" ? "0" : "1";
   return `${categoryOrder}:${confidenceOrder}:${item.tag}`;
+}
+
+function resolveLongShortBody(tags) {
+  const longShort = tags.get("長躯短背");
+  if (!longShort) return;
+
+  if (longShort.confidence === "confirmed") {
+    tags.delete("胴長");
+    tags.delete("胴詰まり");
+    tags.delete("短背");
+    return;
+  }
+
+  const compact = tags.get("胴詰まり");
+  if (compact?.confidence === "confirmed") {
+    tags.delete("長躯短背");
+    return;
+  }
+
+  tags.delete("胴長");
+  tags.delete("胴詰まり");
+  tags.delete("短背");
 }
 
 function resolveTagConflict(tags, a, b) {
