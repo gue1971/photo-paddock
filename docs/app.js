@@ -1416,7 +1416,10 @@ function raceResultForPhoto(photo) {
   const horse = horseById(photo.horseId);
   const raceResult = state.raceResults?.races?.[photo.raceKey] || state.raceResults?.races?.[normalizedResultRaceKey(photo)];
   if (!horse || !raceResult) return null;
-  return raceResult.entriesByHorseId?.[photo.horseId] || raceResult.entries?.[horse.name] || null;
+  const result = raceResult.entriesByHorseId?.[photo.horseId] || raceResult.entries?.[horse.name] || null;
+  if (result) return result;
+  const entries = Object.keys(raceResult.entries || {});
+  return entries.length ? { finish: "", status: "withdrawn", bodyWeight: "" } : null;
 }
 
 function normalizedResultRaceKey(photo) {
