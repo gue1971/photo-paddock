@@ -6065,6 +6065,221 @@
         }
       }
     },
+    "2026:安田記念": {
+      "date": "2026-06-07",
+      "name": "安田記念",
+      "source": "target-frontier-csv",
+      "grade": "G1",
+      "sourceRaceNames": [
+        "安田記念G1"
+      ],
+      "entries": {
+        "シックスペンス": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 504,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "安田記念G1"
+        },
+        "ワールズエンド": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 470,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "安田記念G1"
+        },
+        "ガイアフォース": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 498,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "安田記念G1"
+        },
+        "セイウンハーデス": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 478,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "安田記念G1"
+        },
+        "パンジャタワー": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 488,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "安田記念G1"
+        },
+        "オフトレイル": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 462,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "安田記念G1"
+        },
+        "レーベンスティール": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 496,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "安田記念G1"
+        },
+        "ドラゴンブースト": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 476,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "安田記念G1"
+        },
+        "トロヴァトーレ": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 508,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "安田記念G1"
+        },
+        "ステレンボッシュ": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 478,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "安田記念G1"
+        },
+        "ルクソールカフェ": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 544,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "安田記念G1"
+        },
+        "シャンパンカラー": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 512,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "安田記念G1"
+        },
+        "ウォーターリヒト": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 472,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "安田記念G1"
+        },
+        "シリウスコルト": {
+          "finish": 14,
+          "status": "started",
+          "bodyWeight": 496,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "安田記念G1"
+        },
+        "サクラトゥジュール": {
+          "finish": 15,
+          "status": "started",
+          "bodyWeight": 496,
+          "sex": "セ",
+          "age": 9,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "安田記念G1"
+        },
+        "ロングラン": {
+          "finish": 16,
+          "status": "started",
+          "bodyWeight": 480,
+          "sex": "セ",
+          "age": 8,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "安田記念G1"
+        },
+        "スズハローム": {
+          "finish": 17,
+          "status": "started",
+          "bodyWeight": 468,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "安田記念G1"
+        }
+      }
+    },
     "2026:葵S": {
       "date": "2026-05-30",
       "name": "葵S",
