@@ -382,7 +382,7 @@ body[data-filter-open="true"] .race-year-group summary {
 
 .favorite-mark {
   margin-left: 4px;
-  color: var(--accent-2);
+  color: #a87500;
   font-size: 0.92em;
 }
 
@@ -693,7 +693,12 @@ body[data-filter-open="true"] .race-year-group summary {
   color: transparent;
 }
 
-.photo-status-button.favorite,
+.photo-status-button.favorite {
+  border: 0;
+  background: transparent;
+  color: #a87500;
+}
+
 .photo-status-button.favorite:hover {
   border: 0;
   background: transparent;
@@ -734,10 +739,6 @@ body[data-filter-open="true"] .race-year-group summary {
 .favorite-hall-toggle {
   margin-bottom: 4px;
   color: var(--text);
-}
-
-.detail-hall-toggle {
-  flex: 0 0 auto;
 }
 
 .photo-adjust-controls {

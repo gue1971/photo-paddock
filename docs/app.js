@@ -546,7 +546,7 @@ function photoStatus(photo) {
 }
 
 function photoStatusIcon(status) {
-  if (status === "hall") return "★";
+  if (status === "hall") return "✦";
   if (status === "favorite") return "★";
   if (status === "representative") return "◆";
   return "◇";
@@ -1189,11 +1189,11 @@ function renderFavoriteList() {
 
 function favoritePhotoButton(photo) {
   const horse = horseById(photo.horseId);
-  const hallMark = hasHallOfFameHorse(photo.horseId) ? `<span class="hall-mark" aria-label="殿堂入り">★</span>` : "";
+  const statusMark = horseStatusMark(photo.horseId);
   return `
     <button type="button" class="horse-button" data-jump-photo-key="${escapeHtml(photo.key)}">
       <span class="horse-name">
-        <span class="inline-link" data-open-horse-id="${escapeHtml(photo.horseId)}">${escapeHtml(horse?.name || "-")}</span>${hallMark}
+        <span class="inline-link" data-open-horse-id="${escapeHtml(photo.horseId)}">${escapeHtml(horse?.name || "-")}</span>${statusMark}
       </span>
       <span class="horse-meta">${escapeHtml(photo.caption || "")}</span>
     </button>
@@ -1202,14 +1202,19 @@ function favoritePhotoButton(photo) {
 
 function horseButton(horse) {
   const count = photosForHorse(horse.id).length;
-  const favoriteMark = hasFavoriteHorse(horse.id) ? `<span class="favorite-mark" aria-label="お気に入りあり">★</span>` : "";
-  const hallMark = hasHallOfFameHorse(horse.id) ? `<span class="hall-mark" aria-label="殿堂入り">★</span>` : "";
+  const statusMark = horseStatusMark(horse.id);
   return `
     <button type="button" class="horse-button ${horse.id === state.selectedHorseId ? "selected" : ""}" data-horse-id="${horse.id}">
-      <span class="horse-name">${escapeHtml(horse.name)}${hallMark}${favoriteMark}</span>
+      <span class="horse-name">${escapeHtml(horse.name)}${statusMark}</span>
       <span class="horse-meta">${horse.birthYear || "生年不明"} / ${count}枚 / ${escapeHtml(horse.sire || "父不明")}</span>
     </button>
   `;
+}
+
+function horseStatusMark(horseId) {
+  if (hasHallOfFameHorse(horseId)) return `<span class="hall-mark" aria-label="殿堂入り">✦</span>`;
+  if (hasFavoriteHorse(horseId)) return `<span class="favorite-mark" aria-label="お気に入りあり">★</span>`;
+  return "";
 }
 
 function raceButton(race) {
@@ -1265,13 +1270,12 @@ function renderHorseDetail() {
   }
 
   const photos = photosForHorse(horse.id);
-  const hall = hasHallOfFameHorse(horse.id);
+  const statusMark = horseStatusMark(horse.id);
   detail.innerHTML = `
     <div class="horse-head">
       <div>
         <div class="horse-title-row">
-          <h2>${escapeHtml(horse.name)}${hall ? `<span class="hall-mark" aria-label="殿堂入り">★</span>` : ""}</h2>
-          <button type="button" class="hall-status-button detail-hall-toggle ${hall ? "active" : ""}" data-toggle-hall-id="${escapeHtml(horse.id)}" title="${hall ? "殿堂入りを解除" : "殿堂入りにする"}" aria-label="${hall ? "殿堂入りを解除" : "殿堂入りにする"}">★</button>
+          <h2>${escapeHtml(horse.name)}${statusMark}</h2>
           ${bodyTagChips(horse)}
         </div>
         <div class="blood">
