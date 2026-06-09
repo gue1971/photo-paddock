@@ -1445,7 +1445,8 @@ function renderFavoriteDetail(focusPhotoKey = "") {
 
 function photoCard(photo, options = {}) {
   const { context = "horse", focused = false, baseName = "" } = options;
-  const src = photo.localImagePath ? `data/${photo.localImagePath}` : photo.imageUrl;
+  const localPath = photo.imageOverridePath || photo.localImagePath;
+  const src = localPath ? `data/${localPath}` : photo.imageUrl;
   const horse = horseById(photo.horseId);
   const adjustment = photoAdjustment(photo.key);
   const adjustmentOpen = state.activePhotoAdjustment === photo.key;
