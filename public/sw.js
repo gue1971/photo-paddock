@@ -1,4 +1,4 @@
-const CACHE_NAME = "photo-paddock-v10";
+const CACHE_NAME = "photo-paddock-v11";
 const APP_SHELL = [
   "./",
   "./index.html",
