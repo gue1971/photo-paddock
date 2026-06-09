@@ -386,6 +386,12 @@ body[data-filter-open="true"] .race-year-group summary {
   font-size: 0.92em;
 }
 
+.hall-mark {
+  margin-left: 4px;
+  color: #a87500;
+  font-size: 0.92em;
+}
+
 .horse-meta {
   display: block;
   color: var(--muted);
@@ -567,6 +573,14 @@ body[data-filter-open="true"] .race-year-group summary {
   min-width: 152px;
 }
 
+.hall-filter-toggle {
+  min-width: 58px;
+}
+
+.hall-filter-toggle.active {
+  color: #8a6100;
+}
+
 .offspring-favorite-toggle {
   flex: 0 0 auto;
   width: 32px;
@@ -647,6 +661,7 @@ body[data-filter-open="true"] .race-year-group summary {
 }
 
 .photo-adjust-toggle,
+.hall-status-button,
 .photo-status-button {
   width: 28px;
   height: 28px;
@@ -666,6 +681,7 @@ body[data-filter-open="true"] .race-year-group summary {
 }
 
 .photo-adjust-toggle:hover,
+.hall-status-button:hover,
 .photo-status-button:hover {
   background: transparent;
   opacity: 0.72;
@@ -697,6 +713,17 @@ body[data-filter-open="true"] .race-year-group summary {
   border: 0;
   background: transparent;
   color: var(--accent);
+}
+
+.hall-status-button.active,
+.hall-status-button.active:hover {
+  border: 0;
+  background: transparent;
+  color: #a87500;
+}
+
+.detail-hall-toggle {
+  flex: 0 0 auto;
 }
 
 .photo-adjust-controls {
@@ -1026,6 +1053,7 @@ body[data-comment-font="large"] .comment {
 
   body[data-view-mode="two"] .finish-label,
   body[data-view-mode="two"] .photo-adjust-toggle,
+  body[data-view-mode="two"] .hall-status-button,
   body[data-view-mode="two"] .photo-status-button {
     width: 22px;
     height: 22px;
