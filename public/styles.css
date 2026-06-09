@@ -573,14 +573,6 @@ body[data-filter-open="true"] .race-year-group summary {
   min-width: 152px;
 }
 
-.hall-filter-toggle {
-  min-width: 58px;
-}
-
-.hall-filter-toggle.active {
-  color: #8a6100;
-}
-
 .offspring-favorite-toggle {
   flex: 0 0 auto;
   width: 32px;
@@ -708,6 +700,13 @@ body[data-filter-open="true"] .race-year-group summary {
   color: var(--accent-2);
 }
 
+.photo-status-button.hall,
+.photo-status-button.hall:hover {
+  border: 0;
+  background: transparent;
+  color: #a87500;
+}
+
 .photo-status-button.representative,
 .photo-status-button.representative:hover {
   border: 0;
@@ -720,6 +719,21 @@ body[data-filter-open="true"] .race-year-group summary {
   border: 0;
   background: transparent;
   color: #a87500;
+}
+
+.favorite-title-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.favorite-title-row h2 {
+  margin: 0 0 4px;
+}
+
+.favorite-hall-toggle {
+  margin-bottom: 4px;
+  color: var(--text);
 }
 
 .detail-hall-toggle {
