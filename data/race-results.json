@@ -406,6 +406,233 @@
         }
       }
     },
+    "2026:宝塚記念": {
+      "date": "2026-06-14",
+      "name": "宝塚記念",
+      "source": "netkeiba-html",
+      "grade": "G1",
+      "sourceRaceNames": [
+        "宝塚記念G1"
+      ],
+      "entries": {
+        "メイショウタバル": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 502,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "宝塚記念G1"
+        },
+        "クロワデュノール": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 514,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "宝塚記念G1"
+        },
+        "ダノンデサイル": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 520,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "宝塚記念G1"
+        },
+        "コスモキュランダ": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 518,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "宝塚記念G1"
+        },
+        "タガノデュード": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 504,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "宝塚記念G1"
+        },
+        "ファミリータイム": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 482,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "宝塚記念G1"
+        },
+        "レガレイラ": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 484,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "宝塚記念G1"
+        },
+        "ジューンテイク": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 500,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "宝塚記念G1"
+        },
+        "ミュージアムマイル": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 504,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "宝塚記念G1"
+        },
+        "マイネルエンペラー": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 486,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "宝塚記念G1"
+        },
+        "シンエンペラー": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 500,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "宝塚記念G1"
+        },
+        "ミクニインスパイア": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 498,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "宝塚記念G1"
+        },
+        "スティンガーグラス": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 480,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "宝塚記念G1"
+        },
+        "シェイクユアハート": {
+          "finish": 14,
+          "status": "started",
+          "bodyWeight": 456,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "宝塚記念G1"
+        },
+        "ビザンチンドリーム": {
+          "finish": 15,
+          "status": "started",
+          "bodyWeight": 466,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "宝塚記念G1"
+        },
+        "ミステリーウェイ": {
+          "finish": 16,
+          "status": "started",
+          "bodyWeight": 498,
+          "sex": "セ",
+          "age": 8,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "宝塚記念G1"
+        },
+        "シュガークン": {
+          "finish": 17,
+          "status": "started",
+          "bodyWeight": 522,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "宝塚記念G1"
+        },
+        "マイユニバース": {
+          "finish": "中止",
+          "status": "stopped",
+          "bodyWeight": 480,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "宝塚記念G1"
+        }
+      }
+    },
     "2026:平安S": {
       "date": "2026-05-23",
       "name": "平安S",
