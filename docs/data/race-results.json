@@ -1039,6 +1039,209 @@
         }
       }
     },
+    "2026:府中牝馬S": {
+      "date": "2026-06-21",
+      "name": "府中牝馬S",
+      "source": "netkeiba-html",
+      "grade": "G3",
+      "sourceRaceNames": [
+        "府中牝馬SG3"
+      ],
+      "entries": {
+        "セキトバイースト": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 468,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "府中牝馬SG3"
+        },
+        "ウイントワイライト": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 464,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "府中牝馬SG3"
+        },
+        "ミアネーロ": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 504,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "府中牝馬SG3"
+        },
+        "マカナ": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 470,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "府中牝馬SG3"
+        },
+        "コガネノソラ": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 472,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "府中牝馬SG3"
+        },
+        "ホールネス": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 534,
+          "sex": "牝",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "府中牝馬SG3"
+        },
+        "ブラウンラチェット": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 450,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "府中牝馬SG3"
+        },
+        "エストゥペンダ": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 454,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "府中牝馬SG3"
+        },
+        "パラディレーヌ": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 510,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "府中牝馬SG3"
+        },
+        "ニシノティアモ": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 452,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "府中牝馬SG3"
+        },
+        "ビップデイジー": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 440,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "府中牝馬SG3"
+        },
+        "ルージュソリテール": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 442,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "府中牝馬SG3"
+        },
+        "セントメモリーズ": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 480,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "府中牝馬SG3"
+        },
+        "ヴァルキリーバース": {
+          "finish": 14,
+          "status": "started",
+          "bodyWeight": 474,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "府中牝馬SG3"
+        },
+        "テレサ": {
+          "finish": 15,
+          "status": "started",
+          "bodyWeight": 448,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "府中牝馬SG3"
+        },
+        "テリオスララ": {
+          "finish": 16,
+          "status": "started",
+          "bodyWeight": 508,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "府中牝馬SG3"
+        }
+      }
+    },
     "2026:日本ダービー": {
       "date": "2026-05-31",
       "name": "日本ダービー",
@@ -10528,6 +10731,233 @@
           "dam": "レイズアンドコール",
           "damsire": "サクラバクシンオー",
           "sourceRaceName": "シルクロHG3"
+        }
+      }
+    },
+    "2026:しらさぎS": {
+      "date": "2026-06-21",
+      "name": "しらさぎS",
+      "source": "netkeiba-html",
+      "grade": "G3",
+      "sourceRaceNames": [
+        "しらさぎSG3"
+      ],
+      "entries": {
+        "エルトンバローズ": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 520,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "しらさぎSG3"
+        },
+        "キープカルム": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 500,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "しらさぎSG3"
+        },
+        "エコロアルバ": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 476,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "しらさぎSG3"
+        },
+        "ファンダム": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 476,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "しらさぎSG3"
+        },
+        "スイープアワーズ": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 466,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "しらさぎSG3"
+        },
+        "ミニトランザット": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 472,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "しらさぎSG3"
+        },
+        "ブエナオンダ": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 454,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "しらさぎSG3"
+        },
+        "カズミクラーシュ": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 504,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "しらさぎSG3"
+        },
+        "ファーヴェント": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 512,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "しらさぎSG3"
+        },
+        "メタルスピード": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 514,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "しらさぎSG3"
+        },
+        "ファインライン": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 486,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "しらさぎSG3"
+        },
+        "タガノエルピーダ": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 484,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "しらさぎSG3"
+        },
+        "スリールミニョン": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 462,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "しらさぎSG3"
+        },
+        "サイルーン": {
+          "finish": 14,
+          "status": "started",
+          "bodyWeight": 466,
+          "sex": "セ",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "しらさぎSG3"
+        },
+        "ショウナンアデイブ": {
+          "finish": 15,
+          "status": "started",
+          "bodyWeight": 520,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "しらさぎSG3"
+        },
+        "スマートワイス": {
+          "finish": 16,
+          "status": "started",
+          "bodyWeight": 482,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "しらさぎSG3"
+        },
+        "シンフォーエバー": {
+          "finish": 17,
+          "status": "started",
+          "bodyWeight": 508,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "しらさぎSG3"
+        },
+        "メイショウシンタケ": {
+          "finish": 18,
+          "status": "started",
+          "bodyWeight": 480,
+          "sex": "牡",
+          "age": 8,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "しらさぎSG3"
         }
       }
     },
