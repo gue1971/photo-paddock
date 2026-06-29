@@ -1242,6 +1242,197 @@
         }
       }
     },
+    "2026:函館記念": {
+      "date": "2026-06-28",
+      "name": "函館記念",
+      "source": "netkeiba-html",
+      "grade": "G3",
+      "sourceRaceNames": [
+        "函館記念G3"
+      ],
+      "entries": {
+        "ファウストラーゼン": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 458,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館記念G3"
+        },
+        "ケリフレッドアスク": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 452,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館記念G3"
+        },
+        "ピースワンデュック": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 454,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館記念G3"
+        },
+        "ケイアイセナ": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 482,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館記念G3"
+        },
+        "マジックサンズ": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 514,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館記念G3"
+        },
+        "イガッチ": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 484,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館記念G3"
+        },
+        "チャックネイト": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 476,
+          "sex": "セ",
+          "age": 8,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館記念G3"
+        },
+        "サンストックトン": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 474,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館記念G3"
+        },
+        "エコロディノス": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 490,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館記念G3"
+        },
+        "アラタ": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 480,
+          "sex": "牡",
+          "age": 9,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館記念G3"
+        },
+        "デビットバローズ": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 508,
+          "sex": "セ",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館記念G3"
+        },
+        "オニャンコポン": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 476,
+          "sex": "セ",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館記念G3"
+        },
+        "フィーリウス": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 512,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館記念G3"
+        },
+        "ジュタ": {
+          "finish": 14,
+          "status": "started",
+          "bodyWeight": 512,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館記念G3"
+        },
+        "バルナバ": {
+          "finish": 15,
+          "status": "started",
+          "bodyWeight": 502,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館記念G3"
+        }
+      }
+    },
     "2026:日本ダービー": {
       "date": "2026-05-31",
       "name": "日本ダービー",
@@ -7137,6 +7328,209 @@
           "dam": "エミレーツガール",
           "damsire": "Lizard Island",
           "sourceRaceName": "愛知杯G3"
+        }
+      }
+    },
+    "2026:ラジオNIKKEI賞": {
+      "date": "2026-06-28",
+      "name": "ラジオNIKKEI賞",
+      "source": "netkeiba-html",
+      "grade": "G3",
+      "sourceRaceNames": [
+        "ラジオNIKKEI賞G3"
+      ],
+      "entries": {
+        "サノノグレーター": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 462,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "ラジオNIKKEI賞G3"
+        },
+        "ディールメーカー": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 494,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "ラジオNIKKEI賞G3"
+        },
+        "リッツパーティー": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 486,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "ラジオNIKKEI賞G3"
+        },
+        "バドリナート": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 490,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "ラジオNIKKEI賞G3"
+        },
+        "ガリレア": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 450,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "ラジオNIKKEI賞G3"
+        },
+        "サイモンシャリオ": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 488,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "ラジオNIKKEI賞G3"
+        },
+        "ジーネキング": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 494,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "ラジオNIKKEI賞G3"
+        },
+        "コルテオソレイユ": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 456,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "ラジオNIKKEI賞G3"
+        },
+        "クカイリモク": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 496,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "ラジオNIKKEI賞G3"
+        },
+        "ルージュボヤージュ": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 464,
+          "sex": "牝",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "ラジオNIKKEI賞G3"
+        },
+        "ローベルクランツ": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 486,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "ラジオNIKKEI賞G3"
+        },
+        "ショウナンガルフ": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 484,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "ラジオNIKKEI賞G3"
+        },
+        "キンググローリー": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 464,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "ラジオNIKKEI賞G3"
+        },
+        "スペルーチェ": {
+          "finish": 14,
+          "status": "started",
+          "bodyWeight": 448,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "ラジオNIKKEI賞G3"
+        },
+        "コロナドブリッジ": {
+          "finish": 15,
+          "status": "started",
+          "bodyWeight": 524,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "ラジオNIKKEI賞G3"
+        },
+        "スカイスプレンダー": {
+          "finish": 16,
+          "status": "started",
+          "bodyWeight": 490,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "ラジオNIKKEI賞G3"
         }
       }
     },
