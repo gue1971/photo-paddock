@@ -406,6 +406,173 @@
         }
       }
     },
+    "2026:北九州記念": {
+      "date": "2026-07-05",
+      "name": "北九州記念",
+      "source": "netkeiba-html",
+      "grade": "G3",
+      "sourceRaceNames": [
+        "北九州記念G3"
+      ],
+      "entries": {
+        "フリッカージャブ": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 508,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "北九州記念G3"
+        },
+        "ジェニファー": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 466,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "北九州記念G3"
+        },
+        "ヨシノイースター": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 486,
+          "sex": "牡",
+          "age": 8,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "北九州記念G3"
+        },
+        "イツモニコニコ": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 504,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "北九州記念G3"
+        },
+        "アブキールベイ": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 430,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "北九州記念G3"
+        },
+        "サウンドモリアーナ": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 450,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "北九州記念G3"
+        },
+        "アンクルクロス": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 478,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "北九州記念G3"
+        },
+        "ランフォーヴァウ": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 458,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "北九州記念G3"
+        },
+        "ヤマニンアルリフラ": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 504,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "北九州記念G3"
+        },
+        "デアヴェローチェ": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 464,
+          "sex": "牝",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "北九州記念G3"
+        },
+        "オタルエバー": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 500,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "北九州記念G3"
+        },
+        "プロトポロス": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 492,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "北九州記念G3"
+        },
+        "アメリカンビキニ": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 512,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "北九州記念G3"
+        }
+      }
+    },
     "2026:宝塚記念": {
       "date": "2026-06-14",
       "name": "宝塚記念",
