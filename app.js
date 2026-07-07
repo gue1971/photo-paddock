@@ -1,16 +1,20 @@
 const FAVORITES_KEY = "photo-paddock:favorites:v3";
 const REPRESENTATIVES_KEY = "photo-paddock:representatives:v1";
+const HALL_OF_FAME_KEY = "photo-paddock:hall-of-fame:v1";
+const PHOTO_ADJUSTMENTS_KEY = "photo-paddock:photo-adjustments:v1";
 const VIEW_MODE_KEY = "photo-paddock:view-mode";
 const COMMENT_FONT_KEY = "photo-paddock:comment-font-size";
-const STORAGE_EXPORT_VERSION = 1;
+const STORAGE_EXPORT_VERSION = 2;
 const VIEW_MODES = ["two", "one", "oneComments"];
 const COMMENT_FONT_SIZES = ["normal", "large"];
 
 const state = {
   db: null,
+  raceResults: { version: 1, races: {} },
   mode: "favorites",
   selectedHorseId: "",
   selectedRaceKey: "",
+  raceHistoryMode: "",
   offspringHorseId: "",
   offspringHorseName: "",
   query: "",
@@ -18,15 +22,25 @@ const state = {
   commentFontSize: loadCommentFontSize(),
   sidebarOpen: false,
   filterOpen: false,
+  storageOpen: false,
   openRaceYears: new Set(),
   favorites: new Set(loadFavoriteIds()),
   representatives: loadRepresentatives(),
+  hallOfFame: new Set(loadHallOfFameIds()),
+  photoAdjustments: loadPhotoAdjustments(),
+  activePhotoAdjustment: "",
   filters: {
     horseTouch: "",
-    raceG1Only: false,
+    raceGrade: "",
     raceYear: "",
     raceName: "",
-    favoriteTouch: ""
+    favoriteTouch: "",
+    favoriteSire: "",
+    favoriteBirthYear: "",
+    favoriteHallOnly: false,
+    recentFavoriteSire: "",
+    recentFavoriteBirthYear: "",
+    offspringFavoritesOnly: false
   },
   undoFavorite: null,
   undoTimer: 0
@@ -59,6 +73,37 @@ const G1_RACES = [
   "有馬記念"
 ];
 
+const GRADE_RACES = {
+  G1: [
+    ...G1_RACES,
+    "ジャパンカップダート",
+    "マイルCS南部杯",
+    "JBCクラシック",
+    "JBCスプリント",
+    "JBCレディスクラシック"
+  ],
+  G2: [
+    "日経新春杯", "アメリカJCC", "東海S", "京都記念", "中山記念", "チューリップ賞", "弥生賞",
+    "フィリーズレビュー", "金鯱賞", "スプリングS", "阪神大賞典", "日経賞", "ニュージーランドT",
+    "阪神牝馬S", "フローラS", "マイラーズC", "青葉賞", "京都新聞杯", "京王杯SC", "目黒記念",
+    "札幌記念", "セントウルS", "ローズS", "セントライト記念", "神戸新聞杯", "オールカマー",
+    "毎日王冠", "京都大賞典", "府中牝馬S", "富士S", "スワンS", "京王杯2歳S", "デイリー杯2歳S",
+    "東京スポーツ杯2歳S", "アルゼンチン共和国杯", "ステイヤーズS", "阪神カップ"
+  ],
+  G3: [
+    "中山金杯", "京都金杯", "フェアリーS", "シンザン記念", "京成杯", "根岸S", "シルクロードS",
+    "東京新聞杯", "きさらぎ賞", "クイーンC", "共同通信杯", "ダイヤモンドS", "小倉大賞典",
+    "アーリントンC", "阪急杯", "オーシャンS", "中山牝馬S", "ファルコンS", "フラワーC",
+    "毎日杯", "マーチS", "ダービー卿CT", "アンタレスS", "福島牝馬S", "新潟大賞典", "平安S",
+    "鳴尾記念", "エプソムC", "函館スプリントS", "マーメイドS", "ユニコーンS", "ラジオNIKKEI賞",
+    "函館記念", "中京記念", "アイビスサマーダッシュ", "クイーンS", "レパードS", "エルムS",
+    "関屋記念", "小倉記念", "北九州記念", "CBC賞", "新潟2歳S", "キーンランドカップ",
+    "札幌2歳S", "小倉2歳S", "新潟記念", "紫苑S", "京成杯AH", "シリウスS",
+    "サウジアラビアRC", "アルテミスS", "ファンタジーS", "みやこS", "武蔵野S", "福島記念",
+    "京都2歳S", "京阪杯", "チャレンジC", "中日新聞杯", "カペラS", "ターコイズS"
+  ]
+};
+
 const HORSE_TOUCH_LIMIT = 42;
 const KANA_PAD_ROWS = [
   ["ア", "イ", "ウ", "エ", "オ"],
@@ -87,16 +132,23 @@ const toggleSidebar = document.querySelector("#toggleSidebar");
 const toggleStorage = document.querySelector("#toggleStorage");
 const storageMenu = document.querySelector("#storageMenu");
 const storageInfo = document.querySelector("#storageInfo");
+const storageMenuHome = document.querySelector(".sidebar-controls");
 const exportStorage = document.querySelector("#exportStorage");
 const importStorage = document.querySelector("#importStorage");
 const toast = document.querySelector("#toast");
+let racesCache = null;
 
 const appUrl = new URL(import.meta.url);
 const dataUrl = appUrl.pathname.includes("/public/")
   ? new URL("../data/photo-paddock.json", appUrl)
   : new URL("./data/photo-paddock.json", appUrl);
+const raceResultsUrl = appUrl.pathname.includes("/public/")
+  ? new URL("../data/race-results.json", appUrl)
+  : new URL("./data/race-results.json", appUrl);
 const response = await fetch(dataUrl);
 state.db = await response.json();
+state.raceResults = await loadRaceResults();
+normalizePhotoStatusState();
 registerServiceWorker();
 
 summary.textContent = `${state.db.horses.length}頭 / ${state.db.photos.length}枚 / ${races().length}レース / 取得ページ ${state.db.pages.length}件`;
@@ -107,15 +159,6 @@ search.addEventListener("input", () => {
   state.query = search.value.trim();
   if (state.query) state.sidebarOpen = true;
   if (state.mode === "horse") clearOffspringSelection();
-  if (state.mode === "horse") {
-    const exact = state.db.horses.find((horse) => horse.name === state.query);
-    if (exact) {
-      state.selectedHorseId = exact.id;
-      state.filters.horseTouch = "";
-      state.query = "";
-      search.value = "";
-    }
-  }
   render();
 });
 
@@ -151,9 +194,11 @@ toggleSidebar?.addEventListener("click", () => {
 });
 toggleStorage?.addEventListener("click", () => {
   const open = storageMenu?.hidden;
-  if (storageMenu) storageMenu.hidden = !open;
-  toggleStorage.classList.toggle("active", Boolean(open));
-  if (open) renderSettingsMenu();
+  state.storageOpen = Boolean(open);
+  if (state.storageOpen) {
+    state.filterOpen = false;
+  }
+  render();
 });
 exportStorage?.addEventListener("click", exportStorageData);
 importStorage?.addEventListener("change", importStorageData);
@@ -164,15 +209,42 @@ storageMenu?.addEventListener("click", (event) => {
 });
 
 detail.addEventListener("click", (event) => {
-  const button = event.target.closest("button[data-favorite-photo-id]");
-  if (button) {
-    toggleFavorite(button.dataset.favoritePhotoId);
+  const raceHistoryButton = event.target.closest("button[data-race-history-mode]");
+  if (raceHistoryButton) {
+    state.raceHistoryMode = state.raceHistoryMode === raceHistoryButton.dataset.raceHistoryMode ? "" : raceHistoryButton.dataset.raceHistoryMode;
+    render();
     return;
   }
 
-  const representativeButton = event.target.closest("button[data-representative-photo-id]");
-  if (representativeButton) {
-    setRepresentative(representativeButton.dataset.representativePhotoId);
+  const offspringFavoriteButton = event.target.closest("button[data-toggle-offspring-favorites]");
+  if (offspringFavoriteButton) {
+    state.filters.offspringFavoritesOnly = !state.filters.offspringFavoritesOnly;
+    render();
+    return;
+  }
+
+  const photoAdjustButton = event.target.closest("button[data-photo-adjust-id]");
+  if (photoAdjustButton) {
+    handlePhotoAdjustment(photoAdjustButton.dataset.photoAdjustId, photoAdjustButton.dataset.photoAdjustAction);
+    return;
+  }
+
+  const statusButton = event.target.closest("button[data-photo-status-id]");
+  if (statusButton) {
+    togglePhotoStatus(statusButton.dataset.photoStatusId);
+    return;
+  }
+
+  const hallButton = event.target.closest("button[data-toggle-hall-id]");
+  if (hallButton) {
+    toggleHallOfFame(hallButton.dataset.toggleHallId, hallButton.dataset.toggleHallPhotoKey);
+    return;
+  }
+
+  const favoriteHallButton = event.target.closest("button[data-toggle-favorite-hall]");
+  if (favoriteHallButton) {
+    state.filters.favoriteHallOnly = !state.filters.favoriteHallOnly;
+    render();
     return;
   }
 
@@ -190,13 +262,13 @@ detail.addEventListener("click", (event) => {
 
   const offspringLink = event.target.closest("button[data-open-offspring-id]");
   if (offspringLink) {
-    openOffspring(offspringLink.dataset.openOffspringId);
+    openOffspring(offspringLink.dataset.openOffspringId, offspringLink.dataset.openOffspringMode);
     return;
   }
 
   const offspringNameLink = event.target.closest("button[data-open-offspring-name]");
   if (offspringNameLink) {
-    openOffspringByName(offspringNameLink.dataset.openOffspringName);
+    openOffspringByName(offspringNameLink.dataset.openOffspringName, offspringNameLink.dataset.openOffspringMode);
     return;
   }
 
@@ -206,12 +278,20 @@ detail.addEventListener("click", (event) => {
   }
 });
 
+detail.addEventListener("change", (event) => {
+  const select = event.target.closest("select[data-favorite-filter]");
+  if (!select) return;
+  setFavoriteDetailFilter(select.dataset.favoriteFilter, select.value);
+  render();
+});
+
 toast.addEventListener("click", (event) => {
   const button = event.target.closest("button[data-undo-favorite]");
   if (!button || !state.undoFavorite) return;
   const photo = state.db.photos.find((item) => item.key === state.undoFavorite.photoKey);
-  state.favorites.add(state.undoFavorite.photoKey);
   if (photo) {
+    clearFavoritesForHorse(photo.horseId);
+    state.favorites.add(photo.key);
     state.representatives[photo.horseId] = photo.key;
     saveRepresentatives();
   }
@@ -228,6 +308,8 @@ function exportStorageData() {
     origin: location.origin,
     favorites: [...state.favorites],
     representatives: state.representatives,
+    hallOfFame: [...state.hallOfFame],
+    photoAdjustments: state.photoAdjustments,
     viewMode: state.viewMode,
     commentFontSize: state.commentFontSize
   };
@@ -236,7 +318,7 @@ function exportStorageData() {
   const link = document.createElement("a");
   const date = new Date().toISOString().slice(0, 10).replaceAll("-", "");
   link.href = url;
-  link.download = `photo-paddock-storage-${date}.json`;
+  link.download = `photo-paddock-${state.favorites.size}-${date}.json`;
   document.body.append(link);
   link.click();
   link.remove();
@@ -261,6 +343,14 @@ async function importStorageData() {
     if (data.representatives && typeof data.representatives === "object" && !Array.isArray(data.representatives)) {
       state.representatives = { ...state.representatives, ...data.representatives };
     }
+    if (Array.isArray(data.hallOfFame)) {
+      for (const horseId of data.hallOfFame) {
+        if (typeof horseId === "string") state.hallOfFame.add(horseId);
+      }
+    }
+    if (data.photoAdjustments && typeof data.photoAdjustments === "object" && !Array.isArray(data.photoAdjustments)) {
+      state.photoAdjustments = { ...state.photoAdjustments, ...data.photoAdjustments };
+    }
     if (VIEW_MODES.includes(data.viewMode)) {
       state.viewMode = data.viewMode;
       localStorage.setItem(VIEW_MODE_KEY, state.viewMode);
@@ -269,8 +359,11 @@ async function importStorageData() {
       localStorage.setItem(VIEW_MODE_KEY, state.viewMode);
     }
     if (COMMENT_FONT_SIZES.includes(data.commentFontSize)) setCommentFontSize(data.commentFontSize, false);
+    normalizePhotoStatusState();
     saveFavorites();
     saveRepresentatives();
+    saveHallOfFame();
+    savePhotoAdjustments();
     clearUndoFavorite();
     render();
     closeStorageMenu();
@@ -282,6 +375,7 @@ async function importStorageData() {
 }
 
 function closeStorageMenu() {
+  state.storageOpen = false;
   if (storageMenu) storageMenu.hidden = true;
   toggleStorage?.classList.remove("active");
 }
@@ -310,6 +404,32 @@ function loadRepresentatives() {
 
 function saveRepresentatives() {
   localStorage.setItem(REPRESENTATIVES_KEY, JSON.stringify(state.representatives));
+}
+
+function loadHallOfFameIds() {
+  try {
+    const value = JSON.parse(localStorage.getItem(HALL_OF_FAME_KEY) || "[]");
+    return Array.isArray(value) ? value.filter((item) => typeof item === "string") : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveHallOfFame() {
+  localStorage.setItem(HALL_OF_FAME_KEY, JSON.stringify([...state.hallOfFame]));
+}
+
+function loadPhotoAdjustments() {
+  try {
+    const value = JSON.parse(localStorage.getItem(PHOTO_ADJUSTMENTS_KEY) || "{}");
+    return value && typeof value === "object" && !Array.isArray(value) ? value : {};
+  } catch {
+    return {};
+  }
+}
+
+function savePhotoAdjustments() {
+  localStorage.setItem(PHOTO_ADJUSTMENTS_KEY, JSON.stringify(state.photoAdjustments));
 }
 
 function loadViewMode() {
@@ -350,39 +470,173 @@ function registerServiceWorker() {
   });
 }
 
-function toggleFavorite(photoKey) {
-  if (!photoKey) return;
-  const photo = state.db.photos.find((item) => item.key === photoKey);
-  if (state.favorites.has(photoKey)) {
-    state.favorites.delete(photoKey);
-    if (photo && state.representatives[photo.horseId] === photo.key) {
-      const nextFavorite = favoritePhotosForHorse(photo.horseId).find((item) => item.key !== photo.key);
-      if (nextFavorite) state.representatives[photo.horseId] = nextFavorite.key;
-      else delete state.representatives[photo.horseId];
-      saveRepresentatives();
-    }
-    saveFavorites();
-    showUndoFavorite(photoKey);
-  } else {
-    state.favorites.add(photoKey);
-    if (photo) {
-      state.representatives[photo.horseId] = photo.key;
-      saveRepresentatives();
-    }
-    saveFavorites();
-    clearUndoFavorite();
+async function loadRaceResults() {
+  try {
+    const response = await fetch(raceResultsUrl);
+    if (!response.ok) return { version: 1, races: {} };
+    const data = await response.json();
+    return {
+      version: 1,
+      races: {},
+      ...data
+    };
+  } catch {
+    return { version: 1, races: {} };
   }
+}
+
+function togglePhotoStatus(photoKey) {
+  const photo = state.db.photos.find((item) => item.key === photoKey);
+  if (!photo) return;
+  const status = photoStatus(photo);
+  if (status === "favorite") {
+    clearFavoritesForHorse(photo.horseId);
+    state.favorites.add(photo.key);
+    state.representatives[photo.horseId] = photo.key;
+    state.hallOfFame.add(photo.horseId);
+    saveRepresentatives();
+    saveFavorites();
+    saveHallOfFame();
+    clearUndoFavorite();
+    render();
+    return;
+  }
+  if (status === "hall") {
+    state.hallOfFame.delete(photo.horseId);
+  }
+  clearFavoritesForHorse(photo.horseId);
+  state.representatives[photo.horseId] = photo.key;
+  if (status === "representative") state.favorites.add(photo.key);
+  saveRepresentatives();
+  saveFavorites();
+  saveHallOfFame();
+  clearUndoFavorite();
   render();
 }
 
-function setRepresentative(photoKey) {
-  const photo = state.db.photos.find((item) => item.key === photoKey);
-  if (!photo) return;
-  const hasFavorites = favoritePhotosForHorse(photo.horseId).length > 0;
-  if (hasFavorites && !state.favorites.has(photo.key)) return;
-  state.representatives[photo.horseId] = photo.key;
-  saveRepresentatives();
+function toggleHallOfFame(horseId, photoKey = "") {
+  if (!horseById(horseId)) return;
+  if (state.hallOfFame.has(horseId)) state.hallOfFame.delete(horseId);
+  else {
+    state.hallOfFame.add(horseId);
+    if (!hasFavoriteHorse(horseId)) {
+      const photo = photoKey ? state.db.photos.find((item) => item.key === photoKey && item.horseId === horseId) : representativePhotoForHorse(horseId);
+      if (photo) {
+        clearFavoritesForHorse(horseId);
+        state.favorites.add(photo.key);
+        state.representatives[horseId] = photo.key;
+        saveFavorites();
+        saveRepresentatives();
+      }
+    }
+  }
+  saveHallOfFame();
   render();
+}
+
+function clearFavoritesForHorse(horseId) {
+  photosForHorse(horseId).forEach((photo) => state.favorites.delete(photo.key));
+}
+
+function photoStatus(photo) {
+  if (state.favorites.has(photo.key) && hasHallOfFameHorse(photo.horseId)) return "hall";
+  if (state.favorites.has(photo.key)) return "favorite";
+  if (representativePhotoForHorse(photo.horseId)?.key === photo.key) return "representative";
+  return "none";
+}
+
+function photoStatusIcon(status) {
+  if (status === "hall") return "✦";
+  if (status === "favorite") return "★";
+  if (status === "representative") return "◆";
+  return "◇";
+}
+
+function photoStatusLabel(status) {
+  if (status === "hall") return "殿堂入り";
+  if (status === "favorite") return "お気に入り";
+  if (status === "representative") return "代表写真";
+  return "未選択";
+}
+
+function handlePhotoAdjustment(photoKey, action) {
+  if (!photoKey) return;
+  if (!action || action === "toggle") {
+    state.activePhotoAdjustment = state.activePhotoAdjustment === photoKey ? "" : photoKey;
+    render();
+    return;
+  }
+  const current = photoAdjustment(photoKey);
+  if (action === "reset") {
+    delete state.photoAdjustments[photoKey];
+  } else {
+    const next = { ...current };
+    if (action === "zoomIn") next.scale = clamp(Number((next.scale + 0.05).toFixed(2)), 1, 1.5);
+    if (action === "zoomOut") next.scale = clamp(Number((next.scale - 0.05).toFixed(2)), 1, 1.5);
+    if (action === "left") next.x = clamp(next.x - 5, 0, 100);
+    if (action === "right") next.x = clamp(next.x + 5, 0, 100);
+    if (action === "up") next.y = clamp(next.y - 5, 0, 100);
+    if (action === "down") next.y = clamp(next.y + 5, 0, 100);
+    if (next.scale === 1 && next.x === 50 && next.y === 50) delete state.photoAdjustments[photoKey];
+    else state.photoAdjustments[photoKey] = next;
+  }
+  state.activePhotoAdjustment = photoKey;
+  savePhotoAdjustments();
+  render();
+}
+
+function photoAdjustment(photoKey) {
+  const saved = state.photoAdjustments[photoKey] || {};
+  return {
+    scale: clamp(Number(saved.scale) || 1, 1, 1.5),
+    x: clamp(Number(saved.x) || 50, 0, 100),
+    y: clamp(Number(saved.y) || 50, 0, 100)
+  };
+}
+
+function clamp(value, min, max) {
+  return Math.min(max, Math.max(min, value));
+}
+
+function normalizePhotoStatusState() {
+  if (!state.db) return;
+  let changed = false;
+  let hallChanged = false;
+  const validHorseIds = new Set(state.db.horses.map((horse) => horse.id));
+  for (const horseId of [...state.hallOfFame]) {
+    if (!validHorseIds.has(horseId)) {
+      state.hallOfFame.delete(horseId);
+      hallChanged = true;
+    }
+  }
+  for (const horse of state.db.horses) {
+    const photos = photosForHorse(horse.id);
+    if (!photos.length) continue;
+    const favoritePhotos = photos.filter((photo) => state.favorites.has(photo.key));
+    if (favoritePhotos.length) {
+      const keep = favoritePhotos.find((photo) => photo.key === state.representatives[horse.id]) || favoritePhotos[0];
+      for (const photo of favoritePhotos) {
+        if (photo.key !== keep.key) {
+          state.favorites.delete(photo.key);
+          changed = true;
+        }
+      }
+      if (state.representatives[horse.id] !== keep.key) {
+        state.representatives[horse.id] = keep.key;
+        changed = true;
+      }
+      continue;
+    }
+    if (state.representatives[horse.id] && !photos.some((photo) => photo.key === state.representatives[horse.id])) {
+      delete state.representatives[horse.id];
+      changed = true;
+    }
+  }
+  if (changed) {
+    saveFavorites();
+    saveRepresentatives();
+  }
+  if (hallChanged) saveHallOfFame();
 }
 
 function showUndoFavorite(photoKey) {
@@ -418,11 +672,10 @@ function setMode(mode) {
   const changed = state.mode !== mode;
   state.mode = mode;
   if (mode !== "horse") clearOffspringSelection();
+  if (mode !== "favorites") resetFavoriteDetailFilters();
   if (changed) {
-    state.query = "";
-    search.value = "";
     state.filterOpen = false;
-    state.sidebarOpen = false;
+    state.sidebarOpen = Boolean(state.query);
     if (mode === "horse" && !state.selectedHorseId) {
       state.selectedHorseId = firstFavoriteHorseId() || "";
     }
@@ -468,71 +721,90 @@ function applyFilterAction(action, value) {
     return;
   }
   if (action === "race:class") {
-    state.filters.raceG1Only = value === "G1" ? !state.filters.raceG1Only : false;
+    state.filters.raceGrade = value && state.filters.raceGrade !== value ? value : "";
     state.filters.raceName = "";
     state.selectedRaceKey = "";
+    state.raceHistoryMode = "";
     return;
   }
   if (action === "race:clear") {
     state.query = "";
     search.value = "";
-    state.filters.raceG1Only = false;
+    state.filters.raceGrade = "";
     state.filters.raceYear = "";
     state.filters.raceName = "";
+    state.selectedRaceKey = "";
+    state.raceHistoryMode = "";
     return;
   }
   if (action === "race:year") {
     state.filters.raceYear = value;
     state.selectedRaceKey = "";
+    state.raceHistoryMode = "";
     return;
   }
   if (action === "race:name") {
     state.filters.raceName = state.filters.raceName === value ? "" : value;
     state.selectedRaceKey = "";
+    state.raceHistoryMode = "";
   }
 }
 
 function openHorse(horseId) {
   const previousMode = state.mode;
   state.mode = "horse";
+  resetFavoriteDetailFilters();
   state.selectedHorseId = horseId;
   clearOffspringSelection();
+  clearQuery();
   state.filterOpen = false;
   state.filters.horseTouch = "";
   if (previousMode === "favorites") state.filters.favoriteTouch = "";
   render();
 }
 
-function openOffspring(horseId) {
+function openOffspring(horseId, mode = "") {
   state.mode = "horse";
+  resetFavoriteDetailFilters();
   state.selectedHorseId = horseId;
   state.offspringHorseId = horseId;
   state.offspringHorseName = "";
+  setOffspringListMode(mode);
   state.query = "";
   state.filterOpen = false;
   search.value = "";
   render();
 }
 
-function openOffspringByName(name) {
+function openOffspringByName(name, mode = "") {
   state.mode = "horse";
+  resetFavoriteDetailFilters();
   state.offspringHorseId = "";
   state.offspringHorseName = name;
+  setOffspringListMode(mode);
   state.query = "";
   state.filterOpen = false;
   state.filters.horseTouch = "";
   search.value = "";
   render();
+}
+
+function setOffspringListMode(mode) {
+  if (mode === "favorites") state.filters.offspringFavoritesOnly = true;
+  if (mode === "all") state.filters.offspringFavoritesOnly = false;
 }
 
 function openRace(raceKey) {
   state.mode = "race";
+  resetFavoriteDetailFilters();
   clearOffspringSelection();
   state.selectedRaceKey = raceKey;
+  state.raceHistoryMode = "";
+  clearQuery();
   state.filterOpen = false;
   state.filters.horseTouch = "";
   state.filters.favoriteTouch = "";
-  state.filters.raceG1Only = false;
+  state.filters.raceGrade = "";
   state.filters.raceYear = "";
   state.filters.raceName = "";
   const year = raceKey.split(":")[0];
@@ -540,15 +812,40 @@ function openRace(raceKey) {
   render();
 }
 
+function clearQuery() {
+  state.query = "";
+  search.value = "";
+}
+
+function setFavoriteDetailFilter(kind, value) {
+  if (kind === "sire") {
+    state.filters.favoriteSire = value;
+    if (value) state.filters.recentFavoriteSire = value;
+  }
+  if (kind === "birthYear") {
+    state.filters.favoriteBirthYear = value;
+    if (value) state.filters.recentFavoriteBirthYear = value;
+  }
+}
+
+function resetFavoriteDetailFilters() {
+  if (state.filters.favoriteSire) state.filters.recentFavoriteSire = state.filters.favoriteSire;
+  if (state.filters.favoriteBirthYear) state.filters.recentFavoriteBirthYear = state.filters.favoriteBirthYear;
+  state.filters.favoriteSire = "";
+  state.filters.favoriteBirthYear = "";
+  state.filters.favoriteHallOnly = false;
+}
+
 function searchHorseByPedigreeName(name) {
   if (!name) return;
   state.mode = "horse";
+  resetFavoriteDetailFilters();
   clearOffspringSelection();
   state.query = name;
   state.filters.horseTouch = "";
   state.filterOpen = false;
   state.sidebarOpen = true;
-  search.value = "";
+  search.value = name;
   const exact = state.db.horses.find((horse) => normalizeTouchText(horse.name) === normalizeTouchText(name));
   if (exact) state.selectedHorseId = exact.id;
   render();
@@ -565,6 +862,7 @@ function render() {
   document.body.dataset.hasQuery = state.query || hasActiveFilters() ? "true" : "false";
   document.body.dataset.filterOpen = state.filterOpen ? "true" : "false";
   document.body.dataset.sidebarOpen = state.sidebarOpen ? "true" : "false";
+  document.body.dataset.storageOpen = state.storageOpen ? "true" : "false";
   document.body.dataset.viewMode = state.viewMode;
   document.body.dataset.commentFont = state.commentFontSize;
   modeHorse.classList.toggle("active", state.mode === "horse");
@@ -588,9 +886,13 @@ function render() {
     toggleSidebar.setAttribute("aria-label", toggleSidebar.title);
   }
   renderSettingsMenu();
+  syncStorageMenuHost();
+  if (storageMenu) storageMenu.hidden = !state.storageOpen;
+  toggleStorage?.classList.toggle("active", state.storageOpen);
   renderFilterControls();
 
-  if (state.mode === "race") renderRaceList();
+  if (state.query) renderGlobalSearchList();
+  else if (state.mode === "race") renderRaceList();
   else if (state.mode === "favorites") renderFavoriteList();
   else renderHorseList();
 
@@ -598,11 +900,7 @@ function render() {
 }
 
 function syncSearchControl() {
-  search.placeholder = state.mode === "race"
-    ? "レース名を入力検索"
-    : state.mode === "favorites"
-      ? "お気に入りを入力検索"
-      : "馬名・父・母を入力検索";
+  search.placeholder = "検索";
   search.removeAttribute("list");
 }
 
@@ -654,14 +952,14 @@ function kanaPadHtml(kind, candidates) {
 }
 
 function raceFilterHtml() {
-  const baseRaces = races().filter((race) => !state.filters.raceG1Only || isG1Race(race.name));
+  const baseRaces = races().filter((race) => !state.filters.raceGrade || raceGrade(race) === state.filters.raceGrade);
   const yearOptions = [...new Set(baseRaces.map((race) => race.date?.slice(0, 4)).filter(Boolean))].sort((a, b) => b.localeCompare(a));
   const availableRaceNames = new Set(baseRaces
     .filter((race) => !state.filters.raceYear || race.date?.startsWith(state.filters.raceYear))
     .filter((race) => !state.query || race.name.includes(state.query))
     .map((race) => race.name)
   );
-  const g1Options = G1_RACES.filter((name) => availableRaceNames.has(name));
+  const raceNameOptions = raceNameFilterOptions(baseRaces, availableRaceNames);
 
   return `
     <div class="race-filter">
@@ -670,11 +968,12 @@ function raceFilterHtml() {
           <option value="">すべての年</option>
           ${yearOptions.map((year) => `<option value="${escapeHtml(year)}" ${state.filters.raceYear === year ? "selected" : ""}>${escapeHtml(year)}年</option>`).join("")}
         </select>
-        ${filterChip("race:class", "G1", state.filters.raceG1Only ? "G1" : "全レース", false)}
+        ${filterChip("race:class", "", "全レース", !state.filters.raceGrade)}
+        ${["G1", "G2", "G3"].map((grade) => filterChip("race:class", grade, grade, state.filters.raceGrade === grade)).join("")}
         <button type="button" class="filter-clear race-reset" data-filter-action="race:clear">クリア</button>
       </div>
       <div class="chip-row race-name-chips">
-        ${g1Options.map((name) => filterChip("race:name", name, name, state.filters.raceName === name)).join("")}
+        ${raceNameOptions.map((name) => filterChip("race:name", name, name, state.filters.raceName === name)).join("")}
       </div>
     </div>
   `;
@@ -682,6 +981,62 @@ function raceFilterHtml() {
 
 function filterChip(action, value, label, active = false, className = "filter-chip") {
   return `<button type="button" class="${className} ${active ? "active" : ""}" data-filter-action="${action}" data-value="${escapeHtml(value)}">${escapeHtml(label)}</button>`;
+}
+
+function renderGlobalSearchList() {
+  const sections = globalSearchSections(state.query);
+  itemList.innerHTML = sections.map((section) => `
+    <section class="year-group search-group">
+      ${sectionHeader(section)}
+      ${section.items.map((item) => {
+        if (section.type === "race") return raceButton(item);
+        if (section.type === "favorite") return favoritePhotoButton(item);
+        return horseButton(item);
+      }).join("")}
+    </section>
+  `).join("") || `<div class="empty small">該当する候補がありません。</div>`;
+
+  itemList.querySelectorAll("button[data-horse-id]").forEach((button) => {
+    button.addEventListener("click", () => {
+      closeSidebarAfterListTap();
+      openHorse(button.dataset.horseId);
+    });
+  });
+  itemList.querySelectorAll("button[data-race-key]").forEach((button) => {
+    button.addEventListener("click", () => {
+      closeSidebarAfterListTap();
+      openRace(button.dataset.raceKey);
+    });
+  });
+  itemList.querySelectorAll("button[data-open-offspring-id]").forEach((button) => {
+    button.addEventListener("click", () => {
+      closeSidebarAfterListTap();
+      openOffspring(button.dataset.openOffspringId, button.dataset.openOffspringMode);
+    });
+  });
+  itemList.querySelectorAll("button[data-open-offspring-name]").forEach((button) => {
+    button.addEventListener("click", () => {
+      closeSidebarAfterListTap();
+      openOffspringByName(button.dataset.openOffspringName, button.dataset.openOffspringMode);
+    });
+  });
+  itemList.querySelectorAll("button[data-jump-photo-key]").forEach((button) => {
+    button.addEventListener("click", (event) => {
+      const horseLink = event.target.closest("[data-open-horse-id]");
+      if (horseLink) {
+        event.stopPropagation();
+        closeSidebarAfterListTap();
+        openHorse(horseLink.dataset.openHorseId);
+        return;
+      }
+      state.mode = "favorites";
+      clearQuery();
+      state.filterOpen = false;
+      closeSidebarAfterListTap();
+      render();
+      renderFavoriteDetail(button.dataset.jumpPhotoKey);
+    });
+  });
 }
 
 function renderHorseList() {
@@ -729,13 +1084,13 @@ function renderHorseList() {
   itemList.querySelectorAll("button[data-open-offspring-id]").forEach((button) => {
     button.addEventListener("click", () => {
       closeSidebarAfterListTap();
-      openOffspring(button.dataset.openOffspringId);
+      openOffspring(button.dataset.openOffspringId, button.dataset.openOffspringMode);
     });
   });
   itemList.querySelectorAll("button[data-open-offspring-name]").forEach((button) => {
     button.addEventListener("click", () => {
       closeSidebarAfterListTap();
-      openOffspringByName(button.dataset.openOffspringName);
+      openOffspringByName(button.dataset.openOffspringName, button.dataset.openOffspringMode);
     });
   });
 }
@@ -743,9 +1098,19 @@ function renderHorseList() {
 function sectionHeader(section) {
   if (!section.title) return "";
   const offspringAction = section.offspringHorseId
-    ? `<button type="button" class="section-action" data-open-offspring-id="${escapeHtml(section.offspringHorseId)}">一覧</button>`
+    ? `
+      <div class="section-actions">
+        <button type="button" class="section-action" data-open-offspring-id="${escapeHtml(section.offspringHorseId)}" data-open-offspring-mode="favorites">★一覧</button>
+        <button type="button" class="section-action" data-open-offspring-id="${escapeHtml(section.offspringHorseId)}" data-open-offspring-mode="all">全一覧</button>
+      </div>
+    `
     : section.offspringHorseName
-      ? `<button type="button" class="section-action" data-open-offspring-name="${escapeHtml(section.offspringHorseName)}">一覧</button>`
+      ? `
+        <div class="section-actions">
+          <button type="button" class="section-action" data-open-offspring-name="${escapeHtml(section.offspringHorseName)}" data-open-offspring-mode="favorites">★一覧</button>
+          <button type="button" class="section-action" data-open-offspring-name="${escapeHtml(section.offspringHorseName)}" data-open-offspring-mode="all">全一覧</button>
+        </div>
+      `
       : "";
   return `
     <div class="section-title">
@@ -757,7 +1122,10 @@ function sectionHeader(section) {
 
 function renderRaceList() {
   const items = filteredRaces();
-  if (!items.some((race) => race.key === state.selectedRaceKey)) state.selectedRaceKey = items[0]?.key || "";
+  if (!items.some((race) => race.key === state.selectedRaceKey)) {
+    state.selectedRaceKey = items[0]?.key || "";
+    state.raceHistoryMode = "";
+  }
   const grouped = Map.groupBy(items, (race) => race.date?.slice(0, 4) || race.key.split(":")[0] || "年不明");
   const years = [...grouped.keys()].sort((a, b) => b.localeCompare(a));
   const latestYear = years[0];
@@ -783,6 +1151,7 @@ function renderRaceList() {
   itemList.querySelectorAll("button[data-race-key]").forEach((button) => {
     button.addEventListener("click", () => {
       state.selectedRaceKey = button.dataset.raceKey;
+      state.raceHistoryMode = "";
       state.filterOpen = false;
       closeSidebarAfterListTap();
       render();
@@ -798,17 +1167,7 @@ function renderFavoriteList() {
   const photos = filteredFavoritePhotos();
   itemList.innerHTML = `
     <section class="year-group">
-      ${photos.map((photo) => {
-        const horse = horseById(photo.horseId);
-        return `
-          <button type="button" class="horse-button" data-jump-photo-key="${escapeHtml(photo.key)}">
-            <span class="horse-name">
-              <span class="inline-link" data-open-horse-id="${escapeHtml(photo.horseId)}">${escapeHtml(horse?.name || "-")}</span>
-            </span>
-            <span class="horse-meta">${escapeHtml(photo.caption || "")}</span>
-          </button>
-        `;
-      }).join("") || `<div class="empty small">お気に入りはまだありません。</div>`}
+      ${photos.map(favoritePhotoButton).join("") || `<div class="empty small">${state.filters.favoriteHallOnly ? "殿堂入りはまだありません。" : "お気に入りはまだありません。"}</div>`}
     </section>
   `;
   itemList.querySelectorAll("button[data-jump-photo-key]").forEach((button) => {
@@ -828,15 +1187,34 @@ function renderFavoriteList() {
   });
 }
 
+function favoritePhotoButton(photo) {
+  const horse = horseById(photo.horseId);
+  const statusMark = horseStatusMark(photo.horseId);
+  return `
+    <button type="button" class="horse-button" data-jump-photo-key="${escapeHtml(photo.key)}">
+      <span class="horse-name">
+        <span class="inline-link" data-open-horse-id="${escapeHtml(photo.horseId)}">${escapeHtml(horse?.name || "-")}</span>${statusMark}
+      </span>
+      <span class="horse-meta">${escapeHtml(photo.caption || "")}</span>
+    </button>
+  `;
+}
+
 function horseButton(horse) {
   const count = photosForHorse(horse.id).length;
-  const favoriteMark = hasFavoriteHorse(horse.id) ? `<span class="favorite-mark" aria-label="お気に入りあり">★</span>` : "";
+  const statusMark = horseStatusMark(horse.id);
   return `
     <button type="button" class="horse-button ${horse.id === state.selectedHorseId ? "selected" : ""}" data-horse-id="${horse.id}">
-      <span class="horse-name">${escapeHtml(horse.name)}${favoriteMark}</span>
+      <span class="horse-name">${escapeHtml(horse.name)}${statusMark}</span>
       <span class="horse-meta">${horse.birthYear || "生年不明"} / ${count}枚 / ${escapeHtml(horse.sire || "父不明")}</span>
     </button>
   `;
+}
+
+function horseStatusMark(horseId) {
+  if (hasHallOfFameHorse(horseId)) return `<span class="hall-mark" aria-label="殿堂入り">✦</span>`;
+  if (hasFavoriteHorse(horseId)) return `<span class="favorite-mark" aria-label="お気に入りあり">★</span>`;
+  return "";
 }
 
 function raceButton(race) {
@@ -862,17 +1240,23 @@ function renderOffspringDetail() {
     detail.innerHTML = `<div class="empty">馬を選択してください。</div>`;
     return;
   }
-  const offspring = offspringForName(baseName).sort(favoriteBirthYearSort);
+  const allOffspring = offspringForName(baseName).sort(favoriteBirthYearSort);
+  const offspring = state.filters.offspringFavoritesOnly ? allOffspring.filter((horse) => hasFavoriteHorse(horse.id)) : allOffspring;
   detail.innerHTML = `
     <div class="horse-head">
       <div>
-        <h2>${escapeHtml(baseName)}産駒一覧</h2>
+        <div class="detail-title-row">
+          <h2>${escapeHtml(baseName)}産駒（${offspring.length}）</h2>
+          <button type="button" class="icon-button offspring-favorite-toggle ${state.filters.offspringFavoritesOnly ? "active" : ""}" data-toggle-offspring-favorites title="${state.filters.offspringFavoritesOnly ? "お気に入りのみ" : "全馬"}" aria-label="${state.filters.offspringFavoritesOnly ? "お気に入りのみ" : "全馬"}">
+            <span aria-hidden="true">${state.filters.offspringFavoritesOnly ? "★" : "☆"}</span>
+          </button>
+        </div>
       </div>
     </div>
     <div class="photos">
       ${offspring.map((horse) => {
         const photo = representativePhotoForHorse(horse.id);
-        return photo ? photoCard(photo, { context: "offspring" }) : "";
+        return photo ? photoCard(photo, { context: "offspring", baseName }) : "";
       }).join("") || `<div class="empty">産駒の写真がありません。</div>`}
     </div>
   `;
@@ -886,11 +1270,12 @@ function renderHorseDetail() {
   }
 
   const photos = photosForHorse(horse.id);
+  const statusMark = horseStatusMark(horse.id);
   detail.innerHTML = `
     <div class="horse-head">
       <div>
         <div class="horse-title-row">
-          <h2>${escapeHtml(horse.name)}</h2>
+          <h2>${escapeHtml(horse.name)}${statusMark}</h2>
           ${bodyTagChips(horse)}
         </div>
         <div class="blood">
@@ -923,10 +1308,23 @@ function renderSettingsMenu() {
     <span>${state.db?.photos.length || 0}枚</span>
     <span>${state.db ? races().length : 0}レース</span>
     <span>お気に入り ${state.favorites.size}枚</span>
+    <span>殿堂入り ${state.hallOfFame.size}頭</span>
   `;
   storageMenu.querySelectorAll("button[data-comment-font-size]").forEach((button) => {
     button.classList.toggle("active", button.dataset.commentFontSize === state.commentFontSize);
   });
+}
+
+function syncStorageMenuHost() {
+  if (!storageMenu || !storageMenuHome) return;
+  const shouldFloat = window.matchMedia("(max-width: 820px)").matches;
+  if (shouldFloat && storageMenu.parentElement !== document.body) {
+    document.body.append(storageMenu);
+    return;
+  }
+  if (!shouldFloat && storageMenu.parentElement === document.body) {
+    storageMenuHome.insertBefore(storageMenu, filterControls);
+  }
 }
 
 function closeSidebarAfterListTap() {
@@ -941,16 +1339,89 @@ function renderRaceDetail() {
     detail.innerHTML = `<div class="empty">レースを選択してください。</div>`;
     return;
   }
+  const historyPhotos = state.raceHistoryMode ? historicalRacePhotos(race, state.raceHistoryMode) : [];
+  const photos = state.raceHistoryMode ? historyPhotos : race.photos;
   detail.innerHTML = `
     <div class="horse-head">
       <div>
-        <h2>${escapeHtml([race.date, race.name].filter(Boolean).join(" "))}</h2>
+        <div class="detail-title-row race-title-row">
+          <h2>${escapeHtml([race.date, race.name].filter(Boolean).join(" "))}</h2>
+          <div class="detail-actions">
+            <button type="button" class="filter-chip ${state.raceHistoryMode === "winners" ? "active" : ""}" data-race-history-mode="winners">優勝馬</button>
+            <button type="button" class="filter-chip ${state.raceHistoryMode === "top3" ? "active" : ""}" data-race-history-mode="top3">好走馬</button>
+          </div>
+        </div>
       </div>
     </div>
     <div class="photos">
-      ${race.photos.map((photo) => photoCard(photo, { context: "race" })).join("")}
+      ${photos.map((photo) => photoCard(photo, { context: state.raceHistoryMode ? "raceHistory" : "race" })).join("") || `<div class="empty">${state.raceHistoryMode ? "該当する過去カードがありません。" : "写真がありません。"}</div>`}
     </div>
   `;
+}
+
+function historicalRacePhotos(race, mode) {
+  const family = raceFamilyName(race.name);
+  return races()
+    .filter((item) => item.key !== race.key && raceFamilyName(item.name) === family)
+    .flatMap((item) => item.photos.map((photo) => ({ photo, result: raceResultForPhoto(photo) })))
+    .filter(({ result }) => {
+      const finish = Number(result?.finish);
+      if (!Number.isFinite(finish)) return false;
+      return mode === "winners" ? finish === 1 : finish >= 1 && finish <= 3;
+    })
+    .sort((a, b) => {
+      const dateCompare = (b.photo.raceDate || b.photo.photoDate || "").localeCompare(a.photo.raceDate || a.photo.photoDate || "");
+      if (dateCompare) return dateCompare;
+      return Number(a.result?.finish || 99) - Number(b.result?.finish || 99);
+    })
+    .map(({ photo }) => photo);
+}
+
+function raceFamilyName(name) {
+  const normalized = normalizeResultRaceName(name);
+  const aliases = {
+    "ジャパンカップダート": "チャンピオンズカップ"
+  };
+  return aliases[normalized] || normalized;
+}
+
+function favoriteDetailFiltersHtml() {
+  const photos = favoritePhotos();
+  if (!photos.length) return "";
+  const horses = uniqueHorses(photos.map((photo) => horseById(photo.horseId)).filter(Boolean));
+  const yearScopedHorses = state.filters.favoriteSire ? horses.filter((horse) => horse.sire === state.filters.favoriteSire) : horses;
+  const sireScopedHorses = state.filters.favoriteBirthYear ? horses.filter((horse) => String(horse.birthYear || "") === state.filters.favoriteBirthYear) : horses;
+  const sires = [...new Set(sireScopedHorses.map((horse) => horse.sire).filter(Boolean))].sort((a, b) => a.localeCompare(b, "ja"));
+  const birthYears = [...new Set(yearScopedHorses.map((horse) => String(horse.birthYear || "")).filter(Boolean))].sort((a, b) => Number(b) - Number(a));
+  return `
+    <div class="detail-filters">
+      <select class="filter-select favorite-year-select" data-favorite-filter="birthYear" aria-label="生年">
+        <option value="">全生年（${yearScopedHorses.length}）</option>
+        ${favoriteHistoryOptionsHtml({
+          values: birthYears,
+          recentValue: state.filters.recentFavoriteBirthYear,
+          selectedValue: state.filters.favoriteBirthYear,
+          label: (year) => `${year}年産（${yearScopedHorses.filter((horse) => String(horse.birthYear || "") === year).length}）`
+        })}
+      </select>
+      <select class="filter-select favorite-sire-select" data-favorite-filter="sire" aria-label="種牡馬">
+        <option value="">全種牡馬（${sireScopedHorses.length}）</option>
+        ${favoriteHistoryOptionsHtml({
+          values: sires,
+          recentValue: state.filters.recentFavoriteSire,
+          selectedValue: state.filters.favoriteSire,
+          label: (sire) => `${sire}（${sireScopedHorses.filter((horse) => horse.sire === sire).length}）`
+        })}
+      </select>
+    </div>
+  `;
+}
+
+function favoriteHistoryOptionsHtml({ values, recentValue, selectedValue, label }) {
+  const recent = recentValue && values.includes(recentValue)
+    ? `<option value="${escapeHtml(recentValue)}" ${selectedValue === recentValue ? "selected" : ""}>${escapeHtml(label(recentValue))}</option><option disabled>────────</option>`
+    : "";
+  return `${recent}${values.map((value) => `<option value="${escapeHtml(value)}" ${selectedValue === value ? "selected" : ""}>${escapeHtml(label(value))}</option>`).join("")}`;
 }
 
 function renderFavoriteDetail(focusPhotoKey = "") {
@@ -958,44 +1429,64 @@ function renderFavoriteDetail(focusPhotoKey = "") {
   detail.innerHTML = `
     <div class="horse-head">
       <div>
-        <h2>お気に入り（${photos.length}）</h2>
+        <div class="favorite-title-row">
+          <h2>お気に入り（${photos.length}）</h2>
+          <button type="button" class="hall-status-button favorite-hall-toggle ${state.filters.favoriteHallOnly ? "active" : ""}" data-toggle-favorite-hall title="${state.filters.favoriteHallOnly ? "すべてのお気に入り" : "殿堂入りのみ"}" aria-label="${state.filters.favoriteHallOnly ? "すべてのお気に入り" : "殿堂入りのみ"}">★</button>
+        </div>
+        ${favoriteDetailFiltersHtml()}
       </div>
     </div>
     <div class="photos">
-      ${photos.map((photo) => photoCard(photo, { context: "favorite", focused: photo.key === focusPhotoKey })).join("") || `<div class="empty">お気に入りはまだありません。</div>`}
+      ${photos.map((photo) => photoCard(photo, { context: "favorite", focused: photo.key === focusPhotoKey })).join("") || `<div class="empty">${state.filters.favoriteHallOnly ? "殿堂入りはまだありません。" : "お気に入りはまだありません。"}</div>`}
     </div>
   `;
   if (focusPhotoKey) detail.querySelector(`[data-photo-card-key="${cssEscape(focusPhotoKey)}"]`)?.scrollIntoView({ block: "center" });
 }
 
 function photoCard(photo, options = {}) {
-  const { context = "horse", focused = false } = options;
-  const src = photo.localImagePath ? `data/${photo.localImagePath}` : photo.imageUrl;
+  const { context = "horse", focused = false, baseName = "" } = options;
+  const localPath = photo.imageOverridePath || photo.localImagePath;
+  const src = localPath ? `data/${localPath}` : photo.imageUrl;
   const horse = horseById(photo.horseId);
+  const adjustment = photoAdjustment(photo.key);
+  const adjustmentOpen = state.activePhotoAdjustment === photo.key;
+  const result = raceResultForPhoto(photo);
+  const finish = resultFinishLabel(result);
+  const bodyWeight = resultBodyWeightLabel(result);
   const raceCaption = [photo.raceDate || photo.photoDate, photo.raceName].filter(Boolean).join(" ");
-  const caption = context === "race" || context === "favorite" || context === "offspring"
+  const caption = context === "race" || context === "raceHistory" || context === "favorite" || context === "offspring"
     ? horse?.name || ""
     : raceCaption || photo.caption || "";
-  const meta = context === "favorite" || context === "offspring" ? raceCaption : "";
-  const captionButton = context === "race" || context === "favorite" || context === "offspring"
+  const meta = context === "raceHistory"
+    ? raceCaption
+    : (context === "favorite" || context === "offspring") && state.viewMode === "oneComments" ? raceCaption : "";
+  const subMeta = photoCardSubMeta({ context, horse, baseName });
+  const captionButton = context === "race" || context === "raceHistory" || context === "favorite" || context === "offspring"
     ? `<button type="button" class="caption-link" data-open-horse-id="${escapeHtml(photo.horseId)}">${escapeHtml(caption || photo.source)}</button>`
     : context === "horse" && photo.raceKey
       ? `<button type="button" class="caption-link" data-open-race-key="${escapeHtml(photo.raceKey)}">${escapeHtml(caption || photo.source)}</button>`
       : `<span>${escapeHtml(caption || photo.source)}</span>`;
-  const favorite = state.favorites.has(photo.key);
-  const representative = representativePhotoForHorse(photo.horseId)?.key === photo.key;
-  const representativeDisabled = favoritePhotosForHorse(photo.horseId).length > 0 && !favorite;
+  const status = photoStatus(photo);
   return `
     <article class="photo-card ${focused ? "focused" : ""}" data-photo-card-key="${escapeHtml(photo.key)}">
-      ${src ? `<img src="${src}" alt="${escapeHtml(caption)}" loading="lazy">` : ""}
+      ${src ? `
+        <div class="photo-image-frame" style="--photo-scale: ${adjustment.scale}; --photo-x: ${adjustment.x}%; --photo-y: ${adjustment.y}%;">
+          <img src="${src}" alt="${escapeHtml(caption)}" loading="lazy">
+        </div>
+      ` : ""}
       <div class="photo-body">
         <div class="caption-row">
           <p class="caption">${captionButton}</p>
           <div class="photo-actions">
-            <button type="button" class="representative-button ${representative ? "active" : ""}" data-representative-photo-id="${escapeHtml(photo.key)}" title="代表写真" ${representativeDisabled ? "disabled" : ""}>${representative ? "◆" : "◇"}</button>
-            <button type="button" class="favorite-button ${favorite ? "active" : ""}" data-favorite-photo-id="${escapeHtml(photo.key)}" title="お気に入り">${favorite ? "★" : "☆"}</button>
+            ${finish
+              ? `<button type="button" class="finish-label ${adjustmentOpen ? "active" : ""}" data-photo-adjust-id="${escapeHtml(photo.key)}" data-photo-adjust-action="toggle" title="写真位置調整" aria-label="写真位置調整">${escapeHtml(finish)}</button>`
+              : `<button type="button" class="photo-adjust-toggle empty ${adjustmentOpen ? "active" : ""}" data-photo-adjust-id="${escapeHtml(photo.key)}" data-photo-adjust-action="toggle" title="写真位置調整" aria-label="写真位置調整">調整</button>`}
+            <button type="button" class="photo-status-button ${escapeHtml(status)}" data-photo-status-id="${escapeHtml(photo.key)}" title="${escapeHtml(photoStatusLabel(status))}" aria-label="${escapeHtml(photoStatusLabel(status))}">${photoStatusIcon(status)}</button>
           </div>
         </div>
+        ${adjustmentOpen ? photoAdjustmentControls(photo.key, adjustment) : ""}
+        ${subMeta || bodyWeight ? `<p class="photo-meta pedigree-meta"><span>${escapeHtml(subMeta)}</span><span>${escapeHtml(bodyWeight)}</span></p>` : ""}
+        ${photoCardBodyTags(context, horse)}
         ${meta ? `<p class="photo-meta">${escapeHtml(meta)}</p>` : ""}
         ${state.viewMode === "oneComments" && photo.comment ? `<p class="comment">${escapeHtml(photo.comment)}</p>` : ""}
       </div>
@@ -1003,8 +1494,104 @@ function photoCard(photo, options = {}) {
   `;
 }
 
-function horseSearchResult() {
-  const query = state.query || state.filters.horseTouch;
+function photoAdjustmentControls(photoKey, adjustment) {
+  return `
+    <div class="photo-adjust-controls">
+      <button type="button" data-photo-adjust-id="${escapeHtml(photoKey)}" data-photo-adjust-action="zoomOut" title="縮小">−</button>
+      <span>${Math.round(adjustment.scale * 100)}%</span>
+      <button type="button" data-photo-adjust-id="${escapeHtml(photoKey)}" data-photo-adjust-action="zoomIn" title="拡大">＋</button>
+      <button type="button" data-photo-adjust-id="${escapeHtml(photoKey)}" data-photo-adjust-action="left" title="左へ">←</button>
+      <button type="button" data-photo-adjust-id="${escapeHtml(photoKey)}" data-photo-adjust-action="right" title="右へ">→</button>
+      <button type="button" data-photo-adjust-id="${escapeHtml(photoKey)}" data-photo-adjust-action="up" title="上へ">↑</button>
+      <button type="button" data-photo-adjust-id="${escapeHtml(photoKey)}" data-photo-adjust-action="down" title="下へ">↓</button>
+      <button type="button" data-photo-adjust-id="${escapeHtml(photoKey)}" data-photo-adjust-action="reset" title="リセット">リセット</button>
+    </div>
+  `;
+}
+
+function raceResultForPhoto(photo) {
+  if (!photo?.raceKey) return null;
+  const horse = horseById(photo.horseId);
+  const raceResult = state.raceResults?.races?.[photo.raceKey] || state.raceResults?.races?.[normalizedResultRaceKey(photo)];
+  if (!horse || !raceResult) return null;
+  const result = raceResult.entriesByHorseId?.[photo.horseId] || raceResult.entries?.[horse.name] || null;
+  if (result) return result;
+  const entries = Object.keys(raceResult.entries || {});
+  return entries.length ? { finish: "", status: "withdrawn", bodyWeight: "" } : null;
+}
+
+function normalizedResultRaceKey(photo) {
+  const year = String(photo.raceKey || "").split(":")[0] || (photo.raceDate || photo.photoDate || "").slice(0, 4);
+  return year && photo.raceName ? `${year}:${normalizeResultRaceName(photo.raceName)}` : "";
+}
+
+function normalizeResultRaceName(name = "") {
+  const normalized = String(name)
+    .normalize("NFKC")
+    .replace(/[（）]/g, (char) => ({ "（": "(", "）": ")" })[char])
+    .replace(/\s+/g, "");
+  const aliases = {
+    "AR共和国杯": "アルゼンチン共和国杯",
+    "東京優駿": "日本ダービー",
+    "ダービー": "日本ダービー",
+    "優駿牝馬": "オークス",
+    "NHKマイルC": "NHKマイルカップ",
+    "天皇賞春": "天皇賞・春",
+    "天皇賞秋": "天皇賞・秋",
+    "天皇賞(春)": "天皇賞・春",
+    "天皇賞(秋)": "天皇賞・秋",
+    "マイルチャンピオンS": "マイルCS",
+    "マイルチャンピオンシップ": "マイルCS",
+    "ジャパンC": "ジャパンカップ",
+    "ジャパンカップ(芝)": "ジャパンカップ",
+    "ジャパンCダート": "ジャパンカップダート",
+    "JCダート": "ジャパンカップダート",
+    "ジャパンカップ(ダート)": "ジャパンカップダート",
+    "マイラーズカップ": "マイラーズC",
+    "クイーンカップ": "クイーンC",
+    "阪神ジュべナイルフィリーズ": "阪神ジュベナイルF",
+    "阪神ジュベナイルフィリーズ": "阪神ジュベナイルF",
+    "産経大阪杯": "大阪杯"
+  };
+  return aliases[normalized] || normalized;
+}
+
+function resultFinishLabel(result) {
+  if (!result) return "";
+  if (result.status === "withdrawn") return "回避";
+  if (result.status === "scratched") return "取消";
+  if (result.status === "stopped") return "中止";
+  if (result.status === "excluded") return "除外";
+  if (result.finish === undefined || result.finish === null || result.finish === "") return "";
+  const finish = String(result.finish);
+  return /着|同着|中止|取消|除外/.test(finish) ? finish : `${finish}着`;
+}
+
+function resultBodyWeightLabel(result) {
+  if (!result) return "";
+  if (result.bodyWeight !== undefined && result.bodyWeight !== null && result.bodyWeight !== "") return `${result.bodyWeight}kg`;
+  return "";
+}
+
+function photoCardSubMeta({ context, horse, baseName }) {
+  if (!horse) return "";
+  if (context === "favorite" || context === "race" || context === "raceHistory") {
+    return horse.sire ? `父 ${horse.sire}` : "";
+  }
+  if (context === "offspring") {
+    if (baseName && horse.sire === baseName) return horse.damsire ? `母父 ${horse.damsire}` : "";
+    if (baseName && horse.dam === baseName) return horse.sire ? `父 ${horse.sire}` : "";
+  }
+  return "";
+}
+
+function photoCardBodyTags(context, horse) {
+  if (!horse || !["race", "raceHistory", "favorite"].includes(context)) return "";
+  const html = bodyTagChips(horse);
+  return html ? `<div class="photo-card-tags">${html}</div>` : "";
+}
+
+function horseSearchResult(query = state.query || state.filters.horseTouch) {
   const horses = state.db.horses;
   if (!query) {
     const all = [...horses].sort(birthYearSort);
@@ -1039,6 +1626,47 @@ function horseSearchResult() {
   return { all: sections.flatMap((section) => section.items), sections };
 }
 
+function globalSearchSections(query) {
+  const horseSections = horseSearchResult(query).sections.map((section) => ({ ...section, type: "horse" }));
+  const raceSection = {
+    title: "レース",
+    type: "race",
+    items: raceMatches(query)
+  };
+  const favoriteSection = {
+    title: "お気に入り",
+    type: "favorite",
+    items: favoritePhotoMatches(query)
+  };
+  const blocks = state.mode === "favorites"
+    ? [favoriteSection, ...horseSections, raceSection]
+    : state.mode === "race"
+      ? [raceSection, ...horseSections, favoriteSection]
+      : [...horseSections, raceSection, favoriteSection];
+
+  return blocks.filter((section) => section.items.length);
+}
+
+function raceMatches(query) {
+  const normalizedQuery = normalizeTouchText(query);
+  return races().filter((race) => {
+    const values = [race.name, race.date].filter(Boolean);
+    return values.some((value) => normalizeTouchText(value).includes(normalizedQuery));
+  });
+}
+
+function favoritePhotoMatches(query) {
+  const normalizedQuery = normalizeTouchText(query);
+  return state.db.photos
+    .filter((photo) => state.favorites.has(photo.key))
+    .filter((photo) => {
+      const horse = horseById(photo.horseId);
+      return [horse?.name, photo.raceName, photo.raceDate, photo.caption]
+        .some((value) => normalizeTouchText(value || "").includes(normalizedQuery));
+    })
+    .sort(favoritePhotoSort);
+}
+
 function bodyTagChips(horse) {
   const tags = (horse.bodyTags || []).slice(0, 10);
   if (!tags.length) return "";
@@ -1046,11 +1674,21 @@ function bodyTagChips(horse) {
     <div class="body-tags">
       ${tags.map((item) => `
         <span class="body-tag ${item.confidence === "confirmed" ? "confirmed" : "suggested"}" title="${escapeHtml(bodyTagTitle(item))}">
-          ${escapeHtml(item.tag)}
+          ${escapeHtml(bodyTagLabel(item.tag))}
         </span>
       `).join("")}
     </div>
   `;
+}
+
+function bodyTagLabel(tag) {
+  const labels = {
+    "繋ぎ立ち": "立繋",
+    "胴詰まり": "胴詰",
+    "繋ぎ柔らか": "柔繋",
+    "肩立ち": "肩立"
+  };
+  return labels[tag] || tag;
 }
 
 function bodyTagTitle(item) {
@@ -1107,7 +1745,7 @@ function filteredRaces() {
   const query = state.query;
   return races().filter((race) => {
     if (query && !race.name.includes(query)) return false;
-    if (state.filters.raceG1Only && !isG1Race(race.name)) return false;
+    if (state.filters.raceGrade && raceGrade(race) !== state.filters.raceGrade) return false;
     if (state.filters.raceYear && !race.date?.startsWith(state.filters.raceYear)) return false;
     if (state.filters.raceName && race.name !== state.filters.raceName) return false;
     return true;
@@ -1116,15 +1754,30 @@ function filteredRaces() {
 
 function filteredFavoritePhotos() {
   const query = state.query;
-  return state.db.photos
-    .filter((photo) => state.favorites.has(photo.key))
+  return favoritePhotos()
     .filter((photo) => {
       const horse = horseById(photo.horseId);
+      if (state.filters.favoriteHallOnly && !hasHallOfFameHorse(photo.horseId)) return false;
       if (state.filters.favoriteTouch && !normalizeTouchText(horse?.name || "").includes(state.filters.favoriteTouch)) return false;
+      if (state.filters.favoriteSire && horse?.sire !== state.filters.favoriteSire) return false;
+      if (state.filters.favoriteBirthYear && String(horse?.birthYear || "") !== state.filters.favoriteBirthYear) return false;
       if (!query) return true;
       return [horse?.name, photo.raceName, photo.raceDate, photo.caption].some((value) => value?.includes(query));
     })
     .sort(favoritePhotoSort);
+}
+
+function favoritePhotos() {
+  return state.db.photos.filter((photo) => state.favorites.has(photo.key));
+}
+
+function uniqueHorses(horses) {
+  const seen = new Set();
+  return horses.filter((horse) => {
+    if (!horse || seen.has(horse.id)) return false;
+    seen.add(horse.id);
+    return true;
+  });
 }
 
 function filteredHorses() {
@@ -1134,6 +1787,7 @@ function filteredHorses() {
 }
 
 function races() {
+  if (racesCache) return racesCache;
   const grouped = new Map();
   for (const photo of state.db.photos) {
     const key = photo.raceKey || [photo.raceDate || photo.photoDate || "", photo.raceName || ""].join(":");
@@ -1148,9 +1802,10 @@ function races() {
     }
     grouped.get(key).photos.push(photo);
   }
-  return [...grouped.values()]
+  racesCache = [...grouped.values()]
     .map((race) => ({ ...race, photos: race.photos.sort(photoSort) }))
     .sort((a, b) => (b.date || "").localeCompare(a.date || "") || a.name.localeCompare(b.name, "ja"));
+  return racesCache;
 }
 
 function photosForHorse(horseId) {
@@ -1165,6 +1820,10 @@ function favoritePhotosForHorse(horseId) {
 
 function hasFavoriteHorse(horseId) {
   return state.db.photos.some((photo) => photo.horseId === horseId && state.favorites.has(photo.key));
+}
+
+function hasHallOfFameHorse(horseId) {
+  return state.hallOfFame.has(horseId);
 }
 
 function firstFavoriteHorseId() {
@@ -1216,15 +1875,63 @@ function hasHorseFilters() {
 }
 
 function hasRaceFilters() {
-  return Boolean(state.filters.raceG1Only || state.filters.raceYear || state.filters.raceName);
+  return Boolean(state.filters.raceGrade || state.filters.raceYear || state.filters.raceName);
 }
 
 function hasFavoriteFilters() {
-  return Boolean(state.filters.favoriteTouch);
+  return Boolean(state.filters.favoriteTouch || state.filters.favoriteSire || state.filters.favoriteBirthYear || state.filters.favoriteHallOnly);
 }
 
 function isG1Race(name = "") {
   return G1_RACES.includes(String(name));
+}
+
+function raceNameFilterOptions(baseRaces, availableRaceNames) {
+  if (!state.filters.raceGrade) {
+    return G1_RACES.filter((name) => availableRaceNames.has(name));
+  }
+  const names = [...new Set(baseRaces
+    .filter((race) => availableRaceNames.has(race.name))
+    .map((race) => race.name)
+  )];
+  const preferred = GRADE_RACES[state.filters.raceGrade] || [];
+  return names.sort((a, b) => {
+    const ai = preferred.indexOf(a);
+    const bi = preferred.indexOf(b);
+    if (ai >= 0 && bi >= 0) return ai - bi;
+    if (ai >= 0) return -1;
+    if (bi >= 0) return 1;
+    return latestRaceDateForName(b).localeCompare(latestRaceDateForName(a)) || a.localeCompare(b, "ja");
+  });
+}
+
+function latestRaceDateForName(name) {
+  return races()
+    .filter((race) => race.name === name)
+    .map((race) => race.date || "")
+    .sort((a, b) => b.localeCompare(a))[0] || "";
+}
+
+function raceGrade(race) {
+  const resultRace = resultRaceForRace(race);
+  if (resultRace?.grade) return resultRace.grade;
+  return gradeByRaceName(race.name);
+}
+
+function resultRaceForRace(race) {
+  if (!race) return null;
+  const direct = state.raceResults?.races?.[race.key];
+  if (direct) return direct;
+  const year = String(race.key || "").split(":")[0] || (race.date || "").slice(0, 4);
+  const normalizedKey = year && race.name ? `${year}:${normalizeResultRaceName(race.name)}` : "";
+  return normalizedKey ? state.raceResults?.races?.[normalizedKey] || null : null;
+}
+
+function gradeByRaceName(name = "") {
+  for (const [grade, names] of Object.entries(GRADE_RACES)) {
+    if (names.includes(String(name))) return grade;
+  }
+  return "";
 }
 
 function horseTouchCandidates() {

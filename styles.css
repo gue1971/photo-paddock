@@ -314,6 +314,12 @@ button:disabled {
   margin: 0;
 }
 
+.section-actions {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+}
+
 .section-action {
   width: auto;
   height: 28px;
@@ -376,7 +382,13 @@ body[data-filter-open="true"] .race-year-group summary {
 
 .favorite-mark {
   margin-left: 4px;
-  color: var(--accent-2);
+  color: #a87500;
+  font-size: 0.92em;
+}
+
+.hall-mark {
+  margin-left: 4px;
+  color: #a87500;
   font-size: 0.92em;
 }
 
@@ -500,16 +512,72 @@ body[data-filter-open="true"] .race-year-group summary {
   outline: 3px solid rgba(15, 107, 79, 0.28);
 }
 
+.photo-image-frame {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #eef0ea;
+}
+
 .photo-card img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: contain;
-  background: #eef0ea;
+  height: 100%;
+  object-fit: cover;
+  object-position: var(--photo-x, 50%) var(--photo-y, 50%);
+  transform: scale(var(--photo-scale, 1));
+  transform-origin: var(--photo-x, 50%) var(--photo-y, 50%);
 }
 
 .photo-body {
   padding: 12px;
+}
+
+.detail-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.detail-title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.race-title-row {
+  flex-wrap: wrap;
+}
+
+.detail-title-row h2 {
+  margin: 0;
+}
+
+.detail-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.detail-filters .filter-select,
+.detail-filters .filter-chip {
+  height: 32px;
+  font-size: 13px;
+}
+
+.detail-filters .favorite-sire-select {
+  min-width: 190px;
+  max-width: min(320px, 100%);
+}
+
+.detail-filters .favorite-year-select {
+  min-width: 152px;
+}
+
+.offspring-favorite-toggle {
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
+  font-size: 18px;
 }
 
 .caption-row {
@@ -554,11 +622,39 @@ body[data-filter-open="true"] .race-year-group summary {
 
 .photo-actions {
   display: flex;
+  align-self: start;
+  align-items: center;
   gap: 2px;
+  height: 28px;
 }
 
-.favorite-button,
-.representative-button {
+.finish-label {
+  width: auto;
+  min-width: 30px;
+  height: 28px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.finish-label:hover {
+  background: transparent;
+  opacity: 0.72;
+}
+
+.finish-label.active,
+.finish-label.active:hover {
+  color: var(--accent);
+}
+
+.photo-adjust-toggle,
+.hall-status-button,
+.photo-status-button {
   width: 28px;
   height: 28px;
   padding: 0;
@@ -569,30 +665,136 @@ body[data-filter-open="true"] .race-year-group summary {
   color: var(--muted);
 }
 
-.favorite-button:hover,
-.representative-button:hover {
+.photo-adjust-toggle {
+  width: auto;
+  min-width: 28px;
+  padding: 0 2px;
+  font-size: 11px;
+}
+
+.photo-adjust-toggle:hover,
+.hall-status-button:hover,
+.photo-status-button:hover {
   background: transparent;
   opacity: 0.72;
 }
 
-.favorite-button.active,
-.favorite-button.active:hover {
+.photo-adjust-toggle.active,
+.photo-adjust-toggle.active:hover {
+  border: 0;
+  background: transparent;
+  color: var(--accent);
+}
+
+.photo-adjust-toggle.empty,
+.photo-adjust-toggle.empty:hover,
+.photo-adjust-toggle.empty.active,
+.photo-adjust-toggle.empty.active:hover {
+  color: transparent;
+}
+
+.photo-status-button.favorite {
+  border: 0;
+  background: transparent;
+  color: #a87500;
+}
+
+.photo-status-button.favorite:hover {
   border: 0;
   background: transparent;
   color: var(--accent-2);
 }
 
-.representative-button.active,
-.representative-button.active:hover {
+.photo-status-button.hall,
+.photo-status-button.hall:hover {
+  border: 0;
+  background: transparent;
+  color: #a87500;
+}
+
+.photo-status-button.representative,
+.photo-status-button.representative:hover {
   border: 0;
   background: transparent;
   color: var(--accent);
+}
+
+.hall-status-button.active,
+.hall-status-button.active:hover {
+  border: 0;
+  background: transparent;
+  color: #a87500;
+}
+
+.favorite-title-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.favorite-title-row h2 {
+  margin: 0 0 4px;
+}
+
+.favorite-hall-toggle {
+  margin-bottom: 4px;
+  color: var(--text);
+}
+
+.photo-adjust-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  margin: 0 0 8px;
+}
+
+.photo-adjust-controls button {
+  width: auto;
+  height: 26px;
+  min-width: 28px;
+  padding: 0 7px;
+  font-size: 12px;
+}
+
+.photo-adjust-controls span {
+  min-width: 38px;
+  color: var(--muted);
+  font-size: 12px;
+  text-align: center;
 }
 
 .photo-meta {
   margin: 0 0 8px;
   color: var(--muted);
   font-size: 12px;
+}
+
+.pedigree-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.pedigree-meta span:last-child {
+  margin-left: auto;
+  color: var(--text);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.photo-card-tags {
+  margin: -3px 0 8px;
+}
+
+.photo-card-tags .body-tags {
+  gap: 3px;
+}
+
+.photo-card-tags .body-tag {
+  padding: 1px 6px;
+  font-size: 10px;
+  line-height: 1.45;
 }
 
 .comment {
@@ -681,13 +883,28 @@ body[data-comment-font="large"] .comment {
   }
 
   body[data-filter-open="true"] .sidebar,
+  body[data-storage-open="true"] .sidebar,
   body[data-sidebar-open="true"] .sidebar,
   body[data-mode="horse"][data-filter-open="true"] .sidebar {
     max-height: 62vh;
     max-height: 62dvh;
   }
 
+  body[data-storage-open="true"] .sidebar {
+    overflow: visible;
+  }
+
+  body[data-storage-open="true"][data-sidebar-open="false"][data-has-query="false"][data-filter-open="false"] .sidebar {
+    max-height: 62vh;
+    max-height: 62dvh;
+    overflow: visible;
+  }
+
   body[data-sidebar-open="false"][data-has-query="false"][data-filter-open="false"] #itemList {
+    display: none;
+  }
+
+  body[data-storage-open="true"] #itemList {
     display: none;
   }
 
@@ -825,6 +1042,7 @@ body[data-comment-font="large"] .comment {
 
   body[data-view-mode="two"] .photo-actions {
     justify-content: flex-end;
+    height: 22px;
   }
 
   body[data-view-mode="two"] .caption,
@@ -848,11 +1066,34 @@ body[data-comment-font="large"] .comment {
     line-height: 1.85;
   }
 
-  body[data-view-mode="two"] .favorite-button,
-  body[data-view-mode="two"] .representative-button {
+  body[data-view-mode="two"] .finish-label,
+  body[data-view-mode="two"] .photo-adjust-toggle,
+  body[data-view-mode="two"] .hall-status-button,
+  body[data-view-mode="two"] .photo-status-button {
     width: 22px;
     height: 22px;
     font-size: 15px;
+  }
+
+  body[data-view-mode="two"] .finish-label,
+  body[data-view-mode="two"] .photo-adjust-toggle {
+    width: auto;
+    min-width: 22px;
+  }
+
+  body[data-view-mode="two"] .photo-adjust-toggle {
+    font-size: 10px;
+  }
+
+  body[data-view-mode="two"] .photo-adjust-controls {
+    gap: 3px;
+  }
+
+  body[data-view-mode="two"] .photo-adjust-controls button {
+    height: 24px;
+    min-width: 26px;
+    padding: 0 5px;
+    font-size: 11px;
   }
 
   body[data-mode="race"] .horse-button,
