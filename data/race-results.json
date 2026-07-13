@@ -4179,6 +4179,209 @@
         }
       }
     },
+    "2026:七夕賞": {
+      "date": "2026-07-12",
+      "name": "七夕賞",
+      "source": "netkeiba-html",
+      "grade": "G3",
+      "sourceRaceNames": [
+        "七夕賞G3"
+      ],
+      "entries": {
+        "アスクナイスショー": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 496,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "七夕賞G3"
+        },
+        "マイネルモーント": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 464,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "七夕賞G3"
+        },
+        "オニャンコポン": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 468,
+          "sex": "セ",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "七夕賞G3"
+        },
+        "センツブラッド": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 470,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "七夕賞G3"
+        },
+        "ボーンディスウェイ": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 494,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "七夕賞G3"
+        },
+        "ヤマニンブークリエ": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 514,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "七夕賞G3"
+        },
+        "カラマティアノス": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 472,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "七夕賞G3"
+        },
+        "オーロラエックス": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 484,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "七夕賞G3"
+        },
+        "コントラポスト": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 466,
+          "sex": "セ",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "七夕賞G3"
+        },
+        "サヴォーナ": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 536,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "七夕賞G3"
+        },
+        "クリスマスパレード": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 472,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "七夕賞G3"
+        },
+        "バトルボーン": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 506,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "七夕賞G3"
+        },
+        "リカンカブール": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 496,
+          "sex": "セ",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "七夕賞G3"
+        },
+        "ショウナンマグマ": {
+          "finish": 14,
+          "status": "started",
+          "bodyWeight": 500,
+          "sex": "セ",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "七夕賞G3"
+        },
+        "オールナット": {
+          "finish": 15,
+          "status": "started",
+          "bodyWeight": 530,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "七夕賞G3"
+        },
+        "メリオーレム": {
+          "finish": 16,
+          "status": "started",
+          "bodyWeight": 498,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "七夕賞G3"
+        }
+      }
+    },
     "2026:皐月賞": {
       "date": "2026-04-19",
       "name": "皐月賞",
