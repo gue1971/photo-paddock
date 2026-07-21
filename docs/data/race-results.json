@@ -1600,6 +1600,173 @@
         }
       }
     },
+    "2026:函館2歳S": {
+      "date": "2026-07-19",
+      "name": "函館2歳S",
+      "source": "netkeiba-html",
+      "grade": "G3",
+      "sourceRaceNames": [
+        "函館2歳SG3"
+      ],
+      "entries": {
+        "フェリチタ": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 442,
+          "sex": "牝",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館2歳SG3"
+        },
+        "イモージェン": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 434,
+          "sex": "牝",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館2歳SG3"
+        },
+        "ダイシンドラゴン": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 446,
+          "sex": "牡",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館2歳SG3"
+        },
+        "ノリヤンモーニン": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 466,
+          "sex": "牡",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館2歳SG3"
+        },
+        "シグレ": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 442,
+          "sex": "牝",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館2歳SG3"
+        },
+        "ショウナンカノア": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 462,
+          "sex": "牝",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館2歳SG3"
+        },
+        "セタキト": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 472,
+          "sex": "牡",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館2歳SG3"
+        },
+        "アルテクィーン": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 458,
+          "sex": "牝",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館2歳SG3"
+        },
+        "ダマスク": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 434,
+          "sex": "牡",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館2歳SG3"
+        },
+        "ダイメイビッグボス": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 458,
+          "sex": "牡",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館2歳SG3"
+        },
+        "クロリス": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 460,
+          "sex": "牝",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館2歳SG3"
+        },
+        "ロンドンガーズ": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 444,
+          "sex": "牡",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館2歳SG3"
+        },
+        "ウンスイ": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 470,
+          "sex": "牡",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "函館2歳SG3"
+        }
+      }
+    },
     "2026:日本ダービー": {
       "date": "2026-05-31",
       "name": "日本ダービー",
@@ -4176,6 +4343,233 @@
           "dam": "アンジュシュエット",
           "damsire": "フレンチデピュティ",
           "sourceRaceName": "小倉大賞HG3"
+        }
+      }
+    },
+    "2026:小倉記念": {
+      "date": "2026-07-19",
+      "name": "小倉記念",
+      "source": "netkeiba-html",
+      "grade": "G3",
+      "sourceRaceNames": [
+        "小倉記念G3"
+      ],
+      "entries": {
+        "ゼンダンハヤブサ": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 442,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "小倉記念G3"
+        },
+        "ジョバンニ": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 474,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "小倉記念G3"
+        },
+        "レーゼドラマ": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 468,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "小倉記念G3"
+        },
+        "ガイアメンテ": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 492,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "小倉記念G3"
+        },
+        "ナムラエイハブ": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 510,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "小倉記念G3"
+        },
+        "ジーティーアダマン": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 500,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "小倉記念G3"
+        },
+        "トータルクラリティ": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 468,
+          "sex": "セ",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "小倉記念G3"
+        },
+        "ウエストナウ": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 504,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "小倉記念G3"
+        },
+        "タガノアビー": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 516,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "小倉記念G3"
+        },
+        "マイネルメモリー": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 456,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "小倉記念G3"
+        },
+        "サフィラ": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 468,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "小倉記念G3"
+        },
+        "ケイズレーヴ": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 418,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "小倉記念G3"
+        },
+        "カネフラ": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 446,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "小倉記念G3"
+        },
+        "コパノサントス": {
+          "finish": 14,
+          "status": "started",
+          "bodyWeight": 480,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "小倉記念G3"
+        },
+        "カエルム": {
+          "finish": 15,
+          "status": "started",
+          "bodyWeight": 464,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "小倉記念G3"
+        },
+        "ノーランサンライズ": {
+          "finish": 16,
+          "status": "started",
+          "bodyWeight": 510,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "小倉記念G3"
+        },
+        "テーオーソラネル": {
+          "finish": 17,
+          "status": "started",
+          "bodyWeight": 502,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "小倉記念G3"
+        },
+        "エヒト": {
+          "finish": "中止",
+          "status": "stopped",
+          "bodyWeight": 468,
+          "sex": "牡",
+          "age": 9,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "小倉記念G3"
         }
       }
     },
