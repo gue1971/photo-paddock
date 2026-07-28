@@ -2555,6 +2555,185 @@
         }
       }
     },
+    "2026:東海S": {
+      "date": "2026-07-26",
+      "name": "東海S",
+      "source": "netkeiba-html",
+      "grade": "G3",
+      "sourceRaceNames": [
+        "東海SG3"
+      ],
+      "entries": {
+        "マテンロウコマンド": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 510,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "東海SG3"
+        },
+        "メイショウハチロー": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 504,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "東海SG3"
+        },
+        "ドンインザムード": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 540,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "東海SG3"
+        },
+        "インユアパレス": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 484,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "東海SG3"
+        },
+        "バトルクライ": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 510,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "東海SG3"
+        },
+        "トリリオンボーイ": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 472,
+          "sex": "セ",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "東海SG3"
+        },
+        "ノーブルロジャー": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 500,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "東海SG3"
+        },
+        "ハッピーマン": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 476,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "東海SG3"
+        },
+        "ベルジュロネット": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 550,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "東海SG3"
+        },
+        "ダノンフィーゴ": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 466,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "東海SG3"
+        },
+        "モンドプリューム": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 514,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "東海SG3"
+        },
+        "ジュンウィンダム": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 510,
+          "sex": "牝",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "東海SG3"
+        },
+        "ケイアイドリー": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 534,
+          "sex": "牡",
+          "age": 9,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "東海SG3"
+        },
+        "ドラゴンテイラー": {
+          "finish": 14,
+          "status": "started",
+          "bodyWeight": 536,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "東海SG3"
+        }
+      }
+    },
     "2026:天皇賞・春": {
       "date": "2026-05-03",
       "name": "天皇賞・春",
@@ -7447,6 +7626,185 @@
           "dam": "アサカラヴァーズ",
           "damsire": "キングヘイロー",
           "sourceRaceName": "京王杯スG2"
+        }
+      }
+    },
+    "2026:関屋記念": {
+      "date": "2026-07-26",
+      "name": "関屋記念",
+      "source": "netkeiba-html",
+      "grade": "G3",
+      "sourceRaceNames": [
+        "関屋記念G3"
+      ],
+      "entries": {
+        "アンパドゥ": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 498,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "関屋記念G3"
+        },
+        "クランフォード": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 470,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "関屋記念G3"
+        },
+        "ファーヴェント": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 512,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "関屋記念G3"
+        },
+        "ブエナオンダ": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 458,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "関屋記念G3"
+        },
+        "エルトンバローズ": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 520,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "関屋記念G3"
+        },
+        "マテンロウスカイ": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 490,
+          "sex": "セ",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "関屋記念G3"
+        },
+        "ジュタ": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 516,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "関屋記念G3"
+        },
+        "レディマリオン": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 454,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "関屋記念G3"
+        },
+        "サンダーストラック": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 530,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "関屋記念G3"
+        },
+        "シリウスコルト": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 500,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "関屋記念G3"
+        },
+        "ダノンセンチュリー": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 462,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "関屋記念G3"
+        },
+        "ドロップオブライト": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 448,
+          "sex": "牝",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "関屋記念G3"
+        },
+        "ランスオブカオス": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 496,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "関屋記念G3"
+        },
+        "メタルスピード": {
+          "finish": 14,
+          "status": "started",
+          "bodyWeight": 520,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "関屋記念G3"
         }
       }
     },
