@@ -12477,6 +12477,185 @@
         }
       }
     },
+    "2026:クイーンS": {
+      "date": "2026-08-02",
+      "name": "クイーンS",
+      "source": "netkeiba-html",
+      "grade": "G3",
+      "sourceRaceNames": [
+        "クイーンSG3"
+      ],
+      "entries": {
+        "ココナッツブラウン": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 458,
+          "sex": "牝",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "クイーンSG3"
+        },
+        "コガネノソラ": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 468,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "クイーンSG3"
+        },
+        "ヴーレヴー": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 498,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "クイーンSG3"
+        },
+        "エリカエクスプレス": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 472,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "クイーンSG3"
+        },
+        "カテリーナ": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 470,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "クイーンSG3"
+        },
+        "ルージュソリテール": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 438,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "クイーンSG3"
+        },
+        "リラボニート": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 472,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "クイーンSG3"
+        },
+        "ケリフレッドアスク": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 462,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "クイーンSG3"
+        },
+        "アンゴラブラック": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 474,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "クイーンSG3"
+        },
+        "ボンドガール": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 464,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "クイーンSG3"
+        },
+        "クリノメイ": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 448,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "クイーンSG3"
+        },
+        "フレミングフープ": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 500,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "クイーンSG3"
+        },
+        "エラトー": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 512,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "クイーンSG3"
+        },
+        "フェスティバルヒル": {
+          "finish": 14,
+          "status": "started",
+          "bodyWeight": 466,
+          "sex": "牝",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "クイーンSG3"
+        }
+      }
+    },
     "2026:クイーンC": {
       "date": "2026-02-14",
       "name": "クイーンC",
@@ -14074,6 +14253,221 @@
           "dam": "カネツスペシャル",
           "damsire": "スペシャルウィーク",
           "sourceRaceName": "アメリカG2"
+        }
+      }
+    },
+    "2026:アイビスサマーダッシュ": {
+      "date": "2026-08-02",
+      "name": "アイビスサマーダッシュ",
+      "source": "netkeiba-html",
+      "grade": "G3",
+      "sourceRaceNames": [
+        "アイビスサマーダッシュG3"
+      ],
+      "entries": {
+        "ピューロマジック": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 460,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイビスサマーダッシュG3"
+        },
+        "ロードトレイル": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 478,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイビスサマーダッシュG3"
+        },
+        "カウスリップ": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 556,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイビスサマーダッシュG3"
+        },
+        "ビッグシーザー": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 520,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイビスサマーダッシュG3"
+        },
+        "アメリカンステージ": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 514,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイビスサマーダッシュG3"
+        },
+        "エコロレジーナ": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 504,
+          "sex": "牝",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイビスサマーダッシュG3"
+        },
+        "ウイングレイテスト": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 504,
+          "sex": "牡",
+          "age": 9,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイビスサマーダッシュG3"
+        },
+        "ベルギューン": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 500,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイビスサマーダッシュG3"
+        },
+        "テイエムスパーダ": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 500,
+          "sex": "牝",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイビスサマーダッシュG3"
+        },
+        "ブーケファロス": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 456,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイビスサマーダッシュG3"
+        },
+        "デュガ": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 480,
+          "sex": "セ",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイビスサマーダッシュG3"
+        },
+        "バグラダス": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 488,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイビスサマーダッシュG3"
+        },
+        "クムシラコ": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 470,
+          "sex": "牡",
+          "age": 8,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイビスサマーダッシュG3"
+        },
+        "カウンターセブン": {
+          "finish": 14,
+          "status": "started",
+          "bodyWeight": 510,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイビスサマーダッシュG3"
+        },
+        "ミカッテヨンデイイ": {
+          "finish": 15,
+          "status": "started",
+          "bodyWeight": 434,
+          "sex": "牝",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイビスサマーダッシュG3"
+        },
+        "アタリダイキチ": {
+          "finish": 16,
+          "status": "started",
+          "bodyWeight": 490,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイビスサマーダッシュG3"
+        },
+        "シュラフ": {
+          "finish": 17,
+          "status": "started",
+          "bodyWeight": 440,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイビスサマーダッシュG3"
         }
       }
     },
