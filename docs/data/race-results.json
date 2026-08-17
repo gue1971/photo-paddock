@@ -3486,6 +3486,209 @@
         }
       }
     },
+    "2026:中京記念": {
+      "date": "2026-08-16",
+      "name": "中京記念",
+      "source": "netkeiba-html",
+      "grade": "G3",
+      "sourceRaceNames": [
+        "中京記念G3"
+      ],
+      "entries": {
+        "ラヴァンダ": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 494,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京記念G3"
+        },
+        "ミニトランザット": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 472,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京記念G3"
+        },
+        "サトノシャイニング": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 504,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京記念G3"
+        },
+        "カズミクラーシュ": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 504,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京記念G3"
+        },
+        "ミナデオロ": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 510,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京記念G3"
+        },
+        "スイープアワーズ": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 454,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京記念G3"
+        },
+        "チェルビアット": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 498,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京記念G3"
+        },
+        "カネラフィーナ": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 496,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京記念G3"
+        },
+        "キープカルム": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 500,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京記念G3"
+        },
+        "カンシン": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 472,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京記念G3"
+        },
+        "ブエナオンダ": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 460,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京記念G3"
+        },
+        "ケイズレーヴ": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 424,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京記念G3"
+        },
+        "ショウナンアデイブ": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 516,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京記念G3"
+        },
+        "リリージョワ": {
+          "finish": 14,
+          "status": "started",
+          "bodyWeight": 442,
+          "sex": "牝",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京記念G3"
+        },
+        "ナムラコスモス": {
+          "finish": 15,
+          "status": "started",
+          "bodyWeight": 490,
+          "sex": "牝",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京記念G3"
+        },
+        "ファントムシーフ": {
+          "finish": 16,
+          "status": "started",
+          "bodyWeight": 508,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京記念G3"
+        }
+      }
+    },
     "2026:大阪杯": {
       "date": "2026-04-05",
       "name": "大阪杯",
@@ -5179,6 +5382,209 @@
           "dam": "デジマノハナ",
           "damsire": "スクリーンヒーロー",
           "sourceRaceName": "皐月賞G1"
+        }
+      }
+    },
+    "2026:札幌記念": {
+      "date": "2026-08-16",
+      "name": "札幌記念",
+      "source": "netkeiba-html",
+      "grade": "G2",
+      "sourceRaceNames": [
+        "札幌記念G2"
+      ],
+      "entries": {
+        "シェイクユアハート": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 450,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "札幌記念G2"
+        },
+        "サクラファレル": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 514,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "札幌記念G2"
+        },
+        "レディネス": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 500,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "札幌記念G2"
+        },
+        "ローシャムパーク": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 506,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "札幌記念G2"
+        },
+        "グランディア": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 488,
+          "sex": "セ",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "札幌記念G2"
+        },
+        "マジックサンズ": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 518,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "札幌記念G2"
+        },
+        "ショウヘイ": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 464,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "札幌記念G2"
+        },
+        "マイネルモーント": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 466,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "札幌記念G2"
+        },
+        "アドマイヤテラ": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 494,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "札幌記念G2"
+        },
+        "ホウオウビスケッツ": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 504,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "札幌記念G2"
+        },
+        "ゼンダンハヤブサ": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 444,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "札幌記念G2"
+        },
+        "アラタ": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 472,
+          "sex": "牡",
+          "age": 9,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "札幌記念G2"
+        },
+        "ピンクジン": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 448,
+          "sex": "牝",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "札幌記念G2"
+        },
+        "イガッチ": {
+          "finish": 14,
+          "status": "started",
+          "bodyWeight": 488,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "札幌記念G2"
+        },
+        "オニャンコポン": {
+          "finish": 15,
+          "status": "started",
+          "bodyWeight": 462,
+          "sex": "セ",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "札幌記念G2"
+        },
+        "エコロヴァルツ": {
+          "finish": 16,
+          "status": "started",
+          "bodyWeight": 494,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "札幌記念G2"
         }
       }
     },
