@@ -4298,6 +4298,137 @@
         }
       }
     },
+    "2026:新潟2歳S": {
+      "date": "2026-08-23",
+      "name": "新潟2歳S",
+      "source": "netkeiba-html",
+      "grade": "G3",
+      "sourceRaceNames": [
+        "新潟2歳SG3"
+      ],
+      "entries": {
+        "レッチュベルク": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 478,
+          "sex": "牡",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟2歳SG3"
+        },
+        "トウシンマジック": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 476,
+          "sex": "牡",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟2歳SG3"
+        },
+        "トップチェッカー": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 492,
+          "sex": "牡",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟2歳SG3"
+        },
+        "スイートアリッサム": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 440,
+          "sex": "牝",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟2歳SG3"
+        },
+        "シャンデヴァーグ": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 426,
+          "sex": "牝",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟2歳SG3"
+        },
+        "マインドフルネス": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 406,
+          "sex": "牝",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟2歳SG3"
+        },
+        "エレスレイプニル": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 444,
+          "sex": "牡",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟2歳SG3"
+        },
+        "アイデアルカット": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 446,
+          "sex": "牡",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟2歳SG3"
+        },
+        "インカルナータ": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 488,
+          "sex": "牡",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟2歳SG3"
+        },
+        "マイホームパパ": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 402,
+          "sex": "牡",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟2歳SG3"
+        }
+      }
+    },
     "2026:小倉牝馬S": {
       "date": "2026-01-24",
       "name": "小倉牝馬S",
