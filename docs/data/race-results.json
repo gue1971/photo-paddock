@@ -3689,6 +3689,125 @@
         }
       }
     },
+    "2026:中京2歳S": {
+      "date": "2026-08-30",
+      "name": "中京2歳S",
+      "source": "netkeiba-html",
+      "grade": "G3",
+      "sourceRaceNames": [
+        "中京2歳SG3"
+      ],
+      "entries": {
+        "ジーティーマイカ": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 454,
+          "sex": "牝",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京2歳SG3"
+        },
+        "シスキンブルーム": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 472,
+          "sex": "牝",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京2歳SG3"
+        },
+        "ビスケットサンド": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 456,
+          "sex": "牝",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京2歳SG3"
+        },
+        "ジャスパートレノ": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 482,
+          "sex": "牡",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京2歳SG3"
+        },
+        "サンタンジェロ": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 460,
+          "sex": "牝",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京2歳SG3"
+        },
+        "バクソウシャチョウ": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 462,
+          "sex": "牡",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京2歳SG3"
+        },
+        "マルモリムソウ": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 468,
+          "sex": "牡",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京2歳SG3"
+        },
+        "ピコキング": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 476,
+          "sex": "牡",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京2歳SG3"
+        },
+        "ピコジャック": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 444,
+          "sex": "牡",
+          "age": 2,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "中京2歳SG3"
+        }
+      }
+    },
     "2026:大阪杯": {
       "date": "2026-04-05",
       "name": "大阪杯",
@@ -4295,6 +4414,149 @@
           "dam": "シュガーハート",
           "damsire": "サクラバクシンオー",
           "sourceRaceName": "新潟大賞HG3"
+        }
+      }
+    },
+    "2026:新潟記念": {
+      "date": "2026-08-30",
+      "name": "新潟記念",
+      "source": "netkeiba-html",
+      "grade": "G3",
+      "sourceRaceNames": [
+        "新潟記念G3"
+      ],
+      "entries": {
+        "ゾロアストロ": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 470,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟記念G3"
+        },
+        "ロデオドライブ": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 476,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟記念G3"
+        },
+        "ダノンシーマ": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 490,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟記念G3"
+        },
+        "サヴォーナ": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 530,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟記念G3"
+        },
+        "アーバンシック": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 522,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟記念G3"
+        },
+        "ドゥレッツァ": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 484,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟記念G3"
+        },
+        "ボーンディスウェイ": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 490,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟記念G3"
+        },
+        "チェルヴィニア": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 504,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟記念G3"
+        },
+        "ジュンブロッサム": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 472,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟記念G3"
+        },
+        "バレエマスター": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 472,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟記念G3"
+        },
+        "ステレンボッシュ": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 478,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "新潟記念G3"
         }
       }
     },
