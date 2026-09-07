@@ -5551,6 +5551,149 @@
         }
       }
     },
+    "2026:紫苑S": {
+      "date": "2026-09-06",
+      "name": "紫苑S",
+      "source": "netkeiba-html",
+      "grade": "G2",
+      "sourceRaceNames": [
+        "紫苑SG2"
+      ],
+      "entries": {
+        "マスターソアラ": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 492,
+          "sex": "牝",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "紫苑SG2"
+        },
+        "サムシングスイート": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 498,
+          "sex": "牝",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "紫苑SG2"
+        },
+        "ドリームコア": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 502,
+          "sex": "牝",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "紫苑SG2"
+        },
+        "アストリル": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 452,
+          "sex": "牝",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "紫苑SG2"
+        },
+        "ジワタネホ": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 442,
+          "sex": "牝",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "紫苑SG2"
+        },
+        "ナイスプレーアスク": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 438,
+          "sex": "牝",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "紫苑SG2"
+        },
+        "リアライズルミナス": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 492,
+          "sex": "牝",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "紫苑SG2"
+        },
+        "ファムクラジューズ": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 410,
+          "sex": "牝",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "紫苑SG2"
+        },
+        "ベンヴェヌータ": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 468,
+          "sex": "牝",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "紫苑SG2"
+        },
+        "ジッピーチューン": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 434,
+          "sex": "牝",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "紫苑SG2"
+        },
+        "ロングトールサリー": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 498,
+          "sex": "牝",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "紫苑SG2"
+        }
+      }
+    },
     "2026:皐月賞": {
       "date": "2026-04-19",
       "name": "皐月賞",
@@ -12568,6 +12711,209 @@
           "dam": "キストゥヘヴン",
           "damsire": "アドマイヤベガ",
           "sourceRaceName": "ダービーHG3"
+        }
+      }
+    },
+    "2026:セントウルS": {
+      "date": "2026-09-06",
+      "name": "セントウルS",
+      "source": "netkeiba-html",
+      "grade": "G2",
+      "sourceRaceNames": [
+        "セントウルSG2"
+      ],
+      "entries": {
+        "フリッカージャブ": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 506,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "セントウルSG2"
+        },
+        "ピューロマジック": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 460,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "セントウルSG2"
+        },
+        "ママコチャ": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 502,
+          "sex": "牝",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "セントウルSG2"
+        },
+        "クラスペディア": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 514,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "セントウルSG2"
+        },
+        "ティニア": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 506,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "セントウルSG2"
+        },
+        "メイショウヨゾラ": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 486,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "セントウルSG2"
+        },
+        "プロトポロス": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 480,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "セントウルSG2"
+        },
+        "ダイヤモンドノット": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 484,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "セントウルSG2"
+        },
+        "ヤブサメ": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 486,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "セントウルSG2"
+        },
+        "タマモブラックタイ": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 530,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "セントウルSG2"
+        },
+        "ヨシノイースター": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 494,
+          "sex": "牡",
+          "age": 8,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "セントウルSG2"
+        },
+        "カルプスペルシュ": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 476,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "セントウルSG2"
+        },
+        "ビッグシーザー": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 518,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "セントウルSG2"
+        },
+        "タマモイカロス": {
+          "finish": 14,
+          "status": "started",
+          "bodyWeight": 522,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "セントウルSG2"
+        },
+        "ファストネットワーク": {
+          "finish": 15,
+          "status": "started",
+          "bodyWeight": 506,
+          "sex": "セ",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "セントウルSG2"
+        },
+        "レッドモンレーヴ": {
+          "finish": 16,
+          "status": "started",
+          "bodyWeight": 512,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "セントウルSG2"
         }
       }
     },
