@@ -4226,6 +4226,149 @@
         }
       }
     },
+    "2026:神戸新聞杯": {
+      "date": "2026-09-21",
+      "name": "神戸新聞杯",
+      "source": "netkeiba-html",
+      "grade": "G2",
+      "sourceRaceNames": [
+        "神戸新聞杯G2"
+      ],
+      "entries": {
+        "ロブチェン": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 518,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "神戸新聞杯G2"
+        },
+        "アルトラムス": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 474,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "神戸新聞杯G2"
+        },
+        "シートゥサミット": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 524,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "神戸新聞杯G2"
+        },
+        "ゴーラッキー": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 490,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "神戸新聞杯G2"
+        },
+        "エムズビギン": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 508,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "神戸新聞杯G2"
+        },
+        "コンジェスタス": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 528,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "神戸新聞杯G2"
+        },
+        "エイシンインアウト": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 482,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "神戸新聞杯G2"
+        },
+        "グリーンエナジー": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 494,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "神戸新聞杯G2"
+        },
+        "カムアップローゼス": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 474,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "神戸新聞杯G2"
+        },
+        "ショウナンハヤナミ": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 456,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "神戸新聞杯G2"
+        },
+        "カフジエメンタール": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 520,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "神戸新聞杯G2"
+        }
+      }
+    },
     "2026:新潟大賞典": {
       "date": "2026-05-16",
       "name": "新潟大賞典",
@@ -14633,6 +14776,173 @@
           "dam": "ミカリーニョ",
           "damsire": "ハーツクライ",
           "sourceRaceName": "きさらぎG3"
+        }
+      }
+    },
+    "2026:オールカマー": {
+      "date": "2026-09-20",
+      "name": "オールカマー",
+      "source": "netkeiba-html",
+      "grade": "G2",
+      "sourceRaceNames": [
+        "オールカマーG2"
+      ],
+      "entries": {
+        "メイショウゲキリン": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 520,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "オールカマーG2"
+        },
+        "キャントウェイト": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 472,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "オールカマーG2"
+        },
+        "ヴーレヴー": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 496,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "オールカマーG2"
+        },
+        "レガレイラ": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 490,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "オールカマーG2"
+        },
+        "ワイドエンペラー": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 484,
+          "sex": "牡",
+          "age": 8,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "オールカマーG2"
+        },
+        "パンジャ": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 492,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "オールカマーG2"
+        },
+        "ジューンテイク": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 504,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "オールカマーG2"
+        },
+        "コスモブッドレア": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 486,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "オールカマーG2"
+        },
+        "エセルフリーダ": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 488,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "オールカマーG2"
+        },
+        "リビアングラス": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 502,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "オールカマーG2"
+        },
+        "コスモキュランダ": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 514,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "オールカマーG2"
+        },
+        "アスクドゥポルテ": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 480,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "オールカマーG2"
+        },
+        "セイウンプラチナ": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 500,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "オールカマーG2"
         }
       }
     },
