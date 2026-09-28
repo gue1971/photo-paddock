@@ -13418,6 +13418,209 @@
         }
       }
     },
+    "2026:スプリンターズS": {
+      "date": "2026-09-27",
+      "name": "スプリンターズS",
+      "source": "netkeiba-html",
+      "grade": "G1",
+      "sourceRaceNames": [
+        "スプリンターズSG1"
+      ],
+      "entries": {
+        "ピューロマジック": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 464,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スプリンターズSG1"
+        },
+        "ワールズエンド": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 472,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スプリンターズSG1"
+        },
+        "サウンドモリアーナ": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 454,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スプリンターズSG1"
+        },
+        "スターアニス": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 484,
+          "sex": "牝",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スプリンターズSG1"
+        },
+        "レッドモンレーヴ": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 510,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スプリンターズSG1"
+        },
+        "ウインカーネリアン": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 518,
+          "sex": "牡",
+          "age": 9,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スプリンターズSG1"
+        },
+        "エーティーマクフィ": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 476,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スプリンターズSG1"
+        },
+        "ジューンブレア": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 496,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スプリンターズSG1"
+        },
+        "ペアポルックス": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 482,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スプリンターズSG1"
+        },
+        "ママコチャ": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 500,
+          "sex": "牝",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スプリンターズSG1"
+        },
+        "アイサンサン": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 454,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スプリンターズSG1"
+        },
+        "フリッカージャブ": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 504,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スプリンターズSG1"
+        },
+        "レイピア": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 508,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スプリンターズSG1"
+        },
+        "ルガル": {
+          "finish": 14,
+          "status": "started",
+          "bodyWeight": 532,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スプリンターズSG1"
+        },
+        "パンジャタワー": {
+          "finish": 15,
+          "status": "started",
+          "bodyWeight": 490,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スプリンターズSG1"
+        },
+        "ブラックチャリス": {
+          "finish": 16,
+          "status": "started",
+          "bodyWeight": 464,
+          "sex": "牝",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スプリンターズSG1"
+        }
+      }
+    },
     "2026:スプリングS": {
       "date": "2026-03-15",
       "name": "スプリングS",
