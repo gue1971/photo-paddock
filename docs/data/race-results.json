@@ -13860,6 +13860,233 @@
         }
       }
     },
+    "2026:スワンS": {
+      "date": "2026-10-12",
+      "name": "スワンS",
+      "source": "netkeiba-html",
+      "grade": "G2",
+      "sourceRaceNames": [
+        "スワンSG2"
+      ],
+      "entries": {
+        "ダイヤモンドノット": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 480,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スワンSG2"
+        },
+        "スズハローム": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 462,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スワンSG2"
+        },
+        "オフトレイル": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 468,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スワンSG2"
+        },
+        "サンダーストラック": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 518,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スワンSG2"
+        },
+        "ジョイフルニュース": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 458,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スワンSG2"
+        },
+        "マイネルチケット": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 468,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スワンSG2"
+        },
+        "ビッグシーザー": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 520,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スワンSG2"
+        },
+        "エリカエクスプレス": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 472,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スワンSG2"
+        },
+        "ランフォーヴァウ": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 454,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スワンSG2"
+        },
+        "レザベーション": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 468,
+          "sex": "牡",
+          "age": 3,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スワンSG2"
+        },
+        "ミニトランザット": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 466,
+          "sex": "牡",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スワンSG2"
+        },
+        "ワイドラトゥール": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 440,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スワンSG2"
+        },
+        "ウインマーベル": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 478,
+          "sex": "牡",
+          "age": 7,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スワンSG2"
+        },
+        "ララマセラシオン": {
+          "finish": 14,
+          "status": "started",
+          "bodyWeight": 526,
+          "sex": "牡",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スワンSG2"
+        },
+        "レイベリング": {
+          "finish": 15,
+          "status": "started",
+          "bodyWeight": 480,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スワンSG2"
+        },
+        "アイサンサン": {
+          "finish": 16,
+          "status": "started",
+          "bodyWeight": 458,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スワンSG2"
+        },
+        "ショウナンザナドゥ": {
+          "finish": 17,
+          "status": "started",
+          "bodyWeight": 460,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スワンSG2"
+        },
+        "ネオトキオ": {
+          "finish": 18,
+          "status": "started",
+          "bodyWeight": 454,
+          "sex": "牡",
+          "age": 6,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "スワンSG2"
+        }
+      }
+    },
     "2026:スプリンターズS": {
       "date": "2026-09-27",
       "name": "スプリンターズS",
@@ -17009,6 +17236,209 @@
           "dam": "カネツスペシャル",
           "damsire": "スペシャルウィーク",
           "sourceRaceName": "アメリカG2"
+        }
+      }
+    },
+    "2026:アイルランドT": {
+      "date": "2026-10-11",
+      "name": "アイルランドT",
+      "source": "netkeiba-html",
+      "grade": "G2",
+      "sourceRaceNames": [
+        "アイルランドTG2"
+      ],
+      "entries": {
+        "カムニャック": {
+          "finish": 1,
+          "status": "started",
+          "bodyWeight": 496,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイルランドTG2"
+        },
+        "ジョスラン": {
+          "finish": 2,
+          "status": "started",
+          "bodyWeight": 480,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイルランドTG2"
+        },
+        "ラヴァンダ": {
+          "finish": 3,
+          "status": "started",
+          "bodyWeight": 490,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイルランドTG2"
+        },
+        "カネラフィーナ": {
+          "finish": 4,
+          "status": "started",
+          "bodyWeight": 490,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイルランドTG2"
+        },
+        "ミアネーロ": {
+          "finish": 5,
+          "status": "started",
+          "bodyWeight": 504,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイルランドTG2"
+        },
+        "ミラビリスマジック": {
+          "finish": 6,
+          "status": "started",
+          "bodyWeight": 458,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイルランドTG2"
+        },
+        "ニシノティアモ": {
+          "finish": 7,
+          "status": "started",
+          "bodyWeight": 446,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイルランドTG2"
+        },
+        "クイーンズウォーク": {
+          "finish": 8,
+          "status": "started",
+          "bodyWeight": 544,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイルランドTG2"
+        },
+        "ハワイアンティアレ": {
+          "finish": 9,
+          "status": "started",
+          "bodyWeight": 440,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイルランドTG2"
+        },
+        "ムイ": {
+          "finish": 10,
+          "status": "started",
+          "bodyWeight": 462,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイルランドTG2"
+        },
+        "ワタシマツワ": {
+          "finish": 11,
+          "status": "started",
+          "bodyWeight": 430,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイルランドTG2"
+        },
+        "チェルビアット": {
+          "finish": 12,
+          "status": "started",
+          "bodyWeight": 490,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイルランドTG2"
+        },
+        "ルージュソリテール": {
+          "finish": 13,
+          "status": "started",
+          "bodyWeight": 448,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイルランドTG2"
+        },
+        "ウイントワイライト": {
+          "finish": 14,
+          "status": "started",
+          "bodyWeight": 464,
+          "sex": "牝",
+          "age": 4,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイルランドTG2"
+        },
+        "セキトバイースト": {
+          "finish": 15,
+          "status": "started",
+          "bodyWeight": 474,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイルランドTG2"
+        },
+        "クランフォード": {
+          "finish": 16,
+          "status": "started",
+          "bodyWeight": 470,
+          "sex": "牝",
+          "age": 5,
+          "birthDate": "",
+          "sire": "",
+          "dam": "",
+          "damsire": "",
+          "sourceRaceName": "アイルランドTG2"
         }
       }
     },
